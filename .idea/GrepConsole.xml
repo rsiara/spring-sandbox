@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GrepConsole">
+    <option name="pinnedGrepConsolesState">
+      <PinnedGrepConsolesState>
+        <option name="map">
+          <map>
+            <entry>
+              <key>
+                <RunConfigurationRef>
+                  <option name="icon" value="tomcat.png" />
+                  <option name="name" value="Tomcat" />
+                </RunConfigurationRef>
+              </key>
+              <value>
+                <Pins>
+                  <option name="pins">
+                    <list>
+                      <Pin>
+                        <option name="consoleUUID" value="411f1ed8-d2c0-4666-b805-c4192ffdec1e" />
+                        <option name="grepModel">
+                          <GrepModel>
+                            <option name="expression" value="." />
+                            <option name="unlessExpression" value="" />
+                          </GrepModel>
+                        </option>
+                      </Pin>
+                      <Pin>
+                        <option name="consoleUUID" value="675f619d-16e8-4c1b-8942-aed599c1e918" />
+                        <option name="grepModel">
+                          <GrepModel>
+                            <option name="expression" value="." />
+                            <option name="unlessExpression" value="" />
+                          </GrepModel>
+                        </option>
+                      </Pin>
+                      <Pin>
+                        <option name="consoleUUID" value="d6a39e2b-6352-4d8e-84a0-d269dc3f1917" />
+                        <option name="grepModel">
+                          <GrepModel>
+                            <option name="expression" value="SessionListener" />
+                            <option name="unlessExpression" value="" />
+                          </GrepModel>
+                        </option>
+                      </Pin>
+                      <Pin>
+                        <option name="consoleUUID" value="b17a3bbd-c29c-4d5b-b28d-54c8f6bfc470" />
+                        <option name="grepModel">
+                          <GrepModel>
+                            <option name="expression" value="SessionListener" />
+                            <option name="unlessExpression" value="" />
+                          </GrepModel>
+                        </option>
+                      </Pin>
+                      <Pin>
+                        <option name="consoleUUID" value="232844b3-fb71-4f97-96c7-088b33efb64d" />
+                        <option name="grepModel">
+                          <GrepModel>
+                            <option name="expression" value="Rejected bean name" />
+                            <option name="unlessExpression" value="" />
+                          </GrepModel>
+                        </option>
+                      </Pin>
+                      <Pin>
+                        <option name="consoleUUID" value="27cd850f-02d9-4b9d-8adf-25d9c52184ee" />
+                        <option name="grepModel">
+                          <GrepModel>
+                            <option name="expression" value="SessionBean" />
+                            <option name="unlessExpression" value="" />
+                          </GrepModel>
+                        </option>
+                      </Pin>
+                      <Pin>
+                        <option name="consoleUUID" value="9e6d8186-51b3-4a4f-9531-c373bb2586e4" />
+                        <option name="grepModel">
+                          <GrepModel>
+                            <option name="expression" value="http-bio-8080-exec" />
+                            <option name="unlessExpression" value="" />
+                          </GrepModel>
+                        </option>
+                      </Pin>
+                    </list>
+                  </option>
+                </Pins>
+              </value>
+            </entry>
+          </map>
+        </option>
+      </PinnedGrepConsolesState>
+    </option>
+  </component>
+</project>
