@@ -31,7 +31,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 @EnableSpringDataWebSupport
 @ComponentScan(basePackages = {"com.springstart"}, excludeFilters = {@ComponentScan.Filter(type = FilterType.ANNOTATION, value = Configuration.class)})
 @PropertySource(value = "classpath:application.properties")
-@Import({SearchContext.class, SecurityConfig.class})
+@Import({SearchContext.class, SecurityConfig.class, PersistenceJPAConfig.class})
 public class RootConfig extends WebMvcConfigurerAdapter {
 
   @Override
