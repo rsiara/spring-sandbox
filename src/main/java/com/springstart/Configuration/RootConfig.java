@@ -5,6 +5,7 @@ import com.springstart.Interceptor.GeneralInterceptor;
 import com.springstart.Interceptor.SecondInterceptor;
 import com.springstart.Listener.SessionListener;
 import com.springstart.Model.sessionbean.SessionBean;
+import com.springstart.Utils.StreamSandbox;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -29,9 +30,9 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 @Configuration
 @EnableWebMvc
 @EnableSpringDataWebSupport
-@ComponentScan(basePackages = {"com.springstart"}, excludeFilters = {@ComponentScan.Filter(type = FilterType.ANNOTATION, value = Configuration.class)})
+@ComponentScan(basePackages = {"com.springstart"}, excludeFilters = {@ComponentScan.Filter(type = FilterType.ANNOTATION, value = Configuration.class), @ComponentScan.Filter(type = FilterType.REGEX, pattern = "com\\.springstart\\.Utils\\..*")})
 @PropertySource(value = "classpath:application.properties")
-@Import({SearchContext.class, SecurityConfig.class})
+@Import({SearchContext.class, SecurityConfig.class, UtilContext.class})
 public class RootConfig extends WebMvcConfigurerAdapter {
 
   @Override
@@ -94,5 +95,8 @@ public class RootConfig extends WebMvcConfigurerAdapter {
     return new SessionBean();
   }
 
-
+  @Bean
+  public StreamSandbox getStreamSandbox(){
+    return new StreamSandbox();
+  }
 }

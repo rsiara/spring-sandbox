@@ -250,7 +250,7 @@ public class StudentControllerTest {
         Student student = spy(new Student(1, "Adam", "English"));
         when(student.getName()).thenReturn("MOCKITO TEST");
 
-        assertEquals("student should return MOCKITO TEST", "MOCKITO TESThh", "MOCKITO TEST" );
+        assertEquals("student should return MOCKITO TEST", "MOCKITO TEST", "MOCKITO TEST" );
 
         when(studentService.exists(student)).thenReturn(false);
         doNothing().when(studentService).createStudent(student);

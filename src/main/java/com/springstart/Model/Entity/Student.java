@@ -58,4 +58,13 @@ public class Student {
         result = 31 * result + (course != null ? course.hashCode() : 0);
         return result;
     }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", course='" + course + '\'' +
+                '}';
+    }
 }

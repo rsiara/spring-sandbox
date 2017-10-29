@@ -7,7 +7,195 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d9a5c24-0ab2-4622-9484-8b0abafbe55a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Configuration/UtilContext.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Controller/Util/StreamSandboxController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Utils/StreamSandbox.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Configuration/RootConfig.class" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Configuration/RootConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Configuration/SearchContext.class" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Configuration/SearchContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Configuration/SecurityConfig.class" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Configuration/SecurityConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Configuration/WebApplicationInitializer.class" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Configuration/WebApplicationInitializer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Controller/HomeController.class" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Controller/HomeController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Controller/InventoryController.class" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Controller/InventoryController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Controller/StudentController.class" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Controller/StudentController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Controller/UserController.class" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Controller/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Filters/CustomFilter.class" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Filters/CustomFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Filters/SecondCustomFilter.class" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Filters/SecondCustomFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Interceptor/GeneralInterceptor.class" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Interceptor/GeneralInterceptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Interceptor/SecondInterceptor.class" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Interceptor/SecondInterceptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Listener/SessionListener.class" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Listener/SessionListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Model/CustomInventoryRepositoryImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Model/CustomInventoryRepositoryImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Model/Entity/Address.class" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Model/Entity/Address.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Model/Entity/Company.class" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Model/Entity/Company.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Model/Entity/Geo.class" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Model/Entity/Geo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Model/Entity/Inventory.class" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Model/Entity/Inventory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Model/Entity/Student.class" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Model/Entity/Student.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Model/Entity/User.class" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Model/Entity/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Model/InventoryRepository.class" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Model/InventoryRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Model/StudentDao$1.class" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Model/StudentDao$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Model/StudentDao.class" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Model/StudentDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Model/UserDao.class" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Model/UserDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Model/sessionbean/SessionBean.class" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Model/sessionbean/SessionBean.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Service/InventoryService.class" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Service/InventoryService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Service/StudentService.class" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Service/StudentService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Service/UserService.class" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/com/springstart/Service/UserService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/aopalliance-1.0.jar" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/aopalliance-1.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/commons-fileupload-1.3.1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/commons-io-2.2.jar" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/commons-io-2.2.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/commons-lang3-3.1.jar" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/commons-lang3-3.1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/commons-logging-1.2.jar" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/commons-logging-1.2.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/hamcrest-core-1.3.jar" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/hamcrest-core-1.3.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/httpclient-4.4.1.jar" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/httpclient-4.4.1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/httpcore-4.4.1.jar" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/httpcore-4.4.1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/httpmime-4.4.1.jar" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/httpmime-4.4.1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/jackson-annotations-2.8.0.jar" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/jackson-annotations-2.8.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/jackson-core-2.8.9.jar" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/jackson-core-2.8.9.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/jackson-databind-2.8.9.jar" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/jackson-databind-2.8.9.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/jcl-over-slf4j-1.7.25.jar" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/jcl-over-slf4j-1.7.25.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/junit-4.12.jar" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/junit-4.12.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/logback-classic-1.2.3.jar" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/logback-classic-1.2.3.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/logback-core-1.2.3.jar" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/logback-core-1.2.3.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/noggit-0.6.jar" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/noggit-0.6.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/slf4j-api-1.7.25.jar" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/slf4j-api-1.7.25.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/solr-solrj-5.5.0.jar" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/solr-solrj-5.5.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/spring-aop-4.3.9.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/spring-aop-4.3.9.RELEASE.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/spring-beans-4.3.9.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/spring-beans-4.3.9.RELEASE.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/spring-context-4.3.9.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/spring-context-4.3.9.RELEASE.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/spring-core-4.3.9.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/spring-core-4.3.9.RELEASE.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/spring-data-commons-1.13.6.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/spring-data-commons-1.13.6.RELEASE.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/spring-data-solr-2.1.6.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/spring-data-solr-2.1.6.RELEASE.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/spring-expression-4.3.9.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/spring-expression-4.3.9.RELEASE.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/spring-security-config-4.2.3.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/spring-security-config-4.2.3.RELEASE.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/spring-security-core-4.2.3.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/spring-security-core-4.2.3.RELEASE.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/spring-security-web-4.2.3.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/spring-security-web-4.2.3.RELEASE.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/spring-tx-4.3.10.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/spring-tx-4.3.10.RELEASE.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/spring-web-4.3.9.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/spring-web-4.3.9.RELEASE.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/spring-webmvc-4.3.9.RELEASE.jar" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/spring-webmvc-4.3.9.RELEASE.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/zookeeper-3.4.6.jar" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/lib/zookeeper-3.4.6.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/springstart/as" afterPath="$PROJECT_DIR$/src/test/java/com/springstart/as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/springstart/Configuration/RootConfig.class" afterPath="$PROJECT_DIR$/target/classes/com/springstart/Configuration/RootConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/springstart/Configuration/SearchContext.class" afterPath="$PROJECT_DIR$/target/classes/com/springstart/Configuration/SearchContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/springstart/Configuration/SecurityConfig.class" afterPath="$PROJECT_DIR$/target/classes/com/springstart/Configuration/SecurityConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/springstart/Configuration/WebApplicationInitializer.class" afterPath="$PROJECT_DIR$/target/classes/com/springstart/Configuration/WebApplicationInitializer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/springstart/Controller/HomeController.class" afterPath="$PROJECT_DIR$/target/classes/com/springstart/Controller/HomeController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/springstart/Controller/InventoryController.class" afterPath="$PROJECT_DIR$/target/classes/com/springstart/Controller/InventoryController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/springstart/Controller/StudentController.class" afterPath="$PROJECT_DIR$/target/classes/com/springstart/Controller/StudentController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/springstart/Controller/UserController.class" afterPath="$PROJECT_DIR$/target/classes/com/springstart/Controller/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/springstart/Filters/CustomFilter.class" afterPath="$PROJECT_DIR$/target/classes/com/springstart/Filters/CustomFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/springstart/Filters/SecondCustomFilter.class" afterPath="$PROJECT_DIR$/target/classes/com/springstart/Filters/SecondCustomFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/springstart/Interceptor/GeneralInterceptor.class" afterPath="$PROJECT_DIR$/target/classes/com/springstart/Interceptor/GeneralInterceptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/springstart/Interceptor/SecondInterceptor.class" afterPath="$PROJECT_DIR$/target/classes/com/springstart/Interceptor/SecondInterceptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/springstart/Listener/SessionListener.class" afterPath="$PROJECT_DIR$/target/classes/com/springstart/Listener/SessionListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/springstart/Model/CustomInventoryRepositoryImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/springstart/Model/CustomInventoryRepositoryImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/springstart/Model/Entity/Address.class" afterPath="$PROJECT_DIR$/target/classes/com/springstart/Model/Entity/Address.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/springstart/Model/Entity/Company.class" afterPath="$PROJECT_DIR$/target/classes/com/springstart/Model/Entity/Company.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/springstart/Model/Entity/Geo.class" afterPath="$PROJECT_DIR$/target/classes/com/springstart/Model/Entity/Geo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/springstart/Model/Entity/Inventory.class" afterPath="$PROJECT_DIR$/target/classes/com/springstart/Model/Entity/Inventory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/springstart/Model/Entity/Student.class" afterPath="$PROJECT_DIR$/target/classes/com/springstart/Model/Entity/Student.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/springstart/Model/Entity/User.class" afterPath="$PROJECT_DIR$/target/classes/com/springstart/Model/Entity/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/springstart/Model/InventoryRepository.class" afterPath="$PROJECT_DIR$/target/classes/com/springstart/Model/InventoryRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/springstart/Model/StudentDao$1.class" afterPath="$PROJECT_DIR$/target/classes/com/springstart/Model/StudentDao$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/springstart/Model/StudentDao.class" afterPath="$PROJECT_DIR$/target/classes/com/springstart/Model/StudentDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/springstart/Model/UserDao.class" afterPath="$PROJECT_DIR$/target/classes/com/springstart/Model/UserDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/springstart/Model/sessionbean/SessionBean.class" afterPath="$PROJECT_DIR$/target/classes/com/springstart/Model/sessionbean/SessionBean.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/springstart/Service/InventoryService.class" afterPath="$PROJECT_DIR$/target/classes/com/springstart/Service/InventoryService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/springstart/Service/StudentService.class" afterPath="$PROJECT_DIR$/target/classes/com/springstart/Service/StudentService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/springstart/Service/UserService.class" afterPath="$PROJECT_DIR$/target/classes/com/springstart/Service/UserService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/spring.start.sandbox-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/spring.start.sandbox-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/springstart/tests/StudentControllerTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/springstart/tests/StudentControllerTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/springstart/tests/StudentDaoTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/springstart/tests/StudentDaoTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/GrepConsole.xml" afterPath="$PROJECT_DIR$/.idea/GrepConsole.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Sandbox_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Sandbox_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_9.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_9.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_9.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_9.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_assert_2_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_assert_2_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_4_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_4_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_4_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_4_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_solr_solr_solrj_5_5_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_solr_solr_solrj_5_5_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_6.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_all_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_all_1_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_all_1_10_19.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_all_1_10_19.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_noggit_noggit_0_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_noggit_noggit_0_6.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_13_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_13_6_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_solr_2_1_6_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_solr_2_1_6_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_9_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_9_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_9_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_9_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_9_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_9_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_9_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_9_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_11_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_11_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_10_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_10_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_9_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_9_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_9_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_9_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/META-INF/context.xml" afterPath="$PROJECT_DIR$/META-INF/context.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sandbox.iml" afterPath="$PROJECT_DIR$/Sandbox.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/META-INF/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/META-INF/context.xml" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/META-INF/context.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/application.properties" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/logback.xml" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/classes/logback.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/view/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/Sandbox_war_exploded/WEB-INF/view/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springstart/Configuration/RootConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Configuration/RootConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springstart/Configuration/SearchContext.java" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Configuration/SearchContext.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springstart/Configuration/SecurityConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Configuration/SecurityConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springstart/Configuration/WebApplicationInitializer.java" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Configuration/WebApplicationInitializer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springstart/Controller/HomeController.java" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Controller/HomeController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springstart/Controller/InventoryController.java" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Controller/InventoryController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springstart/Controller/StudentController.java" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Controller/StudentController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springstart/Controller/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Controller/UserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springstart/Filters/CustomFilter.java" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Filters/CustomFilter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springstart/Filters/SecondCustomFilter.java" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Filters/SecondCustomFilter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springstart/Interceptor/GeneralInterceptor.java" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Interceptor/GeneralInterceptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springstart/Interceptor/SecondInterceptor.java" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Interceptor/SecondInterceptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springstart/Listener/SessionListener.java" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Listener/SessionListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springstart/Model/CustomInventoryRepositoryImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Model/CustomInventoryRepositoryImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/Address.java" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/Address.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/Company.java" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/Company.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/Geo.java" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/Geo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/Inventory.java" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/Inventory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/Student.java" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/Student.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springstart/Model/InventoryRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Model/InventoryRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springstart/Model/StudentDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Model/StudentDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springstart/Model/UserDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Model/UserDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springstart/Model/sessionbean/SessionBean.java" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Model/sessionbean/SessionBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springstart/Service/InventoryService.java" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Service/InventoryService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springstart/Service/StudentService.java" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Service/StudentService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springstart/Service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Service/UserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/view/index.jsp" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/view/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/springstart/tests/StudentControllerTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/springstart/tests/StudentControllerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/springstart/tests/StudentDaoTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/springstart/tests/StudentDaoTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="$PROJECT_DIR$/target/classes/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/logback.xml" afterPath="$PROJECT_DIR$/target/classes/logback.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,59 +208,68 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WebApplicationInitializer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Configuration/WebApplicationInitializer.java">
+      <file leaf-file-name="SearchContext.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Configuration/SearchContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-              <folding>
-                <element signature="e#947#948#0" expanded="true" />
-                <element signature="e#1022#1023#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CustomFilter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Filters/CustomFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="23" column="30" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state relative-caret-position="72">
+              <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GeneralInterceptor.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="StreamSandbox.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Utils/StreamSandbox.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GeneralInterceptor.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Interceptor/GeneralInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="32" column="26" lean-forward="false" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+            <state relative-caret-position="158">
+              <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SecondInterceptor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Interceptor/SecondInterceptor.java">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/view/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state relative-caret-position="234">
+              <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RootConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Configuration/RootConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="473">
+              <caret line="34" column="69" lean-forward="false" selection-start-line="34" selection-start-column="69" selection-end-line="34" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#3826#3827#0" expanded="true" />
+                <element signature="e#3862#3863#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RootConfig.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Configuration/RootConfig.java">
+      <file leaf-file-name="StudentController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Controller/StudentController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="65" column="27" lean-forward="false" selection-start-line="65" selection-start-column="27" selection-end-line="65" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="56">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="36" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -105,6 +302,16 @@
       <find>getSession</find>
       <find>Session</find>
       <find>SessionBean</find>
+      <find>webmvc</find>
+      <find>default</find>
+      <find>plugin</find>
+      <find>source</find>
+      <find>stre</find>
+      <find>streamSandbox</find>
+      <find>sandbox</find>
+      <find>StreamS</find>
+      <find>requested</find>
+      <find>r</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -112,6 +319,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -137,10 +349,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/springstart/Model/CustomInventoryRepositoryImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/StudentDaoTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/springstart/tests/StudentDaoTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/Student.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springstart/Service/StudentService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springstart/Model/StudentDao.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/springstart/tests/StudentControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/Address.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/Geo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/Company.java" />
@@ -152,16 +361,23 @@
         <option value="$PROJECT_DIR$/src/main/web/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/springstart/Listener/SessionListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springstart/Configuration/SecurityConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/view/index.jsp" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/springstart/Model/sessionbean/SessionBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springstart/Controller/HomeController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springstart/Configuration/WebApplicationInitializer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springstart/Configuration/RootConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springstart/Filters/SecondCustomFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springstart/Interceptor/GeneralInterceptor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springstart/Interceptor/SecondInterceptor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springstart/Filters/CustomFilter.java" />
+        <option value="$USER_HOME$/.m2/settings.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/springstart/tests/StudentControllerTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springstart/Controller/Util/StreamSandboxController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springstart/Model/StudentDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springstart/Configuration/UtilContext.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springstart/Configuration/RootConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springstart/Utils/StreamSandbox.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/Student.java" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/view/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springstart/Interceptor/GeneralInterceptor.java" />
       </list>
     </option>
   </component>
@@ -179,13 +395,38 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+    <option name="disabledProfiles">
+      <list>
+        <option value="Artifactory Repository" />
+      </list>
+    </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Profiles" type="6783ec58:MavenProjectsStructure$ProfilesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring.start.sandbox" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="4">
     <option name="x" value="1985" />
     <option name="y" value="24" />
     <option name="width" value="1855" />
@@ -207,52 +448,45 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springstart" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="springstart" type="462c0819:PsiDirectoryNode" />
-              <item name="Configuration" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -260,20 +494,63 @@
               <item name="Filters" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="springstart" type="462c0819:PsiDirectoryNode" />
               <item name="Interceptor" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springstart" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -360,7 +637,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.68 (Ubuntu)" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.68 (Ubuntu)" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
       <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -636,16 +913,12 @@
       <workItem from="1507934228861" duration="1549000" />
       <workItem from="1508019091255" duration="1986000" />
       <workItem from="1508575494209" duration="1346000" />
+      <workItem from="1509222411855" duration="1733000" />
+      <workItem from="1509224167428" duration="15843000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StudentControllerTest - 2017.09.22 at 15h 48m 37s.xml">
-      <configuration name="StudentControllerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentControllerTest - 2017.09.22 at 15h 49m 20s.xml">
-      <configuration name="StudentControllerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="StudentControllerTest - 2017.09.22 at 15h 49m 46s.xml">
       <configuration name="StudentControllerTest" configurationId="JUnit" />
     </history-entry>
@@ -670,9 +943,15 @@
     <history-entry file="StudentControllerTest - 2017.09.23 at 00h 12m 07s.xml">
       <configuration name="StudentControllerTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StudentControllerTest - 2017.10.28 at 22h 52m 50s.xml">
+      <configuration name="StudentControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentDaoTest - 2017.10.28 at 22h 52m 41s.xml">
+      <configuration name="StudentDaoTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193616000" />
+    <option name="totallyTimeSpent" value="211192000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -684,40 +963,41 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1985" y="24" width="1855" height="1176" extended-state="0" />
+    <frame x="1985" y="24" width="1855" height="1176" extended-state="4" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.62209845" sideWeight="0.0856827" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296501" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288719" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15661317" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24958494" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2896936" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53919697" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288719" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32217973" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298279" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6436119" sideWeight="0.9143173" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961932" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.8462273" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23272526" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298279" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28202677" sideWeight="0.9143173" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288719" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43499044" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32872164" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32219127" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -757,6 +1037,32 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -790,252 +1096,100 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="11" />
+      <option name="time" value="37" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Model/ppp" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Model/StudentDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/web.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Controller/StudentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/web.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Controller/StudentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/web.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Controller/StudentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Controller/StudentController.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/ppp" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Model/ppp" />
     <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/web.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" column="31" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-solr/2.1.6.RELEASE/spring-data-solr-2.1.6.RELEASE.jar!/org/springframework/data/solr/repository/SolrCrudRepository.class" />
     <entry file="file://$PROJECT_DIR$/src/test/java/StudentDaoTest.java" />
-    <entry file="file://$PROJECT_DIR$/Sandbox.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="39" column="5" lean-forward="false" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/Geo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/Company.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/Address.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/User.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Service/UserService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Model/UserDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pp" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Listener/SessionListener.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Controller/UserController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/Inventory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Model/InventoryRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Model/CustomInventoryRepositoryImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Service/InventoryService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Model/sessionbean/SessionBean.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Filters/SecondCustomFilter.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Filters/CustomFilter.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Interceptor/SecondInterceptor.java" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/springstart/tests/StudentDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="43" column="8" lean-forward="false" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="76" />
+        <state relative-caret-position="270">
+          <caret line="29" column="22" lean-forward="false" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/springstart/tests/StudentControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="252" column="0" lean-forward="false" selection-start-line="252" selection-start-column="0" selection-end-line="252" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="544">
+          <caret line="259" column="0" lean-forward="false" selection-start-line="259" selection-start-column="0" selection-end-line="259" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/Geo.java">
+    <entry file="jar:///usr/lib/jvm/jdk1.8.0_144/src.zip!/java/util/function/Predicate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        <state relative-caret-position="224">
+          <caret line="48" column="12" lean-forward="false" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/Company.java">
+    <entry file="file://$PROJECT_DIR$/Sandbox.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="32" column="18" lean-forward="false" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+        <state relative-caret-position="198">
+          <caret line="11" column="15" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/Address.java">
+    <entry file="file://$USER_HOME$/.m2/settings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="51" column="18" lean-forward="false" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Model/StudentDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="49" column="47" lean-forward="false" selection-start-line="49" selection-start-column="47" selection-end-line="49" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Model/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/pp" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="16" lean-forward="false" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Listener/SessionListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="113" lean-forward="false" selection-start-line="12" selection-start-column="113" selection-end-line="12" selection-end-column="113" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Controller/StudentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="55" column="51" lean-forward="false" selection-start-line="55" selection-start-column="51" selection-end-line="55" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Service/StudentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="35" column="3" lean-forward="false" selection-start-line="35" selection-start-column="3" selection-end-line="38" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/Inventory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Model/InventoryRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Model/CustomInventoryRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="37" column="22" lean-forward="false" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Service/InventoryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Configuration/SecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="208">
+          <caret line="57" column="65" lean-forward="false" selection-start-line="57" selection-start-column="65" selection-end-line="57" selection-end-column="65" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+        <state relative-caret-position="234">
+          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Model/sessionbean/SessionBean.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Controller/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="13" column="47" lean-forward="false" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/view/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        <state relative-caret-position="180">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="32" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1043,79 +1197,217 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Controller/HomeController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Configuration/WebApplicationInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="40" column="4" lean-forward="false" selection-start-line="40" selection-start-column="2" selection-end-line="43" selection-end-column="7" />
+        <state relative-caret-position="72">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Configuration/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Controller/StudentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Configuration/RootConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="34" column="69" lean-forward="false" selection-start-line="34" selection-start-column="69" selection-end-line="34" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3826#3827#0" expanded="true" />
+            <element signature="e#3862#3863#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram//home/robert/IdeaProjects/spring-sandbox">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="596.0" y="223.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.springstart.Configuration">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.springstart.Configuration</OriginalElement>
+          <nodes>
+            <node x="" y="">com.springstart.Configuration.WebApplicationInitializer</node>
+            <node x="" y="">com.springstart.Configuration.RootConfig</node>
+            <node x="" y="">com.springstart.Configuration.UtilContext</node>
+            <node x="" y="">com.springstart.Configuration.SearchContext</node>
+            <node x="" y="">com.springstart.Configuration.SecurityConfig</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="149.5" y="129.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.springstart">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.springstart</OriginalElement>
+          <nodes>
+            <node x="" y="">com.springstart.Configuration.WebApplicationInitializer</node>
+            <node x="" y="">com.springstart.Interceptor.SecondInterceptor</node>
+            <node x="" y="">com.springstart.Controller.InventoryController</node>
+            <node x="" y="">com.springstart.Utils.StreamSandbox</node>
+            <node x="" y="">com.springstart.Model.sessionbean</node>
+            <node x="" y="">com.springstart.Filters.CustomFilter</node>
+            <node x="" y="">com.springstart.Model.StudentDao</node>
+            <node x="" y="">com.springstart.Controller.HomeController</node>
+            <node x="" y="">com.springstart.Model.Entity.Geo</node>
+            <node x="" y="">com.springstart.Configuration.SearchContext</node>
+            <node x="" y="">com.springstart.Model.CustomInventoryRepositoryImpl</node>
+            <node x="" y="">com.springstart.Model.InventoryRepository</node>
+            <node x="" y="">com.springstart.Configuration.UtilContext</node>
+            <node x="" y="">com.springstart.Controller.Util</node>
+            <node x="" y="">com.springstart.Model.Entity.Student</node>
+            <node x="" y="">com.springstart.Controller.StudentController</node>
+            <node x="" y="">com.springstart.Model.UserDao</node>
+            <node x="" y="">com.springstart.Controller.UserController</node>
+            <node x="" y="">com.springstart.Service.StudentService</node>
+            <node x="" y="">com.springstart.Configuration.SecurityConfig</node>
+            <node x="" y="">com.springstart.Model.Entity.Company</node>
+            <node x="" y="">com.springstart.Filters.SecondCustomFilter</node>
+            <node x="" y="">com.springstart.tests.StudentControllerTest</node>
+            <node x="" y="">com.springstart.Model.Entity.Inventory</node>
+            <node x="" y="">com.springstart.Model.Entity.Address</node>
+            <node x="" y="">com.springstart.Listener.SessionListener</node>
+            <node x="" y="">com.springstart.Interceptor.GeneralInterceptor</node>
+            <node x="" y="">com.springstart.Configuration.RootConfig</node>
+            <node x="" y="">com.springstart.Model.Entity.User</node>
+            <node x="" y="">com.springstart.tests.StudentDaoTest</node>
+            <node x="" y="">com.springstart.Service.UserService</node>
+            <node x="" y="">com.springstart.Service.InventoryService</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.9142538975501112" x="488.611449451888" y="213.98051157125462" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Configuration/UtilContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#514#515#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Model/StudentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8">
+          <caret line="15" column="50" lean-forward="true" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Service/StudentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="22" column="10" lean-forward="false" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Controller/Util/StreamSandboxController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#820#821#0" expanded="true" />
+            <element signature="e#983#984#0" expanded="true" />
+            <element signature="e#1033#1034#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Configuration/SearchContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        <state relative-caret-position="72">
+          <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Filters/SecondCustomFilter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Utils/StreamSandbox.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="24" column="57" lean-forward="false" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
+        <state relative-caret-position="199">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Filters/CustomFilter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/view/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="23" column="30" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state relative-caret-position="234">
+          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Interceptor/GeneralInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="32" column="26" lean-forward="false" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+        <state relative-caret-position="158">
+          <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Interceptor/SecondInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Configuration/WebApplicationInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding>
-            <element signature="e#947#948#0" expanded="true" />
-            <element signature="e#1022#1023#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Configuration/RootConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="65" column="27" lean-forward="false" selection-start-line="65" selection-start-column="27" selection-end-line="65" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1138,7 +1430,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web (Sandbox)|Web</last-edited>
+          <last-edited>Spring (Sandbox)|Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

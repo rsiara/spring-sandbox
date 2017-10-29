@@ -18,6 +18,12 @@ public class StudentDao {
                 put(1, new Student(1, "Said", "Computer Science"));
                 put(2, new Student(2, "Alex U", "Finance"));
                 put(3, new Student(3, "Anna", "Maths"));
+                put(4, new Student(4,"Jenna", "Mathias"));
+                put(5, new Student(5, "Greg", "Jefferson"));
+                put(6, new Student(6, "Mike", "Jagger"));
+                put(7, new Student(7, "Leo", "Chang"));
+                put(8, new Student(8,"Joe","Salivan"));
+                put(9, new Student(9,"Jurgen", "Nitche"));
             }
         };
     }

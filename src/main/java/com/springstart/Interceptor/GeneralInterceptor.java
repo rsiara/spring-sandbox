@@ -8,6 +8,7 @@ import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.util.Map;
 
 public class GeneralInterceptor extends HandlerInterceptorAdapter {
@@ -26,6 +27,8 @@ public class GeneralInterceptor extends HandlerInterceptorAdapter {
     request.getSession();*/
 
 
+
+
     return super.preHandle(request, response, handler);
   }
 
@@ -39,7 +42,10 @@ public class GeneralInterceptor extends HandlerInterceptorAdapter {
   public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler, ModelAndView modelAndView) throws Exception {
     super.postHandle(request, response, handler, modelAndView);
 
+
     logger.info("First Interceptor - postHandle");
+
+
 
  /*   response.addCookie(new Cookie("MyCookie", "Cookie"));
 
