@@ -32,7 +32,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 @EnableSpringDataWebSupport
 @ComponentScan(basePackages = {"com.springstart"}, excludeFilters = {@ComponentScan.Filter(type = FilterType.ANNOTATION, value = Configuration.class), @ComponentScan.Filter(type = FilterType.REGEX, pattern = "com\\.springstart\\.Utils\\..*")})
 @PropertySource(value = "classpath:application.properties")
-@Import({SearchContext.class, SecurityConfig.class, UtilContext.class})
+@Import({SearchContext.class, UtilContext.class, SecurityConfiguration.class})
 public class RootConfig extends WebMvcConfigurerAdapter {
 
   @Override
@@ -90,7 +90,7 @@ public class RootConfig extends WebMvcConfigurerAdapter {
   }
 
   @Bean
-  @Scope(value = "session",proxyMode = ScopedProxyMode.TARGET_CLASS)
+/*  @Scope(value = "session",proxyMode = ScopedProxyMode.TARGET_CLASS)*/
   public SessionBean sessionBean() {
     return new SessionBean();
   }

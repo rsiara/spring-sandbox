@@ -3,6 +3,7 @@ package com.springstart.Configuration;
 import com.springstart.Filters.CustomFilter;
 import com.springstart.Filters.SecondCustomFilter;
 import com.springstart.Listener.SessionListener;
+import org.springframework.security.access.SecurityConfig;
 import org.springframework.security.web.session.HttpSessionEventPublisher;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
@@ -15,7 +16,7 @@ import java.util.EnumSet;
 public class WebApplicationInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
 
   protected Class<?>[] getRootConfigClasses() {
-    return new Class[]{RootConfig.class};
+    return new Class[]{RootConfig.class, SecurityConfiguration.class};
   }
 
   protected Class<?>[] getServletConfigClasses() {

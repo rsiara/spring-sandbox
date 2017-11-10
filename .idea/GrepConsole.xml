@@ -79,6 +79,61 @@
                           </GrepModel>
                         </option>
                       </Pin>
+                      <Pin>
+                        <option name="consoleUUID" value="314ae6dc-e40f-4cf9-970e-c1b16653fc79" />
+                        <option name="grepModel">
+                          <GrepModel>
+                            <option name="expression" value="SessionListener" />
+                            <option name="unlessExpression" value="" />
+                          </GrepModel>
+                        </option>
+                      </Pin>
+                      <Pin>
+                        <option name="consoleUUID" value="c89775ee-58c0-4816-9bd4-8c6f5de62209" />
+                        <option name="grepModel">
+                          <GrepModel>
+                            <option name="expression" value="SessionListener" />
+                            <option name="unlessExpression" value="" />
+                          </GrepModel>
+                        </option>
+                      </Pin>
+                      <Pin>
+                        <option name="consoleUUID" value="df38e106-a918-4dbd-b65b-b44950b52dca" />
+                        <option name="grepModel">
+                          <GrepModel>
+                            <option name="expression" value="SessionListener" />
+                            <option name="unlessExpression" value="" />
+                          </GrepModel>
+                        </option>
+                      </Pin>
+                      <Pin>
+                        <option name="consoleUUID" value="bff99044-945e-4c79-9077-9c392e9ee20d" />
+                        <option name="grepModel">
+                          <GrepModel>
+                            <option name="expression" value="SessionListener" />
+                            <option name="unlessExpression" value="" />
+                          </GrepModel>
+                        </option>
+                        <option name="parentConsoleUUID" value="df38e106-a918-4dbd-b65b-b44950b52dca" />
+                      </Pin>
+                      <Pin>
+                        <option name="consoleUUID" value="b6c5fd6f-8876-4134-8a8f-08faa56eb395" />
+                        <option name="grepModel">
+                          <GrepModel>
+                            <option name="expression" value="SessionListener" />
+                            <option name="unlessExpression" value="" />
+                          </GrepModel>
+                        </option>
+                      </Pin>
+                      <Pin>
+                        <option name="consoleUUID" value="24142973-a075-4c15-8ef9-96a5919388a5" />
+                        <option name="grepModel">
+                          <GrepModel>
+                            <option name="expression" value="SessionListener" />
+                            <option name="unlessExpression" value="" />
+                          </GrepModel>
+                        </option>
+                      </Pin>
                     </list>
                   </option>
                 </Pins>
