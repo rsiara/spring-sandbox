@@ -1,17 +1,20 @@
 package com.springstart.Model.Entity.DatabaseEntity;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
-import javax.persistence.Temporal;
-import javax.persistence.TemporalType;
+
+
+import javax.persistence.*;
 import java.util.Date;
 
 @Entity
 @Table(name = "finances_user")
+@Access(AccessType.FIELD)
+@NamedQueries({
+        @NamedQuery(name="FinanceUser.findAll", query="SELECT fu FROM FinanceUser fu")
+})
 public class FinanceUser {
 
-  @Id
+  @Id @GeneratedValue(strategy=GenerationType.IDENTITY)
+  @Column(name="USER_ID")
   int user_id;
   String first_name;
   String last_name;
@@ -41,11 +44,14 @@ public class FinanceUser {
     this.user_id = user_id;
   }
 
+  @Access(AccessType.PROPERTY)
   public String getFirst_name() {
+    System.out.println("FIRST NAME GET");
     return first_name;
   }
 
   public void setFirst_name(String first_name) {
+    System.out.println("FIRST NAME SET");
     this.first_name = first_name;
   }
 

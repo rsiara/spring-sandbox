@@ -5,21 +5,29 @@ import com.springstart.Model.Entity.DatabaseEntity.FinanceUser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.transaction.Transactional;
+import java.util.List;
+
 @Service
+@Transactional
 public class FinanceUserService {
 
-  FinanceUserDao financeUserDao;
+    FinanceUserDao financeUserDao;
 
-  public FinanceUser createFinanceUser(FinanceUser financeUser){
-    return financeUserDao.createFinanceUser(financeUser);
-  }
+    public FinanceUser createFinanceUser(FinanceUser financeUser) {
+        return financeUserDao.createFinanceUser(financeUser);
+    }
 
-  public FinanceUserDao getFinanceUserDao() {
-    return financeUserDao;
-  }
+    public FinanceUserDao getFinanceUserDao() {
+        return financeUserDao;
+    }
 
-  @Autowired
-  public void setFinanceUserDao(FinanceUserDao financeUserDao) {
-    this.financeUserDao = financeUserDao;
-  }
+    @Autowired
+    public void setFinanceUserDao(FinanceUserDao financeUserDao) {
+        this.financeUserDao = financeUserDao;
+    }
+
+    public List<FinanceUser> getAllFinanceUsers() {
+        return financeUserDao.findAll();
+    }
 }

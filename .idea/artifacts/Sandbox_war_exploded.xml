@@ -59,6 +59,11 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:4.3.9.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-orm:4.3.9.RELEASE" />
           <element id="library" level="project" name="Maven: org.eclipse.persistence:javax.persistence:2.1.0" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:4.2.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-orm:4.2.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-dao:2.0.8" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:4.3.12.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-orm:4.3.12.RELEASE" />
         </element>
       </element>
     </root>

@@ -13,6 +13,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.List;
+
 @RestController
 @RequestMapping(value = "/financeuser")
 public class FinanceUserController {
@@ -25,6 +27,12 @@ public class FinanceUserController {
     logger.info("FinanceUser: " + financeUser);
     financeUserService.createFinanceUser(financeUser);
   }
+
+  @RequestMapping(method = RequestMethod.GET)
+  public List<FinanceUser> getAll(){
+    return financeUserService.getAllFinanceUsers();
+  }
+
 
   public FinanceUserService getFinanceUserService() {
     return financeUserService;

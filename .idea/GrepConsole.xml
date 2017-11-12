@@ -79,6 +79,15 @@
                           </GrepModel>
                         </option>
                       </Pin>
+                      <Pin>
+                        <option name="consoleUUID" value="5000a209-3e6c-4f7f-bf55-3daffdc0399f" />
+                        <option name="grepModel">
+                          <GrepModel>
+                            <option name="expression" value="hibernate" />
+                            <option name="unlessExpression" value="" />
+                          </GrepModel>
+                        </option>
+                      </Pin>
                     </list>
                   </option>
                 </Pins>

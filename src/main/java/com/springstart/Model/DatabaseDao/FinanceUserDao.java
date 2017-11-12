@@ -4,18 +4,19 @@ import com.springstart.Model.Entity.DatabaseEntity.FinanceUser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import javax.persistence.EntityManager;
-import javax.persistence.PersistenceContext;
+import javax.persistence.*;
+import java.util.List;
 
 @Repository
 public class FinanceUserDao {
 
+
   EntityManager entityManager;
 
   public FinanceUser createFinanceUser(FinanceUser financeUser) {
-    entityManager.getTransaction().begin();
+//    entityManager.getTransaction().begin();
     entityManager.persist(financeUser);
-    entityManager.getTransaction().commit();
+ //   entityManager.getTransaction().commit();
     return financeUser;
   }
 
@@ -23,8 +24,14 @@ public class FinanceUserDao {
     return entityManager;
   }
 
-  @PersistenceContext(unitName = "ifinanceDatabase")
+
+  @PersistenceContext
   public void setEntityManager(EntityManager entityManager) {
     this.entityManager = entityManager;
   }
+
+    public List<FinanceUser> findAll() {
+     TypedQuery<FinanceUser> query = entityManager.createNamedQuery("FinanceUser.findAll", FinanceUser.class);
+      return query.getResultList();
+    }
 }
