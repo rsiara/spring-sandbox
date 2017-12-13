@@ -143,4 +143,22 @@ public class Transaction {
     public String getCreatedBy() {
         return createdBy;
     }
+
+    @Override
+    public String toString() {
+        return "Transaction{" +
+                "transactionId=" + transactionId +
+                ", account=" + account +
+                ", transactionType='" + transactionType + '\'' +
+                ", title='" + title + '\'' +
+                ", amount=" + amount +
+                ", initialBalance=" + initialBalance +
+                ", closingBalance=" + closingBalance +
+                ", notes='" + notes + '\'' +
+                ", lastUpdatedDate=" + lastUpdatedDate +
+                ", lastUpdatedBy='" + lastUpdatedBy + '\'' +
+                ", createdDate=" + createdDate +
+                ", createdBy='" + createdBy + '\'' +
+                '}';
+    }
 }

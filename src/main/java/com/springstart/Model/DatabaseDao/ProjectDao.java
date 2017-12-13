@@ -1,14 +1,13 @@
 package com.springstart.Model.DatabaseDao;
 
-import com.springstart.Model.Entity.DatabaseEntity.Account;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.springstart.Model.Entity.DatabaseEntity.Project;
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
 @Repository
-public class AccountDao  {
+public class ProjectDao {
 
     EntityManager entityManager;
 
@@ -17,15 +16,12 @@ public class AccountDao  {
         this.entityManager = entityManager;
     }
 
-
-    public Account save(Account account) {
-        entityManager.persist(account);
-        return account;
+    public Project save(Project project) {
+        entityManager.persist(project);
+        return project;
     }
 
-    public Account getById(Long id){
-        return entityManager.find(Account.class,id );
+    public Project getById(Long id) {
+        return entityManager.find(Project.class, id);
     }
-
-
 }

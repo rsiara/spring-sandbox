@@ -93,6 +93,40 @@
                 </Pins>
               </value>
             </entry>
+            <entry>
+              <key>
+                <RunConfigurationRef>
+                  <option name="icon" value="junit.png" />
+                  <option name="name" value="RelationMappingTest.unidirectionalManyToOne" />
+                </RunConfigurationRef>
+              </key>
+              <value>
+                <Pins>
+                  <option name="pins">
+                    <list>
+                      <Pin>
+                        <option name="consoleUUID" value="4a77ddd7-52b5-4bd4-83cc-0690783013a6" />
+                        <option name="grepModel">
+                          <GrepModel>
+                            <option name="expression" value="Saved Transaction" />
+                            <option name="unlessExpression" value="" />
+                          </GrepModel>
+                        </option>
+                      </Pin>
+                      <Pin>
+                        <option name="consoleUUID" value="4e930541-f77d-4a0a-89f8-42f08529f34d" />
+                        <option name="grepModel">
+                          <GrepModel>
+                            <option name="expression" value="Saved Transaction" />
+                            <option name="unlessExpression" value="" />
+                          </GrepModel>
+                        </option>
+                      </Pin>
+                    </list>
+                  </option>
+                </Pins>
+              </value>
+            </entry>
           </map>
         </option>
       </PinnedGrepConsolesState>

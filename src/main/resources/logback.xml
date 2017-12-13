@@ -7,15 +7,15 @@
         </layout>
     </appender>
 
-    <logger name="org.springframework" level="TRACE" additivity="false">
+    <logger name="org.springframework" level="ERROR" additivity="false">
         <appender-ref ref="STDOUT" />
     </logger>
 
-    <logger name="com.springstart" level="INFO" additivity="false">
+    <logger name="com.springstart" level="ERROR" additivity="false">
         <appender-ref ref="STDOUT" />
     </logger>
 
-    <logger name="org.hibernate" level="TRACE" additivity="false">
+    <logger name="org.hibernate" level="ERROR" additivity="false">
         <appender-ref ref="STDOUT" />
     </logger>
 

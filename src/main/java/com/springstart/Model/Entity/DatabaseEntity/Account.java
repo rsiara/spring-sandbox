@@ -2,6 +2,7 @@ package com.springstart.Model.Entity.DatabaseEntity;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
+import java.util.Collection;
 import java.util.Date;
 
 @Entity
@@ -40,83 +41,110 @@ public class Account {
     @Column(name = "CREATED_BY")
     private String createdBy;
 
-    public void setAccountId(Long accountId) {
-        this.accountId = accountId;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setInitialBalance(BigDecimal initialBalance) {
-        this.initialBalance = initialBalance;
-    }
-
-    public void setCurrentBalance(BigDecimal currentBalance) {
-        this.currentBalance = currentBalance;
-    }
-
-    public void setOpenDate(Date openDate) {
-        this.openDate = openDate;
-    }
-
-    public void setCloseDate(Date closeDate) {
-        this.closeDate = closeDate;
-    }
-
-    public void setLastUpdatedDate(Date lastUpdatedDate) {
-        this.lastUpdatedDate = lastUpdatedDate;
-    }
-
-    public void setLastUpdatedBy(String lastUpdatedBy) {
-        this.lastUpdatedBy = lastUpdatedBy;
-    }
-
-    public void setCreatedDate(Date createdDate) {
-        this.createdDate = createdDate;
-    }
-
-    public void setCreatedBy(String createdBy) {
-        this.createdBy = createdBy;
-    }
+    @OneToMany(targetEntity = Transaction.class, mappedBy = "account", fetch = FetchType.EAGER )
+    private Collection transactions;
 
     public Long getAccountId() {
         return accountId;
+    }
+
+    public void setAccountId(Long accountId) {
+        this.accountId = accountId;
     }
 
     public String getName() {
         return name;
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
     public BigDecimal getInitialBalance() {
         return initialBalance;
+    }
+
+    public void setInitialBalance(BigDecimal initialBalance) {
+        this.initialBalance = initialBalance;
     }
 
     public BigDecimal getCurrentBalance() {
         return currentBalance;
     }
 
+    public void setCurrentBalance(BigDecimal currentBalance) {
+        this.currentBalance = currentBalance;
+    }
+
     public Date getOpenDate() {
         return openDate;
+    }
+
+    public void setOpenDate(Date openDate) {
+        this.openDate = openDate;
     }
 
     public Date getCloseDate() {
         return closeDate;
     }
 
+    public void setCloseDate(Date closeDate) {
+        this.closeDate = closeDate;
+    }
+
     public Date getLastUpdatedDate() {
         return lastUpdatedDate;
+    }
+
+    public void setLastUpdatedDate(Date lastUpdatedDate) {
+        this.lastUpdatedDate = lastUpdatedDate;
     }
 
     public String getLastUpdatedBy() {
         return lastUpdatedBy;
     }
 
+    public void setLastUpdatedBy(String lastUpdatedBy) {
+        this.lastUpdatedBy = lastUpdatedBy;
+    }
+
     public Date getCreatedDate() {
         return createdDate;
     }
 
+    public void setCreatedDate(Date createdDate) {
+        this.createdDate = createdDate;
+    }
+
     public String getCreatedBy() {
         return createdBy;
+    }
+
+    public void setCreatedBy(String createdBy) {
+        this.createdBy = createdBy;
+    }
+
+    public Collection getTransactions() {
+        return transactions;
+    }
+
+    public void setTransaction(Collection transaction) {
+        this.transactions = transaction;
+    }
+
+    @Override
+    public String toString() {
+        return "Account{" +
+                "accountId=" + accountId +
+                ", name='" + name + '\'' +
+                ", initialBalance=" + initialBalance +
+                ", currentBalance=" + currentBalance +
+                ", openDate=" + openDate +
+                ", closeDate=" + closeDate +
+                ", lastUpdatedDate=" + lastUpdatedDate +
+                ", lastUpdatedBy='" + lastUpdatedBy + '\'' +
+                ", createdDate=" + createdDate +
+                ", createdBy='" + createdBy + '\'' +
+                '}';
     }
 }

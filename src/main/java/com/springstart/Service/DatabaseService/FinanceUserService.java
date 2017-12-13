@@ -30,4 +30,8 @@ public class FinanceUserService {
     public List<FinanceUser> getAllFinanceUsers() {
         return financeUserDao.findAll();
     }
+
+    public FinanceUser getById(int user_id) {
+        return financeUserDao.getById(user_id);
+    }
 }

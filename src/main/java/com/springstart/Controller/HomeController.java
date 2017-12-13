@@ -37,6 +37,7 @@ public class HomeController implements ApplicationContextAware{
                      HttpServletResponse response) {
 
     sessionBean.printSomething();
+    request.getSession();
 /*    logger.info("HomeController - session()");
     HttpSession session =request.getSession();
     if(request.getSession(false) == null){

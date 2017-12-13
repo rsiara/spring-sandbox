@@ -5,6 +5,7 @@ import com.springstart.Service.StudentService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.config.PlaceholderConfigurerSupport;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
@@ -13,6 +14,8 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.HttpClientErrorException;
 import org.springframework.web.util.UriComponentsBuilder;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
 import java.util.Collection;
 
 @RestController
@@ -66,18 +69,22 @@ public class StudentController {
     public ResponseEntity<Student> updateStudent(@PathVariable("id") Integer id, @RequestBody Student student) {
         logger.info("Update student with id: " + id);
 
-        if (studentService.exists(student) == false) {
+        if ( studentService.exists(student) == false) {
             logger.info("Student with id " + student.getName() + " is not exist");
             return new ResponseEntity<Student>(HttpStatus.NOT_FOUND);
         }
         studentService.updateStudent(student);
+
 
         return new ResponseEntity<Student>(student, HttpStatus.OK);
     }
 
     @RequestMapping(value = "/{id}", method = RequestMethod.DELETE)
     public ResponseEntity<Void> deleteStudent(@PathVariable("id") Integer id) {
+
         logger.info("Delete student with id: " + id);
+        //language=GenericSQL
+        String sampleJson = "SELECT * FROM ifinances.BINARY_FILE";
         Student student = studentService.getStudentById(id);
 
         if (student == null) {

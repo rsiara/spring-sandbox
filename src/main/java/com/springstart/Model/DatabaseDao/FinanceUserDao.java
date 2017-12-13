@@ -11,27 +11,31 @@ import java.util.List;
 public class FinanceUserDao {
 
 
-  EntityManager entityManager;
+    EntityManager entityManager;
 
-  public FinanceUser createFinanceUser(FinanceUser financeUser) {
+    public FinanceUser createFinanceUser(FinanceUser financeUser) {
 //    entityManager.getTransaction().begin();
-    entityManager.persist(financeUser);
- //   entityManager.getTransaction().commit();
-    return financeUser;
-  }
+        entityManager.persist(financeUser);
+        //   entityManager.getTransaction().commit();
+        return financeUser;
+    }
 
-  public EntityManager getEntityManager() {
-    return entityManager;
-  }
+    public EntityManager getEntityManager() {
+        return entityManager;
+    }
 
 
-  @PersistenceContext
-  public void setEntityManager(EntityManager entityManager) {
-    this.entityManager = entityManager;
-  }
+    @PersistenceContext
+    public void setEntityManager(EntityManager entityManager) {
+        this.entityManager = entityManager;
+    }
 
     public List<FinanceUser> findAll() {
-     TypedQuery<FinanceUser> query = entityManager.createNamedQuery("FinanceUser.findAll", FinanceUser.class);
-      return query.getResultList();
+        TypedQuery<FinanceUser> query = entityManager.createNamedQuery("FinanceUser.findAll", FinanceUser.class);
+        return query.getResultList();
+    }
+
+    public FinanceUser getById(int user_id) {
+        return entityManager.find(FinanceUser.class, user_id);
     }
 }

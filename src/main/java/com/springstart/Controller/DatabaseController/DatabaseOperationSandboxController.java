@@ -25,26 +25,6 @@ public class DatabaseOperationSandboxController {
     private AccountService accountService;
     private TransactionService transactionService;
 
-    @RequestMapping(path = "/umanytoone", method = RequestMethod.GET, produces = {MediaType.APPLICATION_JSON_VALUE})
-    public Transaction unidirectionalManyToOne(){
-
-        Transaction beltPurchase = createNewBeltPurchase();
-        Account account = createNewAccount();
-        Transaction savedTransaction = transactionService.saveTransactionForAccount(beltPurchase, account);
-        return savedTransaction;
-    }
-
-    @Autowired
-    public void setAccountService(AccountService accountService) {
-        this.accountService = accountService;
-    }
-
-    @Autowired
-    public void setTransactionService(TransactionService transactionService) {
-        this.transactionService = transactionService;
-    }
-
-
     private static Transaction createNewBeltPurchase() {
         Transaction beltPurchase = new Transaction();
         beltPurchase.setTitle("Dress Belt");
@@ -72,5 +52,24 @@ public class DatabaseOperationSandboxController {
         account.setLastUpdatedDate(new Date());
         account.setCreatedDate(new Date());
         return account;
+    }
+
+    @RequestMapping(path = "/umanytoone", method = RequestMethod.GET, produces = {MediaType.APPLICATION_JSON_VALUE})
+    public Transaction unidirectionalManyToOne() {
+
+        Transaction beltPurchase = createNewBeltPurchase();
+        Account account = createNewAccount();
+        Transaction savedTransaction = transactionService.saveTransactionForAccount(beltPurchase, account);
+        return savedTransaction;
+    }
+
+    @Autowired
+    public void setAccountService(AccountService accountService) {
+        this.accountService = accountService;
+    }
+
+    @Autowired
+    public void setTransactionService(TransactionService transactionService) {
+        this.transactionService = transactionService;
     }
 }
