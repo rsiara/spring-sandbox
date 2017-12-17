@@ -13,26 +13,30 @@ import javax.transaction.Transactional;
 @Transactional
 public class AccountService {
 
-    private AccountDao accountDao;
+  private AccountDao accountDao;
 
     /* Methods */
 
-    public Account getById(Long id){
-        return accountDao.getById(id);
-    }
+  public Account getById(Long id) {
+    return accountDao.getById(id);
+  }
 
-    public void save(Account account){
-        accountDao.save(account);
-    }
+  public void save(Account account) {
+    accountDao.save(account);
+  }
 
     /**/
 
-    public AccountDao getAccountDao() {
-        return accountDao;
-    }
+  public AccountDao getAccountDao() {
+    return accountDao;
+  }
 
-    @Autowired
-    public void setAccountDao(AccountDao accountDao) {
-        this.accountDao = accountDao;
-    }
+  @Autowired
+  public void setAccountDao(AccountDao accountDao) {
+    this.accountDao = accountDao;
+  }
+
+  public Account create(Account account) {
+    return accountDao.save(account);
+  }
 }

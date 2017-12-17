@@ -22,6 +22,10 @@ public class TransactionService {
         return transactionDao.save(transaction);
     }
 
+    public Transaction create(Transaction transaction){
+        return transactionDao.save(transaction);
+    }
+
     @Autowired
     public void setAccountDao(AccountDao accountDao) {
         this.accountDao = accountDao;

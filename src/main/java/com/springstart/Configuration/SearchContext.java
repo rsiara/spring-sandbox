@@ -24,7 +24,6 @@ public class SearchContext {
     @Bean
     @Autowired
     public SolrOperations solrTemplate(HttpSolrClient solrClient) {
-        System.out.println("SOLR TEMPLATE ########################");
         return new SolrTemplate(solrClient);
     }
 

@@ -23,11 +23,11 @@ public class StudentDao {
     }
 
     public Collection<Student> getAllStudents(){
-        return this.students.values();
+        return students.values();
     }
 
     public Student geStudentById(int id) {
-        return this.students.get(id);
+        return students.get(id);
     }
 
     public void create(Student student) {

@@ -41,7 +41,8 @@ public class Account {
     @Column(name = "CREATED_BY")
     private String createdBy;
 
-    @OneToMany(targetEntity = Transaction.class, mappedBy = "account", fetch = FetchType.EAGER )
+    @OneToMany(targetEntity = Transaction.class, mappedBy = "account", fetch = FetchType.EAGER, cascade = {CascadeType.ALL} )
+    @OrderBy("title ASC")
     private Collection transactions;
 
     public Long getAccountId() {

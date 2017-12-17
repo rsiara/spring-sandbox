@@ -2,8 +2,10 @@ package com.springstart.Model.Entity.DatabaseEntity;
 
 
 import javax.persistence.*;
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Date;
+import java.util.List;
 
 @Entity
 @Table(name = "finances_user")
@@ -28,11 +30,20 @@ public class FinanceUser {
     String created_by;
     @Temporal(TemporalType.TIMESTAMP)
     Date created_date;
-    String user_address_line_1;
-    String user_address_line_2;
-    String city;
-    String state;
-    String zip_code;
+
+    @Embedded
+    @AttributeOverrides({
+      @AttributeOverride(name="addressLine1", column = @Column(name="USER_ADDRESS_LINE_1")),
+      @AttributeOverride(name = "addressLine2", column = @Column(name="USER_ADDRESS_LINE_2")),
+      @AttributeOverride(name = "city", column = @Column(name = "CITY"))})
+    Address address;
+
+    @ElementCollection
+    @CollectionTable(name="USER_ADDRESS", joinColumns=@JoinColumn(name="USER_ID"))
+    @AttributeOverrides({@AttributeOverride(name="addressLine1", column=@Column(name="USER_ADDRESS_LINE_1")),
+      @AttributeOverride(name="addressLine2", column=@Column(name="USER_ADDRESS_LINE_2"))})
+    private List<Address> loverAddresses = new ArrayList<Address>();
+
 
     @OneToOne(cascade = {CascadeType.ALL})
     @JoinColumn(name = "PSPACE_ID")
@@ -44,7 +55,9 @@ public class FinanceUser {
             inverseJoinColumns = @JoinColumn(name = "PROJECT_ID"))
     private Collection<Project> projects;
 
+
     public FinanceUser() {
+        address = new Address();
     }
 
     public int getUser_id() {
@@ -122,48 +135,12 @@ public class FinanceUser {
         this.created_date = created_date;
     }
 
-    public String getUser_address_line_1() {
-        return user_address_line_1;
+    public Address getAddress() {
+        return address;
     }
 
-    public void setUser_address_line_1(String user_address_line_1) {
-        this.user_address_line_1 = user_address_line_1;
-    }
-
-    public String getUser_address_line_2() {
-        return user_address_line_2;
-    }
-
-    public void setUser_address_line_2(String user_address_line_2) {
-        this.user_address_line_2 = user_address_line_2;
-    }
-
-    public String getCity() {
-        return city;
-    }
-
-    public void setCity(String city) {
-        this.city = city;
-    }
-
-    public String getState() {
-        return state;
-    }
-
-    public void setState(String state) {
-        this.state = state;
-    }
-
-    public String getZip_code() {
-        return zip_code;
-    }
-
-    public void setZip_code(String zip_code) {
-        this.zip_code = zip_code;
-    }
-
-    public ParkingPlace getParking_space() {
-        return parking_space;
+    public void setAddress(Address address) {
+        this.address = address;
     }
 
     public void setParking_space(ParkingPlace parking_space) {
@@ -178,29 +155,34 @@ public class FinanceUser {
         this.projects = projects;
     }
 
-    @Override
-    public String toString() {
-        return "FinanceUser{" +
-                "user_id=" + user_id +
-                ", first_name='" + first_name + '\'' +
-                ", last_name='" + last_name + '\'' +
-                ", birth_date=" + birth_date +
-                ", email_address='" + email_address + '\'' +
-                ", last_updated_by='" + last_updated_by + '\'' +
-                ", last_updated_date=" + last_updated_date +
-                ", created_by='" + created_by + '\'' +
-                ", created_date=" + created_date +
-                ", user_address_line_1='" + user_address_line_1 + '\'' +
-                ", user_address_line_2='" + user_address_line_2 + '\'' +
-                ", city='" + city + '\'' +
-                ", state='" + state + '\'' +
-                ", zip_code='" + zip_code + '\'' +
-                ", parking_space=" + parking_space +
-                '}';
+    public List<Address> getLoverAddresses() {
+        return loverAddresses;
     }
 
+    public void setLoverAddresses(List<Address> loverAddresses) {
+        this.loverAddresses = loverAddresses;
+    }
 
-//  <-- JSON -->
+  @Override
+  public String toString() {
+    return "FinanceUser{" +
+      "user_id=" + user_id +
+      ", first_name='" + first_name + '\'' +
+      ", last_name='" + last_name + '\'' +
+      ", birth_date=" + birth_date +
+      ", email_address='" + email_address + '\'' +
+      ", last_updated_by='" + last_updated_by + '\'' +
+      ", last_updated_date=" + last_updated_date +
+      ", created_by='" + created_by + '\'' +
+      ", created_date=" + created_date +
+      ", address=" + address +
+      ", loverAddresses=" + loverAddresses +
+      ", parking_space=" + parking_space +
+      ", projects=" + projects +
+      '}';
+  }
+
+  //  <-- JSON -->
 /*  {
     "user_id": 1,
     "first_name": "Said",
