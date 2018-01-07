@@ -5,6 +5,7 @@ import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.Map;
 
 @Entity
 @Table(name = "BANK")
@@ -44,6 +45,22 @@ public class Bank {
   @OrderColumn(name="ORDER_CONTACT")
   private List<String> contacts = new ArrayList<String>();
 
+
+  @ManyToMany(cascade = CascadeType.ALL)
+  @JoinTable(
+    name="USER_BANK",
+    joinColumns = @JoinColumn(name="BANK", referencedColumnName = "BANK_ID"),
+    inverseJoinColumns = @JoinColumn(name="USER", referencedColumnName = "USER_ID")
+  )
+  private Map<FinanceUserFullName, FinanceUser> usersBySkingColor;
+
+  public Map<FinanceUserFullName, FinanceUser> getUsersBySkingColor() {
+    return usersBySkingColor;
+  }
+
+  public void setUsersBySkingColor(Map<FinanceUserFullName, FinanceUser> usersBySkingColor) {
+    this.usersBySkingColor = usersBySkingColor;
+  }
 
   public Long getBankId() {
     return bankId;

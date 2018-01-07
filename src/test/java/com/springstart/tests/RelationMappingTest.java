@@ -3,8 +3,10 @@ package com.springstart.tests;
 
 import com.springstart.Configuration.RootConfig;
 import com.springstart.Model.Entity.DatabaseEntity.*;
+import com.springstart.Model.Enum.PhoneType;
 import com.springstart.Service.DatabaseService.*;
 import org.hibernate.SessionFactory;
+import org.hibernate.annotations.SQLDeleteAll;
 import org.hibernate.criterion.CriteriaQuery;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -28,6 +30,7 @@ import java.util.*;
 @ContextConfiguration(classes = {RootConfig.class}, loader = AnnotationConfigWebContextLoader.class)
 @RunWith(SpringJUnit4ClassRunner.class)
 public class RelationMappingTest {
+
   EntityManager entityManager;
 
   private AccountService accountService;
@@ -125,107 +128,6 @@ public class RelationMappingTest {
     project.setName("New bridge");
     project.setInvestor("Budimex");
     return project;
-  }
-
-  @Test
-  @Transactional
-  @Rollback(false)
-  public void unidirectionalManyToOne() {
-
-    Transaction beltPurchase = createNewBeltPurchase();
-    System.out.println("Transaction: " + beltPurchase);
-    Account account = createNewAccount();
-    System.out.println("Account: " + account);
-    Transaction savedTransaction = transactionService.saveTransactionForAccount(beltPurchase, account);
-    System.out.println("Saved Transaction: " + savedTransaction);
-
-  }
-
-  @Test
-  @Transactional
-  @Rollback(false)
-  public void unidirectionalOneToOne() {
-
-    FinanceUser financeUser = createNewUser();
-
-    ParkingPlace parkingPlace = new ParkingPlace();
-    parkingPlace.setPlaceNumber("2C");
-
-    System.out.println("Parking palce: " + parkingPlace);
-
-    financeUser.setParking_space(parkingPlace);
-
-    System.out.println("FinanceUser: " + financeUser);
-
-    financeUserService.createFinanceUser(financeUser);
-  }
-
-  @Test
-  @Transactional
-  @Rollback(false)
-  public void bidirectionalOneToOne() {
-
-    FinanceUser financeUser = createNewUser();
-
-    ParkingPlace parkingPlace = new ParkingPlace();
-    parkingPlace.setPlaceNumber("3E");
-
-    financeUser.setParking_space(parkingPlace);
-    parkingPlace.setFinanceUser(financeUser);
-
-    System.out.println("FinanceUser: " + financeUser);
-    System.out.println("Parking palce: " + parkingPlace);
-
-    financeUserService.createFinanceUser(financeUser);
-
-
-    System.out.println("Parking place user after save: " + parkingPlace.getFinanceUser());
-
-
-        /*Get saved non-owning entity */
-
-    ParkingPlace justSavedParkingPlace = parkingPlaceService.getById(parkingPlace.getId());
-
-    System.out.println("Just saved non-owning entity: " + justSavedParkingPlace);
-    System.out.println("User from just saved non-owning entity: " + justSavedParkingPlace.getFinanceUser());
-  }
-
-  @Test
-  @Transactional
-  @Rollback(false)
-  public void bidirectionalOneToMany() {
-
-    Transaction whiteBeltPurchase = createNewBeltPurchase();
-    whiteBeltPurchase.setTitle("White belt");
-    Transaction blackBeltPurchase = createNewBeltPurchase();
-    blackBeltPurchase.setTitle("Black belt");
-
-    System.out.println("Belt #1: " + whiteBeltPurchase);
-    System.out.println("Belt #2: " + blackBeltPurchase);
-
-    Account account = createNewAccount();
-
-    List<Transaction> transactions = new ArrayList<Transaction>();
-    transactions.add(whiteBeltPurchase);
-    transactions.add(blackBeltPurchase);
-
-    account.setTransaction(transactions);
-
-    System.out.println("Account: " + account);
-
-    accountService.create(account);
-
-    System.out.println("Saved Account: " + account.toString());
-
-    entityManager.flush();
-    entityManager.clear();
-
-    /*Get saved non-owning entity */
-
-    Account justSavedAccount = accountService.getById(account.getAccountId());
-
-    System.out.println("Just saved non-owning entity: " + justSavedAccount);
-    System.out.println("Transactions from just saved non-owning entity: " + justSavedAccount.getTransactions());
   }
 
   @Test
@@ -336,7 +238,7 @@ public class RelationMappingTest {
     Bank bank = createBank();
 
     List<String> contacts = new ArrayList<String>();
-    contacts.add("Contact one");
+    contacts.add("Contact sharing_embeddable_key_mappings_with_values");
     contacts.add("Contact two");
     contacts.add("Contact three");
     contacts.add("Contact four");
@@ -346,7 +248,146 @@ public class RelationMappingTest {
     bankService.createBank(bank);
   }
 
+/*  @Test
+  @Transactional
+  @Rollback(false)
+  public void mapKeyingByBasicTypeTest() {
 
+    FinanceUser financeUser = createNewUser();
+
+    Map<String, String> basicKeyBasicValueMap = new HashMap<String, String>();
+    basicKeyBasicValueMap.put("MOBILE", "780152424");
+    basicKeyBasicValueMap.put("STATIONARY", "+48226224545");
+
+    financeUser.setPhoneNumbers(basicKeyBasicValueMap);
+
+    financeUserService.createFinanceUser(financeUser);
+  }*/
+
+  @Test
+  @Transactional
+  @Rollback(false)
+  public void mapKeyingByEnumTypeTest() {
+
+    FinanceUser financeUser = createNewUser();
+
+    Map<PhoneType, String> enumKeyBasicValueMap = new HashMap<PhoneType, String>();
+    enumKeyBasicValueMap.put(PhoneType.MOBILE, "780152424");
+    enumKeyBasicValueMap.put(PhoneType.WORK, "+48226224545");
+    enumKeyBasicValueMap.put(PhoneType.HOME, "+2278293123");
+
+    financeUser.setPhoneNumbers(enumKeyBasicValueMap);
+
+    financeUserService.createFinanceUser(financeUser);
+  }
+
+/* JPA - Using UNIDIRECTIONAL One-To-Many */
+/*
+  @Test
+  @Transactional
+  @Rollback(false)
+  public void mapValueAsEntityTest(){
+
+    Bank bank = createBank();
+
+    FinanceUser whiteJoe = createNewUser();
+    FinanceUser blackBob = createNewUser();
+
+    Map<String, FinanceUser> basicKeyEntityValueMap = new HashMap<String, FinanceUser>();
+
+    basicKeyEntityValueMap.put("WHITE", whiteJoe);
+    basicKeyEntityValueMap.put("BLACK", blackBob);
+
+    bank.setUsersBySkingColor(basicKeyEntityValueMap);
+
+    bankService.createBank(bank);
+
+  }*/
+
+
+/* JPA - Using BIDIRECTIONAL One-To-Many */
+
+/*  @Test
+  @Transactional
+  @Rollback(false)
+  public void mapValueAsEntityTest(){
+
+    Bank bank = createBank();
+
+    FinanceUser whiteJoe = createNewUser();
+    FinanceUser blackBob = createNewUser();
+
+    Map<String, FinanceUser> basicKeyEntityValueMap = new HashMap<String, FinanceUser>();
+
+    basicKeyEntityValueMap.put("WHITE", whiteJoe);
+    basicKeyEntityValueMap.put("BLACK", blackBob);
+
+    whiteJoe.setBank(bank);
+    blackBob.setBank(bank);
+
+    bank.setUsersBySkingColor(basicKeyEntityValueMap);
+
+    bankService.createBank(bank);
+
+  }*/
+
+/* JPA - Using BIDIRECTIONAL Many-To-Many */
+
+/*  @Test
+  @Transactional
+  @Rollback(false)
+  public void mapValueAsEntityTest(){
+
+    Bank bank = createBank();
+
+    FinanceUser whiteJoe = createNewUser();
+    FinanceUser blackBob = createNewUser();
+
+    Map<String, FinanceUser> basicKeyEntityValueMap = new HashMap<String, FinanceUser>();
+
+    basicKeyEntityValueMap.put("whitejoe@mbank.pl", whiteJoe);
+    basicKeyEntityValueMap.put("blackjoe@mbank.pl", blackBob);
+
+    whiteJoe.setBank(Collections.singletonList(bank));
+
+    bank.setUsersBySkingColor(basicKeyEntityValueMap);
+
+    bankService.createBank(bank);
+
+  }*/
+
+/* JPA - Embeddable KEY */
+
+  @Test
+  @Transactional
+  @Rollback(false)
+  public void mapValueAsEntityTest(){
+
+    Bank bank = createBank();
+
+    FinanceUser whiteJoe = createNewUser();
+    FinanceUser blackBob = createNewUser();
+
+    Map<FinanceUserFullName, FinanceUser> basicKeyEntityValueMap = new HashMap<FinanceUserFullName, FinanceUser>();
+
+    FinanceUserFullName whiteJoeFullName = new FinanceUserFullName();
+    whiteJoeFullName.setFirst_name("White");
+    whiteJoeFullName.setLast_name("Joe");
+
+    FinanceUserFullName blackBobFullName = new FinanceUserFullName();
+    blackBobFullName.setFirst_name("Black");
+    blackBobFullName.setLast_name("Bob");
+
+    basicKeyEntityValueMap.put(whiteJoeFullName, whiteJoe);
+    basicKeyEntityValueMap.put(blackBobFullName, blackBob);
+
+    whiteJoe.setBank(Collections.singletonList(bank));
+
+    bank.setUsersBySkingColor(basicKeyEntityValueMap);
+
+    bankService.createBank(bank);
+
+  }
 
   @Test
   @Transactional

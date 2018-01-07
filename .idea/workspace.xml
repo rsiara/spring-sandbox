@@ -6,26 +6,109 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d9a5c24-0ab2-4622-9484-8b0abafbe55a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Model/DatabaseDao/BankDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/DatabaseEntity/Address.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/DatabaseEntity/Bank.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Service/DatabaseService/BankService.java" />
+    <list default="true" id="5d9a5c24-0ab2-4622-9484-8b0abafbe55a" name="Default" comment="Refactor JPA - stworzenie osobnego modulu pod każdą funkcjonalość JPA">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/many_to_many_bidirectional/src/main/database_diagram.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/many_to_many_bidirectional/many_to_many_bidirectional.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/many_to_many_bidirectional/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/many_to_many_bidirectional/src/main/java/model/Employee.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/many_to_many_bidirectional/src/main/java/model/Project.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/many_to_many_bidirectional/src/test/java/ManyToManyBidirectionalTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/many_to_many_bidirectional_jointable/many_to_many_bidirectional_jointable.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/many_to_many_bidirectional_jointable/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/many_to_many_bidirectional_jointable/src/main/java/model/Employee.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/many_to_many_bidirectional_jointable/src/main/java/model/Project.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/many_to_many_bidirectional_jointable/src/test/java/ManyToManyBidirectionalUsingJoinTableTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/many_to_one_unidirectional/many_to_one_unidirectional.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/many_to_one_unidirectional/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/many_to_one_unidirectional/src/main/java/model/Department.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/many_to_one_unidirectional/src/main/java/model/Employee.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/many_to_one_unidirectional/src/test/java/ManyToOneUnidirectionalTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/one_to_many_bidirectional_joincolumn/one_to_many_bidirectional_joincolumn.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/one_to_many_bidirectional_joincolumn/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/one_to_many_bidirectional_joincolumn/src/main/java/model/Department.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/one_to_many_bidirectional_joincolumn/src/main/java/model/Employee.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/one_to_many_bidirectional_joincolumn/src/test/java/OneToManyBidirectionalJoinColumnTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/one_to_many_bidirectional_joincolumn_target_entity/one_to_many_bidirectional_joincolumn_target_entity.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/one_to_many_bidirectional_joincolumn_target_entity/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/one_to_many_bidirectional_joincolumn_target_entity/src/main/java/model/Department.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/one_to_many_bidirectional_joincolumn_target_entity/src/main/java/model/Employee.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/one_to_many_bidirectional_joincolumn_target_entity/src/test/java/OneToManyBidirectionalJoinColumnTargetEntityTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/one_to_many_bidirectional_jointable/one_to_many_bidirectional_jointable.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/one_to_many_bidirectional_jointable/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/one_to_many_bidirectional_jointable/src/main/java/model/Department.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/one_to_many_bidirectional_jointable/src/main/java/model/Employee.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/one_to_many_bidirectional_jointable/src/test/java/OneToManyBidirectionalJoinTableTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/one_to_many_unidirectional_jointable/one_to_many_unidirectional_jointable.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/one_to_many_unidirectional_jointable/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/one_to_many_unidirectional_jointable/src/main/java/model/Employee.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/one_to_many_unidirectional_jointable/src/main/java/model/Phone.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/one_to_many_unidirectional_jointable/src/test/java/OneToManyUnidirectionalJoinTableTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/one_to_one_bidirectional/one_to_one_bidirectional.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/one_to_one_bidirectional/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/one_to_one_bidirectional/src/main/java/model/Employee.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/one_to_one_bidirectional/src/main/java/model/ParkingSpace.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/one_to_one_bidirectional/src/test/java/OneToOneBidirectionalTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/one_to_one_bidirectional_pk_mapping/one_to_one_bidirectional_pk_mapping.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/one_to_one_bidirectional_pk_mapping/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/one_to_one_bidirectional_pk_mapping/src/main/java/model/Employee.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/one_to_one_bidirectional_pk_mapping/src/main/java/model/ParkingSpace.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/one_to_one_bidirectional_pk_mapping/src/test/java/OneToOneBidirectionalWithPrimaryKeyMappingTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/one_to_one_unidirectional/one_to_one_unidirectional.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/one_to_one_unidirectional/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/one_to_one_unidirectional/src/main/java/model/Employee.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/one_to_one_unidirectional/src/main/java/model/ParkingSpace.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/one_to_one_unidirectional/src/test/java/OneToOneUnidirectionalTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/parent_module/parent_module.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/parent_module/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/parent_module/src/main/java/configuration/PersistenceJPAConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/parent_module/src/main/java/configuration/RootConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/parent_module/src/main/java/configuration/WebApplicationInitializer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/parent_module/src/main/resources/application.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/parent_module/src/main/resources/logback.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sharing_embeddable_key_mappings_with_values/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sharing_embeddable_key_mappings_with_values/sharing_embeddable_key_mappings_with_values.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sharing_embeddable_key_mappings_with_values/src/main/java/model/Department.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sharing_embeddable_key_mappings_with_values/src/main/java/model/Employee.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sharing_embeddable_key_mappings_with_values/src/main/java/model/EmployeeName.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sharing_embeddable_key_mappings_with_values/src/test/java/SharingEmbeddableKeyMappingsWithValuesTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/DatabaseEntity/FinanceUserFullName.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Model/Enum/PhoneType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/jpa/chapterfive/sharing_embeddable_key_mappings_with_values/model/Department.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/jpa/chapterfive/sharing_embeddable_key_mappings_with_values/model/Employee.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/jpa/chapterfive/sharing_embeddable_key_mappings_with_values/model/EmployeeName.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/springstart/Configuration/PersistenceJPAConfig.class" afterPath="$PROJECT_DIR$/target/classes/com/springstart/Configuration/PersistenceJPAConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/springstart/Configuration/SearchContext.class" afterPath="$PROJECT_DIR$/target/classes/com/springstart/Configuration/SearchContext.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/springstart/Model/Entity/DatabaseEntity/FinanceUser.class" afterPath="$PROJECT_DIR$/target/classes/com/springstart/Model/Entity/DatabaseEntity/FinanceUser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/springstart/Model/StudentDao.class" afterPath="$PROJECT_DIR$/target/classes/com/springstart/Model/StudentDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/springstart/tests/StudentDaoTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/springstart/tests/StudentDaoTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sandbox.iml" afterPath="$PROJECT_DIR$/Sandbox.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springstart/Configuration/PersistenceJPAConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Configuration/PersistenceJPAConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springstart/Configuration/SearchContext.java" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Configuration/SearchContext.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/DatabaseEntity/Account.java" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/DatabaseEntity/Account.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/DatabaseEntity/Bank.java" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/DatabaseEntity/Bank.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/DatabaseEntity/FinanceUser.java" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/DatabaseEntity/FinanceUser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springstart/Model/StudentDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Model/StudentDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springstart/Service/DatabaseService/AccountService.java" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Service/DatabaseService/AccountService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springstart/Service/DatabaseService/TransactionService.java" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Service/DatabaseService/TransactionService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/springstart/tests/RelationMappingTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/springstart/tests/RelationMappingTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/springstart/tests/StudentDaoTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/springstart/tests/StudentDaoTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/logback.xml" afterPath="$PROJECT_DIR$/target/classes/logback.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/many_to_many_bidirectional_jointable/target/" />
+    <ignored path="$PROJECT_DIR$/many_to_many_bidirectional/target/" />
+    <ignored path="$PROJECT_DIR$/parent_module/target/" />
+    <ignored path="$PROJECT_DIR$/sharing_embeddable_key_mappings_with_values/target/" />
+    <ignored path="$PROJECT_DIR$/many_to_one_unidirectional/target/" />
+    <ignored path="$PROJECT_DIR$/one_to_many_unidirectional/target/" />
+    <ignored path="$PROJECT_DIR$/one_to_many_unidirectional_jointable/target/" />
+    <ignored path="$PROJECT_DIR$/one_to_many_bidirectional_joincolumn/target/" />
+    <ignored path="$PROJECT_DIR$/one_to_many_bidirectional_jointable/target/" />
+    <ignored path="$PROJECT_DIR$/one_to_many_bidirectional_joincolumn_target_entity/target/" />
+    <ignored path="$PROJECT_DIR$/one_to_one_unidirectional/target/" />
+    <ignored path="$PROJECT_DIR$/one_to_one_bidirectional/target/" />
+    <ignored path="$PROJECT_DIR$/one_to_one_bidirectional_pk_mapping/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,19 +134,6 @@
         <item name="ifinances@localhost" type="e3449647:DbNodeDescriptor" />
         <item name="ifinances" type="e3449647:DbNodeDescriptor" />
       </path>
-      <path>
-        <item name="" type="eadb38e5:DatabaseStructure$Root" />
-        <item name="ifinances@localhost" type="e3449647:DbNodeDescriptor" />
-        <item name="ifinances" type="e3449647:DbNodeDescriptor" />
-        <item name="" type="fce03ad6:DatabaseStructure$GroupNode" />
-      </path>
-      <path>
-        <item name="" type="eadb38e5:DatabaseStructure$Root" />
-        <item name="ifinances@localhost" type="e3449647:DbNodeDescriptor" />
-        <item name="ifinances" type="e3449647:DbNodeDescriptor" />
-        <item name="" type="fce03ad6:DatabaseStructure$GroupNode" />
-        <item name="BANK_CONTACT" type="e3449647:DbNodeDescriptor" />
-      </path>
     </expand>
     <select />
   </component>
@@ -72,24 +142,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Account.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/DatabaseEntity/Account.java">
+      <file leaf-file-name="OneToOneBidirectionalTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/one_to_one_bidirectional/src/test/java/OneToOneBidirectionalTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="738">
-              <caret line="44" column="4" lean-forward="false" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="25" />
+            <state relative-caret-position="0">
+              <caret line="30" column="38" lean-forward="false" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Bank.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/DatabaseEntity/Bank.java">
+      <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/one_to_one_bidirectional_pk_mapping/src/main/java/model/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="73" column="3" lean-forward="true" selection-start-line="73" selection-start-column="3" selection-end-line="73" selection-end-column="3" />
+            <state relative-caret-position="234">
+              <caret line="13" column="43" lean-forward="false" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1044#1052#0" expanded="true" />
+                <element signature="e#427#428#0" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -98,24 +168,64 @@
       <file leaf-file-name="RelationMappingTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/springstart/tests/RelationMappingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="338" column="3" lean-forward="false" selection-start-line="338" selection-start-column="3" selection-end-line="338" selection-end-column="3" />
+            <state relative-caret-position="412">
+              <caret line="403" column="0" lean-forward="true" selection-start-line="403" selection-start-column="0" selection-end-line="403" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3750#3759#0" expanded="true" />
-                <element signature="e#7027#7040#0" expanded="true" />
-                <element signature="e#8059#8068#0" expanded="true" />
-                <element signature="e#8396#8405#0" expanded="true" />
-                <element signature="e#8953#8966#0" expanded="true" />
-                <element signature="e#10537#10546#0" expanded="true" />
-                <element signature="e#11004#11012#0" expanded="true" />
+                <marker date="1515361141761" expanded="false" signature="10189:10210" ph="&lt;~&gt;" />
+                <marker date="1515361141761" expanded="false" signature="10789:10810" ph="&lt;~&gt;" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bank_contact" pinned="false" current-in-tab="false">
-        <entry file="das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.bank_contact">
+      <file leaf-file-name="FinanceUser.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/DatabaseEntity/FinanceUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParkingSpace.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/one_to_one_bidirectional_pk_mapping/src/main/java/model/ParkingSpace.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="51" lean-forward="false" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+              <folding>
+                <element signature="e#598#599#0" expanded="true" />
+                <element signature="e#632#633#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OneToOneBidirectionalWithPrimaryKeyMappingTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/one_to_one_bidirectional_pk_mapping/src/test/java/OneToOneBidirectionalWithPrimaryKeyMappingTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="826">
+              <caret line="68" column="30" lean-forward="false" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Employee" pinned="false" current-in-tab="false">
+        <entry file="das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.Employee">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
@@ -123,8 +233,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BANK_CONTACT" pinned="false" current-in-tab="false">
-        <entry file="das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.BANK_CONTACT">
+      <file leaf-file-name="PARKING_SPACE" pinned="false" current-in-tab="false">
+        <entry file="das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.PARKING_SPACE">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hibernate_sequence" pinned="false" current-in-tab="false">
+        <entry file="das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.hibernate_sequence">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
@@ -137,25 +256,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="JUnit5 Test Class" />
+        <option value="JUnit4 Test Class" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>cascade</find>
-      <find>FIRST NAME</find>
-      <find>transa</find>
-      <find>many</find>
-      <find>e</find>
-      <find>loader</find>
-      <find>embeddab</find>
-      <find>cre</find>
-      <find>c</find>
-      <find>embed</find>
-      <find>embedd</find>
-      <find>overrd</find>
-      <find>listTest</find>
       <find>address</find>
       <find>getUser</find>
       <find>create</find>
@@ -173,6 +283,19 @@
       <find>SOLR_TE</find>
       <find>#</find>
       <find>Contacts</find>
+      <find>@OneToMany</find>
+      <find>SKIN_ID</find>
+      <find>F</find>
+      <find>SKIN_C</find>
+      <find>SKI</find>
+      <find>WHITE</find>
+      <find>skin</find>
+      <find>junit</find>
+      <find>many</find>
+      <find>many_</find>
+      <find>Mave</find>
+      <find>entityManagerFactory</find>
+      <find>PSPACE_ID</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -194,57 +317,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/springstart/Interceptor/SecondInterceptor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springstart/Filters/CustomFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/DatabaseEntity/finances_user.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springstart/Model/DAO/FinanceUserDao.java" />
-        <option value="$PROJECT_DIR$/META-INF/persistence.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springstart/Controller/DatabaseController/FinanceUserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springstart/Controller/DatabaseController/DatabaseOperationSandbox.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springstart/Model/DatabaseDao/Account.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/Transaction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/Bank.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/Account.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/DatabaseEntity/AddressType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springstart/Service/TransactionService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/Address.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/DatabaseEntity/Department.java" />
-        <option value="$PROJECT_DIR$/src/main/web/META-INF/persistence.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springstart/Configuration/RootConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springstart/Model/DatabaseDao/TransactionDao.java" />
+        <option value="$PROJECT_DIR$/many_to_many_bidirectional_jointable/src/main/java/model/Employee.java" />
+        <option value="$PROJECT_DIR$/many_to_many_bidirectional_jointable/src/test/java/ManyToManyBidirectionalTest.java" />
+        <option value="$PROJECT_DIR$/many_to_many_bidirectional_jointable/src/main/java/configuration/PersistenceJPAConfig.java" />
+        <option value="$PROJECT_DIR$/many_to_many_bidirectional_jointable/src/main/java/model/Project.java" />
+        <option value="$PROJECT_DIR$/many_to_many_bidirectional_jointable/src/test/java/ManyToManyBidirectionalUsingJoinTableTest.java" />
+        <option value="$PROJECT_DIR$/parent_module/pom.xml" />
+        <option value="$PROJECT_DIR$/many_to_many_bidirectional/pom.xml" />
+        <option value="$PROJECT_DIR$/many_to_many_bidirectional/src/test/java/ManyToManyBidirectionalTest.java" />
+        <option value="$PROJECT_DIR$/many_to_many_bidirectional/src/main/java/model/Project.java" />
+        <option value="$PROJECT_DIR$/many_to_many_bidirectional/src/main/java/model/Employee.java" />
+        <option value="$PROJECT_DIR$/many_to_many_bidirectional_jointable/pom.xml" />
+        <option value="$PROJECT_DIR$/sharing_embeddable_key_mappings_with_values/pom.xml" />
+        <option value="$PROJECT_DIR$/sharing_embeddable_key_mappings_with_values/src/test/java/SharingEmbeddableKeyMappingsWithValuesTest.java" />
+        <option value="$PROJECT_DIR$/sharing_embeddable_key_mappings_with_values/src/main/java/model/Department.java" />
+        <option value="$PROJECT_DIR$/sharing_embeddable_key_mappings_with_values/src/main/java/model/Employee.java" />
+        <option value="$PROJECT_DIR$/many_to_one_unidirectional/pom.xml" />
+        <option value="$PROJECT_DIR$/many_to_one_unidirectional/src/main/java/model/Department.java" />
+        <option value="$PROJECT_DIR$/many_to_one_unidirectional/src/main/java/model/Employee.java" />
+        <option value="$PROJECT_DIR$/many_to_one_unidirectional/src/test/java/ManyToOneUnidirectionalTest.java" />
+        <option value="$PROJECT_DIR$/one_to_many_unidirectional/pom.xml" />
+        <option value="$PROJECT_DIR$/one_to_many_unidirectional/src/main/java/model/Phone.java" />
+        <option value="$PROJECT_DIR$/one_to_many_unidirectional/src/test/java/OneToManyUnidirectionalTest.java" />
+        <option value="$PROJECT_DIR$/one_to_many_unidirectional/src/main/java/model/Employee.java" />
+        <option value="$PROJECT_DIR$/one_to_many_unidirectional_jointable/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springstart/Configuration/PersistenceJPAConfig.java" />
-        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springstart/Interceptor/GeneralInterceptor.java" />
-        <option value="/&lt;Generic SQL&gt; Fragment (StudentController.java:3295).sql" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springstart/Controller/StudentController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springstart/Controller/HomeController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/DatabaseEntity/Transaction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springstart/Controller/DatabaseController/DatabaseOperationSandboxController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/DatabaseEntity/ParkingSpace.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/DatabaseEntity/ParkingPlace.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springstart/Model/DatabaseDao/ParkingPlaceDao.java" />
-        <option value="$MAVEN_REPOSITORY$/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar!/ch/qos/logback/classic/Logger.class" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springstart/Service/DatabaseService/ParkingPlaceService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springstart/Model/DatabaseDao/AccountDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/DatabaseEntity/Project.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springstart/Service/ProjectService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springstart/Service/DatabaseService/ProjectService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springstart/Service/DatabaseService/FinanceUserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springstart/Model/DatabaseDao/FinanceUserDao.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/springstart/tests/StudentDaoTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springstart/Model/DatabaseDao/ProjectDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/DatabaseEntity/Address.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/DatabaseEntity/FinanceUser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springstart/Service/DatabaseService/BankDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springstart/Model/DatabaseDao/BankDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springstart/Service/DatabaseService/BankService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springstart/Service/DatabaseService/TransactionService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springstart/Service/DatabaseService/AccountService.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/DatabaseEntity/Account.java" />
+        <option value="$PROJECT_DIR$/one_to_many_unidirectional_jointable/src/test/java/OneToManyUnidirectionalJoinTableTest.java" />
+        <option value="$PROJECT_DIR$/one_to_many_bidirectional_joincolumn/src/test/java/OneToManyUnidirectionalJoinColumnTest.java" />
+        <option value="$PROJECT_DIR$/one_to_many_bidirectional_joincolumn/pom.xml" />
+        <option value="$PROJECT_DIR$/one_to_many_bidirectional_joincolumn/src/test/java/OneToManyBidirectionalJoinColumnTest.java" />
+        <option value="$PROJECT_DIR$/one_to_many_bidirectional_jointable/pom.xml" />
+        <option value="$PROJECT_DIR$/one_to_many_bidirectional_jointable/src/test/java/OneToManyBidirectionalJoinTableTest.java" />
+        <option value="$PROJECT_DIR$/one_to_many_bidirectional_joincolumn_target_entity/pom.xml" />
+        <option value="$PROJECT_DIR$/one_to_many_bidirectional_joincolumn_target_entity/src/test/java/OneToManyBidirectionalJoinColumnTargetEntityTest.java" />
+        <option value="$PROJECT_DIR$/one_to_many_bidirectional_joincolumn/src/main/java/model/Employee.java" />
+        <option value="$PROJECT_DIR$/one_to_many_bidirectional_joincolumn/src/main/java/model/Department.java" />
+        <option value="$PROJECT_DIR$/one_to_many_bidirectional_jointable/src/main/java/model/Employee.java" />
+        <option value="$PROJECT_DIR$/one_to_many_bidirectional_jointable/src/main/java/model/Department.java" />
+        <option value="$PROJECT_DIR$/one_to_one_unidirectional/pom.xml" />
+        <option value="$PROJECT_DIR$/one_to_one_unidirectional/src/main/java/model/Employee.java" />
+        <option value="$PROJECT_DIR$/one_to_one_unidirectional/src/main/java/model/PaarkingSpace.java" />
+        <option value="$PROJECT_DIR$/one_to_one_unidirectional/src/test/java/OneToOneUnidirectionalTest.java" />
+        <option value="$PROJECT_DIR$/one_to_one_bidirectional/pom.xml" />
+        <option value="$PROJECT_DIR$/one_to_one_bidirectional/src/main/java/model/Employee.java" />
+        <option value="$PROJECT_DIR$/one_to_one_bidirectional/src/main/java/model/ParkingSpace.java" />
+        <option value="$PROJECT_DIR$/one_to_one_bidirectional_pk_mapping/pom.xml" />
+        <option value="$PROJECT_DIR$/one_to_one_bidirectional/src/test/java/OneToOneBidirectionalTest.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/console.sql" />
+        <option value="$PROJECT_DIR$/one_to_one_bidirectional_pk_mapping/src/main/java/model/Employee.java" />
+        <option value="$PROJECT_DIR$/one_to_one_bidirectional_pk_mapping/src/test/java/OneToOneBidirectionalWithPrimaryKeyMappingTest.java" />
+        <option value="$PROJECT_DIR$/one_to_one_bidirectional_pk_mapping/src/main/java/model/ParkingSpace.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/springstart/tests/RelationMappingTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/DatabaseEntity/Bank.java" />
       </list>
     </option>
   </component>
@@ -294,10 +417,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2098" />
-    <option name="y" value="179" />
-    <option name="width" value="1591" />
-    <option name="height" value="1013" />
+    <option name="x" value="2283" />
+    <option name="y" value="267" />
+    <option name="width" value="1395" />
+    <option name="height" value="874" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -355,15 +478,98 @@
       <showMembers />
       <showModules />
       <showLibraryContents />
-      <hideEmptyPackages />
+      <hideEmptyPackages ProjectPane="false" />
       <abbreviatePackageNames />
       <autoscrollToSource />
-      <autoscrollFromSource PackagesPane="true" AndroidView="true" Scope="true" ProjectPane="true" />
+      <autoscrollFromSource Scope="true" AndroidView="true" PackagesPane="true" ProjectPane="true" />
       <sortByType />
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spring-sandbox" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Sandbox" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spring-sandbox" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Sandbox" type="1039202d:NonAndroidModuleNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Sandbox" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Sandbox" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+              <item name="springstart" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Sandbox" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+              <item name="springstart" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Sandbox" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+              <item name="springstart" type="462c0819:PsiDirectoryNode" />
+              <item name="Interceptor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Sandbox" type="1039202d:NonAndroidModuleNode" />
+              <item name="tests" type="b5c1fe26:NonAndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Sandbox" type="1039202d:NonAndroidModuleNode" />
+              <item name="tests" type="b5c1fe26:NonAndroidSourceTypeNode" />
+              <item name="springstart" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Sandbox" type="1039202d:NonAndroidModuleNode" />
+              <item name="tests" type="b5c1fe26:NonAndroidSourceTypeNode" />
+              <item name="springstart" type="462c0819:PsiDirectoryNode" />
+              <item name="jpa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Sandbox" type="1039202d:NonAndroidModuleNode" />
+              <item name="tests" type="b5c1fe26:NonAndroidSourceTypeNode" />
+              <item name="springstart" type="462c0819:PsiDirectoryNode" />
+              <item name="jpa" type="462c0819:PsiDirectoryNode" />
+              <item name="chapterfour" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Sandbox" type="1039202d:NonAndroidModuleNode" />
+              <item name="tests" type="b5c1fe26:NonAndroidSourceTypeNode" />
+              <item name="springstart" type="462c0819:PsiDirectoryNode" />
+              <item name="jpa" type="462c0819:PsiDirectoryNode" />
+              <item name="chapterfour" type="462c0819:PsiDirectoryNode" />
+              <item name="many_to_many_bidirectional" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Production">
           <expand>
@@ -544,53 +750,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="spring-sandbox" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Sandbox" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="spring-sandbox" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Sandbox" type="1039202d:NonAndroidModuleNode" />
-            </path>
-            <path>
-              <item name="spring-sandbox" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Sandbox" type="1039202d:NonAndroidModuleNode" />
-              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="spring-sandbox" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Sandbox" type="1039202d:NonAndroidModuleNode" />
-              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
-              <item name="springstart" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-sandbox" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Sandbox" type="1039202d:NonAndroidModuleNode" />
-              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
-              <item name="springstart" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-sandbox" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Sandbox" type="1039202d:NonAndroidModuleNode" />
-              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
-              <item name="springstart" type="462c0819:PsiDirectoryNode" />
-              <item name="Interceptor" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -601,11 +760,6 @@
             <path>
               <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -627,6 +781,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="springstart" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -635,18 +798,9 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springstart" type="462c0819:PsiDirectoryNode" />
-              <item name="Model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="springstart" type="462c0819:PsiDirectoryNode" />
               <item name="Model" type="462c0819:PsiDirectoryNode" />
-              <item name="DatabaseDao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
@@ -654,6 +808,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="springstart" type="462c0819:PsiDirectoryNode" />
               <item name="Model" type="462c0819:PsiDirectoryNode" />
               <item name="Entity" type="462c0819:PsiDirectoryNode" />
@@ -664,6 +819,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="springstart" type="462c0819:PsiDirectoryNode" />
               <item name="Model" type="462c0819:PsiDirectoryNode" />
               <item name="Entity" type="462c0819:PsiDirectoryNode" />
@@ -673,54 +829,46 @@
               <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="springstart" type="462c0819:PsiDirectoryNode" />
-              <item name="Service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="springstart" type="462c0819:PsiDirectoryNode" />
-              <item name="Service" type="462c0819:PsiDirectoryNode" />
-              <item name="DatabaseService" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -728,33 +876,51 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.38550055" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../kitwarr" />
-    <property name="SearchEverywhereHistoryKey" value="Bank&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/Bank.java&#10;Account&#9;PSI&#9;JAVA://com.springstart.Model.Entity.DatabaseEntity.Account&#10;logbac&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/resources/logback.xml&#10;Acco&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/Account.java&#10;BankDao&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/DatabaseDao/BankDao.java&#10;.x&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/resources/logback.xml&#10;Finance&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Service/DatabaseService/FinanceUserService.java&#10;DA&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/DatabaseDao/FinanceUserDao.java&#10;Fi&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Service/DatabaseService/FinanceUserService.java&#10;Finan&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/FinanceUser.java&#10;Address&#9;FILE&#9;das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.user_address&#10;Projec&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/Project.java&#10;FinanceUser&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/FinanceUser.java&#10;lo&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/resources/logback.xml&#10;General&#9;PSI&#9;JAVA://com.springstart.Interceptor.GeneralInterceptor&#10;Gene&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Interceptor/GeneralInterceptor.java&#10;Home&#9;PSI&#9;JAVA://com.springstart.Controller.HomeController&#10;Fil&#9;FILE&#9;file:///home/robert/IdeaProjects/Sandbox/src/main/java/com/springstart/Filters/CustomFilter.java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/many_to_many_bidirectional_jointable/src/main/resources" />
+    <property name="SearchEverywhereHistoryKey" value="JPA&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Configuration/PersistenceJPAConfig.java&#10;pe&#9;PSI&#9;JAVA://com.springstart.Configuration.PersistenceJPAConfig&#10;pers&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/META-INF/persistence.xml&#10;Finance_&#9;FILE&#9;das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.finances_user&#10;Fina&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/FinanceUser.java&#10;Bank&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/Bank.java&#10;Account&#9;PSI&#9;JAVA://com.springstart.Model.Entity.DatabaseEntity.Account&#10;logbac&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/resources/logback.xml&#10;Acco&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/Account.java&#10;BankDao&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/DatabaseDao/BankDao.java&#10;.x&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/resources/logback.xml&#10;Finance&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Service/DatabaseService/FinanceUserService.java&#10;DA&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/DatabaseDao/FinanceUserDao.java&#10;Fi&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Service/DatabaseService/FinanceUserService.java&#10;Finan&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/FinanceUser.java&#10;Address&#9;FILE&#9;das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.user_address&#10;Projec&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/Project.java&#10;FinanceUser&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/FinanceUser.java&#10;lo&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/resources/logback.xml&#10;General&#9;PSI&#9;JAVA://com.springstart.Interceptor.GeneralInterceptor&#10;Gene&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Interceptor/GeneralInterceptor.java&#10;Home&#9;PSI&#9;JAVA://com.springstart.Controller.HomeController&#10;Fil&#9;FILE&#9;file:///home/robert/IdeaProjects/Sandbox/src/main/java/com/springstart/Filters/CustomFilter.java" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="JAVA" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.springstart.JPA.chapterfive" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.springstart.jpa.chapterfive.sharing_embeddable_key_mappings_with_values" />
+      <recent name="com.springstart.jpa.chapterfive" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/many_to_many_bidirectional_using_jointable/src" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/springstart/jpa/chapterfour/many_to_many_bidirectional" />
+      <recent name="$PROJECT_DIR$/src/test/java/com/springstart/jpa/chapterfour/many_to_many_bidirectional" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/springstart/jpa/chapterfive/sharing_embeddable_key_mappings_with_values" />
+      <recent name="$PROJECT_DIR$/META-INF" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/one_to_many_bidirectional_joincolumn_target_entity/src/main/java" />
+      <recent name="$PROJECT_DIR$/sharing_embeddable_key_mappings_with_values/src/main/java" />
+      <recent name="$PROJECT_DIR$/many_to_many_bidirectional/src/main" />
+      <recent name="$PROJECT_DIR$/many_to_many_bidirectional/src/main/java/model" />
+      <recent name="$PROJECT_DIR$/parent_module/src/main/java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="com.springstart.jpa.chapterfour.many_to_many_bidirectional" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.springstart.Service.DatabaseService" />
       <recent name="com.springstart.Model.DatabaseDao" />
       <recent name="com.springstart.Model.Entity.DatabaseEntity" />
       <recent name="com.springstart.Model.Entity" />
       <recent name="com.springstart.Model" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/web" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/META-INF" />
-      <recent name="$PROJECT_DIR$/src/main/web/WEB-INF/classes/META-INF" />
-      <recent name="$PROJECT_DIR$/src/main/web/WEB-INF" />
-      <recent name="$PROJECT_DIR$/src/main/web/WEB-INF/view" />
-      <recent name="C:\Users\Joanna\IdeaProjects\Sandbox\src\main" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -769,47 +935,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RelationMappingTest.collectionOfBasicsTest">
-    <configuration name="RelationMappingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.springstart.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="JUnit.OneToOneBidirectionalWithPrimaryKeyMappingTest.One_to_one_bidirectional_with_primary_key_mapping_Test">
+    <configuration name="OneToManyBidirectionalJoinColumnTargetEntityTest.One_to_many_bidirectional_join_column_target_entity_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <extension name="krasa.grepconsole.plugin.runConfiguration.GrepRunConfigurationExtension" selectedProfileId="0" />
-      <module name="Sandbox" />
+      <module name="one_to_many_bidirectional_joincolumn_target_entity" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.springstart.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.springstart.tests.RelationMappingTest" />
-      <option name="METHOD_NAME" value="collectionListTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="RelationMappingTest.bidirectionalOneToMany" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.springstart.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <extension name="krasa.grepconsole.plugin.runConfiguration.GrepRunConfigurationExtension" selectedProfileId="0" />
-      <module name="Sandbox" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.springstart.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.springstart.tests.RelationMappingTest" />
-      <option name="METHOD_NAME" value="bidirectionalOneToMany" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OneToManyBidirectionalJoinColumnTargetEntityTest" />
+      <option name="METHOD_NAME" value="One_to_many_bidirectional_join_column_target_entity_Test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -822,20 +957,15 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="RelationMappingTest.collectionListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.springstart.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="OneToManyBidirectionalJoinTableTest.One_to_many_bidirectional_join_table_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <extension name="krasa.grepconsole.plugin.runConfiguration.GrepRunConfigurationExtension" selectedProfileId="0" />
-      <module name="Sandbox" />
+      <module name="one_to_many_bidirectional_jointable" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.springstart.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.springstart.tests.RelationMappingTest" />
-      <option name="METHOD_NAME" value="collectionListTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OneToManyBidirectionalJoinTableTest" />
+      <option name="METHOD_NAME" value="One_to_many_bidirectional_join_table_Test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -848,20 +978,15 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="RelationMappingTest.collectionOfBasicsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.springstart.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="OneToOneBidirectionalTest.One_to_one_unidirectional_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <extension name="krasa.grepconsole.plugin.runConfiguration.GrepRunConfigurationExtension" selectedProfileId="0" />
-      <module name="Sandbox" />
+      <module name="one_to_one_bidirectional" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.springstart.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.springstart.tests.RelationMappingTest" />
-      <option name="METHOD_NAME" value="collectionOfBasicsTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OneToOneBidirectionalTest" />
+      <option name="METHOD_NAME" value="One_to_one_unidirectional_Test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -874,20 +999,36 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="RelationMappingTest.getUserByID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.springstart.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="OneToOneBidirectionalWithPrimaryKeyMappingTest.One_to_one_bidirectional_with_primary_key_mapping_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <extension name="krasa.grepconsole.plugin.runConfiguration.GrepRunConfigurationExtension" selectedProfileId="0" />
-      <module name="Sandbox" />
+      <module name="one_to_one_bidirectional_pk_mapping" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.springstart.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.springstart.tests.RelationMappingTest" />
-      <option name="METHOD_NAME" value="getUserByID" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OneToOneBidirectionalWithPrimaryKeyMappingTest" />
+      <option name="METHOD_NAME" value="One_to_one_bidirectional_with_primary_key_mapping_Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="OneToOneUnidirectionalTest.One_to_one_unidirectional_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="krasa.grepconsole.plugin.runConfiguration.GrepRunConfigurationExtension" selectedProfileId="0" />
+      <module name="one_to_one_unidirectional" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OneToOneUnidirectionalTest" />
+      <option name="METHOD_NAME" value="One_to_one_unidirectional_Test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1130,19 +1271,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.RelationMappingTest.collectionListTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.RelationMappingTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.RelationMappingTest.getUserByID" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.RelationMappingTest.collectionOfBasicsTest" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.RelationMappingTest.bidirectionalOneToMany" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.OneToManyBidirectionalJoinTableTest.One_to_many_bidirectional_join_table_Test" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.OneToManyBidirectionalJoinColumnTargetEntityTest.One_to_many_bidirectional_join_column_target_entity_Test" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.OneToOneUnidirectionalTest.One_to_one_unidirectional_Test" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.OneToOneBidirectionalTest.One_to_one_unidirectional_Test" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.OneToOneBidirectionalWithPrimaryKeyMappingTest.One_to_one_bidirectional_with_primary_key_mapping_Test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.RelationMappingTest.collectionOfBasicsTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.RelationMappingTest.bidirectionalOneToMany" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.RelationMappingTest.getUserByID" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.RelationMappingTest.collectionListTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.RelationMappingTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.OneToOneBidirectionalWithPrimaryKeyMappingTest.One_to_one_bidirectional_with_primary_key_mapping_Test" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.OneToOneBidirectionalTest.One_to_one_unidirectional_Test" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.OneToOneUnidirectionalTest.One_to_one_unidirectional_Test" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.OneToManyBidirectionalJoinTableTest.One_to_many_bidirectional_join_table_Test" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.OneToManyBidirectionalJoinColumnTargetEntityTest.One_to_many_bidirectional_join_column_target_entity_Test" />
       </list>
     </recent_temporary>
   </component>
@@ -1259,7 +1400,17 @@
       <workItem from="1513188162748" duration="153000" />
       <workItem from="1513251243330" duration="2813000" />
       <workItem from="1513422785721" duration="115000" />
-      <workItem from="1513423137921" duration="21906000" />
+      <workItem from="1513423137921" duration="21989000" />
+      <workItem from="1514065656938" duration="30000" />
+      <workItem from="1514284139550" duration="13812000" />
+      <workItem from="1514402826200" duration="6690000" />
+      <workItem from="1514447747859" duration="66000" />
+      <workItem from="1514584118703" duration="8000" />
+      <workItem from="1514584152678" duration="7166000" />
+      <workItem from="1514624942897" duration="2926000" />
+      <workItem from="1514968783582" duration="599000" />
+      <workItem from="1515240129275" duration="28316000" />
+      <workItem from="1515358866450" duration="2407000" />
     </task>
     <task id="LOCAL-00001" summary="Persistence.xml przeniesiony do JavaConfig (PersistenceJPAConfig)&#10;Dodanie pierwszego mapowania unidirectional Many-to-one">
       <created>1510526522683</created>
@@ -1275,43 +1426,50 @@
       <option name="project" value="LOCAL" />
       <updated>1513188303208</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Początek Chapteru 5 - ksiazki Pro JPA2">
+      <created>1513503026528</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1513503026529</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RelationMappingTest_bidirectionalOneToMany - 2017.12.16 at 22h 39m 13s.xml">
-      <configuration name="RelationMappingTest.bidirectionalOneToMany" configurationId="JUnit" />
+    <history-entry file="OneToOneBidirectionalWithPrimaryKeyMappingTest_One_to_one_bidirectional_with_primary_key_mapping_Test - 2018.01.07 at 22h 22m 45s.xml">
+      <configuration name="OneToOneBidirectionalWithPrimaryKeyMappingTest.One_to_one_bidirectional_with_primary_key_mapping_Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RelationMappingTest_collectionOfBasicsTest - 2017.12.16 at 22h 58m 00s.xml">
-      <configuration name="RelationMappingTest.collectionOfBasicsTest" configurationId="JUnit" />
+    <history-entry file="OneToOneBidirectionalWithPrimaryKeyMappingTest_One_to_one_bidirectional_with_primary_key_mapping_Test - 2018.01.07 at 22h 23m 28s.xml">
+      <configuration name="OneToOneBidirectionalWithPrimaryKeyMappingTest.One_to_one_bidirectional_with_primary_key_mapping_Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RelationMappingTest_collectionOfBasicsTest - 2017.12.16 at 23h 04m 15s.xml">
-      <configuration name="RelationMappingTest.collectionOfBasicsTest" configurationId="JUnit" />
+    <history-entry file="OneToOneBidirectionalWithPrimaryKeyMappingTest_One_to_one_bidirectional_with_primary_key_mapping_Test - 2018.01.07 at 22h 25m 35s.xml">
+      <configuration name="OneToOneBidirectionalWithPrimaryKeyMappingTest.One_to_one_bidirectional_with_primary_key_mapping_Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RelationMappingTest_collectionOfBasicsTest - 2017.12.16 at 23h 07m 39s.xml">
-      <configuration name="RelationMappingTest.collectionOfBasicsTest" configurationId="JUnit" />
+    <history-entry file="OneToOneBidirectionalWithPrimaryKeyMappingTest_One_to_one_bidirectional_with_primary_key_mapping_Test - 2018.01.07 at 22h 26m 09s.xml">
+      <configuration name="OneToOneBidirectionalWithPrimaryKeyMappingTest.One_to_one_bidirectional_with_primary_key_mapping_Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RelationMappingTest_collectionOfBasicsTest - 2017.12.16 at 23h 11m 47s.xml">
-      <configuration name="RelationMappingTest.collectionOfBasicsTest" configurationId="JUnit" />
+    <history-entry file="OneToOneBidirectionalWithPrimaryKeyMappingTest_One_to_one_bidirectional_with_primary_key_mapping_Test - 2018.01.07 at 22h 28m 12s.xml">
+      <configuration name="OneToOneBidirectionalWithPrimaryKeyMappingTest.One_to_one_bidirectional_with_primary_key_mapping_Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RelationMappingTest_collectionOfBasicsTest - 2017.12.16 at 23h 13m 26s.xml">
-      <configuration name="RelationMappingTest.collectionOfBasicsTest" configurationId="JUnit" />
+    <history-entry file="OneToOneBidirectionalWithPrimaryKeyMappingTest_One_to_one_bidirectional_with_primary_key_mapping_Test - 2018.01.07 at 22h 28m 32s.xml">
+      <configuration name="OneToOneBidirectionalWithPrimaryKeyMappingTest.One_to_one_bidirectional_with_primary_key_mapping_Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RelationMappingTest_collectionOfBasicsTest - 2017.12.16 at 23h 14m 46s.xml">
-      <configuration name="RelationMappingTest.collectionOfBasicsTest" configurationId="JUnit" />
+    <history-entry file="OneToOneBidirectionalWithPrimaryKeyMappingTest_One_to_one_bidirectional_with_primary_key_mapping_Test - 2018.01.07 at 22h 32m 26s.xml">
+      <configuration name="OneToOneBidirectionalWithPrimaryKeyMappingTest.One_to_one_bidirectional_with_primary_key_mapping_Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RelationMappingTest_collectionOfBasicsTest - 2017.12.16 at 23h 15m 28s.xml">
-      <configuration name="RelationMappingTest.collectionOfBasicsTest" configurationId="JUnit" />
+    <history-entry file="OneToOneBidirectionalWithPrimaryKeyMappingTest_One_to_one_bidirectional_with_primary_key_mapping_Test - 2018.01.07 at 22h 32m 58s.xml">
+      <configuration name="OneToOneBidirectionalWithPrimaryKeyMappingTest.One_to_one_bidirectional_with_primary_key_mapping_Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RelationMappingTest_collectionOfBasicsTest - 2017.12.16 at 23h 15m 49s.xml">
-      <configuration name="RelationMappingTest.collectionOfBasicsTest" configurationId="JUnit" />
+    <history-entry file="OneToOneBidirectionalWithPrimaryKeyMappingTest_One_to_one_bidirectional_with_primary_key_mapping_Test - 2018.01.07 at 22h 33m 30s.xml">
+      <configuration name="OneToOneBidirectionalWithPrimaryKeyMappingTest.One_to_one_bidirectional_with_primary_key_mapping_Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RelationMappingTest_collectionOfBasicsTest - 2017.12.17 at 10h 05m 26s.xml">
-      <configuration name="RelationMappingTest.collectionOfBasicsTest" configurationId="JUnit" />
+    <history-entry file="OneToOneBidirectionalWithPrimaryKeyMappingTest_One_to_one_bidirectional_with_primary_key_mapping_Test - 2018.01.07 at 22h 36m 40s.xml">
+      <configuration name="OneToOneBidirectionalWithPrimaryKeyMappingTest.One_to_one_bidirectional_with_primary_key_mapping_Test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="327147000" />
+    <option name="totallyTimeSpent" value="389250000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1324,83 +1482,47 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1979" y="-4" width="1861" height="1204" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36020944" sideWeight="0.14980653" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33953488" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37147596" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36020944" sideWeight="0.14980653" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33953488" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37134987" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22369146" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24352618" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21101928" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35144928" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283721" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36890244" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35144928" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283721" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36753732" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283721" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283721" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38586956" sideWeight="0.9143173" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36" sideWeight="0.8501935" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283721" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21014492" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20550965" sideWeight="0.61702126" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2137741" sideWeight="0.38297874" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6147388" sideWeight="0.9143173" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45149255" sideWeight="0.8501935" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283721" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2789179" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34545454" sideWeight="0.29761904" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42910448" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34545454" sideWeight="0.70238096" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23880596" sideWeight="0.645469" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32744187" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24132231" sideWeight="0.591623" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hibernate Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293023" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hibernate Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293023" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929105" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="JPA Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283721" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42987806" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="JPA Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283721" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
+      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929105" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32649255" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hibernate Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293023" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36020944" sideWeight="0.14980653" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33953488" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37147596" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="JPA Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283721" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
-      <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22369146" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21101928" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35162792" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283721" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36956522" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283721" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45289856" sideWeight="0.9143173" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36" sideWeight="0.8501935" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283721" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21014492" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20550965" sideWeight="0.61702126" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42987806" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2137741" sideWeight="0.38297874" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23880596" sideWeight="0.645469" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32744187" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24132231" sideWeight="0.591623" order="6" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1448,7 +1570,9 @@
     <MESSAGE value="Persistence.xml przeniesiony do JavaConfig (PersistenceJPAConfig)&#10;Dodanie pierwszego mapowania unidirectional Many-to-one" />
     <MESSAGE value="Dodane Mapowania relacji One-To-One" />
     <MESSAGE value="Dodane dodatkowych mapowan z Chapteru 4 - ksiazki Pro JPA2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodane dodatkowych mapowan z Chapteru 4 - ksiazki Pro JPA2" />
+    <MESSAGE value="Początek Chapteru 5 - ksiazki Pro JPA2" />
+    <MESSAGE value="Refactor JPA - stworzenie osobnego modulu pod każdą funkcjonalość JPA" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor JPA - stworzenie osobnego modulu pod każdą funkcjonalość JPA" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1465,25 +1589,39 @@
           <properties />
           <option name="timeStamp" value="50" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/springstart/tests/RelationMappingTest.java</url>
+          <line>268</line>
+          <properties />
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/com/springstart/tests/RelationMappingTest.java</url>
-          <line>233</line>
+          <line>135</line>
           <properties class="com.springstart.tests.RelationMappingTest" method="bidirectionalManyToMany" />
           <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/com/springstart/tests/RelationMappingTest.java</url>
-          <line>195</line>
-          <properties class="com.springstart.tests.RelationMappingTest" method="bidirectionalOneToMany">
+          <line>253</line>
+          <properties class="com.springstart.tests.RelationMappingTest">
             <option name="EMULATED" value="true" />
           </properties>
-          <option name="timeStamp" value="55" />
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/springstart/jpa/chapterfour/many_to_many_bidirectional/ManyToManyBidirectionalTest.java</url>
+          <line>34</line>
+          <properties class="com.springstart.jpa.chapterfour.many_to_many_bidirectional.ManyToManyBidirectionalTest" method="many_to_many_bidirectional_test_one">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="63" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="58" />
+      <option name="time" value="65" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1492,149 +1630,382 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/User.java">
+    <entry file="file://$PROJECT_DIR$/one_to_many_bidirectional_joincolumn/src/main/java/model/Department.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#382#383#0" expanded="false" />
+            <element signature="e#406#407#0" expanded="false" />
+            <element signature="e#425#426#0" expanded="false" />
+            <element signature="e#456#457#0" expanded="false" />
+            <element signature="e#478#479#0" expanded="false" />
+            <element signature="e#507#508#0" expanded="false" />
+            <element signature="e#528#529#0" expanded="false" />
+            <element signature="e#570#571#0" expanded="false" />
+            <element signature="e#600#601#0" expanded="false" />
+            <element signature="e#944#945#0" expanded="false" />
+            <element signature="e#970#971#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/one_to_many_bidirectional_joincolumn/src/test/java/OneToManyBidirectionalJoinColumnTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="47" column="36" lean-forward="false" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/one_to_many_bidirectional_jointable/src/test/java/OneToManyBidirectionalJoinTableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="36" column="25" lean-forward="false" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/one_to_many_bidirectional_jointable/src/main/java/model/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="20" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/one_to_many_bidirectional_jointable/src/main/java/model/Department.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#533#534#0" expanded="false" />
+            <element signature="e#580#581#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/one_to_many_unidirectional_jointable/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="19" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/one_to_one_unidirectional/src/main/java/model/ParkingSpace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="45" column="1" lean-forward="false" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#607#608#0" expanded="true" />
+            <element signature="e#632#633#0" expanded="true" />
+            <element signature="e#678#679#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/one_to_one_unidirectional/src/test/java/OneToOneUnidirectionalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="42" column="38" lean-forward="false" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/one_to_one_unidirectional/src/main/java/model/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding>
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+            <element signature="e#684#685#0" expanded="true" />
+            <element signature="e#744#745#0" expanded="true" />
+            <element signature="e#786#787#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/one_to_one_unidirectional/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="19" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Model/DatabaseDao/TransactionDao.java">
+    <entry file="file://$PROJECT_DIR$/one_to_one_bidirectional/src/main/java/model/ParkingSpace.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        <state relative-caret-position="216">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+            <element signature="e#694#695#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#776#777#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/one_to_one_bidirectional/src/main/java/model/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="45" column="18" lean-forward="false" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#490#491#0" expanded="false" />
+            <element signature="e#509#510#0" expanded="false" />
+            <element signature="e#540#541#0" expanded="false" />
+            <element signature="e#562#563#0" expanded="false" />
+            <element signature="e#591#592#0" expanded="false" />
+            <element signature="e#612#613#0" expanded="false" />
+            <element signature="e#650#651#0" expanded="false" />
+            <element signature="e#676#677#0" expanded="false" />
+            <element signature="e#705#706#0" expanded="false" />
+            <element signature="e#728#729#0" expanded="false" />
+            <element signature="e#768#769#0" expanded="false" />
+            <element signature="e#798#799#0" expanded="false" />
+            <element signature="e#841#842#0" expanded="false" />
+            <element signature="e#870#871#0" expanded="false" />
+            <element signature="e#930#931#0" expanded="false" />
+            <element signature="e#972#973#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/one_to_one_bidirectional/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="19" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runner/notification/Failure.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runner/notification/RunNotifier.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/EachTestNotifier.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="158" column="0" lean-forward="false" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar!/ch/qos/logback/classic/Logger.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Model/DatabaseDao/ParkingPlaceDao.java">
+    <entry file="file://$PROJECT_DIR$/one_to_one_bidirectional_pk_mapping/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#669#670#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Model/DatabaseDao/AccountDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <element signature="e#667#668#0" expanded="false" />
-            <element signature="e#727#728#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Service/StudentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Service/InventoryService.java">
+    <entry file="file://$PROJECT_DIR$/one_to_one_bidirectional/src/test/java/OneToOneBidirectionalTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="0">
+          <caret line="30" column="38" lean-forward="false" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
+    <entry file="uml://DATABASE/816a51b7-b93f-4be1-9a9c-0acd3ef387bc.SCHEMA:ifinances">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>816a51b7-b93f-4be1-9a9c-0acd3ef387bc.SCHEMA:ifinances</OriginalElement>
+          <nodes>
+            <node x="130.0" y="-14.0">816a51b7-b93f-4be1-9a9c-0acd3ef387bc.TABLE:ifinances.Employee</node>
+            <node x="-100.0" y="-8.0">816a51b7-b93f-4be1-9a9c-0acd3ef387bc.TABLE:ifinances.PARKING_SPACE</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="34.0" y="38.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Columns</Category>
+            <Category>Key columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Service/DatabaseService/ParkingPlaceService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+    <entry file="das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.Employee">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Service/DatabaseService/ProjectService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#614#615#0" expanded="false" />
-            <element signature="e#658#659#0" expanded="false" />
-            <element signature="e#715#716#0" expanded="false" />
-            <element signature="e#760#761#0" expanded="false" />
-          </folding>
+    <entry file="das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.Employee">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Model/DatabaseDao/ProjectDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+    <entry file="das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.Employee">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/springstart/tests/StudentDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="46" column="5" lean-forward="false" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+    <entry file="das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.Employee">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java">
+    <entry file="das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.Employee">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.Employee">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.Employee">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.Employee">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.Employee">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.Employee">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.Employee">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.Employee">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.Employee">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.Employee">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.Employee">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.Employee">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.Employee">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.hibernate_sequence">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.Employee">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.Employee">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.Employee">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/one_to_one_bidirectional_pk_mapping/one_to_one_bidirectional_pk_mapping.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1642,256 +2013,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/Address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/DatabaseEntity/ParkingPlace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.account_type">
+    <entry file="das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.Employee">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.user_address">
+    <entry file="das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.Employee">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Model/DatabaseDao/FinanceUserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="32" />
-          <folding>
-            <element signature="e#1066#1067#0" expanded="false" />
-            <element signature="e#1135#1136#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.finances_user">
+    <entry file="das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.Employee">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Service/DatabaseService/FinanceUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
+    <entry file="das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.PARKING_SPACE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Service/DatabaseService/BankService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-            <element signature="e#631#632#0" expanded="true" />
-          </folding>
+    <entry file="das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.Employee">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/META-INF/persistence.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-          <folding />
+    <entry file="das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.Employee">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/META-INF/context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/DatabaseEntity/FinanceUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="44" column="4" lean-forward="false" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/DatabaseEntity/Project.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <element signature="e#626#627#0" expanded="false" />
-            <element signature="e#653#654#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/Company.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/DatabaseEntity/Transaction.java">
+    <entry file="file://$PROJECT_DIR$/one_to_one_bidirectional_pk_mapping/src/test/java/OneToOneBidirectionalWithPrimaryKeyMappingTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Service/DatabaseService/TransactionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="24" column="10" lean-forward="false" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Service/DatabaseService/AccountService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="39" column="11" lean-forward="false" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
-          <folding>
-            <element signature="e#917#918#0" expanded="true" />
-            <element signature="e#958#959#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/DatabaseEntity/Address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-54">
-          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        <state relative-caret-position="826">
+          <caret line="68" column="30" lean-forward="false" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+    <entry file="file://$PROJECT_DIR$/one_to_one_bidirectional_pk_mapping/src/main/java/model/ParkingSpace.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="45" lean-forward="false" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Model/DatabaseDao/BankDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="23" column="32" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        <state relative-caret-position="144">
+          <caret line="8" column="51" lean-forward="false" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#632#633#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.BANK_CONTACT">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.BANK">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/DatabaseEntity/Account.java">
+    <entry file="file://$PROJECT_DIR$/one_to_one_bidirectional_pk_mapping/src/main/java/model/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
-          <caret line="44" column="4" lean-forward="false" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="25" />
-          <folding />
+        <state relative-caret-position="234">
+          <caret line="13" column="43" lean-forward="false" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+          <folding>
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.BANK_CONTACT">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.BANK_CONTACT">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.BANK_CONTACT">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.bank_contact">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.BANK_CONTACT">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.BANK_CONTACT">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.BANK_CONTACT">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.BANK_CONTACT">
+    <entry file="das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.Employee">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -1900,29 +2104,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/springstart/tests/RelationMappingTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="338" column="3" lean-forward="false" selection-start-line="338" selection-start-column="3" selection-end-line="338" selection-end-column="3" />
+        <state relative-caret-position="412">
+          <caret line="403" column="0" lean-forward="true" selection-start-line="403" selection-start-column="0" selection-end-line="403" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3750#3759#0" expanded="true" />
-            <element signature="e#7027#7040#0" expanded="true" />
-            <element signature="e#8059#8068#0" expanded="true" />
-            <element signature="e#8396#8405#0" expanded="true" />
-            <element signature="e#8953#8966#0" expanded="true" />
-            <element signature="e#10537#10546#0" expanded="true" />
-            <element signature="e#11004#11012#0" expanded="true" />
+            <marker date="1515361141761" expanded="false" signature="10189:10210" ph="&lt;~&gt;" />
+            <marker date="1515361141761" expanded="false" signature="10789:10810" ph="&lt;~&gt;" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/DatabaseEntity/Bank.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Model/Entity/DatabaseEntity/FinanceUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="73" column="3" lean-forward="true" selection-start-line="73" selection-start-column="3" selection-end-line="73" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1044#1052#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="316">
+          <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1945,11 +2141,11 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring (Sandbox)|Spring</last-edited>
+          <last-edited>JPA (Sandbox)|JPA</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.38550055" />
               </list>
             </option>
           </splitter-proportions>
@@ -1980,11 +2176,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Sandbox</last-edited>
+          <last-edited>one_to_many_bidirectional_joincolumn_target_entity</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.38550055" />
                 <option value="0.6" />
               </list>
             </option>

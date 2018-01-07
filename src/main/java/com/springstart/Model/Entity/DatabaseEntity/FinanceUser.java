@@ -1,167 +1,207 @@
 package com.springstart.Model.Entity.DatabaseEntity;
 
 
+import com.springstart.Model.Enum.PhoneType;
+
 import javax.persistence.*;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 
 @Entity
 @Table(name = "finances_user")
 @Access(AccessType.FIELD)
 @NamedQueries({
-        @NamedQuery(name = "FinanceUser.findAll", query = "SELECT fu FROM FinanceUser fu")
+  @NamedQuery(name = "FinanceUser.findAll", query = "SELECT fu FROM FinanceUser fu")
 })
 public class FinanceUser {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "USER_ID")
-    int user_id;
-    String first_name;
-    String last_name;
-    @Temporal(TemporalType.DATE)
-    Date birth_date;
-    String email_address;
-    String last_updated_by;
-    @Temporal(TemporalType.TIMESTAMP)
-    Date last_updated_date;
-    String created_by;
-    @Temporal(TemporalType.TIMESTAMP)
-    Date created_date;
+  @Id
+  @GeneratedValue(strategy = GenerationType.IDENTITY)
+  @Column(name = "USER_ID")
+  int user_id;
+  @Column(name = "first_name")
+  String first_name;
+  @Column(name = "last_name")
+  String last_name;
+  @Temporal(TemporalType.DATE)
+  Date birth_date;
+  String email_address;
+  String last_updated_by;
+  @Temporal(TemporalType.TIMESTAMP)
+  Date last_updated_date;
+  String created_by;
+  @Temporal(TemporalType.TIMESTAMP)
+  Date created_date;
 
-    @Embedded
-    @AttributeOverrides({
-      @AttributeOverride(name="addressLine1", column = @Column(name="USER_ADDRESS_LINE_1")),
-      @AttributeOverride(name = "addressLine2", column = @Column(name="USER_ADDRESS_LINE_2")),
-      @AttributeOverride(name = "city", column = @Column(name = "CITY"))})
-    Address address;
-
-    @ElementCollection
-    @CollectionTable(name="USER_ADDRESS", joinColumns=@JoinColumn(name="USER_ID"))
-    @AttributeOverrides({@AttributeOverride(name="addressLine1", column=@Column(name="USER_ADDRESS_LINE_1")),
-      @AttributeOverride(name="addressLine2", column=@Column(name="USER_ADDRESS_LINE_2"))})
-    private List<Address> loverAddresses = new ArrayList<Address>();
-
-
-    @OneToOne(cascade = {CascadeType.ALL})
-    @JoinColumn(name = "PSPACE_ID")
-    ParkingPlace parking_space;
-
-    @ManyToMany(cascade = CascadeType.ALL)
-    @JoinTable(name = "PROJECT_has_finances_user",
-            joinColumns = @JoinColumn(name = "finances_user_USER_ID"),
-            inverseJoinColumns = @JoinColumn(name = "PROJECT_ID"))
-    private Collection<Project> projects;
+  @Embedded
+  @AttributeOverrides({
+    @AttributeOverride(name = "addressLine1", column = @Column(name = "USER_ADDRESS_LINE_1")),
+    @AttributeOverride(name = "addressLine2", column = @Column(name = "USER_ADDRESS_LINE_2")),
+    @AttributeOverride(name = "city", column = @Column(name = "CITY"))})
+  Address address;
+  @OneToOne(cascade = {CascadeType.ALL})
+  @JoinColumn(name = "PSPACE_ID")
+  ParkingPlace parking_space;
+  @ElementCollection
+  @CollectionTable(name = "USER_ADDRESS", joinColumns = @JoinColumn(name = "USER_ID"))
+  @AttributeOverrides({@AttributeOverride(name = "addressLine1", column = @Column(name = "USER_ADDRESS_LINE_1")),
+    @AttributeOverride(name = "addressLine2", column = @Column(name = "USER_ADDRESS_LINE_2"))})
+  private List<Address> loverAddresses = new ArrayList<Address>();
+  @ManyToMany(cascade = CascadeType.ALL)
+  @JoinTable(name = "PROJECT_has_finances_user",
+    joinColumns = @JoinColumn(name = "finances_user_USER_ID"),
+    inverseJoinColumns = @JoinColumn(name = "PROJECT_ID"))
+  private Collection<Project> projects;
 
 
-    public FinanceUser() {
-        address = new Address();
-    }
+  @ManyToMany(mappedBy="usersBySkingColor")
+  private List<Bank> bank = new ArrayList<Bank>();
+  /*
+  JPA - Map <BasicType, BasicType>
+  */
+  /*@ElementCollection
+  @CollectionTable(name = "EMP_PHONE")
+  @MapKeyColumn(name = "PHONE_TYPE")
+  @Column(name = "PHONE_NUM")
+  private Map<String, String> phoneNumbers;*/
 
-    public int getUser_id() {
-        return user_id;
-    }
 
-    public void setUser_id(int user_id) {
-        this.user_id = user_id;
-    }
 
-    @Access(AccessType.PROPERTY)
-    public String getFirst_name() {
-        //System.out.println("FIRST NAME GET");
-        return first_name;
-    }
+  /*
+  JPA - Map <Enum, BasicType>
+  */
+  @ElementCollection
+  @CollectionTable(name="EMP_PHONE")
+  @MapKeyEnumerated(EnumType.STRING)
+  @MapKeyColumn(name="PHONE_TYPE")
+  @Column(name="PHONE_NUM")
+  private Map<PhoneType, String> phoneNumbers;
 
-    public void setFirst_name(String first_name) {
-        // System.out.println("FIRST NAME SET");
-        this.first_name = first_name;
-    }
+  public List<Bank> getBank() {
+    return bank;
+  }
 
-    public String getLast_name() {
-        return last_name;
-    }
+  public void setBank(List<Bank> bank) {
+    this.bank = bank;
+  }
 
-    public void setLast_name(String last_name) {
-        this.last_name = last_name;
-    }
+  public FinanceUser() {
+    address = new Address();
+  }
 
-    public Date getBirth_date() {
-        return birth_date;
-    }
+  public int getUser_id() {
+    return user_id;
+  }
 
-    public void setBirth_date(Date birth_date) {
-        this.birth_date = birth_date;
-    }
+  public void setUser_id(int user_id) {
+    this.user_id = user_id;
+  }
 
-    public String getEmail_address() {
-        return email_address;
-    }
+  @Access(AccessType.PROPERTY)
+  public String getFirst_name() {
+    //System.out.println("FIRST NAME GET");
+    return first_name;
+  }
 
-    public void setEmail_address(String email_address) {
-        this.email_address = email_address;
-    }
+  public void setFirst_name(String first_name) {
+    // System.out.println("FIRST NAME SET");
+    this.first_name = first_name;
+  }
 
-    public String getLast_updated_by() {
-        return last_updated_by;
-    }
+  public ParkingPlace getParking_space() {
+    return parking_space;
+  }
 
-    public void setLast_updated_by(String last_updated_by) {
-        this.last_updated_by = last_updated_by;
-    }
+  public void setParking_space(ParkingPlace parking_space) {
+    this.parking_space = parking_space;
+  }
 
-    public Date getLast_updated_date() {
-        return last_updated_date;
-    }
+  public Map<PhoneType, String> getPhoneNumbers() {
+    return phoneNumbers;
+  }
 
-    public void setLast_updated_date(Date last_updated_date) {
-        this.last_updated_date = last_updated_date;
-    }
+  public void setPhoneNumbers(Map<PhoneType, String> phoneNumbers) {
+    this.phoneNumbers = phoneNumbers;
+  }
 
-    public String getCreated_by() {
-        return created_by;
-    }
+  public String getLast_name() {
+    return last_name;
+  }
 
-    public void setCreated_by(String created_by) {
-        this.created_by = created_by;
-    }
+  public void setLast_name(String last_name) {
+    this.last_name = last_name;
+  }
 
-    public Date getCreated_date() {
-        return created_date;
-    }
+  public Date getBirth_date() {
+    return birth_date;
+  }
 
-    public void setCreated_date(Date created_date) {
-        this.created_date = created_date;
-    }
+  public void setBirth_date(Date birth_date) {
+    this.birth_date = birth_date;
+  }
 
-    public Address getAddress() {
-        return address;
-    }
+  public String getEmail_address() {
+    return email_address;
+  }
 
-    public void setAddress(Address address) {
-        this.address = address;
-    }
+  public void setEmail_address(String email_address) {
+    this.email_address = email_address;
+  }
 
-    public void setParking_space(ParkingPlace parking_space) {
-        this.parking_space = parking_space;
-    }
+  public String getLast_updated_by() {
+    return last_updated_by;
+  }
 
-    public Collection<Project> getProjects() {
-        return projects;
-    }
+  public void setLast_updated_by(String last_updated_by) {
+    this.last_updated_by = last_updated_by;
+  }
 
-    public void setProjects(Collection<Project> projects) {
-        this.projects = projects;
-    }
+  public Date getLast_updated_date() {
+    return last_updated_date;
+  }
 
-    public List<Address> getLoverAddresses() {
-        return loverAddresses;
-    }
+  public void setLast_updated_date(Date last_updated_date) {
+    this.last_updated_date = last_updated_date;
+  }
 
-    public void setLoverAddresses(List<Address> loverAddresses) {
-        this.loverAddresses = loverAddresses;
-    }
+  public String getCreated_by() {
+    return created_by;
+  }
+
+  public void setCreated_by(String created_by) {
+    this.created_by = created_by;
+  }
+
+  public Date getCreated_date() {
+    return created_date;
+  }
+
+  public void setCreated_date(Date created_date) {
+    this.created_date = created_date;
+  }
+
+  public Address getAddress() {
+    return address;
+  }
+
+  public void setAddress(Address address) {
+    this.address = address;
+  }
+
+  public Collection<Project> getProjects() {
+    return projects;
+  }
+
+  public void setProjects(Collection<Project> projects) {
+    this.projects = projects;
+  }
+
+  public List<Address> getLoverAddresses() {
+    return loverAddresses;
+  }
+
+  public void setLoverAddresses(List<Address> loverAddresses) {
+    this.loverAddresses = loverAddresses;
+  }
 
   @Override
   public String toString() {

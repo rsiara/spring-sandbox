@@ -6,7 +6,22 @@
 
     <groupId>spring.start</groupId>
     <artifactId>spring.start.sandbox</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>many_to_many_bidirectional_jointable</module>
+        <module>many_to_many_bidirectional</module>
+        <module>parent_module</module>
+        <module>sharing_embeddable_key_mappings_with_values</module>
+        <module>many_to_one_unidirectional</module>
+        <module>one_to_many_unidirectional_jointable</module>
+        <module>one_to_many_bidirectional_joincolumn</module>
+        <module>one_to_many_bidirectional_jointable</module>
+        <module>one_to_many_bidirectional_joincolumn_target_entity</module>
+        <module>one_to_one_unidirectional</module>
+        <module>one_to_one_bidirectional</module>
+        <module>one_to_one_bidirectional_pk_mapping</module>
+    </modules>
 
 
     <dependencies>
@@ -192,9 +207,11 @@
             <artifactId>spring-orm</artifactId>
             <version>4.3.12.RELEASE</version>
         </dependency>
-
-
-
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>RELEASE</version>
+        </dependency>
 
 
     </dependencies>

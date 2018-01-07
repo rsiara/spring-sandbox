@@ -3,6 +3,18 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Sandbox.iml" filepath="$PROJECT_DIR$/Sandbox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/many_to_many_bidirectional/many_to_many_bidirectional.iml" filepath="$PROJECT_DIR$/many_to_many_bidirectional/many_to_many_bidirectional.iml" />
+      <module fileurl="file://$PROJECT_DIR$/many_to_many_bidirectional_jointable/many_to_many_bidirectional_jointable.iml" filepath="$PROJECT_DIR$/many_to_many_bidirectional_jointable/many_to_many_bidirectional_jointable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/many_to_one_unidirectional/many_to_one_unidirectional.iml" filepath="$PROJECT_DIR$/many_to_one_unidirectional/many_to_one_unidirectional.iml" />
+      <module fileurl="file://$PROJECT_DIR$/one_to_many_bidirectional_joincolumn/one_to_many_bidirectional_joincolumn.iml" filepath="$PROJECT_DIR$/one_to_many_bidirectional_joincolumn/one_to_many_bidirectional_joincolumn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/one_to_many_bidirectional_joincolumn_target_entity/one_to_many_bidirectional_joincolumn_target_entity.iml" filepath="$PROJECT_DIR$/one_to_many_bidirectional_joincolumn_target_entity/one_to_many_bidirectional_joincolumn_target_entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/one_to_many_bidirectional_jointable/one_to_many_bidirectional_jointable.iml" filepath="$PROJECT_DIR$/one_to_many_bidirectional_jointable/one_to_many_bidirectional_jointable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/one_to_many_unidirectional_jointable/one_to_many_unidirectional_jointable.iml" filepath="$PROJECT_DIR$/one_to_many_unidirectional_jointable/one_to_many_unidirectional_jointable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/one_to_one_bidirectional/one_to_one_bidirectional.iml" filepath="$PROJECT_DIR$/one_to_one_bidirectional/one_to_one_bidirectional.iml" />
+      <module fileurl="file://$PROJECT_DIR$/one_to_one_bidirectional_pk_mapping/one_to_one_bidirectional_pk_mapping.iml" filepath="$PROJECT_DIR$/one_to_one_bidirectional_pk_mapping/one_to_one_bidirectional_pk_mapping.iml" />
+      <module fileurl="file://$PROJECT_DIR$/one_to_one_unidirectional/one_to_one_unidirectional.iml" filepath="$PROJECT_DIR$/one_to_one_unidirectional/one_to_one_unidirectional.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent_module/parent_module.iml" filepath="$PROJECT_DIR$/parent_module/parent_module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sharing_embeddable_key_mappings_with_values/sharing_embeddable_key_mappings_with_values.iml" filepath="$PROJECT_DIR$/sharing_embeddable_key_mappings_with_values/sharing_embeddable_key_mappings_with_values.iml" />
     </modules>
   </component>
 </project>

@@ -41,7 +41,7 @@ public class StudentDaoTest {
         studentDao.create(newStudent);
 
         Collection<Student> students = studentDao.getAllStudents();
-        assertEquals("Number of students shoud be one", 1, students.size());
+        assertEquals("Number of students shoud be sharing_embeddable_key_mappings_with_values", 1, students.size());
 
 
     }

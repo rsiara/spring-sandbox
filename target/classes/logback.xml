@@ -19,6 +19,8 @@
         <appender-ref ref="STDOUT" />
     </logger>
 
+    <logger name="org.hibernate.SQL" level="DEBUG" />
+
     <root level="ERROR">
         <appender-ref ref="STDOUT" />
     </root>
