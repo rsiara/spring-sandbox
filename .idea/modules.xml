@@ -3,6 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Sandbox.iml" filepath="$PROJECT_DIR$/Sandbox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/collection_of_basic/collection_of_basic.iml" filepath="$PROJECT_DIR$/collection_of_basic/collection_of_basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/collection_of_embedded/collection_of_embedded.iml" filepath="$PROJECT_DIR$/collection_of_embedded/collection_of_embedded.iml" />
+      <module fileurl="file://$PROJECT_DIR$/embedded_object/embedded_object.iml" filepath="$PROJECT_DIR$/embedded_object/embedded_object.iml" />
+      <module fileurl="file://$PROJECT_DIR$/embedded_object_sharing_and_override_column_name/embedded_object_sharing_and_override_column_name.iml" filepath="$PROJECT_DIR$/embedded_object_sharing_and_override_column_name/embedded_object_sharing_and_override_column_name.iml" />
       <module fileurl="file://$PROJECT_DIR$/many_to_many_bidirectional/many_to_many_bidirectional.iml" filepath="$PROJECT_DIR$/many_to_many_bidirectional/many_to_many_bidirectional.iml" />
       <module fileurl="file://$PROJECT_DIR$/many_to_many_bidirectional_jointable/many_to_many_bidirectional_jointable.iml" filepath="$PROJECT_DIR$/many_to_many_bidirectional_jointable/many_to_many_bidirectional_jointable.iml" />
       <module fileurl="file://$PROJECT_DIR$/many_to_one_unidirectional/many_to_one_unidirectional.iml" filepath="$PROJECT_DIR$/many_to_one_unidirectional/many_to_one_unidirectional.iml" />

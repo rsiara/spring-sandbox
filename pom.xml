@@ -21,6 +21,10 @@
         <module>one_to_one_unidirectional</module>
         <module>one_to_one_bidirectional</module>
         <module>one_to_one_bidirectional_pk_mapping</module>
+        <module>embedded_object</module>
+        <module>embedded_object_sharing_and_override_column_name</module>
+        <module>collection_of_embedded</module>
+        <module>collection_of_basic</module>
     </modules>
 
 

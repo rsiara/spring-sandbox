@@ -6,6 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="collection_of_basic" />
+        <module name="collection_of_embedded" />
+        <module name="embedded_object" />
+        <module name="embedded_object_sharing_and_override_column_name" />
         <module name="many_to_many_bidirectional" />
         <module name="many_to_many_bidirectional_jointable" />
         <module name="many_to_one_unidirectional" />
@@ -22,6 +26,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="collection_of_basic" target="1.5" />
+      <module name="collection_of_embedded" target="1.5" />
+      <module name="embedded_object" target="1.5" />
+      <module name="embedded_object_sharing_and_override_column_name" target="1.5" />
       <module name="many_to_many_bidirectional" target="1.5" />
       <module name="many_to_many_bidirectional_jointable" target="1.5" />
       <module name="many_to_one_unidirectional" target="1.5" />
