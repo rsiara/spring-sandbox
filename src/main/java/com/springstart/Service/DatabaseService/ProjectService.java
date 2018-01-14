@@ -1,7 +1,6 @@
 package com.springstart.Service.DatabaseService;
 
 
-import com.springstart.Model.DatabaseDao.ProjectDao;
 import com.springstart.Model.Entity.DatabaseEntity.ParkingPlace;
 import com.springstart.Model.Entity.DatabaseEntity.Project;
 import org.springframework.beans.factory.annotation.Autowired;

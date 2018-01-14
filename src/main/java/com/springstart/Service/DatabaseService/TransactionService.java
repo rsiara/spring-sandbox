@@ -1,7 +1,6 @@
 package com.springstart.Service.DatabaseService;
 
 import com.springstart.Model.DatabaseDao.AccountDao;
-import com.springstart.Model.DatabaseDao.TransactionDao;
 import com.springstart.Model.Entity.DatabaseEntity.Account;
 import com.springstart.Model.Entity.DatabaseEntity.Transaction;
 import org.springframework.beans.factory.annotation.Autowired;

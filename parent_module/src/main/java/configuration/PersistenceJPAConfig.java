@@ -33,8 +33,8 @@ public class PersistenceJPAConfig {
     return em;
   }
 
-
-  @Bean
+    // MySQL configuration
+/*  @Bean
   public DataSource dataSource(){
     DriverManagerDataSource dataSource = new DriverManagerDataSource();
     dataSource.setDriverClassName("com.mysql.jdbc.Driver");
@@ -44,7 +44,16 @@ public class PersistenceJPAConfig {
     dataSource.setUsername( "user" );
     dataSource.setPassword( "password" );
     return dataSource;
-  }
+  }*/
+    //H2 configuration
+    @Bean
+    public DataSource dataSource() {
+        DriverManagerDataSource dataSource = new DriverManagerDataSource();
+        dataSource.setDriverClassName("org.h2.Driver");
+        dataSource.setUrl("jdbc:h2:tcp://localhost/~/jpa_sandbox");
+        dataSource.setUsername("sa");
+        return dataSource;
+    }
 
   @Bean
   public PlatformTransactionManager transactionManager(EntityManagerFactory emf){
@@ -62,7 +71,7 @@ public class PersistenceJPAConfig {
   Properties additionalProperties() {
     Properties properties = new Properties();
     properties.setProperty("hibernate.hbm2ddl.auto", "create");
-    properties.setProperty("hibernate.dialect", "org.hibernate.dialect.MySQL5Dialect");
+      properties.setProperty("hibernate.dialect", "org.hibernate.dialect.H2Dialect");
     return properties;
   }
 
