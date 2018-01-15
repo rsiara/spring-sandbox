@@ -32,6 +32,9 @@
         <module>map_key_enum_value_basic</module>
         <module>map_key_embeddable_attr_override_value_entity</module>
         <module>map_key_basic_value_entity</module>
+        <module>map_untyped</module>
+        <module>collection_override_table_columns</module>
+        <module>mapping_date</module>
     </modules>
 
 
