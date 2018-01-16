@@ -7,21 +7,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d9a5c24-0ab2-4622-9484-8b0abafbe55a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/collection_override_table_columns/collection_override_table_columns.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/collection_override_table_columns/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/collection_override_table_columns/src/main/java/model/Employee.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/collection_override_table_columns/src/main/java/model/VacationEntry.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/collection_override_table_columns/src/test/java/CollectionOverrideTableColumnsTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/map_untyped/map_untyped.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/map_untyped/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/map_untyped/src/main/java/model/Department.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/map_untyped/src/main/java/model/Employee.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/map_untyped/src/test/java/MapUntypedTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mapping_date/mapping_date.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mapping_date/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mapping_date/src/main/java/model/DateWithTemporalSandbox.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mapping_date/src/main/java/model/DateWithoutTemporalSandbox.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mapping_date/src/test/java/MappingDateTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/access_field/access_field.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/access_field/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/access_field/src/main/java/model/Employee.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/access_field/src/test/java/AccessFieldTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/access_mixed/access_mixed.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/access_mixed/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/access_mixed/src/main/java/model/Employee.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/access_mixed/src/test/java/AccessMixedTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/access_property/access_property.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/access_property/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/access_property/src/main/java/model/Employee.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/access_property/src/test/java/AccessPropertyTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/collection_order_persistence/collection_order_persistence.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/collection_order_persistence/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/collection_order_persistence/src/main/java/model/PrintJob.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/collection_order_persistence/src/main/java/model/PrintQueue.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/collection_order_persistence/src/test/java/CollectionOrderPersistenceTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mapping_custom_table_schema/mapping_custom_table_schema.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mapping_custom_table_schema/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mapping_custom_table_schema/src/main/java/model/Employee.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mapping_custom_table_schema/src/test/java/MappingCustomTableSchemaTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mapping_lob/mapping_lob.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mapping_lob/myPicture.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mapping_lob/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mapping_lob/src/main/java/model/Employee.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/mapping_lob/src/test/java/MappingLobTest.java" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -59,6 +70,13 @@
     <ignored path="$PROJECT_DIR$/map_untyped/target/" />
     <ignored path="$PROJECT_DIR$/collection_override_table_columns/target/" />
     <ignored path="$PROJECT_DIR$/mapping_date/target/" />
+    <ignored path="$PROJECT_DIR$/collection_order_persistence/target/" />
+    <ignored path="$PROJECT_DIR$/access/target/" />
+    <ignored path="$PROJECT_DIR$/access_field/target/" />
+    <ignored path="$PROJECT_DIR$/access_property/target/" />
+    <ignored path="$PROJECT_DIR$/access_mixed/target/" />
+    <ignored path="$PROJECT_DIR$/mapping_custom_table_schema/target/" />
+    <ignored path="$PROJECT_DIR$/mapping_lob/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,6 +107,12 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="H2 JPA Sandbox" type="feb32156:DbDataSourceImpl" />
         <item name="JPA_SANDBOX: database" type="c8e2528e:H2ImplModel$Database" />
+        <item name="CUSTOM_SCHEMA: schema" type="4f7ca4f5:H2ImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="H2 JPA Sandbox" type="feb32156:DbDataSourceImpl" />
+        <item name="JPA_SANDBOX: database" type="c8e2528e:H2ImplModel$Database" />
         <item name="PUBLIC: schema" type="4f7ca4f5:H2ImplModel$Schema" />
       </path>
     </expand>
@@ -99,95 +123,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MappingDateTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mapping_date/src/test/java/MappingDateTest.java">
+      <file leaf-file-name="MappingLobTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mapping_lob/src/test/java/MappingLobTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="586">
-              <caret line="59" column="56" lean-forward="false" selection-start-line="59" selection-start-column="56" selection-end-line="59" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="612">
+              <caret line="72" column="62" lean-forward="false" selection-start-line="72" selection-start-column="62" selection-end-line="72" selection-end-column="62" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DATEWITHOUTTEMPORALSANDBOX" pinned="false" current-in-tab="false">
-        <entry file="das://table:/acc9ba6f/41b96513-abc0-4724-9d41-aba0a1a0875b/JPA_SANDBOX.PUBLIC.DATEWITHOUTTEMPORALSANDBOX">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
+      <file leaf-file-name="pictureFromDb.jpg" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mapping_lob/pictureFromDb.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DATEWITHTEMPORALSANDBOX" pinned="false" current-in-tab="false">
-        <entry file="das://table:/acc9ba6f/41b96513-abc0-4724-9d41-aba0a1a0875b/JPA_SANDBOX.PUBLIC.DATEWITHTEMPORALSANDBOX">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DateWithoutTemporalSandbox.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mapping_date/src/main/java/model/DateWithoutTemporalSandbox.java">
+      <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mapping_lob/src/main/java/model/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+            <state relative-caret-position="289">
+              <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#679#680#0" expanded="true" />
-                <element signature="e#704#705#0" expanded="true" />
-                <element signature="e#737#738#0" expanded="true" />
-                <element signature="e#765#766#0" expanded="true" />
-                <element signature="e#804#805#0" expanded="true" />
-                <element signature="e#841#842#0" expanded="true" />
-                <element signature="e#899#900#0" expanded="true" />
-                <element signature="e#951#952#0" expanded="true" />
-                <element signature="e#991#992#0" expanded="true" />
-                <element signature="e#1029#1030#0" expanded="true" />
-                <element signature="e#1089#1090#0" expanded="true" />
-                <element signature="e#1143#1144#0" expanded="true" />
-                <element signature="e#1178#1179#0" expanded="true" />
-                <element signature="e#1211#1212#0" expanded="true" />
-                <element signature="e#1261#1262#0" expanded="true" />
-                <element signature="e#1305#1306#0" expanded="true" />
-                <element signature="e#1340#1341#0" expanded="true" />
-                <element signature="e#1373#1374#0" expanded="true" />
-                <element signature="e#1423#1424#0" expanded="true" />
-                <element signature="e#1467#1468#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DateWithTemporalSandbox.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mapping_date/src/main/java/model/DateWithTemporalSandbox.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#731#732#0" expanded="true" />
-                <element signature="e#756#757#0" expanded="true" />
-                <element signature="e#793#794#0" expanded="true" />
-                <element signature="e#821#822#0" expanded="true" />
-                <element signature="e#860#861#0" expanded="true" />
-                <element signature="e#897#898#0" expanded="true" />
-                <element signature="e#955#956#0" expanded="true" />
-                <element signature="e#1007#1008#0" expanded="true" />
-                <element signature="e#1047#1048#0" expanded="true" />
-                <element signature="e#1085#1086#0" expanded="true" />
-                <element signature="e#1145#1146#0" expanded="true" />
-                <element signature="e#1199#1200#0" expanded="true" />
-                <element signature="e#1234#1235#0" expanded="true" />
-                <element signature="e#1267#1268#0" expanded="true" />
-                <element signature="e#1317#1318#0" expanded="true" />
-                <element signature="e#1361#1362#0" expanded="true" />
-                <element signature="e#1396#1397#0" expanded="true" />
-                <element signature="e#1429#1430#0" expanded="true" />
-                <element signature="e#1479#1480#0" expanded="true" />
-                <element signature="e#1523#1524#0" expanded="true" />
+                <element signature="e#938#939#0" expanded="true" />
+                <element signature="e#976#977#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -260,25 +220,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/collection_of_embedded/src/main/java/model/Employee.java" />
-        <option value="$PROJECT_DIR$/collection_of_embedded/src/test/java/CollectionOfEmbeddedTest.java" />
-        <option value="$PROJECT_DIR$/collection_of_basic/pom.xml" />
-        <option value="$PROJECT_DIR$/collection_of_basic/src/main/java/model/Employee.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/idea.properties" />
-        <option value="$PROJECT_DIR$/collection_of_basic/src/test/java/CollectionOfBasicTest.java" />
-        <option value="$PROJECT_DIR$/parent_module/src/main/java/configuration/PersistenceJPAConfig.java" />
-        <option value="$PROJECT_DIR$/map_key_basic_value_basic/src/main/java/model/Employee.java" />
-        <option value="$PROJECT_DIR$/map_key_basic_value_basic/src/test/java/MapKeyBasicValueBasicTest.java" />
-        <option value="$PROJECT_DIR$/map_key_basic_value_basic/pom.xml" />
-        <option value="$PROJECT_DIR$/map_key_entity_value_basic/pom.xml" />
-        <option value="$PROJECT_DIR$/map_key_entity_value_basic/src/main/java/model/Entity.java" />
-        <option value="$PROJECT_DIR$/map_key_entity_value_basic/src/main/java/model/Employee.java" />
-        <option value="$PROJECT_DIR$/map_key_entity_value_basic/src/main/java/model/Department.java" />
-        <option value="$PROJECT_DIR$/map_key_entity_value_basic/src/test/java/MapKeyEntityValueBasicTest.java" />
-        <option value="$PROJECT_DIR$/map_key_embeddable_value_entity/pom.xml" />
-        <option value="$PROJECT_DIR$/map_key_embeddable_value_entity_v2/src/test/java/MapKeyEmbeddableInsertableValueEntityTest.java" />
-        <option value="$PROJECT_DIR$/map_key_embeddable_value_entity/src/main/java/model/Department.java" />
-        <option value="$PROJECT_DIR$/map_key_embeddable_value_entity/src/main/java/model/Employee.java" />
         <option value="$PROJECT_DIR$/map_key_embeddable_value_entity/src/main/java/model/EmployeeName.java" />
         <option value="$PROJECT_DIR$/map_key_embeddable_value_entity/src/test/java/MapKeyEmbeddableValueEntityTest.java" />
         <option value="$PROJECT_DIR$/map_key_embeddable_value_entity/src/test/java/MapKeyEmbeddableNonInsertableValueEntityTest.java" />
@@ -311,6 +252,25 @@
         <option value="$PROJECT_DIR$/mapping_date/src/main/java/model/DateWithoutTemporalSandbox.java" />
         <option value="$PROJECT_DIR$/mapping_date/src/main/java/model/DateWithTemporalSandbox.java" />
         <option value="$PROJECT_DIR$/mapping_date/src/test/java/MappingDateTest.java" />
+        <option value="$PROJECT_DIR$/collection_order_persistence/pom.xml" />
+        <option value="$PROJECT_DIR$/collection_order_persistence/src/main/java/model/PrintJob.java" />
+        <option value="$PROJECT_DIR$/collection_order_persistence/src/main/java/model/PrintQueue.java" />
+        <option value="$PROJECT_DIR$/collection_order_persistence/src/test/java/CollectionOrderPersistenceTest.java" />
+        <option value="$PROJECT_DIR$/access_field/pom.xml" />
+        <option value="$PROJECT_DIR$/access_property/pom.xml" />
+        <option value="$PROJECT_DIR$/access_property/src/test/java/AccessPropertyTest.java" />
+        <option value="$PROJECT_DIR$/access_property/src/main/java/model/Employee.java" />
+        <option value="$PROJECT_DIR$/access_mixed/pom.xml" />
+        <option value="$PROJECT_DIR$/access_mixed/src/main/java/model/Employee.java" />
+        <option value="$PROJECT_DIR$/access_mixed/src/test/java/AccessMixedTest.java" />
+        <option value="$PROJECT_DIR$/mapping_custom_table_schema/pom.xml" />
+        <option value="$PROJECT_DIR$/access_field/src/main/java/model/Employee.java" />
+        <option value="$PROJECT_DIR$/access_field/src/test/java/AccessFieldTest.java" />
+        <option value="$PROJECT_DIR$/mapping_custom_table_schema/src/test/java/MappingCustomTableSchemaTest.java" />
+        <option value="$PROJECT_DIR$/mapping_custom_table_schema/src/main/java/model/Employee.java" />
+        <option value="$PROJECT_DIR$/mapping_lob/pom.xml" />
+        <option value="$PROJECT_DIR$/mapping_lob/src/test/java/MappingLobTest.java" />
+        <option value="$PROJECT_DIR$/mapping_lob/src/main/java/model/Employee.java" />
       </list>
     </option>
   </component>
@@ -765,18 +725,49 @@
       <hideEmptyPackages ProjectPane="false" />
       <abbreviatePackageNames />
       <autoscrollToSource />
-      <autoscrollFromSource AndroidView="true" Scope="true" PackagesPane="true" ProjectPane="true" />
+      <autoscrollFromSource PackagesPane="true" AndroidView="true" Scope="true" ProjectPane="true" />
       <sortByType />
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
+      <pane id="Scratches" />
+      <pane id="AndroidView">
         <subPane>
           <expand>
             <path>
-              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-sandbox" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Sandbox" type="1039202d:NonAndroidModuleNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Sandbox" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Sandbox" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+              <item name="springstart" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Sandbox" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+              <item name="springstart" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Sandbox" type="1039202d:NonAndroidModuleNode" />
+              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+              <item name="springstart" type="462c0819:PsiDirectoryNode" />
+              <item name="Interceptor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Sandbox" type="1039202d:NonAndroidModuleNode" />
+              <item name="tests" type="b5c1fe26:NonAndroidSourceTypeNode" />
             </path>
           </expand>
           <select />
@@ -973,43 +964,62 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="AndroidView">
+      <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="spring-sandbox" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Sandbox" type="1039202d:NonAndroidModuleNode" />
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="spring-sandbox" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Sandbox" type="1039202d:NonAndroidModuleNode" />
-              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="mapping_lob" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="spring-sandbox" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Sandbox" type="1039202d:NonAndroidModuleNode" />
-              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
-              <item name="springstart" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="mapping_lob" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="spring-sandbox" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Sandbox" type="1039202d:NonAndroidModuleNode" />
-              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
-              <item name="springstart" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="mapping_lob" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="spring-sandbox" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Sandbox" type="1039202d:NonAndroidModuleNode" />
-              <item name="java" type="b5c1fe26:NonAndroidSourceTypeNode" />
-              <item name="springstart" type="462c0819:PsiDirectoryNode" />
-              <item name="Interceptor" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="mapping_lob" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="spring-sandbox" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Sandbox" type="1039202d:NonAndroidModuleNode" />
-              <item name="tests" type="b5c1fe26:NonAndroidSourceTypeNode" />
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="mapping_lob" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="mapping_lob" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="mapping_lob" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1020,11 +1030,11 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.21034482" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pro-jpa-2-13" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
     <property name="SearchEverywhereHistoryKey" value="Jpa&#9;PSI&#9;JAVA://configuration.PersistenceJPAConfig&#10;JpaCon&#9;PSI&#9;JAVA://configuration.PersistenceJPAConfig&#10;Fin&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/FinanceUser.java&#10;JPA&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Configuration/PersistenceJPAConfig.java&#10;pe&#9;PSI&#9;JAVA://com.springstart.Configuration.PersistenceJPAConfig&#10;pers&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/META-INF/persistence.xml&#10;Finance_&#9;FILE&#9;das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.finances_user&#10;Fina&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/FinanceUser.java&#10;Bank&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/Bank.java&#10;Account&#9;PSI&#9;JAVA://com.springstart.Model.Entity.DatabaseEntity.Account&#10;logbac&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/resources/logback.xml&#10;Acco&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/Account.java&#10;BankDao&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/DatabaseDao/BankDao.java&#10;.x&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/resources/logback.xml&#10;Finance&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Service/DatabaseService/FinanceUserService.java&#10;DA&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/DatabaseDao/FinanceUserDao.java&#10;Fi&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Service/DatabaseService/FinanceUserService.java&#10;Finan&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/FinanceUser.java&#10;Address&#9;FILE&#9;das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.user_address&#10;Projec&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/Project.java&#10;FinanceUser&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/FinanceUser.java&#10;lo&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/resources/logback.xml&#10;General&#9;PSI&#9;JAVA://com.springstart.Interceptor.GeneralInterceptor&#10;Gene&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Interceptor/GeneralInterceptor.java&#10;Home&#9;PSI&#9;JAVA://com.springstart.Controller.HomeController&#10;Fil&#9;FILE&#9;file:///home/robert/IdeaProjects/Sandbox/src/main/java/com/springstart/Filters/CustomFilter.java" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="H2&#10;MySQL" />
     <property name="extract.method.default.visibility" value="private" />
@@ -1033,13 +1043,6 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.springstart.Service.DatabaseService" />
-      <recent name="com.springstart.Model.DatabaseDao" />
-      <recent name="com.springstart.Model.Entity.DatabaseEntity" />
-      <recent name="com.springstart.Model.Entity" />
-      <recent name="com.springstart.Model" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.springstart.JPA.chapterfive" />
     </key>
@@ -1050,24 +1053,31 @@
       <recent name="com.springstart.jpa.chapterfive.sharing_embeddable_key_mappings_with_values" />
       <recent name="com.springstart.jpa.chapterfive" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\mapping_lob" />
+      <recent name="$PROJECT_DIR$/many_to_many_bidirectional_using_jointable/src" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/springstart/jpa/chapterfour/many_to_many_bidirectional" />
+      <recent name="$PROJECT_DIR$/src/test/java/com/springstart/jpa/chapterfour/many_to_many_bidirectional" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/springstart/jpa/chapterfive/sharing_embeddable_key_mappings_with_values" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\mapping_date\src\main\java\model" />
-      <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\collection_override_table_columns\src\main\java\model" />
-      <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\map_untyped\src\main\java\model" />
-      <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\map_key_basic_value_entity\src\main\java\model" />
-      <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\map_key_embeddable_attr_override_value_entity\src\main\java\model" />
+      <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\mapping_lob\src\main\resources" />
+      <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\mapping_lob\src\main\java\model" />
+      <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\mapping_custom_table_schema\src\main\java\model" />
+      <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\access_mixed\src\main\java\model" />
+      <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\access_field\src\main\java\model" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
       <recent name="model" />
       <recent name="com.springstart.jpa.chapterfour.many_to_many_bidirectional" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/many_to_many_bidirectional_using_jointable/src" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/springstart/jpa/chapterfour/many_to_many_bidirectional" />
-      <recent name="$PROJECT_DIR$/src/test/java/com/springstart/jpa/chapterfour/many_to_many_bidirectional" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/springstart/jpa/chapterfive/sharing_embeddable_key_mappings_with_values" />
-      <recent name="$PROJECT_DIR$/META-INF" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.springstart.Service.DatabaseService" />
+      <recent name="com.springstart.Model.DatabaseDao" />
+      <recent name="com.springstart.Model.Entity.DatabaseEntity" />
+      <recent name="com.springstart.Model.Entity" />
+      <recent name="com.springstart.Model" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1082,7 +1092,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MappingDateTest.mapping_date_temportal_annotation_test">
+  <component name="RunManager" selected="JUnit.MappingLobTest.access_field_test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -1105,15 +1115,15 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="CollectionOverrideTableColumnsTest.collection_generic_basict_type_set_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AccessMixedTest.access_mixed_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <extension name="krasa.grepconsole.plugin.runConfiguration.GrepRunConfigurationExtension" selectedProfileId="0" />
-      <module name="collection_override_table_columns" />
+      <module name="access_mixed" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CollectionOverrideTableColumnsTest" />
-      <option name="METHOD_NAME" value="collection_generic_basict_type_set_test" />
+      <option name="MAIN_CLASS_NAME" value="AccessMixedTest" />
+      <option name="METHOD_NAME" value="access_mixed_test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1126,15 +1136,36 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="CollectionOverrideTableColumnsTest.collection_override_table_columns_untyped_collection_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MappingCustomTableSchemaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <extension name="krasa.grepconsole.plugin.runConfiguration.GrepRunConfigurationExtension" selectedProfileId="0" />
-      <module name="collection_override_table_columns" />
+      <module name="mapping_custom_table_schema" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CollectionOverrideTableColumnsTest" />
-      <option name="METHOD_NAME" value="collection_override_table_columns_untyped_collection_test" />
+      <option name="MAIN_CLASS_NAME" value="MappingCustomTableSchemaTest" />
+      <option name="METHOD_NAME" value="mapping_custom_table_schema_test" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="MappingCustomTableSchemaTest.mapping_custom_table_schema_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="krasa.grepconsole.plugin.runConfiguration.GrepRunConfigurationExtension" selectedProfileId="0" />
+      <module name="mapping_custom_table_schema" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MappingCustomTableSchemaTest" />
+      <option name="METHOD_NAME" value="mapping_custom_table_schema_test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1147,16 +1178,16 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="MapUntypedTest.map_untyped_basic_value_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MappingLobTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <extension name="krasa.grepconsole.plugin.runConfiguration.GrepRunConfigurationExtension" selectedProfileId="0" />
-      <module name="map_untyped" />
+      <module name="mapping_lob" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MapUntypedTest" />
-      <option name="METHOD_NAME" value="map_untyped_basic_value_test" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="MappingLobTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -1168,36 +1199,15 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="MapUntypedTest.map_untyped_one_to_many_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MappingLobTest.access_field_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <extension name="krasa.grepconsole.plugin.runConfiguration.GrepRunConfigurationExtension" selectedProfileId="0" />
-      <module name="map_untyped" />
+      <module name="mapping_lob" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MapUntypedTest" />
-      <option name="METHOD_NAME" value="map_untyped_one_to_many_test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="MappingDateTest.mapping_date_temportal_annotation_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <extension name="krasa.grepconsole.plugin.runConfiguration.GrepRunConfigurationExtension" selectedProfileId="0" />
-      <module name="mapping_date" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MappingDateTest" />
-      <option name="METHOD_NAME" value="mapping_date_temportal_annotation_test" />
+      <option name="MAIN_CLASS_NAME" value="MappingLobTest" />
+      <option name="METHOD_NAME" value="access_field_test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1418,19 +1428,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.MapUntypedTest.map_untyped_one_to_many_test" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.MapUntypedTest.map_untyped_basic_value_test" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CollectionOverrideTableColumnsTest.collection_override_table_columns_untyped_collection_test" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.CollectionOverrideTableColumnsTest.collection_generic_basict_type_set_test" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.MappingDateTest.mapping_date_temportal_annotation_test" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.AccessMixedTest.access_mixed_test" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MappingCustomTableSchemaTest.mapping_custom_table_schema_test" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.MappingCustomTableSchemaTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.MappingLobTest" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.MappingLobTest.access_field_test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MappingDateTest.mapping_date_temportal_annotation_test" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CollectionOverrideTableColumnsTest.collection_generic_basict_type_set_test" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CollectionOverrideTableColumnsTest.collection_override_table_columns_untyped_collection_test" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.MapUntypedTest.map_untyped_basic_value_test" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.MapUntypedTest.map_untyped_one_to_many_test" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MappingLobTest.access_field_test" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MappingLobTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MappingCustomTableSchemaTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MappingCustomTableSchemaTest.mapping_custom_table_schema_test" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.AccessMixedTest.access_mixed_test" />
       </list>
     </recent_temporary>
   </component>
@@ -1567,7 +1577,8 @@
       <workItem from="1515854572839" duration="4410000" />
       <workItem from="1515873730112" duration="14000" />
       <workItem from="1515873781129" duration="13238000" />
-      <workItem from="1516040326380" duration="6671000" />
+      <workItem from="1516040326380" duration="6814000" />
+      <workItem from="1516122981528" duration="11187000" />
     </task>
     <task id="LOCAL-00001" summary="Persistence.xml przeniesiony do JavaConfig (PersistenceJPAConfig)&#10;Dodanie pierwszego mapowania unidirectional Many-to-one">
       <created>1510526522683</created>
@@ -1611,43 +1622,50 @@
       <option name="project" value="LOCAL" />
       <updated>1515888329133</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Dodanie:&#10;- Mapowanie dat&#10;- Untyped map &#10;- Kolekcja obiektow, z nadpisywanie kolumn tabeli kolekcji">
+      <created>1516055660001</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1516055660001</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CollectionOverrideTableColumnsTest_collection_generic_basict_type_set_test - 2018.01.15 at 22h 49m 56s.xml">
-      <configuration name="CollectionOverrideTableColumnsTest.collection_generic_basict_type_set_test" configurationId="JUnit" />
+    <history-entry file="MappingLobTest - 2018.01.16 at 23h 16m 00s.xml">
+      <configuration name="MappingLobTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectionOverrideTableColumnsTest_collection_override_table_columns_untyped_collection_test - 2018.01.15 at 22h 36m 38s.xml">
-      <configuration name="CollectionOverrideTableColumnsTest.collection_override_table_columns_untyped_collection_test" configurationId="JUnit" />
+    <history-entry file="MappingLobTest - 2018.01.16 at 23h 16m 51s.xml">
+      <configuration name="MappingLobTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MapUntypedTest_map_untyped_basic_value_test - 2018.01.15 at 22h 09m 32s.xml">
-      <configuration name="MapUntypedTest.map_untyped_basic_value_test" configurationId="JUnit" />
+    <history-entry file="MappingLobTest - 2018.01.16 at 23h 27m 16s.xml">
+      <configuration name="MappingLobTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MapUntypedTest_map_untyped_basic_value_test - 2018.01.15 at 22h 10m 55s.xml">
-      <configuration name="MapUntypedTest.map_untyped_basic_value_test" configurationId="JUnit" />
+    <history-entry file="MappingLobTest - 2018.01.16 at 23h 29m 30s.xml">
+      <configuration name="MappingLobTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MappingDateTest_mapping_date_temportal_annotation_test - 2018.01.15 at 23h 10m 52s.xml">
-      <configuration name="MappingDateTest.mapping_date_temportal_annotation_test" configurationId="JUnit" />
+    <history-entry file="MappingLobTest_access_field_test - 2018.01.16 at 23h 13m 50s.xml">
+      <configuration name="MappingLobTest.access_field_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MappingDateTest_mapping_date_temportal_annotation_test - 2018.01.15 at 23h 13m 53s.xml">
-      <configuration name="MappingDateTest.mapping_date_temportal_annotation_test" configurationId="JUnit" />
+    <history-entry file="MappingLobTest_access_field_test - 2018.01.16 at 23h 14m 45s.xml">
+      <configuration name="MappingLobTest.access_field_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MappingDateTest_mapping_date_temportal_annotation_test - 2018.01.15 at 23h 15m 52s.xml">
-      <configuration name="MappingDateTest.mapping_date_temportal_annotation_test" configurationId="JUnit" />
+    <history-entry file="MappingLobTest_access_field_test - 2018.01.16 at 23h 16m 21s.xml">
+      <configuration name="MappingLobTest.access_field_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MappingDateTest_mapping_date_temportal_annotation_test - 2018.01.15 at 23h 24m 19s.xml">
-      <configuration name="MappingDateTest.mapping_date_temportal_annotation_test" configurationId="JUnit" />
+    <history-entry file="MappingLobTest_access_field_test - 2018.01.16 at 23h 26m 46s.xml">
+      <configuration name="MappingLobTest.access_field_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MappingDateTest_mapping_date_temportal_annotation_test - 2018.01.15 at 23h 30m 27s.xml">
-      <configuration name="MappingDateTest.mapping_date_temportal_annotation_test" configurationId="JUnit" />
+    <history-entry file="MappingLobTest_access_field_test - 2018.01.16 at 23h 30m 15s.xml">
+      <configuration name="MappingLobTest.access_field_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MappingDateTest_mapping_date_temportal_annotation_test - 2018.01.15 at 23h 31m 32s.xml">
-      <configuration name="MappingDateTest.mapping_date_temportal_annotation_test" configurationId="JUnit" />
+    <history-entry file="MappingLobTest_access_field_test - 2018.01.16 at 23h 31m 13s.xml">
+      <configuration name="MappingLobTest.access_field_test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="421320000" />
+    <option name="totallyTimeSpent" value="432650000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1660,6 +1678,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1216" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3671804" sideWeight="0.2335845" order="8" side_tool="true" content_ui="tabs" />
@@ -1667,7 +1686,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37134987" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16523144" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.115715824" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21097955" sideWeight="0.48423424" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1679,7 +1698,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283721" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19492294" sideWeight="0.8501935" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48685405" sideWeight="0.9143173" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48685405" sideWeight="0.9143173" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283721" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27833182" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23573735" sideWeight="0.37443337" order="8" side_tool="true" content_ui="tabs" />
@@ -1798,7 +1817,8 @@
     <MESSAGE value="Refactor JPA - stworzenie osobnego modulu pod każdą funkcjonalość JPA" />
     <MESSAGE value="Refactor JPA - dodanie modulow zwiazanych z mapowaniem &quot;Map&quot;&#10;&#10;Zmiana konfiguracji bazy danych i JPA na baze H2" />
     <MESSAGE value="Refactor JPA - Wyrzucenie calego katalogu DatabaseService z glownego projektu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor JPA - Wyrzucenie calego katalogu DatabaseService z glownego projektu" />
+    <MESSAGE value="Dodanie:&#10;- Mapowanie dat&#10;- Untyped map &#10;- Kolekcja obiektow, z nadpisywanie kolumn tabeli kolekcji" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodanie:&#10;- Mapowanie dat&#10;- Untyped map &#10;- Kolekcja obiektow, z nadpisywanie kolumn tabeli kolekcji" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1818,11 +1838,19 @@
           </properties>
           <option name="timeStamp" value="63" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/access_field/src/test/java/AccessFieldTest.java</url>
+          <line>33</line>
+          <properties class="AccessFieldTest" method="access_field_test">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="69" />
+      <option name="time" value="71" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1831,271 +1859,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/map_key_embeddable_insertable_value_entity/src/main/java/model/Department.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/map_key_embeddable_non_insertable_value_entity/map_key_embeddable_non_insertable_value_entity.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="74" lean-forward="false" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/map_key_embeddable_insertable_value_entity/map_key_embeddable_insertable_value_entity.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="67" lean-forward="false" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/map_key_embeddable_insertable_value_entity/src/test/java/MapKeyEmbeddableInsertableValueEntityTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="46" column="21" lean-forward="false" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/map_key_embeddable_non_insertable_value_entity/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/map_key_embeddable_non_insertable_value_entity/src/test/java/MapKeyEmbeddableNonInsertableValueEntityTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="54" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/map_key_enum_value_basic/src/main/java/model/EmployeeName.java" />
-    <entry file="file://$PROJECT_DIR$/map_key_enum_value_basic/src/main/java/model/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/map_key_enum_value_basic/src/main/java/model/PhoneType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/map_key_enum_value_basic/src/main/java/model/Department.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/map_key_enum_value_basic/src/test/java/MapKeyEnumValueBasicTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="35" column="6" lean-forward="false" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1346#1365#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/map_key_embeddable_insertable_value_entity/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/map_key_embeddable_attr_override_value_entity/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/map_key_embeddable_attr_override_value_entity/src/main/java/model/EmployeeName.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/map_key_embeddable_attr_override_value_entity/src/main/java/model/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/acc9ba6f/41b96513-abc0-4724-9d41-aba0a1a0875b/JPA_SANDBOX.PUBLIC.DEPT_EMP">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/map_key_basic_value_basic/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/map_key_basic_value_entity/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/map_key_basic_value_basic/src/main/java/model/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/map_key_basic_value_basic/src/test/java/MapKeyBasicValueBasicTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="33" column="35" lean-forward="false" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/map_key_embeddable_attr_override_value_entity/src/test/java/MapKeyEmbeddableAttrOverrideValueEntityTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="41" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/map_key_basic_value_entity/src/main/java/model/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/map_key_basic_value_entity/src/main/java/model/Department.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="22" column="48" lean-forward="false" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/map_key_basic_value_entity/src/test/java/MapKeyBasicValueEntityTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="54" column="38" lean-forward="true" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/springstart/tests/RelationMappingTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Model/DatabaseDao/ParkingPlaceDao.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Service/DatabaseService/BankService.java" />
-    <entry file="file://$PROJECT_DIR$/map_key_enum_value_basic/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="9" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="19" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/map_untyped/src/main/java/model/Department.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Controller/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/map_untyped/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/map_untyped/src/main/java/model/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-265">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/acc9ba6f/41b96513-abc0-4724-9d41-aba0a1a0875b/JPA_SANDBOX.PUBLIC.DEPARTMENT">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/acc9ba6f/41b96513-abc0-4724-9d41-aba0a1a0875b/JPA_SANDBOX.PUBLIC.EMP_PHONE">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/collection_of_embedded/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/collection_override_table_columns/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/acc9ba6f/41b96513-abc0-4724-9d41-aba0a1a0875b/JPA_SANDBOX.PUBLIC.EMPLOYEE">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/acc9ba6f/41b96513-abc0-4724-9d41-aba0a1a0875b/JPA_SANDBOX.PUBLIC.VACATION">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/collection_override_table_columns/collection_override_table_columns.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2103,9 +1870,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="552">
           <caret line="65" column="32" lean-forward="true" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2120,7 +1884,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2128,10 +1891,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-          <folding>
-            <element signature="e#640#641#0" expanded="true" />
-            <element signature="e#682#683#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2147,7 +1906,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="693">
           <caret line="72" column="34" lean-forward="false" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2160,60 +1918,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mapping_date/src/main/java/model/DateWithTemporalSandbox.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
+        <state relative-caret-position="170">
           <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#731#732#0" expanded="true" />
-            <element signature="e#756#757#0" expanded="true" />
-            <element signature="e#793#794#0" expanded="true" />
-            <element signature="e#821#822#0" expanded="true" />
-            <element signature="e#860#861#0" expanded="true" />
-            <element signature="e#897#898#0" expanded="true" />
-            <element signature="e#955#956#0" expanded="true" />
-            <element signature="e#1007#1008#0" expanded="true" />
-            <element signature="e#1047#1048#0" expanded="true" />
-            <element signature="e#1085#1086#0" expanded="true" />
-            <element signature="e#1145#1146#0" expanded="true" />
-            <element signature="e#1199#1200#0" expanded="true" />
-            <element signature="e#1234#1235#0" expanded="true" />
-            <element signature="e#1267#1268#0" expanded="true" />
-            <element signature="e#1317#1318#0" expanded="true" />
-            <element signature="e#1361#1362#0" expanded="true" />
-            <element signature="e#1396#1397#0" expanded="true" />
-            <element signature="e#1429#1430#0" expanded="true" />
-            <element signature="e#1479#1480#0" expanded="true" />
-            <element signature="e#1523#1524#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#727#728#0" expanded="false" />
+            <element signature="e#752#753#0" expanded="false" />
+            <element signature="e#785#786#0" expanded="false" />
+            <element signature="e#813#814#0" expanded="false" />
+            <element signature="e#852#853#0" expanded="false" />
+            <element signature="e#889#890#0" expanded="false" />
+            <element signature="e#947#948#0" expanded="false" />
+            <element signature="e#999#1000#0" expanded="false" />
+            <element signature="e#1039#1040#0" expanded="false" />
+            <element signature="e#1077#1078#0" expanded="false" />
+            <element signature="e#1137#1138#0" expanded="false" />
+            <element signature="e#1191#1192#0" expanded="false" />
+            <element signature="e#1226#1227#0" expanded="false" />
+            <element signature="e#1259#1260#0" expanded="false" />
+            <element signature="e#1309#1310#0" expanded="false" />
+            <element signature="e#1353#1354#0" expanded="false" />
+            <element signature="e#1388#1389#0" expanded="false" />
+            <element signature="e#1421#1422#0" expanded="false" />
+            <element signature="e#1471#1472#0" expanded="false" />
+            <element signature="e#1515#1516#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mapping_date/src/main/java/model/DateWithoutTemporalSandbox.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
+        <state relative-caret-position="357">
           <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#679#680#0" expanded="true" />
-            <element signature="e#704#705#0" expanded="true" />
-            <element signature="e#737#738#0" expanded="true" />
-            <element signature="e#765#766#0" expanded="true" />
-            <element signature="e#804#805#0" expanded="true" />
-            <element signature="e#841#842#0" expanded="true" />
-            <element signature="e#899#900#0" expanded="true" />
-            <element signature="e#951#952#0" expanded="true" />
-            <element signature="e#991#992#0" expanded="true" />
-            <element signature="e#1029#1030#0" expanded="true" />
-            <element signature="e#1089#1090#0" expanded="true" />
-            <element signature="e#1143#1144#0" expanded="true" />
-            <element signature="e#1178#1179#0" expanded="true" />
-            <element signature="e#1211#1212#0" expanded="true" />
-            <element signature="e#1261#1262#0" expanded="true" />
-            <element signature="e#1305#1306#0" expanded="true" />
-            <element signature="e#1340#1341#0" expanded="true" />
-            <element signature="e#1373#1374#0" expanded="true" />
-            <element signature="e#1423#1424#0" expanded="true" />
-            <element signature="e#1467#1468#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#679#680#0" expanded="false" />
+            <element signature="e#704#705#0" expanded="false" />
+            <element signature="e#737#738#0" expanded="false" />
+            <element signature="e#765#766#0" expanded="false" />
+            <element signature="e#804#805#0" expanded="false" />
+            <element signature="e#841#842#0" expanded="false" />
+            <element signature="e#899#900#0" expanded="false" />
+            <element signature="e#951#952#0" expanded="false" />
+            <element signature="e#991#992#0" expanded="false" />
+            <element signature="e#1029#1030#0" expanded="false" />
+            <element signature="e#1089#1090#0" expanded="false" />
+            <element signature="e#1143#1144#0" expanded="false" />
+            <element signature="e#1178#1179#0" expanded="false" />
+            <element signature="e#1211#1212#0" expanded="false" />
+            <element signature="e#1261#1262#0" expanded="false" />
+            <element signature="e#1305#1306#0" expanded="false" />
+            <element signature="e#1340#1341#0" expanded="false" />
+            <element signature="e#1373#1374#0" expanded="false" />
+            <element signature="e#1423#1424#0" expanded="false" />
+            <element signature="e#1467#1468#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2234,12 +1992,310 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mapping_date/src/test/java/MappingDateTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
+        <state relative-caret-position="919">
           <caret line="59" column="56" lean-forward="false" selection-start-line="59" selection-start-column="56" selection-end-line="59" selection-end-column="56" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection_of_embedded/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="21" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection_order_persistence/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection_order_persistence/src/main/java/model/PrintJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection_order_persistence/src/main/java/model/PrintQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection_order_persistence/src/test/java/CollectionOrderPersistenceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-189">
+          <caret line="32" column="2" lean-forward="false" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/access/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embedded_object/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="20" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/access_field/access_field.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/acc9ba6f/41b96513-abc0-4724-9d41-aba0a1a0875b/JPA_SANDBOX.PUBLIC.PRINTJOB">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/acc9ba6f/41b96513-abc0-4724-9d41-aba0a1a0875b/JPA_SANDBOX.PUBLIC.PRINTQUEUE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/acc9ba6f/41b96513-abc0-4724-9d41-aba0a1a0875b/JPA_SANDBOX.PUBLIC.EMPLOYEE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/access_field/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/access_property/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/access_property/src/main/java/model/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding>
+            <element signature="e#1212#1213#0" expanded="false" />
+            <element signature="e#1312#1313#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/access_property/src/test/java/AccessPropertyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="44" column="30" lean-forward="true" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/access_mixed/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/acc9ba6f/41b96513-abc0-4724-9d41-aba0a1a0875b/JPA_SANDBOX.PUBLIC.EMPLOYEE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/acc9ba6f/41b96513-abc0-4724-9d41-aba0a1a0875b/JPA_SANDBOX.PUBLIC.EMPLOYEE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/acc9ba6f/41b96513-abc0-4724-9d41-aba0a1a0875b/JPA_SANDBOX.PUBLIC.EMPLOYEE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/acc9ba6f/41b96513-abc0-4724-9d41-aba0a1a0875b/JPA_SANDBOX.PUBLIC.EMPLOYEE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/acc9ba6f/41b96513-abc0-4724-9d41-aba0a1a0875b/JPA_SANDBOX.PUBLIC.EMPLOYEE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/access_mixed/src/main/java/model/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="54" column="13" lean-forward="false" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/access_mixed/src/test/java/AccessMixedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapping_custom_table_schema/mapping_custom_table_schema.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapping_custom_table_schema/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/access_field/src/main/java/model/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapping_custom_table_schema/src/test/java/MappingCustomTableSchemaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="17" column="3" lean-forward="false" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapping_custom_table_schema/src/main/java/model/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="40" lean-forward="false" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapping_lob/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/access_field/src/test/java/AccessFieldTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/acc9ba6f/41b96513-abc0-4724-9d41-aba0a1a0875b/JPA_SANDBOX.PUBLIC.EMPLOYEE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/acc9ba6f/41b96513-abc0-4724-9d41-aba0a1a0875b/JPA_SANDBOX.PUBLIC.EMPLOYEE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/acc9ba6f/41b96513-abc0-4724-9d41-aba0a1a0875b/JPA_SANDBOX.PUBLIC.EMPLOYEE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapping_lob/myPicture.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="das://table:/acc9ba6f/41b96513-abc0-4724-9d41-aba0a1a0875b/JPA_SANDBOX.PUBLIC.EMPLOYEE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapping_lob/src/main/java/model/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+          <folding>
+            <element signature="e#938#939#0" expanded="true" />
+            <element signature="e#976#977#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapping_lob/src/test/java/MappingLobTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="72" column="62" lean-forward="false" selection-start-line="72" selection-start-column="62" selection-end-line="72" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapping_lob/pictureFromDb.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>
@@ -2296,11 +2352,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>one_to_many_bidirectional_joincolumn_target_entity</last-edited>
+          <last-edited>collection_order_persistence</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.21034482" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

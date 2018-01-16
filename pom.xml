@@ -35,6 +35,12 @@
         <module>map_untyped</module>
         <module>collection_override_table_columns</module>
         <module>mapping_date</module>
+        <module>collection_order_persistence</module>
+        <module>access_field</module>
+        <module>access_property</module>
+        <module>access_mixed</module>
+        <module>mapping_custom_table_schema</module>
+        <module>mapping_lob</module>
     </modules>
 
 

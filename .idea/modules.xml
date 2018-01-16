@@ -3,8 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Sandbox.iml" filepath="$PROJECT_DIR$/Sandbox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/access_field/access_field.iml" filepath="$PROJECT_DIR$/access_field/access_field.iml" />
+      <module fileurl="file://$PROJECT_DIR$/access_mixed/access_mixed.iml" filepath="$PROJECT_DIR$/access_mixed/access_mixed.iml" />
+      <module fileurl="file://$PROJECT_DIR$/access_property/access_property.iml" filepath="$PROJECT_DIR$/access_property/access_property.iml" />
       <module fileurl="file://$PROJECT_DIR$/collection_of_basic/collection_of_basic.iml" filepath="$PROJECT_DIR$/collection_of_basic/collection_of_basic.iml" />
       <module fileurl="file://$PROJECT_DIR$/collection_of_embedded/collection_of_embedded.iml" filepath="$PROJECT_DIR$/collection_of_embedded/collection_of_embedded.iml" />
+      <module fileurl="file://$PROJECT_DIR$/collection_order_persistence/collection_order_persistence.iml" filepath="$PROJECT_DIR$/collection_order_persistence/collection_order_persistence.iml" />
       <module fileurl="file://$PROJECT_DIR$/collection_override_table_columns/collection_override_table_columns.iml" filepath="$PROJECT_DIR$/collection_override_table_columns/collection_override_table_columns.iml" />
       <module fileurl="file://$PROJECT_DIR$/embedded_object/embedded_object.iml" filepath="$PROJECT_DIR$/embedded_object/embedded_object.iml" />
       <module fileurl="file://$PROJECT_DIR$/embedded_object_sharing_and_override_column_name/embedded_object_sharing_and_override_column_name.iml" filepath="$PROJECT_DIR$/embedded_object_sharing_and_override_column_name/embedded_object_sharing_and_override_column_name.iml" />
@@ -18,7 +22,9 @@
       <module fileurl="file://$PROJECT_DIR$/map_key_embeddable_non_insertable_value_entity/map_key_embeddable_non_insertable_value_entity.iml" filepath="$PROJECT_DIR$/map_key_embeddable_non_insertable_value_entity/map_key_embeddable_non_insertable_value_entity.iml" />
       <module fileurl="file://$PROJECT_DIR$/map_key_enum_value_basic/map_key_enum_value_basic.iml" filepath="$PROJECT_DIR$/map_key_enum_value_basic/map_key_enum_value_basic.iml" />
       <module fileurl="file://$PROJECT_DIR$/map_untyped/map_untyped.iml" filepath="$PROJECT_DIR$/map_untyped/map_untyped.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mapping_custom_table_schema/mapping_custom_table_schema.iml" filepath="$PROJECT_DIR$/mapping_custom_table_schema/mapping_custom_table_schema.iml" />
       <module fileurl="file://$PROJECT_DIR$/mapping_date/mapping_date.iml" filepath="$PROJECT_DIR$/mapping_date/mapping_date.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mapping_lob/mapping_lob.iml" filepath="$PROJECT_DIR$/mapping_lob/mapping_lob.iml" />
       <module fileurl="file://$PROJECT_DIR$/one_to_many_bidirectional_joincolumn/one_to_many_bidirectional_joincolumn.iml" filepath="$PROJECT_DIR$/one_to_many_bidirectional_joincolumn/one_to_many_bidirectional_joincolumn.iml" />
       <module fileurl="file://$PROJECT_DIR$/one_to_many_bidirectional_joincolumn_target_entity/one_to_many_bidirectional_joincolumn_target_entity.iml" filepath="$PROJECT_DIR$/one_to_many_bidirectional_joincolumn_target_entity/one_to_many_bidirectional_joincolumn_target_entity.iml" />
       <module fileurl="file://$PROJECT_DIR$/one_to_many_bidirectional_jointable/one_to_many_bidirectional_jointable.iml" filepath="$PROJECT_DIR$/one_to_many_bidirectional_jointable/one_to_many_bidirectional_jointable.iml" />
