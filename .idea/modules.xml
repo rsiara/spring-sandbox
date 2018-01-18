@@ -12,6 +12,8 @@
       <module fileurl="file://$PROJECT_DIR$/collection_override_table_columns/collection_override_table_columns.iml" filepath="$PROJECT_DIR$/collection_override_table_columns/collection_override_table_columns.iml" />
       <module fileurl="file://$PROJECT_DIR$/embedded_object/embedded_object.iml" filepath="$PROJECT_DIR$/embedded_object/embedded_object.iml" />
       <module fileurl="file://$PROJECT_DIR$/embedded_object_sharing_and_override_column_name/embedded_object_sharing_and_override_column_name.iml" filepath="$PROJECT_DIR$/embedded_object_sharing_and_override_column_name/embedded_object_sharing_and_override_column_name.iml" />
+      <module fileurl="file://$PROJECT_DIR$/id_auto_generation/id_auto_generation.iml" filepath="$PROJECT_DIR$/id_auto_generation/id_auto_generation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/id_table_generation/id_table_generation.iml" filepath="$PROJECT_DIR$/id_table_generation/id_table_generation.iml" />
       <module fileurl="file://$PROJECT_DIR$/many_to_many_bidirectional/many_to_many_bidirectional.iml" filepath="$PROJECT_DIR$/many_to_many_bidirectional/many_to_many_bidirectional.iml" />
       <module fileurl="file://$PROJECT_DIR$/many_to_many_bidirectional_jointable/many_to_many_bidirectional_jointable.iml" filepath="$PROJECT_DIR$/many_to_many_bidirectional_jointable/many_to_many_bidirectional_jointable.iml" />
       <module fileurl="file://$PROJECT_DIR$/many_to_one_unidirectional/many_to_one_unidirectional.iml" filepath="$PROJECT_DIR$/many_to_one_unidirectional/many_to_one_unidirectional.iml" />
@@ -24,7 +26,9 @@
       <module fileurl="file://$PROJECT_DIR$/map_untyped/map_untyped.iml" filepath="$PROJECT_DIR$/map_untyped/map_untyped.iml" />
       <module fileurl="file://$PROJECT_DIR$/mapping_custom_table_schema/mapping_custom_table_schema.iml" filepath="$PROJECT_DIR$/mapping_custom_table_schema/mapping_custom_table_schema.iml" />
       <module fileurl="file://$PROJECT_DIR$/mapping_date/mapping_date.iml" filepath="$PROJECT_DIR$/mapping_date/mapping_date.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mapping_enum/mapping_enum.iml" filepath="$PROJECT_DIR$/mapping_enum/mapping_enum.iml" />
       <module fileurl="file://$PROJECT_DIR$/mapping_lob/mapping_lob.iml" filepath="$PROJECT_DIR$/mapping_lob/mapping_lob.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mapping_transient/mapping_transient.iml" filepath="$PROJECT_DIR$/mapping_transient/mapping_transient.iml" />
       <module fileurl="file://$PROJECT_DIR$/one_to_many_bidirectional_joincolumn/one_to_many_bidirectional_joincolumn.iml" filepath="$PROJECT_DIR$/one_to_many_bidirectional_joincolumn/one_to_many_bidirectional_joincolumn.iml" />
       <module fileurl="file://$PROJECT_DIR$/one_to_many_bidirectional_joincolumn_target_entity/one_to_many_bidirectional_joincolumn_target_entity.iml" filepath="$PROJECT_DIR$/one_to_many_bidirectional_joincolumn_target_entity/one_to_many_bidirectional_joincolumn_target_entity.iml" />
       <module fileurl="file://$PROJECT_DIR$/one_to_many_bidirectional_jointable/one_to_many_bidirectional_jointable.iml" filepath="$PROJECT_DIR$/one_to_many_bidirectional_jointable/one_to_many_bidirectional_jointable.iml" />

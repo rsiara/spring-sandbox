@@ -10,18 +10,11 @@ import org.springframework.test.context.web.AnnotationConfigWebContextLoader;
 import org.springframework.test.context.web.WebAppConfiguration;
 import org.springframework.transaction.annotation.Transactional;
 
-import javax.imageio.ImageIO;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
-import java.awt.image.BufferedImage;
-import java.awt.image.DataBufferByte;
-import java.awt.image.WritableRaster;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 
 /*
  * Domyslny poziom dostepu to AccessType
@@ -30,7 +23,7 @@ import java.nio.file.Paths;
 @WebAppConfiguration
 @ContextConfiguration(classes = {RootConfig.class}, loader = AnnotationConfigWebContextLoader.class)
 @RunWith(SpringJUnit4ClassRunner.class)
-public class MappingLobTest {
+public class MappingTransientTest {
 
     private EntityManager entityManager;
 
@@ -42,12 +35,13 @@ public class MappingLobTest {
     @Test
     @Transactional
     @Rollback(false)
-    public void access_field_test() throws IOException {
-        System.out.println(System.getProperty("user.dir"));
+    public void mapping_transient_test() {
         Employee employee = new Employee();
         employee.setName("John");
         employee.setSalary(3400);
-        employee.setPicture(getPicture());
+
+        //Transient field
+        System.out.println(employee.getConvertedName());
 
         entityManager.persist(employee);
         entityManager.flush();
@@ -56,26 +50,10 @@ public class MappingLobTest {
 
         //Get object from database
         Employee employeeLoadedFromDb = entityManager.find(Employee.class, employee.getId());
-        savePicture(employeeLoadedFromDb.getPicture());
 
-    }
+        //Transient field
+        System.out.println(employeeLoadedFromDb.getConvertedName());
 
-    private byte[] getPicture() {
-        File file = new File("Untitled.bmp");
-        byte[] bFile = new byte[(int) file.length()];
-
-        try {
-            FileInputStream fileInputStream = new FileInputStream(file);
-            fileInputStream.read(bFile);
-            fileInputStream.close();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return bFile;
-    }
-
-    private void savePicture(byte[] byteArrayPicture) throws IOException {
-        FileUtils.writeByteArrayToFile(new File("pictureFromDb.bmp"), byteArrayPicture);
     }
 
 

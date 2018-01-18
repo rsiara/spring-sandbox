@@ -1,12 +1,10 @@
 package model;
 
-import static javax.persistence.FetchType.LAZY;
+import java.util.Locale;
 
-import javax.persistence.Basic;
-import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import javax.persistence.Lob;
+import javax.persistence.Transient;
 
 @Entity
 public class Employee {
@@ -14,12 +12,8 @@ public class Employee {
     private int id;
     private String name;
     private long salary;
-
-    @Basic(fetch = LAZY)
-    @Lob
-    @Column(name = "PIC", length = 100000000)
-    private byte[] picture;
-
+    @Transient
+    private String convertedName;
 
     public int getId() {
         return id;
@@ -35,6 +29,7 @@ public class Employee {
 
     public void setName(String name) {
         this.name = name;
+        convertedName = convertName(name);
     }
 
     public long getSalary() {
@@ -45,17 +40,16 @@ public class Employee {
         this.salary = salary;
     }
 
-    public byte[] getPicture() {
-        return picture;
-    }
-
-    public void setPicture(byte[] picture) {
-        this.picture = picture;
+    public String getConvertedName() {
+        return convertedName;
     }
 
     public String toString() {
-        return "Employee id: " + getId() + " name: " + getName() +
-                " salary: " + getSalary() + " pic: " + new String(getPicture());
+        return "Employee " + " id: " + getId() + " name: " + getName() + " converted name: " + getConvertedName() + " salary: " + getSalary();
     }
 
+    protected String convertName(String name) {
+        // Convert to upper case Canadian...
+        return name.toUpperCase(Locale.CANADA);
+    }
 }

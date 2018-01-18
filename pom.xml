@@ -41,6 +41,10 @@
         <module>access_mixed</module>
         <module>mapping_custom_table_schema</module>
         <module>mapping_lob</module>
+        <module>mapping_enum</module>
+        <module>mapping_transient</module>
+        <module>id_auto_generation</module>
+        <module>id_table_generation</module>
     </modules>
 
 
