@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/embedded_object/embedded_object.iml" filepath="$PROJECT_DIR$/embedded_object/embedded_object.iml" />
       <module fileurl="file://$PROJECT_DIR$/embedded_object_sharing_and_override_column_name/embedded_object_sharing_and_override_column_name.iml" filepath="$PROJECT_DIR$/embedded_object_sharing_and_override_column_name/embedded_object_sharing_and_override_column_name.iml" />
       <module fileurl="file://$PROJECT_DIR$/id_auto_generation/id_auto_generation.iml" filepath="$PROJECT_DIR$/id_auto_generation/id_auto_generation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/id_sequence_generation/id_sequence_generation.iml" filepath="$PROJECT_DIR$/id_sequence_generation/id_sequence_generation.iml" />
       <module fileurl="file://$PROJECT_DIR$/id_table_generation/id_table_generation.iml" filepath="$PROJECT_DIR$/id_table_generation/id_table_generation.iml" />
       <module fileurl="file://$PROJECT_DIR$/many_to_many_bidirectional/many_to_many_bidirectional.iml" filepath="$PROJECT_DIR$/many_to_many_bidirectional/many_to_many_bidirectional.iml" />
       <module fileurl="file://$PROJECT_DIR$/many_to_many_bidirectional_jointable/many_to_many_bidirectional_jointable.iml" filepath="$PROJECT_DIR$/many_to_many_bidirectional_jointable/many_to_many_bidirectional_jointable.iml" />

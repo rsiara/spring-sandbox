@@ -7,29 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d9a5c24-0ab2-4622-9484-8b0abafbe55a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/id_auto_generation/id_auto_generation.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/id_auto_generation/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/id_auto_generation/src/main/java/model/Employee.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/id_auto_generation/src/test/java/IdAutoGenerationTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/id_table_generation/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/id_table_generation/src/main/java/model/Address.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/id_table_generation/src/main/java/model/Employee.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/id_table_generation/src/test/java/IdTableGenerationTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mapping_enum/mapping_enum.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mapping_enum/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mapping_enum/src/main/java/model/Employee.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mapping_enum/src/main/java/model/EmployeeType.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mapping_enum/src/test/java/MappingEnumTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mapping_lob/Untitled.bmp" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mapping_transient/mapping_transient.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mapping_transient/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mapping_transient/src/main/java/model/Employee.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/mapping_transient/src/test/java/MappingTransientTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/id_sequence_generation/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/id_sequence_generation/src/main/java/model/Employee.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/id_sequence_generation/src/test/java/IdSequenceGenerationTest.java" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/mapping_lob/src/main/java/model/Employee.java" afterPath="$PROJECT_DIR$/mapping_lob/src/main/java/model/Employee.java" />
-      <change beforePath="$PROJECT_DIR$/mapping_lob/src/test/java/MappingLobTest.java" afterPath="$PROJECT_DIR$/mapping_lob/src/test/java/MappingLobTest.java" />
+      <change beforePath="$PROJECT_DIR$/embedded_object/pom.xml" afterPath="$PROJECT_DIR$/embedded_object/pom.xml" />
       <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -75,6 +59,7 @@
     <ignored path="$PROJECT_DIR$/mapping_transient/target/" />
     <ignored path="$PROJECT_DIR$/id_auto_generation/target/" />
     <ignored path="$PROJECT_DIR$/id_table_generation/target/" />
+    <ignored path="$PROJECT_DIR$/id_sequence_generation/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -121,42 +106,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/id_auto_generation/pom.xml">
+      <file leaf-file-name="Address.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/id_table_generation/src/main/java/model/Address.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="3" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="19" selection-end-column="19" />
+            <state relative-caret-position="170">
+              <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/id_auto_generation/src/main/java/model/Employee.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IdAutoGenerationTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/id_auto_generation/src/test/java/IdAutoGenerationTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-391">
-              <caret line="19" column="56" lean-forward="false" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/id_table_generation/pom.xml">
+        <entry file="file://$PROJECT_DIR$/id_sequence_generation/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
               <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
@@ -165,21 +126,50 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Address.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/id_table_generation/src/main/java/model/Address.java">
+      <file leaf-file-name="Employee.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/id_sequence_generation/src/main/java/model/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="255">
+              <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/id_table_generation/src/main/java/model/Employee.java">
+      <file leaf-file-name="IdSequenceGenerationTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/id_sequence_generation/src/test/java/IdSequenceGenerationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+            <state relative-caret-position="323">
+              <caret line="33" column="43" lean-forward="false" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EMP" pinned="false" current-in-tab="false">
+        <entry file="das://table:/acc9ba6f/41b96513-abc0-4724-9d41-aba0a1a0875b/JPA_SANDBOX.CUSTOM_SCHEMA.EMP">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/embedded_object/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="id_sequence_generation.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/id_sequence_generation/id_sequence_generation.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -188,18 +178,9 @@
       <file leaf-file-name="IdTableGenerationTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/id_table_generation/src/test/java/IdTableGenerationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="708">
+            <state relative-caret-position="884">
               <caret line="73" column="37" lean-forward="false" selection-start-line="73" selection-start-column="37" selection-end-line="73" selection-end-column="37" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ID_GEN" pinned="false" current-in-tab="true">
-        <entry file="das://table:/acc9ba6f/41b96513-abc0-4724-9d41-aba0a1a0875b/JPA_SANDBOX.PUBLIC.ID_GEN">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -213,11 +194,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ADDRESS" pinned="false" current-in-tab="false">
-        <entry file="das://table:/acc9ba6f/41b96513-abc0-4724-9d41-aba0a1a0875b/JPA_SANDBOX.PUBLIC.ADDRESS">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+      <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/collection_override_table_columns/src/main/java/model/Employee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -289,11 +271,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/map_key_basic_value_entity/pom.xml" />
-        <option value="$PROJECT_DIR$/map_key_basic_value_entity/src/test/java/MapKeyBasicValueEntityTest.java" />
-        <option value="$PROJECT_DIR$/map_key_basic_value_entity/src/main/java/model/Department.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/springstart/tests/RelationMappingTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springstart/Model/DatabaseDao/ParkingPlaceDao.java" />
         <option value="$PROJECT_DIR$/map_untyped/src/main/java/model/Employee.java" />
         <option value="$PROJECT_DIR$/map_untyped/pom.xml" />
         <option value="$PROJECT_DIR$/map_untyped/src/test/java/MapUntypedTest.java" />
@@ -340,6 +317,11 @@
         <option value="$PROJECT_DIR$/id_table_generation/src/main/java/model/Address.java" />
         <option value="$PROJECT_DIR$/id_table_generation/src/test/java/IdTableGenerationTest.java" />
         <option value="$PROJECT_DIR$/id_table_generation/src/main/java/model/Employee.java" />
+        <option value="$PROJECT_DIR$/embedded_object/pom.xml" />
+        <option value="$PROJECT_DIR$/id_sequence_generation/pom.xml" />
+        <option value="$PROJECT_DIR$/id_sequence_generation/src/main/java/model/Employee.java" />
+        <option value="$PROJECT_DIR$/id_sequence_generation/src/test/java/IdSequenceGeneration.java" />
+        <option value="$PROJECT_DIR$/id_sequence_generation/src/test/java/IdSequenceGenerationTest.java" />
       </list>
     </option>
   </component>
@@ -384,8 +366,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-451" />
-    <option name="y" value="282" />
+    <option name="x" value="149" />
+    <option name="y" value="303" />
     <option name="width" value="2251" />
     <option name="height" value="1037" />
   </component>
@@ -794,13 +776,34 @@
       <hideEmptyPackages ProjectPane="false" />
       <abbreviatePackageNames />
       <autoscrollToSource />
-      <autoscrollFromSource Scope="true" AndroidView="true" PackagesPane="true" ProjectPane="true" />
+      <autoscrollFromSource PackagesPane="true" AndroidView="true" Scope="true" ProjectPane="true" />
       <sortByType />
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spring-sandbox" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Sandbox" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Production">
           <expand>
@@ -981,117 +984,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="id_auto_generation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="id_auto_generation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="id_auto_generation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="id_auto_generation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="id_auto_generation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="id_auto_generation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="id_auto_generation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="id_table_generation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="id_table_generation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="id_table_generation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="id_table_generation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="id_table_generation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="id_table_generation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="id_table_generation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -1133,17 +1025,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="spring-sandbox" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Sandbox" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1162,13 +1044,6 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.springstart.Service.DatabaseService" />
-      <recent name="com.springstart.Model.DatabaseDao" />
-      <recent name="com.springstart.Model.Entity.DatabaseEntity" />
-      <recent name="com.springstart.Model.Entity" />
-      <recent name="com.springstart.Model" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.springstart.JPA.chapterfive" />
     </key>
@@ -1179,24 +1054,31 @@
       <recent name="com.springstart.jpa.chapterfive.sharing_embeddable_key_mappings_with_values" />
       <recent name="com.springstart.jpa.chapterfive" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\id_table_generation\src\main\java\model" />
-      <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\id_auto_generation\src\main\java" />
-      <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\mapping_transient\src\main\java\model" />
-      <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\mapping_enum\src\main\java\model" />
-      <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\mapping_lob" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="" />
-      <recent name="model" />
-      <recent name="com.springstart.jpa.chapterfour.many_to_many_bidirectional" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\mapping_lob" />
       <recent name="$PROJECT_DIR$/many_to_many_bidirectional_using_jointable/src" />
       <recent name="$PROJECT_DIR$/src/main/java/com/springstart/jpa/chapterfour/many_to_many_bidirectional" />
       <recent name="$PROJECT_DIR$/src/test/java/com/springstart/jpa/chapterfour/many_to_many_bidirectional" />
       <recent name="$PROJECT_DIR$/src/main/java/com/springstart/jpa/chapterfive/sharing_embeddable_key_mappings_with_values" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\id_sequence_generation\src\main\java\model" />
+      <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\id_table_generation\src\main\java\model" />
+      <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\id_auto_generation\src\main\java" />
+      <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\mapping_transient\src\main\java\model" />
+      <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\mapping_enum\src\main\java\model" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="model" />
+      <recent name="com.springstart.jpa.chapterfour.many_to_many_bidirectional" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.springstart.Service.DatabaseService" />
+      <recent name="com.springstart.Model.DatabaseDao" />
+      <recent name="com.springstart.Model.Entity.DatabaseEntity" />
+      <recent name="com.springstart.Model.Entity" />
+      <recent name="com.springstart.Model" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1211,7 +1093,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.IdTableGenerationTest.id_table_generation_test">
+  <component name="RunManager" selected="JUnit.IdSequenceGenerationTest.id_sequence_generation_test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -1297,15 +1179,15 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="IdTableGenerationTest.id_table_generation_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IdSequenceGenerationTest.id_sequence_generation_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <extension name="krasa.grepconsole.plugin.runConfiguration.GrepRunConfigurationExtension" selectedProfileId="0" />
-      <module name="id_table_generation" />
+      <module name="id_sequence_generation" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="IdTableGenerationTest" />
-      <option name="METHOD_NAME" value="id_table_generation_test" />
+      <option name="MAIN_CLASS_NAME" value="IdSequenceGenerationTest" />
+      <option name="METHOD_NAME" value="id_sequence_generation_test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1318,15 +1200,15 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="MappingTransientTest.mapping_transient_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IdTableGenerationTest.id_table_generation_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <extension name="krasa.grepconsole.plugin.runConfiguration.GrepRunConfigurationExtension" selectedProfileId="0" />
-      <module name="mapping_transient" />
+      <module name="id_table_generation" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MappingTransientTest" />
-      <option name="METHOD_NAME" value="mapping_transient_test" />
+      <option name="MAIN_CLASS_NAME" value="IdTableGenerationTest" />
+      <option name="METHOD_NAME" value="id_table_generation_test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1547,19 +1429,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.MappingTransientTest.mapping_transient_test" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.IdAutoGenerationTest.id_auto_generation_test" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.IdAutoGenerationTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.IdAutoGenerationTest.setEntityManager" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.IdTableGenerationTest.id_table_generation_test" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.IdAutoGenerationTest.id_auto_generation_test" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.IdAutoGenerationTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.IdAutoGenerationTest.setEntityManager" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.IdTableGenerationTest.id_table_generation_test" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.IdSequenceGenerationTest.id_sequence_generation_test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.IdTableGenerationTest.id_table_generation_test" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.IdAutoGenerationTest.id_auto_generation_test" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.IdAutoGenerationTest.setEntityManager" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.IdAutoGenerationTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.MappingTransientTest.mapping_transient_test" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.IdSequenceGenerationTest.id_sequence_generation_test" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.IdTableGenerationTest.id_table_generation_test" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.IdAutoGenerationTest.id_auto_generation_test" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.IdAutoGenerationTest.setEntityManager" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.IdAutoGenerationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1698,7 +1580,9 @@
       <workItem from="1515873781129" duration="13238000" />
       <workItem from="1516040326380" duration="6814000" />
       <workItem from="1516122981528" duration="11284000" />
-      <workItem from="1516207622924" duration="7679000" />
+      <workItem from="1516207622924" duration="7792000" />
+      <workItem from="1516402612939" duration="629000" />
+      <workItem from="1516403906036" duration="521000" />
     </task>
     <task id="LOCAL-00001" summary="Persistence.xml przeniesiony do JavaConfig (PersistenceJPAConfig)&#10;Dodanie pierwszego mapowania unidirectional Many-to-one">
       <created>1510526522683</created>
@@ -1756,16 +1640,17 @@
       <option name="project" value="LOCAL" />
       <updated>1516142046117</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Dodanie:&#10;- ID auto generation&#10;- ID table generation - do opisania&#10;- Mapping enum&#10;- Mapping transient&#10;- Mapping lob - dokonczenie">
+      <created>1516233975373</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1516233975373</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="IdAutoGenerationTest - 2018.01.18 at 00h 35m 52s.xml">
-      <configuration name="IdAutoGenerationTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IdAutoGenerationTest_id_auto_generation_test - 2018.01.18 at 00h 31m 38s.xml">
-      <configuration name="IdAutoGenerationTest.id_auto_generation_test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="IdAutoGenerationTest_id_auto_generation_test - 2018.01.18 at 00h 33m 49s.xml">
       <configuration name="IdAutoGenerationTest.id_auto_generation_test" configurationId="JUnit" />
     </history-entry>
@@ -1781,10 +1666,16 @@
     <history-entry file="IdAutoGenerationTest_setEntityManager - 2018.01.18 at 00h 37m 20s.xml">
       <configuration name="IdAutoGenerationTest.setEntityManager" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="IdSequenceGenerationTest_id_sequence_generation_test - 2018.01.20 at 00h 26m 08s.xml">
+      <configuration name="IdSequenceGenerationTest.id_sequence_generation_test" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="IdTableGenerationTest_id_table_generation_test - 2018.01.18 at 01h 02m 38s.xml">
       <configuration name="IdTableGenerationTest.id_table_generation_test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="IdTableGenerationTest_id_table_generation_test - 2018.01.18 at 01h 04m 03s.xml">
+      <configuration name="IdTableGenerationTest.id_table_generation_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IdTableGenerationTest_id_table_generation_test - 2018.01.20 at 00h 20m 03s.xml">
       <configuration name="IdTableGenerationTest.id_table_generation_test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MappingTransientTest_mapping_transient_test - 2018.01.17 at 23h 12m 43s.xml">
@@ -1792,7 +1683,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="440426000" />
+    <option name="totallyTimeSpent" value="441689000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1813,7 +1704,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37134987" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.115715824" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11517761" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21097955" sideWeight="0.48423424" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1829,9 +1720,8 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283721" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27833182" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23573735" sideWeight="0.37443337" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23573735" sideWeight="0.6182432" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23519914" sideWeight="0.6182432" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23880596" sideWeight="0.645469" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3263826" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992464" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23573735" sideWeight="0.38175675" order="6" side_tool="true" content_ui="tabs" />
@@ -1847,6 +1737,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929105" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42910448" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3263826" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1946,7 +1837,8 @@
     <MESSAGE value="Refactor JPA - Wyrzucenie calego katalogu DatabaseService z glownego projektu" />
     <MESSAGE value="Dodanie:&#10;- Mapowanie dat&#10;- Untyped map &#10;- Kolekcja obiektow, z nadpisywanie kolumn tabeli kolekcji" />
     <MESSAGE value="Dodanie:&#10;- Access field&#10;- Access property&#10;- Access mixed&#10;- Collection order persistence&#10;- Mapping custom table schema&#10;&#10;W trakcie:&#10;- Mapping lob" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodanie:&#10;- Access field&#10;- Access property&#10;- Access mixed&#10;- Collection order persistence&#10;- Mapping custom table schema&#10;&#10;W trakcie:&#10;- Mapping lob" />
+    <MESSAGE value="Dodanie:&#10;- ID auto generation&#10;- ID table generation - do opisania&#10;- Mapping enum&#10;- Mapping transient&#10;- Mapping lob - dokonczenie" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodanie:&#10;- ID auto generation&#10;- ID table generation - do opisania&#10;- Mapping enum&#10;- Mapping transient&#10;- Mapping lob - dokonczenie" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1986,7 +1878,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="73" />
+      <option name="time" value="74" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1995,50 +1887,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/access_field/access_field.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/acc9ba6f/41b96513-abc0-4724-9d41-aba0a1a0875b/JPA_SANDBOX.PUBLIC.PRINTJOB">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/acc9ba6f/41b96513-abc0-4724-9d41-aba0a1a0875b/JPA_SANDBOX.PUBLIC.PRINTQUEUE">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/acc9ba6f/41b96513-abc0-4724-9d41-aba0a1a0875b/JPA_SANDBOX.PUBLIC.EMPLOYEE">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/access_field/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/access_property/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/access_property/src/main/java/model/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -2057,7 +1905,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2121,7 +1968,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2150,7 +1996,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2183,11 +2028,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/PIC_1.jpeg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/PIC_1.jpeg" />
     <entry file="file://$PROJECT_DIR$/mapping_lob/Untitled.bmp">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -2207,7 +2048,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="2" lean-forward="false" selection-start-line="13" selection-start-column="2" selection-end-line="19" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2215,7 +2055,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2223,7 +2062,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2231,17 +2069,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="19" column="44" lean-forward="false" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
-          <folding>
-            <element signature="e#931#932#0" expanded="false" />
-            <element signature="e#969#970#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/acc9ba6f/41b96513-abc0-4724-9d41-aba0a1a0875b/JPA_SANDBOX.CUSTOM_SCHEMA.EMP">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -2249,7 +2076,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2257,9 +2083,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="30" column="122" lean-forward="false" selection-start-line="30" selection-start-column="122" selection-end-line="30" selection-end-column="122" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2267,7 +2090,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2275,7 +2097,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
           <caret line="46" column="4" lean-forward="false" selection-start-line="46" selection-start-column="4" selection-end-line="48" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2283,7 +2104,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="499">
           <caret line="53" column="25" lean-forward="false" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2291,13 +2111,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/id_auto_generation/src/test/java/IdAutoGenerationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-391">
+        <state relative-caret-position="399">
           <caret line="19" column="56" lean-forward="false" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -2307,11 +2126,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/id_auto_generation/src/main/java/model/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2333,32 +2150,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/id_table_generation/src/main/java/model/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+        <state relative-caret-position="289">
+          <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/id_table_generation/src/test/java/IdTableGenerationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="708">
-          <caret line="73" column="37" lean-forward="false" selection-start-line="73" selection-start-column="37" selection-end-line="73" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/id_table_generation/src/main/java/model/Address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/acc9ba6f/41b96513-abc0-4724-9d41-aba0a1a0875b/JPA_SANDBOX.PUBLIC.EMPLOYEE">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -2373,6 +2167,84 @@
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collection_override_table_columns/src/main/java/model/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/id_table_generation/src/test/java/IdTableGenerationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="73" column="37" lean-forward="false" selection-start-line="73" selection-start-column="37" selection-end-line="73" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/id_table_generation/src/main/java/model/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/embedded_object/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/id_sequence_generation/id_sequence_generation.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/id_sequence_generation/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/id_sequence_generation/src/test/java/IdSequenceGenerationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="33" column="43" lean-forward="false" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/acc9ba6f/41b96513-abc0-4724-9d41-aba0a1a0875b/JPA_SANDBOX.CUSTOM_SCHEMA.EMP">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/acc9ba6f/41b96513-abc0-4724-9d41-aba0a1a0875b/JPA_SANDBOX.PUBLIC.EMPLOYEE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/id_sequence_generation/src/main/java/model/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>

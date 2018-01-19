@@ -45,6 +45,7 @@
         <module>mapping_transient</module>
         <module>id_auto_generation</module>
         <module>id_table_generation</module>
+        <module>id_sequence_generation</module>
     </modules>
 
 

@@ -16,6 +16,7 @@
         <module name="embedded_object" />
         <module name="embedded_object_sharing_and_override_column_name" />
         <module name="id_auto_generation" />
+        <module name="id_sequence_generation" />
         <module name="id_table_generation" />
         <module name="many_to_many_bidirectional" />
         <module name="many_to_many_bidirectional_jointable" />
@@ -58,6 +59,7 @@
       <module name="embedded_object" target="1.5" />
       <module name="embedded_object_sharing_and_override_column_name" target="1.5" />
       <module name="id_auto_generation" target="1.5" />
+      <module name="id_sequence_generation" target="1.5" />
       <module name="id_table_generation" target="1.5" />
       <module name="many_to_many_bidirectional" target="1.5" />
       <module name="many_to_many_bidirectional_jointable" target="1.5" />
