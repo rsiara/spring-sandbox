@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>many_to_many_bidirectional</artifactId>
+    <artifactId>one_to_many_to_itself_unidirectional</artifactId>
 
     <dependencies>
         <dependency>

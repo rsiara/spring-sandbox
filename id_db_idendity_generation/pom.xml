@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>many_to_many_bidirectional</artifactId>
+    <artifactId>id_db_idendity_generation</artifactId>
 
     <dependencies>
         <dependency>

@@ -13,9 +13,11 @@
         <module name="collection_of_embedded" />
         <module name="collection_order_persistence" />
         <module name="collection_override_table_columns" />
+        <module name="em_operations_find_remove_persist" />
         <module name="embedded_object" />
         <module name="embedded_object_sharing_and_override_column_name" />
         <module name="id_auto_generation" />
+        <module name="id_db_idendity_generation" />
         <module name="id_sequence_generation" />
         <module name="id_table_generation" />
         <module name="many_to_many_bidirectional" />
@@ -38,6 +40,9 @@
         <module name="one_to_many_bidirectional_joincolumn" />
         <module name="one_to_many_bidirectional_joincolumn_target_entity" />
         <module name="one_to_many_bidirectional_jointable" />
+        <module name="one_to_many_to_itself" />
+        <module name="one_to_many_to_itself_bidirectional" />
+        <module name="one_to_many_to_itself_unidirectional" />
         <module name="one_to_many_unidirectional" />
         <module name="one_to_many_unidirectional_jointable" />
         <module name="one_to_one_bidirectional" />
@@ -56,9 +61,11 @@
       <module name="collection_of_embedded" target="1.5" />
       <module name="collection_order_persistence" target="1.5" />
       <module name="collection_override_table_columns" target="1.5" />
+      <module name="em_operations_find_remove_persist" target="1.5" />
       <module name="embedded_object" target="1.5" />
       <module name="embedded_object_sharing_and_override_column_name" target="1.5" />
       <module name="id_auto_generation" target="1.5" />
+      <module name="id_db_idendity_generation" target="1.5" />
       <module name="id_sequence_generation" target="1.5" />
       <module name="id_table_generation" target="1.5" />
       <module name="many_to_many_bidirectional" target="1.5" />
@@ -83,6 +90,9 @@
       <module name="one_to_many_bidirectional_joincolumn" target="1.5" />
       <module name="one_to_many_bidirectional_joincolumn_target_entity" target="1.5" />
       <module name="one_to_many_bidirectional_jointable" target="1.5" />
+      <module name="one_to_many_to_itself" target="1.5" />
+      <module name="one_to_many_to_itself_bidirectional" target="1.8" />
+      <module name="one_to_many_to_itself_unidirectional" target="1.5" />
       <module name="one_to_many_unidirectional" target="1.5" />
       <module name="one_to_many_unidirectional_jointable" target="1.5" />
       <module name="one_to_one_bidirectional" target="1.5" />

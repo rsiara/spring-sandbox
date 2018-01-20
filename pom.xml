@@ -26,7 +26,6 @@
         <module>collection_of_embedded</module>
         <module>collection_of_basic</module>
         <module>map_key_basic_value_basic</module>
-        <module>map_key_entity_value_basic</module>
         <module>map_key_embeddable_non_insertable_value_entity</module>
         <module>map_key_embeddable_insertable_value_entity</module>
         <module>map_key_enum_value_basic</module>
@@ -46,6 +45,10 @@
         <module>id_auto_generation</module>
         <module>id_table_generation</module>
         <module>id_sequence_generation</module>
+        <module>one_to_many_to_itself_unidirectional</module>
+        <module>one_to_many_to_itself_bidirectional</module>
+        <module>id_db_idendity_generation</module>
+        <module>em_operations_find_remove_persist</module>
     </modules>
 
 
