@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/collection_order_persistence/collection_order_persistence.iml" filepath="$PROJECT_DIR$/collection_order_persistence/collection_order_persistence.iml" />
       <module fileurl="file://$PROJECT_DIR$/collection_override_table_columns/collection_override_table_columns.iml" filepath="$PROJECT_DIR$/collection_override_table_columns/collection_override_table_columns.iml" />
       <module fileurl="file://$PROJECT_DIR$/em_operations_find_remove_persist/em_operations_find_remove_persist.iml" filepath="$PROJECT_DIR$/em_operations_find_remove_persist/em_operations_find_remove_persist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/em_operations_persist_clear_flush_merge_detach/em_operations_persist_clear_flush_merge_detach.iml" filepath="$PROJECT_DIR$/em_operations_persist_clear_flush_merge_detach/em_operations_persist_clear_flush_merge_detach.iml" />
       <module fileurl="file://$PROJECT_DIR$/embedded_object/embedded_object.iml" filepath="$PROJECT_DIR$/embedded_object/embedded_object.iml" />
       <module fileurl="file://$PROJECT_DIR$/embedded_object_sharing_and_override_column_name/embedded_object_sharing_and_override_column_name.iml" filepath="$PROJECT_DIR$/embedded_object_sharing_and_override_column_name/embedded_object_sharing_and_override_column_name.iml" />
       <module fileurl="file://$PROJECT_DIR$/id_auto_generation/id_auto_generation.iml" filepath="$PROJECT_DIR$/id_auto_generation/id_auto_generation.iml" />

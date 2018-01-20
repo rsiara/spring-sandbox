@@ -49,6 +49,7 @@
         <module>one_to_many_to_itself_bidirectional</module>
         <module>id_db_idendity_generation</module>
         <module>em_operations_find_remove_persist</module>
+        <module>em_operations_persist_clear_flush_merge_detach</module>
     </modules>
 
 
