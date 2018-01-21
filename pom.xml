@@ -50,6 +50,10 @@
         <module>id_db_idendity_generation</module>
         <module>em_operations_find_remove_persist</module>
         <module>em_operations_persist_clear_flush_merge_detach</module>
+        <module>em_persistent_context_unsychronized</module>
+        <module>query_dynamic_query</module>
+        <module>inheritance_singletable_with_one_to_many_to_itself_bidirectional</module>
+        <module>inheritance_joined_with_one_to_many_to_itself_bidirectional</module>
     </modules>
 
 

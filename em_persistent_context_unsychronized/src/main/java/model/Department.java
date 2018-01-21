@@ -1,9 +1,8 @@
 package model;
 
+import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.Collection;
-
-import javax.persistence.*;
 
 @Entity
 public class Department {

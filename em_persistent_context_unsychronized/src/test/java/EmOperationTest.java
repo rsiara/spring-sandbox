@@ -12,6 +12,7 @@ import org.springframework.test.context.web.WebAppConfiguration;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.PersistenceContextType;
+import javax.persistence.SynchronizationType;
 import javax.transaction.Transactional;
 
 /*
@@ -30,15 +31,15 @@ public class EmOperationTest {
 
     private EntityManager entityManager;
 
-    @PersistenceContext(type = PersistenceContextType.EXTENDED)
+    @PersistenceContext(type = PersistenceContextType.EXTENDED,
+            synchronization = SynchronizationType.UNSYNCHRONIZED)
     public void setEntityManager(EntityManager entityManager) {
         this.entityManager = entityManager;
     }
 
     @Test
     @Transactional
-    @Rollback(false)
-    public void id_auto_generation_test() {
+    public void em_persistent_context_unsychronized_test() {
         Department department = new Department();
         department.setName("Humar Resources");
 
@@ -53,34 +54,20 @@ public class EmOperationTest {
         department.addEmployee(john);
         department.addEmployee(mark);
 
+        //Ta metoda powoduje polaczenie z sesja
+        processAllChanges();
+
         System.out.println("Before persist(): " + entityManager.contains(department));
         entityManager.persist(department);
         System.out.println("After persist(): " + entityManager.contains(department));
         entityManager.flush();
-        System.out.println("After flush(): " + entityManager.contains(department));
-        entityManager.detach(department);
-        System.out.println("After detach(): " + entityManager.contains(department));
-        Department mergedDepartment = entityManager.merge(department);
-        System.out.println("After merge() source instance: " + entityManager.contains(department));
-        System.out.println("After merge() returned instance: " + entityManager.contains(mergedDepartment));
-        entityManager.clear();
-        System.out.println("After clear() returned merged instance: " + entityManager.contains(mergedDepartment));
-
-        entityManager.flush();
-
-    /*    john = entityManager.find(Employee.class, john.getId());
-        System.out.println("After find(): " + entityManager.contains(john));
-
-        System.out.println("On lazy loaded object returned from object being in persistent state: " + entityManager.contains(john.getDepartment()));
-*/
-        department = entityManager.find(Department.class, department.getId());
-        System.out.println("After find(): " + entityManager.contains(department));
-
-        System.out.println("On lazy loaded object returned from object being in persistent state: " + entityManager.contains(department.getEmployees().toArray()[0]));
 
 
+    }
 
-
+    // End conversation
+    public void processAllChanges() {
+        entityManager.joinTransaction();
     }
 
 
