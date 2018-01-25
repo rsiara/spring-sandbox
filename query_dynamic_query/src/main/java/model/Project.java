@@ -3,13 +3,12 @@ package model;
 import java.util.ArrayList;
 import java.util.Collection;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.ManyToMany;
+import javax.persistence.*;
 
 @Entity
 public class Project {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     protected int id;
     protected String name;
     @ManyToMany(mappedBy = "projects")
@@ -33,5 +32,13 @@ public class Project {
 
     public String toString() {
         return "Project id: " + getId() + ", name: " + getName();
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setEmployees(Collection<Employee> employees) {
+        this.employees = employees;
     }
 }

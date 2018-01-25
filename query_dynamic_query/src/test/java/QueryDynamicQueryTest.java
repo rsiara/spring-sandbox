@@ -1,8 +1,10 @@
 import configuration.RootConfig;
 import model.Department;
 import model.Employee;
+import model.Project;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.springframework.test.annotation.Rollback;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.AnnotationConfigWebContextLoader;
@@ -10,6 +12,9 @@ import org.springframework.test.context.web.WebAppConfiguration;
 
 import javax.persistence.*;
 import javax.transaction.Transactional;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Date;
 import java.util.List;
 
 /*
@@ -37,25 +42,10 @@ public class QueryDynamicQueryTest {
 
     @Test
     @Transactional
+    @Rollback(false)
     public void query_dynamic_query_test() {
-        Department department = new Department();
-        department.setName("Humar Resources");
 
-        Employee john = new Employee();
-        john.setName("John");
-        john.setSalary(2800);
-
-        Employee mark = new Employee();
-        mark.setName("Mark");
-        mark.setSalary(4200);
-
-        department.addEmployee(john);
-        department.addEmployee(mark);
-
-        System.out.println("Before persist(): " + entityManager.contains(department));
-        entityManager.persist(department);
-        System.out.println("After persist(): " + entityManager.contains(department));
-        entityManager.flush();
+        prepare_data();
     }
 
     public long queryEmpSalary(String deptName, String empName) {
@@ -87,5 +77,62 @@ public class QueryDynamicQueryTest {
                 .getResultList();
     }
 
+
+    private void prepare_data() {
+        Department department = new Department();
+        department.setName("Humar Resources");
+
+        Employee john = new Employee();
+        john.setName("John");
+        john.setSalary(2800);
+        john.setStartDate(new Date());
+
+        Employee mark = new Employee();
+        mark.setName("Mark");
+        mark.setSalary(4200);
+        mark.setStartDate(new Date());
+
+        Collection<Employee> employess = new ArrayList<Employee>();
+        employess.add(john);
+        employess.add(mark);
+
+        john.setDirects(employess);
+        mark.setManager(john);
+        john.setManager(john);
+
+        Project hrDepartmentProject = new Project();
+        hrDepartmentProject.setName("HR Headquarter development");
+
+        hrDepartmentProject.setEmployees(employess);
+
+
+        Project hospitalProject = new Project();
+        hospitalProject.setName("Hospital project");
+
+        hospitalProject.setEmployees(employess);
+
+        Project schoolProject = new Project();
+        schoolProject.setName("School project");
+
+        schoolProject.setEmployees(employess);
+
+
+        Collection<Project> projects = new ArrayList<Project>();
+        projects.add(hrDepartmentProject);
+        projects.add(hospitalProject);
+        projects.add(schoolProject);
+
+        john.setProjects(projects);
+        mark.setProjects(projects);
+
+        department.addEmployee(john);
+        department.addEmployee(mark);
+
+        entityManager.persist(department);
+
+        entityManager.persist(hrDepartmentProject);
+        entityManager.persist(hospitalProject);
+        entityManager.persist(schoolProject);
+    }
 
 }
