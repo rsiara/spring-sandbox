@@ -6,12 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d9a5c24-0ab2-4622-9484-8b0abafbe55a" name="Default" comment="Dodanie:&#10;- entity manager operations : persist(), clear(), flush(), merge(), detach()">
+    <list default="true" id="5d9a5c24-0ab2-4622-9484-8b0abafbe55a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Sandbox.iml" afterPath="$PROJECT_DIR$/Sandbox.iml" />
-      <change beforePath="$PROJECT_DIR$/query_dynamic_query/src/main/java/model/Department.java" afterPath="$PROJECT_DIR$/query_dynamic_query/src/main/java/model/Department.java" />
-      <change beforePath="$PROJECT_DIR$/query_dynamic_query/src/main/java/model/Employee.java" afterPath="$PROJECT_DIR$/query_dynamic_query/src/main/java/model/Employee.java" />
-      <change beforePath="$PROJECT_DIR$/query_dynamic_query/src/main/java/model/Project.java" afterPath="$PROJECT_DIR$/query_dynamic_query/src/main/java/model/Project.java" />
       <change beforePath="$PROJECT_DIR$/query_dynamic_query/src/test/java/QueryDynamicQueryTest.java" afterPath="$PROJECT_DIR$/query_dynamic_query/src/test/java/QueryDynamicQueryTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -107,15 +103,15 @@
     <favorites_list name="spring-sandbox" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="QueryDynamicQueryTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/query_dynamic_query/src/test/java/QueryDynamicQueryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1241">
-              <caret line="92" column="35" lean-forward="false" selection-start-line="92" selection-start-column="35" selection-end-line="92" selection-end-column="35" />
+            <state relative-caret-position="317">
+              <caret line="62" column="43" lean-forward="true" selection-start-line="62" selection-start-column="43" selection-end-line="62" selection-end-column="43" />
               <folding>
-                <element signature="e#2880#2890#0" expanded="true" />
-                <element signature="e#3579#3588#0" expanded="true" />
+                <element signature="e#3372#3382#0" expanded="true" />
+                <element signature="e#4071#4080#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -161,12 +157,12 @@
         <entry file="file://$PROJECT_DIR$/query_dynamic_query/src/main/java/model/Project.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="10" column="54" lean-forward="false" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+              <caret line="10" column="55" lean-forward="false" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
               <folding>
-                <element signature="e#739#740#0" expanded="true" />
-                <element signature="e#771#772#0" expanded="true" />
-                <element signature="e#835#836#0" expanded="true" />
-                <element signature="e#877#878#0" expanded="true" />
+                <element signature="e#740#741#0" expanded="true" />
+                <element signature="e#772#773#0" expanded="true" />
+                <element signature="e#836#837#0" expanded="true" />
+                <element signature="e#878#879#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -175,8 +171,8 @@
       <file leaf-file-name="Department.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/query_dynamic_query/src/main/java/model/Department.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="10" column="54" lean-forward="false" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+            <state relative-caret-position="119">
+              <caret line="10" column="55" lean-forward="false" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -185,11 +181,11 @@
       <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/query_dynamic_query/src/main/java/model/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-652">
-              <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            <state relative-caret-position="102">
+              <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
               <folding>
-                <element signature="e#1272#1273#0" expanded="true" />
-                <element signature="e#1300#1301#0" expanded="true" />
+                <element signature="e#1273#1274#0" expanded="true" />
+                <element signature="e#1301#1302#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -357,8 +353,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-734" />
-    <option name="y" value="343" />
+    <option name="x" value="100" />
+    <option name="y" value="122" />
     <option name="width" value="2156" />
     <option name="height" value="667" />
   </component>
@@ -767,12 +763,89 @@
       <hideEmptyPackages ProjectPane="false" />
       <abbreviatePackageNames />
       <autoscrollToSource />
-      <autoscrollFromSource Scope="true" AndroidView="true" PackagesPane="true" ProjectPane="true" />
+      <autoscrollFromSource AndroidView="true" Scope="true" PackagesPane="true" ProjectPane="true" />
       <sortByType />
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="query_dynamic_query" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="query_dynamic_query" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="query_dynamic_query" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="query_dynamic_query" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="query_dynamic_query" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="query_dynamic_query" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="query_dynamic_query" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spring-sandbox" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Sandbox" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Production">
           <expand>
@@ -953,72 +1026,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="query_dynamic_query" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="query_dynamic_query" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="query_dynamic_query" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="query_dynamic_query" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="query_dynamic_query" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="query_dynamic_query" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="query_dynamic_query" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -1055,17 +1062,6 @@
               <item name="spring-sandbox" type="1abcf292:AndroidViewProjectNode" />
               <item name="Sandbox" type="1039202d:NonAndroidModuleNode" />
               <item name="tests" type="b5c1fe26:NonAndroidSourceTypeNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="spring-sandbox" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Sandbox" type="616d4139:PackageViewModuleNode" />
             </path>
           </expand>
           <select />
@@ -1634,7 +1630,8 @@
       <workItem from="1516746571395" duration="23000" />
       <workItem from="1516746620727" duration="7000" />
       <workItem from="1516746738840" duration="937000" />
-      <workItem from="1516917932121" duration="2730000" />
+      <workItem from="1516917932121" duration="2786000" />
+      <workItem from="1516986222141" duration="2489000" />
     </task>
     <task id="LOCAL-00001" summary="Persistence.xml przeniesiony do JavaConfig (PersistenceJPAConfig)&#10;Dodanie pierwszego mapowania unidirectional Many-to-one">
       <created>1510526522683</created>
@@ -1720,22 +1717,17 @@
       <option name="project" value="LOCAL" />
       <updated>1516486451303</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Dodanie:&#10;- query_dynamic_query - przygotowanie danych">
+      <created>1516921436689</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1516921436689</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="QueryDynamicQueryTest_query_dynamic_query_test - 2018.01.25 at 23h 51m 55s.xml">
-      <configuration name="QueryDynamicQueryTest.query_dynamic_query_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QueryDynamicQueryTest_query_dynamic_query_test - 2018.01.25 at 23h 52m 32s.xml">
-      <configuration name="QueryDynamicQueryTest.query_dynamic_query_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QueryDynamicQueryTest_query_dynamic_query_test - 2018.01.25 at 23h 54m 23s.xml">
-      <configuration name="QueryDynamicQueryTest.query_dynamic_query_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QueryDynamicQueryTest_query_dynamic_query_test - 2018.01.25 at 23h 55m 04s.xml">
-      <configuration name="QueryDynamicQueryTest.query_dynamic_query_test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="QueryDynamicQueryTest_query_dynamic_query_test - 2018.01.25 at 23h 56m 06s.xml">
       <configuration name="QueryDynamicQueryTest.query_dynamic_query_test" configurationId="JUnit" />
     </history-entry>
@@ -1754,9 +1746,21 @@
     <history-entry file="QueryDynamicQueryTest_query_dynamic_query_test - 2018.01.26 at 00h 02m 37s.xml">
       <configuration name="QueryDynamicQueryTest.query_dynamic_query_test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="QueryDynamicQueryTest_query_dynamic_query_test - 2018.01.26 at 18h 06m 41s.xml">
+      <configuration name="QueryDynamicQueryTest.query_dynamic_query_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QueryDynamicQueryTest_query_dynamic_query_test - 2018.01.26 at 18h 50m 10s.xml">
+      <configuration name="QueryDynamicQueryTest.query_dynamic_query_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QueryDynamicQueryTest_query_dynamic_query_test - 2018.01.26 at 19h 23m 49s.xml">
+      <configuration name="QueryDynamicQueryTest.query_dynamic_query_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QueryDynamicQueryTest_query_dynamic_query_test - 2018.01.26 at 19h 31m 59s.xml">
+      <configuration name="QueryDynamicQueryTest.query_dynamic_query_test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="480227000" />
+    <option name="totallyTimeSpent" value="482772000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1772,30 +1776,29 @@
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43789664" sideWeight="0.26264802" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43789664" sideWeight="0.27556512" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33953488" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37134987" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21582347" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21582347" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21097955" sideWeight="0.48423424" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34995466" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32819584" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43789664" sideWeight="0.737352" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43789664" sideWeight="0.72443485" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283721" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.356301" sideWeight="0.9143173" order="3" side_tool="false" content_ui="tabs" x="-1920" y="23" width="1536" height="801" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21849501" sideWeight="0.8439182" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.356301" sideWeight="0.9143173" order="3" side_tool="false" content_ui="tabs" x="608" y="31" width="1311" height="568" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283721" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27833182" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.270183" sideWeight="0.3832021" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.270183" sideWeight="0.6167979" order="0" side_tool="false" content_ui="combo" x="457" y="247" width="502" height="745" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23880596" sideWeight="0.645469" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3263826" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992464" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23573735" sideWeight="0.38175675" order="6" side_tool="true" content_ui="tabs" />
@@ -1812,6 +1815,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929105" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42910448" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3263826" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1915,7 +1919,8 @@
     <MESSAGE value="Dodanie:&#10;- ID sequence generation" />
     <MESSAGE value="Dodanie:&#10;- ID db identity&#10;- OneToMany to itself bidirectional&#10;- OneToMany to itself unidirectional" />
     <MESSAGE value="Dodanie:&#10;- entity manager operations : persist(), clear(), flush(), merge(), detach()" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodanie:&#10;- entity manager operations : persist(), clear(), flush(), merge(), detach()" />
+    <MESSAGE value="Dodanie:&#10;- query_dynamic_query - przygotowanie danych" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodanie:&#10;- query_dynamic_query - przygotowanie danych" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1950,14 +1955,6 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="72" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/query_dynamic_query/src/test/java/QueryDynamicQueryTest.java</url>
-          <line>45</line>
-          <properties class="QueryDynamicQueryTest" method="query_dynamic_query_test">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="77" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -2081,7 +2078,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="14" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="19" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2089,7 +2085,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2139,9 +2134,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="986">
           <caret line="76" column="2" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="82" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2191,7 +2183,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1326">
           <caret line="96" column="35" lean-forward="false" selection-start-line="96" selection-start-column="31" selection-end-line="96" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2282,20 +2273,20 @@
     <entry file="file://$PROJECT_DIR$/query_dynamic_query/src/main/java/model/Project.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="10" column="54" lean-forward="false" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+          <caret line="10" column="55" lean-forward="false" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
           <folding>
-            <element signature="e#739#740#0" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
-            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#740#741#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+            <element signature="e#836#837#0" expanded="true" />
+            <element signature="e#878#879#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/query_dynamic_query/src/main/java/model/Department.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="10" column="54" lean-forward="false" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+        <state relative-caret-position="119">
+          <caret line="10" column="55" lean-forward="false" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
           <folding />
         </state>
       </provider>
@@ -2330,22 +2321,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/query_dynamic_query/src/main/java/model/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-652">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        <state relative-caret-position="102">
+          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
           <folding>
-            <element signature="e#1272#1273#0" expanded="true" />
-            <element signature="e#1300#1301#0" expanded="true" />
+            <element signature="e#1273#1274#0" expanded="true" />
+            <element signature="e#1301#1302#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/query_dynamic_query/src/test/java/QueryDynamicQueryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="92" column="35" lean-forward="false" selection-start-line="92" selection-start-column="35" selection-end-line="92" selection-end-column="35" />
+        <state relative-caret-position="317">
+          <caret line="62" column="43" lean-forward="true" selection-start-line="62" selection-start-column="43" selection-end-line="62" selection-end-column="43" />
           <folding>
-            <element signature="e#2880#2890#0" expanded="true" />
-            <element signature="e#3579#3588#0" expanded="true" />
+            <element signature="e#3372#3382#0" expanded="true" />
+            <element signature="e#4071#4080#0" expanded="true" />
           </folding>
         </state>
       </provider>

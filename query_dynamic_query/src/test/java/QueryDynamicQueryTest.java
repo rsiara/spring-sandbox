@@ -46,6 +46,17 @@ public class QueryDynamicQueryTest {
     public void query_dynamic_query_test() {
 
         prepare_data();
+
+        long employeeSalary = queryEmpSalary("Humar Resources", "John");
+        System.out.println("John salary in HR Headquarter development: " + employeeSalary);
+
+        employeeSalary = queryEmpSalaryUsingParams("Humar Resources", "John");
+        System.out.println("John salary in HR Headquarter development: " + employeeSalary);
+
+        List<Employee> employees = findAllEmployees();
+        for (Employee employee : employees) {
+            System.out.println(employee);
+        }
     }
 
     public long queryEmpSalary(String deptName, String empName) {
