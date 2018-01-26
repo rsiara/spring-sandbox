@@ -53,8 +53,10 @@
         <module name="one_to_one_bidirectional_pk_mapping" />
         <module name="one_to_one_unidirectional" />
         <module name="parent_module" />
+        <module name="query_dynamic_named_query" />
         <module name="query_dynamic_query" />
         <module name="query_named_query" />
+        <module name="query_param_types" />
         <module name="sharing_embeddable_key_mappings_with_values" />
       </profile>
     </annotationProcessing>
@@ -109,8 +111,10 @@
       <module name="one_to_one_bidirectional_pk_mapping" target="1.5" />
       <module name="one_to_one_unidirectional" target="1.5" />
       <module name="parent_module" target="1.5" />
+      <module name="query_dynamic_named_query" target="1.5" />
       <module name="query_dynamic_query" target="1.5" />
       <module name="query_named_query" target="1.5" />
+      <module name="query_param_types" target="1.8" />
       <module name="Sandbox" target="1.5" />
       <module name="sharing_embeddable_key_mappings_with_values" target="1.5" />
     </bytecodeTargetLevel>

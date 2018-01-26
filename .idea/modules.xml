@@ -46,8 +46,10 @@
       <module fileurl="file://$PROJECT_DIR$/one_to_one_bidirectional_pk_mapping/one_to_one_bidirectional_pk_mapping.iml" filepath="$PROJECT_DIR$/one_to_one_bidirectional_pk_mapping/one_to_one_bidirectional_pk_mapping.iml" />
       <module fileurl="file://$PROJECT_DIR$/one_to_one_unidirectional/one_to_one_unidirectional.iml" filepath="$PROJECT_DIR$/one_to_one_unidirectional/one_to_one_unidirectional.iml" />
       <module fileurl="file://$PROJECT_DIR$/parent_module/parent_module.iml" filepath="$PROJECT_DIR$/parent_module/parent_module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/query_dynamic_named_query/query_dynamic_named_query.iml" filepath="$PROJECT_DIR$/query_dynamic_named_query/query_dynamic_named_query.iml" />
       <module fileurl="file://$PROJECT_DIR$/query_dynamic_query/query_dynamic_query.iml" filepath="$PROJECT_DIR$/query_dynamic_query/query_dynamic_query.iml" />
       <module fileurl="file://$PROJECT_DIR$/query_named_query/query_named_query.iml" filepath="$PROJECT_DIR$/query_named_query/query_named_query.iml" />
+      <module fileurl="file://$PROJECT_DIR$/query_param_types/query_param_types.iml" filepath="$PROJECT_DIR$/query_param_types/query_param_types.iml" />
       <module fileurl="file://$PROJECT_DIR$/sharing_embeddable_key_mappings_with_values/sharing_embeddable_key_mappings_with_values.iml" filepath="$PROJECT_DIR$/sharing_embeddable_key_mappings_with_values/sharing_embeddable_key_mappings_with_values.iml" />
     </modules>
   </component>
