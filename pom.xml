@@ -57,6 +57,7 @@
         <module>query_named_query</module>
         <module>query_dynamic_named_query</module>
         <module>query_param_types</module>
+        <module>query_executing_queries_examples</module>
     </modules>
 
 

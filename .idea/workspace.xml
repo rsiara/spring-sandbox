@@ -7,18 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d9a5c24-0ab2-4622-9484-8b0abafbe55a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/query_dynamic_named_query/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/query_dynamic_named_query/query_dynamic_named_query.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/query_dynamic_named_query/src/main/java/model/Department.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/query_dynamic_named_query/src/main/java/model/Employee.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/query_dynamic_named_query/src/main/java/model/Project.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/query_dynamic_named_query/src/test/java/QueryDynamicNamedQueryTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/query_param_types/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/query_param_types/query_param_types.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/query_param_types/src/main/java/model/Department.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/query_param_types/src/main/java/model/Employee.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/query_param_types/src/main/java/model/Project.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/query_param_types/src/test/java/QueryParamTypesTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/query_executing_queries_examples/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/query_executing_queries_examples/query_executing_queries_examples.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/query_executing_queries_examples/src/main/java/model/Department.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/query_executing_queries_examples/src/main/java/model/Employee.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/query_executing_queries_examples/src/main/java/model/Project.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/query_executing_queries_examples/src/test/java/QueryExecutingQueriesExamplesTest.java" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -81,6 +75,7 @@
     <ignored path="$PROJECT_DIR$/query_named_query/target/" />
     <ignored path="$PROJECT_DIR$/query_dynamic_named_query/target/" />
     <ignored path="$PROJECT_DIR$/query_param_types/target/" />
+    <ignored path="$PROJECT_DIR$/query_executing_queries_examples/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -121,45 +116,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/query_dynamic_named_query/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QueryParamTypesTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="QueryParamTypesTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/query_param_types/src/test/java/QueryParamTypesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="105" column="5" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="169" selection-end-column="1" />
+            <state relative-caret-position="476">
+              <caret line="107" column="50" lean-forward="false" selection-start-line="107" selection-start-column="50" selection-end-line="107" selection-end-column="50" />
               <folding>
                 <element signature="e#1147#1148#0" expanded="true" />
                 <element signature="e#1197#1198#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Department.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/query_param_types/src/main/java/model/Department.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Project.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/query_param_types/src/main/java/model/Project.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -174,31 +139,75 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Department.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/query_dynamic_named_query/src/main/java/model/Department.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/query_executing_queries_examples/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="306">
+              <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Project.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/query_dynamic_named_query/src/main/java/model/Project.java">
+      <file leaf-file-name="Department.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/query_dynamic_query/src/main/java/model/Department.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="102">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QueryExecutingQueriesExamplesTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/query_executing_queries_examples/src/test/java/QueryExecutingQueriesExamplesTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="579">
+              <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2462#2463#0" expanded="true" />
+                <element signature="e#2516#2517#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Project.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/query_executing_queries_examples/src/main/java/model/Project.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Department.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/query_executing_queries_examples/src/main/java/model/Department.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="45" column="39" lean-forward="false" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/query_dynamic_named_query/src/main/java/model/Employee.java">
+        <entry file="file://$PROJECT_DIR$/query_executing_queries_examples/src/main/java/model/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+            <state relative-caret-position="953">
+              <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/query_dynamic_query/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="18" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -208,21 +217,11 @@
         <entry file="file://$PROJECT_DIR$/query_dynamic_named_query/src/test/java/QueryDynamicNamedQueryTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="239">
-              <caret line="94" column="4" lean-forward="false" selection-start-line="94" selection-start-column="4" selection-end-line="128" selection-end-column="5" />
+              <caret line="93" column="4" lean-forward="false" selection-start-line="93" selection-start-column="4" selection-end-line="127" selection-end-column="5" />
               <folding>
                 <element signature="e#4796#4806#0" expanded="true" />
                 <element signature="e#5495#5504#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/query_param_types/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -294,11 +293,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/one_to_many_to_itself/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/one_to_many_to_itself_unidirectional/src/test/java/OneToManyToItselfTest.java" />
-        <option value="$PROJECT_DIR$/one_to_many_to_itself_unidirectional/one_to_many_to_itself_unidirectional.iml" />
-        <option value="$PROJECT_DIR$/one_to_many_to_itself_unidirectional/src/main/java/model/NodeType.java" />
         <option value="$PROJECT_DIR$/one_to_many_to_itself_unidirectional/src/test/java/OneToManyToItselfUnidirectionalTest.java" />
         <option value="$PROJECT_DIR$/one_to_many_to_itself_unidirectional/src/main/java/model/Node.java" />
         <option value="$PROJECT_DIR$/one_to_many_to_itself_bidirectional/pom.xml" />
@@ -345,6 +339,11 @@
         <option value="$PROJECT_DIR$/query_param_types/src/main/java/model/Employee.java" />
         <option value="$PROJECT_DIR$/query_dynamic_named_query/src/test/java/QueryDynamicNamedQueryTest.java" />
         <option value="$PROJECT_DIR$/query_param_types/src/test/java/QueryParamTypesTest.java" />
+        <option value="$PROJECT_DIR$/query_executing_queries_examples/pom.xml" />
+        <option value="$PROJECT_DIR$/query_executing_queries_examples/src/main/java/model/Project.java" />
+        <option value="$PROJECT_DIR$/query_executing_queries_examples/src/main/java/model/Department.java" />
+        <option value="$PROJECT_DIR$/query_executing_queries_examples/src/main/java/model/Employee.java" />
+        <option value="$PROJECT_DIR$/query_executing_queries_examples/src/test/java/QueryExecutingQueriesExamplesTest.java" />
       </list>
     </option>
   </component>
@@ -814,56 +813,6 @@
             </path>
             <path>
               <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="query_param_types" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="query_param_types" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="query_param_types" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="query_param_types" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="query_param_types" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="query_param_types" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="query_param_types" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -1145,11 +1094,11 @@
       <recent name="com.springstart.jpa.chapterfive" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\query_executing_queries_examples\src\main\java\model" />
       <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\query_param_types\src\main\java\model" />
       <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\query_dynamic_named_query\src\main\java\model" />
       <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\query_named_query\src\main\java\model" />
       <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\inheritance_joined_with_one_to_many_to_itself_bidirectional\src\main\java\model" />
-      <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\inheritance_singletable_with_one_to_many_to_itself_bidirectional\src\main\java\model" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
@@ -1673,7 +1622,7 @@
       <workItem from="1516746620727" duration="7000" />
       <workItem from="1516746738840" duration="937000" />
       <workItem from="1516917932121" duration="2786000" />
-      <workItem from="1516986222141" duration="9784000" />
+      <workItem from="1516986222141" duration="12836000" />
     </task>
     <task id="LOCAL-00001" summary="Persistence.xml przeniesiony do JavaConfig (PersistenceJPAConfig)&#10;Dodanie pierwszego mapowania unidirectional Many-to-one">
       <created>1510526522683</created>
@@ -1780,7 +1729,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516993869071</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Dodanie:&#10;- query_dynamic_named_query&#10;- query_param_types">
+      <created>1517007858429</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1517007858429</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1816,7 +1772,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="490067000" />
+    <option name="totallyTimeSpent" value="493119000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1849,7 +1805,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283721" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21849501" sideWeight="0.8439182" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.356301" sideWeight="0.9143173" order="3" side_tool="false" content_ui="tabs" x="-1740" y="44" width="1311" height="730" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.356301" sideWeight="0.9143173" order="3" side_tool="false" content_ui="tabs" x="-1859" y="84" width="1311" height="730" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283721" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27833182" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.270183" sideWeight="0.3832021" order="8" side_tool="true" content_ui="tabs" />
@@ -1978,7 +1934,8 @@
     <MESSAGE value="Dodanie:&#10;- query_dynamic_query - przygotowanie danych" />
     <MESSAGE value="Dodanie:&#10;- query_dynamic_query" />
     <MESSAGE value="Dodanie:&#10;- query_named_query" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodanie:&#10;- query_named_query" />
+    <MESSAGE value="Dodanie:&#10;- query_dynamic_named_query&#10;- query_param_types" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodanie:&#10;- query_dynamic_named_query&#10;- query_param_types" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2027,41 +1984,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/inheritance_joined_with_one_to_many_to_itself_bidirectional/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inheritance_singletable_with_one_to_many_to_itself_bidirectional/src/main/java/model/NodeType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inheritance_singletable_with_one_to_many_to_itself_bidirectional/src/main/java/model/TestAB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inheritance_joined_with_one_to_many_to_itself_bidirectional/inheritance_joined_with_one_to_many_to_itself_bidirectional.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://src:table:/acc9ba6f/41b96513-abc0-4724-9d41-aba0a1a0875b/JPA_SANDBOX.PUBLIC.NODE">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://src:table:/acc9ba6f/41b96513-abc0-4724-9d41-aba0a1a0875b/JPA_SANDBOX.PUBLIC.TEST_AB">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -2229,14 +2151,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/query_dynamic_query/src/main/java/model/Department.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="55" lean-forward="false" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://table:/acc9ba6f/41b96513-abc0-4724-9d41-aba0a1a0875b/JPA_SANDBOX.PUBLIC.DEPARTMENT">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -2284,14 +2198,6 @@
             <element signature="e#3372#3382#0" expanded="false" />
             <element signature="e#4071#4080#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/query_dynamic_query/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="18" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2398,10 +2304,21 @@
     <entry file="file://$PROJECT_DIR$/query_dynamic_named_query/src/test/java/QueryDynamicNamedQueryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
-          <caret line="94" column="4" lean-forward="false" selection-start-line="94" selection-start-column="4" selection-end-line="128" selection-end-column="5" />
+          <caret line="93" column="4" lean-forward="false" selection-start-line="93" selection-start-column="4" selection-end-line="127" selection-end-column="5" />
           <folding>
             <element signature="e#4796#4806#0" expanded="true" />
             <element signature="e#5495#5504#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query_param_types/src/test/java/QueryParamTypesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="107" column="50" lean-forward="false" selection-start-line="107" selection-start-column="50" selection-end-line="107" selection-end-column="50" />
+          <folding>
+            <element signature="e#1147#1148#0" expanded="true" />
+            <element signature="e#1197#1198#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2414,13 +2331,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/query_param_types/src/test/java/QueryParamTypesTest.java">
+    <entry file="file://$PROJECT_DIR$/query_dynamic_query/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="105" column="5" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="169" selection-end-column="1" />
+        <state relative-caret-position="204">
+          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="18" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query_executing_queries_examples/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query_dynamic_query/src/main/java/model/Department.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query_executing_queries_examples/src/main/java/model/Project.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query_executing_queries_examples/src/main/java/model/Department.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="45" column="39" lean-forward="false" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query_executing_queries_examples/src/main/java/model/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="953">
+          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query_executing_queries_examples/src/test/java/QueryExecutingQueriesExamplesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
           <folding>
-            <element signature="e#1147#1148#0" expanded="true" />
-            <element signature="e#1197#1198#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2462#2463#0" expanded="true" />
+            <element signature="e#2516#2517#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2479,7 +2445,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>JPA|query_param_types</last-edited>
+          <last-edited>JPA|query_executing_queries_examples</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
