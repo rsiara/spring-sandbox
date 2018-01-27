@@ -62,6 +62,9 @@
         <module>query_paging</module>
         <module>query_message_board</module>
         <module>query_bulk_query</module>
+        <module>query_hints</module>
+        <module>query_hints</module>
+        <module>query_hints_examples</module>
     </modules>
 
 

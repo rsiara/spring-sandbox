@@ -10,6 +10,7 @@
       <set>
         <option value="$PROJECT_DIR$/map_key_entity_value_basic/pom.xml" />
         <option value="$PROJECT_DIR$/maps/pom.xml" />
+        <option value="$PROJECT_DIR$/query_hints/pom.xml" />
       </set>
     </option>
   </component>

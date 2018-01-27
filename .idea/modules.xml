@@ -50,6 +50,7 @@
       <module fileurl="file://$PROJECT_DIR$/query_dynamic_named_query/query_dynamic_named_query.iml" filepath="$PROJECT_DIR$/query_dynamic_named_query/query_dynamic_named_query.iml" />
       <module fileurl="file://$PROJECT_DIR$/query_dynamic_query/query_dynamic_query.iml" filepath="$PROJECT_DIR$/query_dynamic_query/query_dynamic_query.iml" />
       <module fileurl="file://$PROJECT_DIR$/query_executing_queries_examples/query_executing_queries_examples.iml" filepath="$PROJECT_DIR$/query_executing_queries_examples/query_executing_queries_examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/query_hints_examples/query_hints_examples.iml" filepath="$PROJECT_DIR$/query_hints_examples/query_hints_examples.iml" />
       <module fileurl="file://$PROJECT_DIR$/query_message_board/query_message_board.iml" filepath="$PROJECT_DIR$/query_message_board/query_message_board.iml" />
       <module fileurl="file://$PROJECT_DIR$/query_named_query/query_named_query.iml" filepath="$PROJECT_DIR$/query_named_query/query_named_query.iml" />
       <module fileurl="file://$PROJECT_DIR$/query_paging/query_paging.iml" filepath="$PROJECT_DIR$/query_paging/query_paging.iml" />
