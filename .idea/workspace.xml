@@ -7,15 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d9a5c24-0ab2-4622-9484-8b0abafbe55a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/query_hints_examples/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/query_hints_examples/query_hints_examples.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/query_hints_examples/src/main/java/model/Employee.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/query_hints_examples/src/test/java/QueryHintsExamples.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/query_hints_examples/src/test/java/QueryHintsExamples.java" afterPath="$PROJECT_DIR$/query_hints_examples/src/test/java/QueryHintsExamples.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -182,10 +175,10 @@
             <state relative-caret-position="119">
               <caret line="7" column="53" lean-forward="false" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="67" />
               <folding>
-                <element signature="e#777#778#0" expanded="true" />
-                <element signature="e#809#810#0" expanded="true" />
-                <element signature="e#851#852#0" expanded="true" />
-                <element signature="e#887#888#0" expanded="true" />
+                <element signature="e#773#774#0" expanded="true" />
+                <element signature="e#805#806#0" expanded="true" />
+                <element signature="e#847#848#0" expanded="true" />
+                <element signature="e#883#884#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -204,8 +197,8 @@
       <file leaf-file-name="QueryHintsExamples.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/query_hints_examples/src/test/java/QueryHintsExamples.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="59" column="20" lean-forward="true" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
+            <state relative-caret-position="477">
+              <caret line="121" column="46" lean-forward="true" selection-start-line="121" selection-start-column="46" selection-end-line="121" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1693,7 +1686,7 @@
       <workItem from="1516746738840" duration="937000" />
       <workItem from="1516917932121" duration="2786000" />
       <workItem from="1516986222141" duration="13125000" />
-      <workItem from="1517047271116" duration="21877000" />
+      <workItem from="1517047271116" duration="22122000" />
     </task>
     <task id="LOCAL-00001" summary="Persistence.xml przeniesiony do JavaConfig (PersistenceJPAConfig)&#10;Dodanie pierwszego mapowania unidirectional Many-to-one">
       <created>1510526522683</created>
@@ -1828,7 +1821,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517090144244</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Dodanie:&#10;- query_hints_examples">
+      <created>1517097284930</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1517097284930</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1864,7 +1864,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="515285000" />
+    <option name="totallyTimeSpent" value="515530000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2031,7 +2031,8 @@
     <MESSAGE value="Dodanie:&#10;- query_executing_queries_examples" />
     <MESSAGE value="Dodanie:&#10;- query_message_board" />
     <MESSAGE value="Dodanie:&#10;- query_bulk_query" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodanie:&#10;- query_bulk_query" />
+    <MESSAGE value="Dodanie:&#10;- query_hints_examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodanie:&#10;- query_hints_examples" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2519,10 +2520,10 @@
         <state relative-caret-position="119">
           <caret line="7" column="53" lean-forward="false" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="67" />
           <folding>
-            <element signature="e#777#778#0" expanded="true" />
-            <element signature="e#809#810#0" expanded="true" />
-            <element signature="e#851#852#0" expanded="true" />
-            <element signature="e#887#888#0" expanded="true" />
+            <element signature="e#773#774#0" expanded="true" />
+            <element signature="e#805#806#0" expanded="true" />
+            <element signature="e#847#848#0" expanded="true" />
+            <element signature="e#883#884#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2537,8 +2538,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/query_hints_examples/src/test/java/QueryHintsExamples.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="59" column="20" lean-forward="true" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
+        <state relative-caret-position="477">
+          <caret line="121" column="46" lean-forward="true" selection-start-line="121" selection-start-column="46" selection-end-line="121" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
