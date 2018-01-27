@@ -53,6 +53,7 @@
         <module name="one_to_one_bidirectional_pk_mapping" />
         <module name="one_to_one_unidirectional" />
         <module name="parent_module" />
+        <module name="query_bulk_query" />
         <module name="query_dynamic_named_query" />
         <module name="query_dynamic_query" />
         <module name="query_executing_queries_examples" />
@@ -115,6 +116,7 @@
       <module name="one_to_one_bidirectional_pk_mapping" target="1.5" />
       <module name="one_to_one_unidirectional" target="1.5" />
       <module name="parent_module" target="1.5" />
+      <module name="query_bulk_query" target="1.5" />
       <module name="query_dynamic_named_query" target="1.5" />
       <module name="query_dynamic_query" target="1.5" />
       <module name="query_executing_queries_examples" target="1.5" />

@@ -46,6 +46,7 @@
       <module fileurl="file://$PROJECT_DIR$/one_to_one_bidirectional_pk_mapping/one_to_one_bidirectional_pk_mapping.iml" filepath="$PROJECT_DIR$/one_to_one_bidirectional_pk_mapping/one_to_one_bidirectional_pk_mapping.iml" />
       <module fileurl="file://$PROJECT_DIR$/one_to_one_unidirectional/one_to_one_unidirectional.iml" filepath="$PROJECT_DIR$/one_to_one_unidirectional/one_to_one_unidirectional.iml" />
       <module fileurl="file://$PROJECT_DIR$/parent_module/parent_module.iml" filepath="$PROJECT_DIR$/parent_module/parent_module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/query_bulk_query/query_bulk_query.iml" filepath="$PROJECT_DIR$/query_bulk_query/query_bulk_query.iml" />
       <module fileurl="file://$PROJECT_DIR$/query_dynamic_named_query/query_dynamic_named_query.iml" filepath="$PROJECT_DIR$/query_dynamic_named_query/query_dynamic_named_query.iml" />
       <module fileurl="file://$PROJECT_DIR$/query_dynamic_query/query_dynamic_query.iml" filepath="$PROJECT_DIR$/query_dynamic_query/query_dynamic_query.iml" />
       <module fileurl="file://$PROJECT_DIR$/query_executing_queries_examples/query_executing_queries_examples.iml" filepath="$PROJECT_DIR$/query_executing_queries_examples/query_executing_queries_examples.iml" />
