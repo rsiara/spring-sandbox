@@ -58,6 +58,9 @@
         <module>query_dynamic_named_query</module>
         <module>query_param_types</module>
         <module>query_executing_queries_examples</module>
+        <module>query_result_example</module>
+        <module>query_paging</module>
+        <module>query_message_board</module>
     </modules>
 
 
@@ -259,6 +262,12 @@
             <scope>test</scope>
         </dependency>
 
+        <!-- JAVAX EJB -->
+        <dependency>
+            <groupId>javax.ejb</groupId>
+            <artifactId>javax.ejb-api</artifactId>
+            <version>3.2</version>
+        </dependency>
 
     </dependencies>
 

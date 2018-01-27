@@ -56,8 +56,11 @@
         <module name="query_dynamic_named_query" />
         <module name="query_dynamic_query" />
         <module name="query_executing_queries_examples" />
+        <module name="query_message_board" />
         <module name="query_named_query" />
+        <module name="query_paging" />
         <module name="query_param_types" />
+        <module name="query_result_example" />
         <module name="sharing_embeddable_key_mappings_with_values" />
       </profile>
     </annotationProcessing>
@@ -115,8 +118,11 @@
       <module name="query_dynamic_named_query" target="1.5" />
       <module name="query_dynamic_query" target="1.5" />
       <module name="query_executing_queries_examples" target="1.5" />
+      <module name="query_message_board" target="1.5" />
       <module name="query_named_query" target="1.5" />
+      <module name="query_paging" target="1.5" />
       <module name="query_param_types" target="1.8" />
+      <module name="query_result_example" target="1.5" />
       <module name="Sandbox" target="1.5" />
       <module name="sharing_embeddable_key_mappings_with_values" target="1.5" />
     </bytecodeTargetLevel>

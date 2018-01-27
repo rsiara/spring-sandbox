@@ -22,7 +22,12 @@ import java.util.List;
 
 /*
 
+ Paginacji nie mozna zaimplementowac tak po prostu,
+ nalezy stworzyc logike do wykonywania stronnicowania, previous(), getCurrent(), next().
 
+ Aby umozliwic stronnicowanie zawsze trzeba sie podepszec dwoma zapytaniami.
+ - countem ktory zliczy ilosc wynikow
+ - zapytaniem wlasciwym uwzgledniajacym parametry stronnicowania, ktore zwroci odpowiednie (wybrane wyniki).
  * */
 
 @WebAppConfiguration
@@ -38,16 +43,23 @@ public class QueryExecutingQueriesExamplesTest {
         this.entityManager = entityManager;
     }
 
-    TypedQuery<Employee> unassignedQuery;
+
+    private String reportQueryName;
+    private int currentPage;
+    private int maxResults;
+    private int pageSize;
+    private String countQueryName;
 
     @Before
     public void init() {
         System.out.println("BEFORE TESTS");
 
-        unassignedQuery =
-                entityManager.createQuery("SELECT e " +
-                        "FROM Employee e " +
-                        "WHERE e.projects IS EMPTY", Employee.class);
+        this.pageSize = 1;
+        this.reportQueryName = "findAllEmployees";
+        this.countQueryName = "countEmployees";
+        maxResults = (entityManager.createNamedQuery(countQueryName, Long.class)
+                .getSingleResult()).intValue();
+        currentPage = 0;
     }
 
     @Test
@@ -56,50 +68,59 @@ public class QueryExecutingQueriesExamplesTest {
     public void query_executing_queries_examples_test() {
 
         prepare_data();
-        Department department = findAllDepartments().get(0);
 
-        List<Employee> employeesWithoutProjects = findEmployeesWithoutProjects();
-        for (Employee employee : employeesWithoutProjects) {
-            System.out.println("1. Employee without project: " + employee);
+        List<Employee> currentResults = getCurrentResults();
+        for (Employee employee : currentResults) {
+            System.out.println("1. Employee current result: " + employee);
         }
 
-        List<Employee> projectEmployees = findProjectEmployees("HR Headquarter development");
-        for (Employee employee : projectEmployees) {
-            System.out.println("2. Employee from projet - HR Headquarter development: " + employee);
+        next();
+
+        currentResults = getCurrentResults();
+        for (Employee employee : currentResults) {
+            System.out.println("1. Employee current resutlt after next: " + employee);
         }
 
-        List<Employee> employees = findAllEmployees();
-        System.out.println("All employee:");
-        for (Employee employee : employees) {
-            System.out.println(employee);
+        previous();
+
+        currentResults = getCurrentResults();
+        for (Employee employee : currentResults) {
+            System.out.println("1. Employee current resutlt after previous: " + employee);
         }
     }
 
-    public List<Employee> findEmployeesWithoutProjects() {
-        return unassignedQuery.getResultList();
+    public int getPageSize() {
+        return pageSize;
     }
 
-    public List<Employee> findProjectEmployees(String projectName) {
-        return entityManager.createQuery("SELECT e " +
-                "FROM Project p JOIN p.employees e " +
-                "WHERE p.name = :project " +
-                "ORDER BY e.name", Employee.class)
-                .setParameter("project", projectName)
+    public int getMaxPages() {
+        return maxResults / pageSize;
+    }
+
+    public List<Employee> getCurrentResults() {
+        return entityManager.createNamedQuery(reportQueryName, Employee.class)
+                .setFirstResult(currentPage * pageSize)
+                .setMaxResults(pageSize)
                 .getResultList();
     }
 
-
-    public List<Project> findAllProjects() {
-        return entityManager.createQuery("SELECT p FROM Project p", Project.class)
-                .getResultList();
+    public void next() {
+        currentPage++;
     }
 
-    public List<Employee> findAllEmployees() {
-        return entityManager.createQuery("SELECT e FROM Employee e", Employee.class).getResultList();
+    public void previous() {
+        currentPage--;
+        if (currentPage < 0) {
+            currentPage = 0;
+        }
     }
 
-    public List<Department> findAllDepartments() {
-        return entityManager.createQuery("SELECT d FROM Department d", Department.class).getResultList();
+    public int getCurrentPage() {
+        return currentPage;
+    }
+
+    public void setCurrentPage(int currentPage) {
+        this.currentPage = currentPage;
     }
 
 

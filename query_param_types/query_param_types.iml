@@ -8,7 +8,9 @@
       <configuration>
         <setting name="validation-enabled" value="true" />
         <setting name="provider-name" value="Hibernate" />
-        <datasource-mapping />
+        <datasource-mapping>
+          <factory-entry name="Entities" />
+        </datasource-mapping>
       </configuration>
     </facet>
   </component>
@@ -85,5 +87,7 @@
     <orderEntry type="library" name="Maven: org.opentest4j:opentest4j:1.0.0" level="project" />
     <orderEntry type="library" name="Maven: org.junit.platform:junit-platform-commons:1.1.0-M1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.h2database:h2:1.4.196" level="project" />
+    <orderEntry type="library" name="Maven: javax.ejb:javax.ejb-api:3.2" level="project" />
+    <orderEntry type="library" name="Maven: javax.transaction:javax.transaction-api:1.2" level="project" />
   </component>
 </module>

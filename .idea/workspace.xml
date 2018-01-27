@@ -7,16 +7,77 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d9a5c24-0ab2-4622-9484-8b0abafbe55a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/query_executing_queries_examples/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/query_executing_queries_examples/query_executing_queries_examples.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/query_executing_queries_examples/src/main/java/model/Department.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/query_executing_queries_examples/src/main/java/model/Employee.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/query_executing_queries_examples/src/main/java/model/Project.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/query_executing_queries_examples/src/test/java/QueryExecutingQueriesExamplesTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ejb_javax_ejb_api_3_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/query_message_board/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/query_message_board/query_message_board.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/query_message_board/src/main/java/model/Conversation.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/query_message_board/src/main/java/model/Message.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/query_message_board/src/test/java/QueryMessageBoardTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/query_paging/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/query_paging/query_paging.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/query_paging/src/main/java/model/Department.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/query_paging/src/main/java/model/Employee.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/query_paging/src/main/java/model/Project.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/query_paging/src/test/java/QueryPagingTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/query_result_example/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/query_result_example/src/main/java/EmpMenu.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/query_result_example/src/main/java/model/Department.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/query_result_example/src/main/java/model/Employee.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/query_result_example/src/main/java/model/Project.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/query_result_example/src/test/java/QueryResultExampleTest.java" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Sandbox.iml" afterPath="$PROJECT_DIR$/Sandbox.iml" />
+      <change beforePath="$PROJECT_DIR$/access_field/access_field.iml" afterPath="$PROJECT_DIR$/access_field/access_field.iml" />
+      <change beforePath="$PROJECT_DIR$/access_mixed/access_mixed.iml" afterPath="$PROJECT_DIR$/access_mixed/access_mixed.iml" />
+      <change beforePath="$PROJECT_DIR$/access_property/access_property.iml" afterPath="$PROJECT_DIR$/access_property/access_property.iml" />
+      <change beforePath="$PROJECT_DIR$/collection_of_embedded/collection_of_embedded.iml" afterPath="$PROJECT_DIR$/collection_of_embedded/collection_of_embedded.iml" />
+      <change beforePath="$PROJECT_DIR$/collection_order_persistence/collection_order_persistence.iml" afterPath="$PROJECT_DIR$/collection_order_persistence/collection_order_persistence.iml" />
+      <change beforePath="$PROJECT_DIR$/collection_override_table_columns/collection_override_table_columns.iml" afterPath="$PROJECT_DIR$/collection_override_table_columns/collection_override_table_columns.iml" />
+      <change beforePath="$PROJECT_DIR$/em_operations_find_remove_persist/em_operations_find_remove_persist.iml" afterPath="$PROJECT_DIR$/em_operations_find_remove_persist/em_operations_find_remove_persist.iml" />
+      <change beforePath="$PROJECT_DIR$/em_operations_persist_clear_flush_merge_detach/em_operations_persist_clear_flush_merge_detach.iml" afterPath="$PROJECT_DIR$/em_operations_persist_clear_flush_merge_detach/em_operations_persist_clear_flush_merge_detach.iml" />
+      <change beforePath="$PROJECT_DIR$/em_persistent_context_unsychronized/em_persistent_context_unsychronized.iml" afterPath="$PROJECT_DIR$/em_persistent_context_unsychronized/em_persistent_context_unsychronized.iml" />
+      <change beforePath="$PROJECT_DIR$/embedded_object/embedded_object.iml" afterPath="$PROJECT_DIR$/embedded_object/embedded_object.iml" />
+      <change beforePath="$PROJECT_DIR$/embedded_object_sharing_and_override_column_name/embedded_object_sharing_and_override_column_name.iml" afterPath="$PROJECT_DIR$/embedded_object_sharing_and_override_column_name/embedded_object_sharing_and_override_column_name.iml" />
+      <change beforePath="$PROJECT_DIR$/id_auto_generation/id_auto_generation.iml" afterPath="$PROJECT_DIR$/id_auto_generation/id_auto_generation.iml" />
+      <change beforePath="$PROJECT_DIR$/id_db_idendity_generation/id_db_idendity_generation.iml" afterPath="$PROJECT_DIR$/id_db_idendity_generation/id_db_idendity_generation.iml" />
+      <change beforePath="$PROJECT_DIR$/inheritance_joined_with_one_to_many_to_itself_bidirectional/inheritance_joined_with_one_to_many_to_itself_bidirectional.iml" afterPath="$PROJECT_DIR$/inheritance_joined_with_one_to_many_to_itself_bidirectional/inheritance_joined_with_one_to_many_to_itself_bidirectional.iml" />
+      <change beforePath="$PROJECT_DIR$/inheritance_singletable_with_one_to_many_to_itself_bidirectional/inheritance_singletable_with_one_to_many_to_itself_bidirectional.iml" afterPath="$PROJECT_DIR$/inheritance_singletable_with_one_to_many_to_itself_bidirectional/inheritance_singletable_with_one_to_many_to_itself_bidirectional.iml" />
+      <change beforePath="$PROJECT_DIR$/many_to_many_bidirectional/many_to_many_bidirectional.iml" afterPath="$PROJECT_DIR$/many_to_many_bidirectional/many_to_many_bidirectional.iml" />
+      <change beforePath="$PROJECT_DIR$/many_to_many_bidirectional_jointable/many_to_many_bidirectional_jointable.iml" afterPath="$PROJECT_DIR$/many_to_many_bidirectional_jointable/many_to_many_bidirectional_jointable.iml" />
+      <change beforePath="$PROJECT_DIR$/many_to_one_unidirectional/many_to_one_unidirectional.iml" afterPath="$PROJECT_DIR$/many_to_one_unidirectional/many_to_one_unidirectional.iml" />
+      <change beforePath="$PROJECT_DIR$/map_key_basic_value_entity/map_key_basic_value_entity.iml" afterPath="$PROJECT_DIR$/map_key_basic_value_entity/map_key_basic_value_entity.iml" />
+      <change beforePath="$PROJECT_DIR$/map_key_embeddable_attr_override_value_entity/map_key_embeddable_attr_override_value_entity.iml" afterPath="$PROJECT_DIR$/map_key_embeddable_attr_override_value_entity/map_key_embeddable_attr_override_value_entity.iml" />
+      <change beforePath="$PROJECT_DIR$/map_key_embeddable_insertable_value_entity/map_key_embeddable_insertable_value_entity.iml" afterPath="$PROJECT_DIR$/map_key_embeddable_insertable_value_entity/map_key_embeddable_insertable_value_entity.iml" />
+      <change beforePath="$PROJECT_DIR$/map_key_embeddable_non_insertable_value_entity/map_key_embeddable_non_insertable_value_entity.iml" afterPath="$PROJECT_DIR$/map_key_embeddable_non_insertable_value_entity/map_key_embeddable_non_insertable_value_entity.iml" />
+      <change beforePath="$PROJECT_DIR$/map_key_enum_value_basic/map_key_enum_value_basic.iml" afterPath="$PROJECT_DIR$/map_key_enum_value_basic/map_key_enum_value_basic.iml" />
+      <change beforePath="$PROJECT_DIR$/map_untyped/map_untyped.iml" afterPath="$PROJECT_DIR$/map_untyped/map_untyped.iml" />
+      <change beforePath="$PROJECT_DIR$/mapping_custom_table_schema/mapping_custom_table_schema.iml" afterPath="$PROJECT_DIR$/mapping_custom_table_schema/mapping_custom_table_schema.iml" />
+      <change beforePath="$PROJECT_DIR$/mapping_date/mapping_date.iml" afterPath="$PROJECT_DIR$/mapping_date/mapping_date.iml" />
+      <change beforePath="$PROJECT_DIR$/mapping_enum/mapping_enum.iml" afterPath="$PROJECT_DIR$/mapping_enum/mapping_enum.iml" />
+      <change beforePath="$PROJECT_DIR$/mapping_lob/mapping_lob.iml" afterPath="$PROJECT_DIR$/mapping_lob/mapping_lob.iml" />
+      <change beforePath="$PROJECT_DIR$/mapping_transient/mapping_transient.iml" afterPath="$PROJECT_DIR$/mapping_transient/mapping_transient.iml" />
+      <change beforePath="$PROJECT_DIR$/one_to_many_bidirectional_joincolumn/one_to_many_bidirectional_joincolumn.iml" afterPath="$PROJECT_DIR$/one_to_many_bidirectional_joincolumn/one_to_many_bidirectional_joincolumn.iml" />
+      <change beforePath="$PROJECT_DIR$/one_to_many_bidirectional_joincolumn_target_entity/one_to_many_bidirectional_joincolumn_target_entity.iml" afterPath="$PROJECT_DIR$/one_to_many_bidirectional_joincolumn_target_entity/one_to_many_bidirectional_joincolumn_target_entity.iml" />
+      <change beforePath="$PROJECT_DIR$/one_to_many_bidirectional_jointable/one_to_many_bidirectional_jointable.iml" afterPath="$PROJECT_DIR$/one_to_many_bidirectional_jointable/one_to_many_bidirectional_jointable.iml" />
+      <change beforePath="$PROJECT_DIR$/one_to_many_to_itself_bidirectional/one_to_many_to_itself_bidirectional.iml" afterPath="$PROJECT_DIR$/one_to_many_to_itself_bidirectional/one_to_many_to_itself_bidirectional.iml" />
+      <change beforePath="$PROJECT_DIR$/one_to_many_to_itself_unidirectional/one_to_many_to_itself_unidirectional.iml" afterPath="$PROJECT_DIR$/one_to_many_to_itself_unidirectional/one_to_many_to_itself_unidirectional.iml" />
+      <change beforePath="$PROJECT_DIR$/one_to_many_unidirectional_jointable/one_to_many_unidirectional_jointable.iml" afterPath="$PROJECT_DIR$/one_to_many_unidirectional_jointable/one_to_many_unidirectional_jointable.iml" />
+      <change beforePath="$PROJECT_DIR$/one_to_one_bidirectional/one_to_one_bidirectional.iml" afterPath="$PROJECT_DIR$/one_to_one_bidirectional/one_to_one_bidirectional.iml" />
+      <change beforePath="$PROJECT_DIR$/one_to_one_bidirectional_pk_mapping/one_to_one_bidirectional_pk_mapping.iml" afterPath="$PROJECT_DIR$/one_to_one_bidirectional_pk_mapping/one_to_one_bidirectional_pk_mapping.iml" />
+      <change beforePath="$PROJECT_DIR$/one_to_one_unidirectional/one_to_one_unidirectional.iml" afterPath="$PROJECT_DIR$/one_to_one_unidirectional/one_to_one_unidirectional.iml" />
+      <change beforePath="$PROJECT_DIR$/parent_module/parent_module.iml" afterPath="$PROJECT_DIR$/parent_module/parent_module.iml" />
       <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/query_dynamic_named_query/query_dynamic_named_query.iml" afterPath="$PROJECT_DIR$/query_dynamic_named_query/query_dynamic_named_query.iml" />
+      <change beforePath="$PROJECT_DIR$/query_dynamic_query/query_dynamic_query.iml" afterPath="$PROJECT_DIR$/query_dynamic_query/query_dynamic_query.iml" />
+      <change beforePath="$PROJECT_DIR$/query_executing_queries_examples/query_executing_queries_examples.iml" afterPath="$PROJECT_DIR$/query_executing_queries_examples/query_executing_queries_examples.iml" />
+      <change beforePath="$PROJECT_DIR$/query_executing_queries_examples/src/main/java/model/Employee.java" afterPath="$PROJECT_DIR$/query_executing_queries_examples/src/main/java/model/Employee.java" />
+      <change beforePath="$PROJECT_DIR$/query_executing_queries_examples/src/test/java/QueryExecutingQueriesExamplesTest.java" afterPath="$PROJECT_DIR$/query_executing_queries_examples/src/test/java/QueryExecutingQueriesExamplesTest.java" />
+      <change beforePath="$PROJECT_DIR$/query_named_query/query_named_query.iml" afterPath="$PROJECT_DIR$/query_named_query/query_named_query.iml" />
+      <change beforePath="$PROJECT_DIR$/query_param_types/query_param_types.iml" afterPath="$PROJECT_DIR$/query_param_types/query_param_types.iml" />
+      <change beforePath="$PROJECT_DIR$/sharing_embeddable_key_mappings_with_values/sharing_embeddable_key_mappings_with_values.iml" afterPath="$PROJECT_DIR$/sharing_embeddable_key_mappings_with_values/sharing_embeddable_key_mappings_with_values.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -76,6 +137,10 @@
     <ignored path="$PROJECT_DIR$/query_dynamic_named_query/target/" />
     <ignored path="$PROJECT_DIR$/query_param_types/target/" />
     <ignored path="$PROJECT_DIR$/query_executing_queries_examples/target/" />
+    <ignored path="$PROJECT_DIR$/query_result_example/target/" />
+    <ignored path="$PROJECT_DIR$/query_paging/target/" />
+    <ignored path="$PROJECT_DIR$/query_message_board/target/" />
+    <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -116,78 +181,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="QueryParamTypesTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/query_param_types/src/test/java/QueryParamTypesTest.java">
+      <file leaf-file-name="QueryMessageBoardTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/query_message_board/src/test/java/QueryMessageBoardTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="107" column="50" lean-forward="false" selection-start-line="107" selection-start-column="50" selection-end-line="107" selection-end-column="50" />
-              <folding>
-                <element signature="e#1147#1148#0" expanded="true" />
-                <element signature="e#1197#1198#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/query_param_types/src/main/java/model/Employee.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/query_executing_queries_examples/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Department.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/query_dynamic_query/src/main/java/model/Department.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QueryExecutingQueriesExamplesTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/query_executing_queries_examples/src/test/java/QueryExecutingQueriesExamplesTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="579">
-              <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+            <state relative-caret-position="561">
+              <caret line="33" column="40" lean-forward="true" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2462#2463#0" expanded="true" />
-                <element signature="e#2516#2517#0" expanded="true" />
+                <element signature="e#1674#1675#0" expanded="true" />
+                <element signature="e#1724#1725#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Project.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/query_executing_queries_examples/src/main/java/model/Project.java">
+      <file leaf-file-name="Message.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/query_message_board/src/main/java/model/Message.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Department.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/query_executing_queries_examples/src/main/java/model/Department.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="45" column="39" lean-forward="false" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
+            <state relative-caret-position="408">
+              <caret line="36" column="42" lean-forward="false" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -196,31 +208,39 @@
       <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/query_executing_queries_examples/src/main/java/model/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="953">
-              <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/query_dynamic_query/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="18" selection-end-column="19" />
+              <caret line="15" column="3" lean-forward="false" selection-start-line="15" selection-start-column="3" selection-end-line="16" selection-end-column="55" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QueryDynamicNamedQueryTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/query_dynamic_named_query/src/test/java/QueryDynamicNamedQueryTest.java">
+      <file leaf-file-name="Conversation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/query_message_board/src/main/java/model/Conversation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="93" column="4" lean-forward="false" selection-start-line="93" selection-start-column="4" selection-end-line="127" selection-end-column="5" />
+            <state relative-caret-position="279">
+              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QueryExecutingQueriesExamplesTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/query_executing_queries_examples/src/test/java/QueryExecutingQueriesExamplesTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="35" column="13" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
               <folding>
-                <element signature="e#4796#4806#0" expanded="true" />
-                <element signature="e#5495#5504#0" expanded="true" />
+                <element signature="e#2876#2877#0" expanded="true" />
+                <element signature="e#2907#2908#0" expanded="true" />
+                <element signature="e#2939#2940#0" expanded="true" />
+                <element signature="e#2983#2984#0" expanded="true" />
+                <element signature="e#3274#3275#0" expanded="true" />
+                <element signature="e#3303#3304#0" expanded="true" />
+                <element signature="e#3467#3468#0" expanded="true" />
+                <element signature="e#3501#3502#0" expanded="true" />
+                <element signature="e#3552#3553#0" expanded="true" />
+                <element signature="e#3598#3599#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -241,8 +261,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>oneToMany</find>
-      <find>Cascade</find>
       <find>SOLR_TE</find>
       <find>#</find>
       <find>Contacts</find>
@@ -271,6 +289,8 @@
       <find>@ID</find>
       <find>one_to</find>
       <find>@</find>
+      <find>tomorro</find>
+      <find>today</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -293,16 +313,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/one_to_many_to_itself_unidirectional/src/test/java/OneToManyToItselfUnidirectionalTest.java" />
-        <option value="$PROJECT_DIR$/one_to_many_to_itself_unidirectional/src/main/java/model/Node.java" />
-        <option value="$PROJECT_DIR$/one_to_many_to_itself_bidirectional/pom.xml" />
-        <option value="$PROJECT_DIR$/one_to_many_to_itself_bidirectional/src/main/java/NodeType.java" />
-        <option value="$PROJECT_DIR$/one_to_many_to_itself_bidirectional/src/main/java/Node.java" />
-        <option value="$PROJECT_DIR$/one_to_many_to_itself_bidirectional/src/main/java/model/NodeType.java" />
-        <option value="$PROJECT_DIR$/one_to_many_to_itself_bidirectional/src/main/java/model/Node.java" />
-        <option value="$PROJECT_DIR$/one_to_many_to_itself_bidirectional/src/test/java/OneToManyToItselfBidirectionalTest.java" />
-        <option value="$PROJECT_DIR$/id_db_idendity_generation/pom.xml" />
-        <option value="$PROJECT_DIR$/id_db_idendity_generation/src/main/java/model/Employee.java" />
         <option value="$PROJECT_DIR$/id_db_idendity_generation/src/test/java/IdDbIdendityGenerationTest.java" />
         <option value="$PROJECT_DIR$/em_operations_find_remove_persist/pom.xml" />
         <option value="$PROJECT_DIR$/em_operations_find_remove_persist/src/main/java/model/ParkingSpace.java" />
@@ -342,8 +352,18 @@
         <option value="$PROJECT_DIR$/query_executing_queries_examples/pom.xml" />
         <option value="$PROJECT_DIR$/query_executing_queries_examples/src/main/java/model/Project.java" />
         <option value="$PROJECT_DIR$/query_executing_queries_examples/src/main/java/model/Department.java" />
+        <option value="$PROJECT_DIR$/query_result_example/pom.xml" />
+        <option value="$PROJECT_DIR$/query_result_example/src/main/java/EmpMenu.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/query_result_example/src/test/java/QueryResultExampleTest.java" />
+        <option value="$PROJECT_DIR$/query_paging/pom.xml" />
+        <option value="$PROJECT_DIR$/query_paging/src/test/java/QueryPagingTest.java" />
         <option value="$PROJECT_DIR$/query_executing_queries_examples/src/main/java/model/Employee.java" />
         <option value="$PROJECT_DIR$/query_executing_queries_examples/src/test/java/QueryExecutingQueriesExamplesTest.java" />
+        <option value="$PROJECT_DIR$/query_message_board/pom.xml" />
+        <option value="$PROJECT_DIR$/query_message_board/src/main/java/model/Message.java" />
+        <option value="$PROJECT_DIR$/query_message_board/src/main/java/model/Conversation.java" />
+        <option value="$PROJECT_DIR$/query_message_board/src/test/java/QueryMessageBoardTest.java" />
       </list>
     </option>
   </component>
@@ -388,8 +408,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="100" />
-    <option name="y" value="122" />
+    <option name="x" value="-6" />
+    <option name="y" value="860" />
     <option name="width" value="2156" />
     <option name="height" value="667" />
   </component>
@@ -614,6 +634,9 @@
             <id>JavaScript validity issuesJavaScript</id>
           </State>
           <State>
+            <id>Javadoc issuesJava</id>
+          </State>
+          <State>
             <id>Kotlin</id>
           </State>
           <State>
@@ -785,6 +808,11 @@
             <id>XPath</id>
           </State>
         </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
       </profile-state>
     </entry>
   </component>
@@ -798,7 +826,7 @@
       <hideEmptyPackages ProjectPane="false" />
       <abbreviatePackageNames />
       <autoscrollToSource />
-      <autoscrollFromSource AndroidView="true" Scope="true" PackagesPane="true" ProjectPane="true" />
+      <autoscrollFromSource PackagesPane="true" AndroidView="true" Scope="true" ProjectPane="true" />
       <sortByType />
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
@@ -811,15 +839,10 @@
               <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -831,6 +854,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Production">
           <expand>
@@ -1066,7 +1090,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4775604" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="last_opened_file_path" value="C:/Program Files/JetBrains/JetbrainsLicense.jar.jar!/" />
     <property name="SearchEverywhereHistoryKey" value="jetbrains&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/.idea/libraries/JetbrainsLicense_jar.xml&#10;Jpa&#9;PSI&#9;JAVA://configuration.PersistenceJPAConfig&#10;JpaCon&#9;PSI&#9;JAVA://configuration.PersistenceJPAConfig&#10;Fin&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/FinanceUser.java&#10;JPA&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Configuration/PersistenceJPAConfig.java&#10;pe&#9;PSI&#9;JAVA://com.springstart.Configuration.PersistenceJPAConfig&#10;pers&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/META-INF/persistence.xml&#10;Finance_&#9;FILE&#9;das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.finances_user&#10;Fina&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/FinanceUser.java&#10;Bank&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/Bank.java&#10;Account&#9;PSI&#9;JAVA://com.springstart.Model.Entity.DatabaseEntity.Account&#10;logbac&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/resources/logback.xml&#10;Acco&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/Account.java&#10;BankDao&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/DatabaseDao/BankDao.java&#10;.x&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/resources/logback.xml&#10;Finance&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Service/DatabaseService/FinanceUserService.java&#10;DA&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/DatabaseDao/FinanceUserDao.java&#10;Fi&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Service/DatabaseService/FinanceUserService.java&#10;Finan&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/FinanceUser.java&#10;Address&#9;FILE&#9;das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.user_address&#10;Projec&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/Project.java&#10;FinanceUser&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/FinanceUser.java&#10;lo&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/resources/logback.xml&#10;General&#9;PSI&#9;JAVA://com.springstart.Interceptor.GeneralInterceptor&#10;Gene&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Interceptor/GeneralInterceptor.java&#10;Home&#9;PSI&#9;JAVA://com.springstart.Controller.HomeController&#10;Fil&#9;FILE&#9;file:///home/robert/IdeaProjects/Sandbox/src/main/java/com/springstart/Filters/CustomFilter.java" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="H2&#10;MySQL" />
@@ -1076,13 +1100,6 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.springstart.Service.DatabaseService" />
-      <recent name="com.springstart.Model.DatabaseDao" />
-      <recent name="com.springstart.Model.Entity.DatabaseEntity" />
-      <recent name="com.springstart.Model.Entity" />
-      <recent name="com.springstart.Model" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.springstart.JPA.chapterfive" />
     </key>
@@ -1093,24 +1110,31 @@
       <recent name="com.springstart.jpa.chapterfive.sharing_embeddable_key_mappings_with_values" />
       <recent name="com.springstart.jpa.chapterfive" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\query_executing_queries_examples\src\main\java\model" />
-      <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\query_param_types\src\main\java\model" />
-      <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\query_dynamic_named_query\src\main\java\model" />
-      <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\query_named_query\src\main\java\model" />
-      <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\inheritance_joined_with_one_to_many_to_itself_bidirectional\src\main\java\model" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="" />
-      <recent name="model" />
-      <recent name="com.springstart.jpa.chapterfour.many_to_many_bidirectional" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\mapping_lob" />
       <recent name="$PROJECT_DIR$/many_to_many_bidirectional_using_jointable/src" />
       <recent name="$PROJECT_DIR$/src/main/java/com/springstart/jpa/chapterfour/many_to_many_bidirectional" />
       <recent name="$PROJECT_DIR$/src/test/java/com/springstart/jpa/chapterfour/many_to_many_bidirectional" />
       <recent name="$PROJECT_DIR$/src/main/java/com/springstart/jpa/chapterfive/sharing_embeddable_key_mappings_with_values" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\query_message_board\src\main\java\model" />
+      <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\query_paging\src\main\java\model" />
+      <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\query_result_example\src\main\java" />
+      <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\query_result_example\src\main\java\model" />
+      <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\query_executing_queries_examples\src\main\java\model" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="model" />
+      <recent name="com.springstart.jpa.chapterfour.many_to_many_bidirectional" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.springstart.Service.DatabaseService" />
+      <recent name="com.springstart.Model.DatabaseDao" />
+      <recent name="com.springstart.Model.Entity.DatabaseEntity" />
+      <recent name="com.springstart.Model.Entity" />
+      <recent name="com.springstart.Model" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1125,7 +1149,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.QueryParamTypesTest.query_param_types_test">
+  <component name="RunManager" selected="JUnit.QueryMessageBoardTest.query_message_board_test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -1148,36 +1172,15 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="QueryDynamicNamedQueryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QueryExecutingQueriesExamplesTest.query_executing_queries_examples_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <extension name="krasa.grepconsole.plugin.runConfiguration.GrepRunConfigurationExtension" selectedProfileId="0" />
-      <module name="query_dynamic_named_query" />
+      <module name="query_executing_queries_examples" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="QueryDynamicNamedQueryTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="QueryDynamicNamedQueryTest.query_named_query_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <extension name="krasa.grepconsole.plugin.runConfiguration.GrepRunConfigurationExtension" selectedProfileId="0" />
-      <module name="query_dynamic_named_query" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="QueryDynamicNamedQueryTest" />
-      <option name="METHOD_NAME" value="query_named_query_test" />
+      <option name="MAIN_CLASS_NAME" value="QueryExecutingQueriesExamplesTest" />
+      <option name="METHOD_NAME" value="query_executing_queries_examples_test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1190,15 +1193,15 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="QueryDynamicQueryTest.query_dynamic_query_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QueryMessageBoardTest.query_message_board_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <extension name="krasa.grepconsole.plugin.runConfiguration.GrepRunConfigurationExtension" selectedProfileId="0" />
-      <module name="query_dynamic_query" />
+      <module name="query_message_board" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="QueryDynamicQueryTest" />
-      <option name="METHOD_NAME" value="query_dynamic_query_test" />
+      <option name="MAIN_CLASS_NAME" value="QueryMessageBoardTest" />
+      <option name="METHOD_NAME" value="query_message_board_test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1211,15 +1214,15 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="QueryNamedQueryTest.query_named_query_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QueryMessageBoardTest.setEntityManager" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <extension name="krasa.grepconsole.plugin.runConfiguration.GrepRunConfigurationExtension" selectedProfileId="0" />
-      <module name="query_named_query" />
+      <module name="query_message_board" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="QueryNamedQueryTest" />
-      <option name="METHOD_NAME" value="query_named_query_test" />
+      <option name="MAIN_CLASS_NAME" value="QueryMessageBoardTest" />
+      <option name="METHOD_NAME" value="setEntityManager" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1241,6 +1244,27 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="QueryParamTypesTest" />
       <option name="METHOD_NAME" value="query_param_types_test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="QueryResultExampleTest.query_result_example_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="krasa.grepconsole.plugin.runConfiguration.GrepRunConfigurationExtension" selectedProfileId="0" />
+      <module name="query_result_example" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="QueryResultExampleTest" />
+      <option name="METHOD_NAME" value="query_result_example_test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1461,19 +1485,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.QueryDynamicQueryTest.query_dynamic_query_test" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.QueryNamedQueryTest.query_named_query_test" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.QueryDynamicNamedQueryTest.query_named_query_test" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.QueryDynamicNamedQueryTest" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.QueryParamTypesTest.query_param_types_test" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.QueryParamTypesTest.query_param_types_test" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.QueryResultExampleTest.query_result_example_test" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.QueryExecutingQueriesExamplesTest.query_executing_queries_examples_test" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.QueryMessageBoardTest.query_message_board_test" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.QueryMessageBoardTest.setEntityManager" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.QueryParamTypesTest.query_param_types_test" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.QueryDynamicNamedQueryTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.QueryDynamicNamedQueryTest.query_named_query_test" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.QueryNamedQueryTest.query_named_query_test" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.QueryDynamicQueryTest.query_dynamic_query_test" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.QueryMessageBoardTest.query_message_board_test" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.QueryMessageBoardTest.setEntityManager" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.QueryExecutingQueriesExamplesTest.query_executing_queries_examples_test" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.QueryResultExampleTest.query_result_example_test" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.QueryParamTypesTest.query_param_types_test" />
       </list>
     </recent_temporary>
   </component>
@@ -1622,7 +1646,8 @@
       <workItem from="1516746620727" duration="7000" />
       <workItem from="1516746738840" duration="937000" />
       <workItem from="1516917932121" duration="2786000" />
-      <workItem from="1516986222141" duration="12836000" />
+      <workItem from="1516986222141" duration="13125000" />
+      <workItem from="1517047271116" duration="11663000" />
     </task>
     <task id="LOCAL-00001" summary="Persistence.xml przeniesiony do JavaConfig (PersistenceJPAConfig)&#10;Dodanie pierwszego mapowania unidirectional Many-to-one">
       <created>1510526522683</created>
@@ -1736,43 +1761,50 @@
       <option name="project" value="LOCAL" />
       <updated>1517007858429</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Dodanie:&#10;- query_executing_queries_examples">
+      <created>1517011046344</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1517011046344</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="QueryDynamicNamedQueryTest - 2018.01.26 at 22h 35m 58s.xml">
-      <configuration name="QueryDynamicNamedQueryTest" configurationId="JUnit" />
+    <history-entry file="QueryExecutingQueriesExamplesTest_query_executing_queries_examples_test - 2018.01.27 at 17h 48m 12s.xml">
+      <configuration name="QueryExecutingQueriesExamplesTest.query_executing_queries_examples_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueryDynamicNamedQueryTest_query_named_query_test - 2018.01.26 at 22h 33m 12s.xml">
-      <configuration name="QueryDynamicNamedQueryTest.query_named_query_test" configurationId="JUnit" />
+    <history-entry file="QueryExecutingQueriesExamplesTest_query_executing_queries_examples_test - 2018.01.27 at 17h 48m 42s.xml">
+      <configuration name="QueryExecutingQueriesExamplesTest.query_executing_queries_examples_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueryDynamicNamedQueryTest_query_named_query_test - 2018.01.26 at 22h 34m 18s.xml">
-      <configuration name="QueryDynamicNamedQueryTest.query_named_query_test" configurationId="JUnit" />
+    <history-entry file="QueryExecutingQueriesExamplesTest_query_executing_queries_examples_test - 2018.01.27 at 17h 49m 54s.xml">
+      <configuration name="QueryExecutingQueriesExamplesTest.query_executing_queries_examples_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueryDynamicQueryTest_query_dynamic_query_test - 2018.01.26 at 00h 02m 37s.xml">
-      <configuration name="QueryDynamicQueryTest.query_dynamic_query_test" configurationId="JUnit" />
+    <history-entry file="QueryExecutingQueriesExamplesTest_query_executing_queries_examples_test - 2018.01.27 at 17h 50m 34s.xml">
+      <configuration name="QueryExecutingQueriesExamplesTest.query_executing_queries_examples_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueryDynamicQueryTest_query_dynamic_query_test - 2018.01.26 at 18h 06m 41s.xml">
-      <configuration name="QueryDynamicQueryTest.query_dynamic_query_test" configurationId="JUnit" />
+    <history-entry file="QueryMessageBoardTest_query_message_board_test - 2018.01.27 at 20h 08m 45s.xml">
+      <configuration name="QueryMessageBoardTest.query_message_board_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueryDynamicQueryTest_query_dynamic_query_test - 2018.01.26 at 18h 50m 10s.xml">
-      <configuration name="QueryDynamicQueryTest.query_dynamic_query_test" configurationId="JUnit" />
+    <history-entry file="QueryMessageBoardTest_query_message_board_test - 2018.01.27 at 20h 19m 50s.xml">
+      <configuration name="QueryMessageBoardTest.query_message_board_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueryDynamicQueryTest_query_dynamic_query_test - 2018.01.26 at 19h 23m 49s.xml">
-      <configuration name="QueryDynamicQueryTest.query_dynamic_query_test" configurationId="JUnit" />
+    <history-entry file="QueryMessageBoardTest_query_message_board_test - 2018.01.27 at 20h 20m 44s.xml">
+      <configuration name="QueryMessageBoardTest.query_message_board_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueryDynamicQueryTest_query_dynamic_query_test - 2018.01.26 at 19h 31m 59s.xml">
-      <configuration name="QueryDynamicQueryTest.query_dynamic_query_test" configurationId="JUnit" />
+    <history-entry file="QueryMessageBoardTest_query_message_board_test - 2018.01.27 at 20h 21m 18s.xml">
+      <configuration name="QueryMessageBoardTest.query_message_board_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueryNamedQueryTest_query_named_query_test - 2018.01.26 at 20h 09m 58s.xml">
-      <configuration name="QueryNamedQueryTest.query_named_query_test" configurationId="JUnit" />
+    <history-entry file="QueryMessageBoardTest_query_message_board_test - 2018.01.27 at 20h 21m 57s.xml">
+      <configuration name="QueryMessageBoardTest.query_message_board_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueryParamTypesTest_query_param_types_test - 2018.01.27 at 00h 03m 16s.xml">
-      <configuration name="QueryParamTypesTest.query_param_types_test" configurationId="JUnit" />
+    <history-entry file="QueryMessageBoardTest_query_message_board_test - 2018.01.27 at 20h 22m 24s.xml">
+      <configuration name="QueryMessageBoardTest.query_message_board_test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="493119000" />
+    <option name="totallyTimeSpent" value="505071000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1788,6 +1820,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hibernate Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293023" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.287398" sideWeight="0.29386437" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33953488" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37134987" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1799,23 +1832,24 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34995466" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32819584" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.287398" sideWeight="0.70613563" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.287398" sideWeight="0.70613563" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283721" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32910246" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21849501" sideWeight="0.8439182" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.356301" sideWeight="0.9143173" order="3" side_tool="false" content_ui="tabs" x="-1859" y="84" width="1311" height="730" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.356301" sideWeight="0.9143173" order="3" side_tool="false" content_ui="tabs" x="1022" y="546" width="614" height="445" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283721" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27833182" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.270183" sideWeight="0.3832021" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.270183" sideWeight="0.6167979" order="0" side_tool="false" content_ui="combo" x="457" y="247" width="502" height="745" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23880596" sideWeight="0.645469" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3263826" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992464" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23573735" sideWeight="0.38175675" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hibernate Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293023" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929105" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1827,7 +1861,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929105" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42910448" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3263826" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1935,7 +1968,8 @@
     <MESSAGE value="Dodanie:&#10;- query_dynamic_query" />
     <MESSAGE value="Dodanie:&#10;- query_named_query" />
     <MESSAGE value="Dodanie:&#10;- query_dynamic_named_query&#10;- query_param_types" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodanie:&#10;- query_dynamic_named_query&#10;- query_param_types" />
+    <MESSAGE value="Dodanie:&#10;- query_executing_queries_examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodanie:&#10;- query_executing_queries_examples" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1984,139 +2018,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://src:table:/acc9ba6f/41b96513-abc0-4724-9d41-aba0a1a0875b/JPA_SANDBOX.PUBLIC.TEST_AB">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inheritance_singletable_with_one_to_many_to_itself_bidirectional/src/main/java/model/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="33" column="61" lean-forward="false" selection-start-line="33" selection-start-column="61" selection-end-line="33" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inheritance_singletable_with_one_to_many_to_itself_bidirectional/src/test/java/InheritanceSingleTableWithOneToManyToItselfBidirectionalTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="76" column="2" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="82" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/acc9ba6f/41b96513-abc0-4724-9d41-aba0a1a0875b/JPA_SANDBOX.PUBLIC.TEST_AB">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/acc9ba6f/41b96513-abc0-4724-9d41-aba0a1a0875b/JPA_SANDBOX.PUBLIC.TESTAB">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/acc9ba6f/41b96513-abc0-4724-9d41-aba0a1a0875b/JPA_SANDBOX.PUBLIC.NODE">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/acc9ba6f/41b96513-abc0-4724-9d41-aba0a1a0875b/JPA_SANDBOX.PUBLIC.NODE_TO_TESTAB">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inheritance_joined_with_one_to_many_to_itself_bidirectional/src/main/java/model/NodeType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inheritance_joined_with_one_to_many_to_itself_bidirectional/src/main/java/model/TestAB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inheritance_joined_with_one_to_many_to_itself_bidirectional/src/test/java/InheritanceJoinedWithOneToManyToItselfBidirectionalTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="96" column="35" lean-forward="false" selection-start-line="96" selection-start-column="31" selection-end-line="96" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/JetBrains/JetbrainsLicense.jar.jar!/com/rover12421/SyNchRonIzEd/vOLaTIle.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/JetBrains/JetbrainsLicense.jar.jar!/com/rover12421/SyNchRonIzEd/sYnchRONIzEd.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/JetBrains/JetbrainsLicense.jar.jar!/com/rover12421/SyNchRonIzEd/sYnchRONIzEd.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/JetBrains/JetbrainsLicense.jar.jar!/com/rover12421/SyNchRonIzEd/sYnchRONIzEd.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/JetBrains/JetbrainsLicense.jar.jar!/com/rover12421/SyNchRonIzEd/sYnchRONIzEd.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-26">
-          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/JetBrains/JetbrainsLicense.jar.jar!/com/rover12421/BooLeAN/BooLeAN/privAtE.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="33" column="53" lean-forward="false" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/JetBrains/JetbrainsLicense.jar.jar!/com/rover12421/SyNchRonIzEd/sYnchRONIzEd.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/JetBrains/JetbrainsLicense.jar.jar!/com/rover12421/BooLeAN/BooLeAN/BooLeAN.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/JetBrains/JetbrainsLicense.jar.jar!/com/rover12421/crack/jetbrains/v2/Agent.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="155" column="27" lean-forward="true" selection-start-line="155" selection-start-column="27" selection-end-line="155" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/JetBrains/JetbrainsLicense.jar.jar!/com/rover12421/BooLeAN/SyNchRONiZed.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -2142,12 +2043,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="10" column="55" lean-forward="false" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
-          <folding>
-            <element signature="e#740#741#0" expanded="false" />
-            <element signature="e#772#773#0" expanded="false" />
-            <element signature="e#836#837#0" expanded="false" />
-            <element signature="e#878#879#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2183,10 +2078,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding>
-            <element signature="e#1273#1274#0" expanded="false" />
-            <element signature="e#1301#1302#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2194,10 +2085,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
           <caret line="62" column="43" lean-forward="false" selection-start-line="62" selection-start-column="43" selection-end-line="62" selection-end-column="43" />
-          <folding>
-            <element signature="e#3372#3382#0" expanded="false" />
-            <element signature="e#4071#4080#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2205,7 +2092,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2213,7 +2099,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2221,7 +2106,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2237,11 +2121,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#3614#3624#0" expanded="false" />
-            <element signature="e#4313#4322#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2249,7 +2128,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2257,7 +2135,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2265,15 +2142,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/query_param_types/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2289,7 +2157,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2297,7 +2164,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2305,10 +2171,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
           <caret line="93" column="4" lean-forward="false" selection-start-line="93" selection-start-column="4" selection-end-line="127" selection-end-column="5" />
-          <folding>
-            <element signature="e#4796#4806#0" expanded="true" />
-            <element signature="e#5495#5504#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2316,10 +2178,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="107" column="50" lean-forward="false" selection-start-line="107" selection-start-column="50" selection-end-line="107" selection-end-column="50" />
-          <folding>
-            <element signature="e#1147#1148#0" expanded="true" />
-            <element signature="e#1197#1198#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2335,14 +2194,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="18" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/query_executing_queries_examples/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -2371,22 +2222,205 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/query_executing_queries_examples/src/main/java/model/Employee.java">
+    <entry file="file://$PROJECT_DIR$/query_param_types/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="953">
-          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+        <state relative-caret-position="527">
+          <caret line="31" column="19" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query_result_example/src/main/java/model/Project.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query_result_example/src/main/java/EmpMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query_result_example/src/main/java/model/Department.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query_result_example/src/main/java/model/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="854">
+          <caret line="263" column="22" lean-forward="false" selection-start-line="263" selection-start-column="22" selection-end-line="263" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query_result_example/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/em_operations_persist_clear_flush_merge_detach/src/test/java/EmOperationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="63" column="8" lean-forward="false" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="99" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query_result_example/src/test/java/QueryResultExampleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-642">
+          <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#6667#6677#0" expanded="false" />
+            <element signature="e#7366#7375#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/one_to_one_unidirectional/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="19" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query_paging/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query_paging/src/test/java/QueryPagingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query_paging/src/main/java/model/Project.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query_paging/src/main/java/model/Department.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query_paging/src/main/java/model/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query_executing_queries_examples/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="18" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query_message_board/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/query_executing_queries_examples/src/test/java/QueryExecutingQueriesExamplesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="35" column="13" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+          <folding>
+            <element signature="e#2876#2877#0" expanded="true" />
+            <element signature="e#2907#2908#0" expanded="true" />
+            <element signature="e#2939#2940#0" expanded="true" />
+            <element signature="e#2983#2984#0" expanded="true" />
+            <element signature="e#3274#3275#0" expanded="true" />
+            <element signature="e#3303#3304#0" expanded="true" />
+            <element signature="e#3467#3468#0" expanded="true" />
+            <element signature="e#3501#3502#0" expanded="true" />
+            <element signature="e#3552#3553#0" expanded="true" />
+            <element signature="e#3598#3599#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query_executing_queries_examples/src/main/java/model/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="3" lean-forward="false" selection-start-line="15" selection-start-column="3" selection-end-line="16" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query_message_board/src/main/java/model/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="36" column="42" lean-forward="false" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query_message_board/src/main/java/model/Conversation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query_message_board/src/test/java/QueryMessageBoardTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="40" lean-forward="true" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2462#2463#0" expanded="true" />
-            <element signature="e#2516#2517#0" expanded="true" />
+            <element signature="e#1674#1675#0" expanded="true" />
+            <element signature="e#1724#1725#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2401,8 +2435,19 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.21034482" />
+                <option value="0.4775604" />
                 <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4775604" />
               </list>
             </option>
           </splitter-proportions>
@@ -2410,7 +2455,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>JPA</last-edited>
+          <last-edited>Spring (Sandbox)|Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -2445,7 +2490,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>JPA|query_executing_queries_examples</last-edited>
+          <last-edited>JPA|query_message_board</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -2458,6 +2503,17 @@
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
           <last-edited>JetbrainsLicense.jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4775604" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

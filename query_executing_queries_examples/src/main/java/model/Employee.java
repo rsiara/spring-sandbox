@@ -6,6 +6,12 @@ import java.util.Collection;
 import java.util.Date;
 
 @Entity
+@NamedQueries({
+        @NamedQuery(name = "countEmployees",
+                query = "SELECT COUNT(e) FROM Employee e"),
+        @NamedQuery(name = "findAllEmployees",
+                query = "SELECT e FROM Employee e")
+})
 public class Employee {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

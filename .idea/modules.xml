@@ -49,8 +49,11 @@
       <module fileurl="file://$PROJECT_DIR$/query_dynamic_named_query/query_dynamic_named_query.iml" filepath="$PROJECT_DIR$/query_dynamic_named_query/query_dynamic_named_query.iml" />
       <module fileurl="file://$PROJECT_DIR$/query_dynamic_query/query_dynamic_query.iml" filepath="$PROJECT_DIR$/query_dynamic_query/query_dynamic_query.iml" />
       <module fileurl="file://$PROJECT_DIR$/query_executing_queries_examples/query_executing_queries_examples.iml" filepath="$PROJECT_DIR$/query_executing_queries_examples/query_executing_queries_examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/query_message_board/query_message_board.iml" filepath="$PROJECT_DIR$/query_message_board/query_message_board.iml" />
       <module fileurl="file://$PROJECT_DIR$/query_named_query/query_named_query.iml" filepath="$PROJECT_DIR$/query_named_query/query_named_query.iml" />
+      <module fileurl="file://$PROJECT_DIR$/query_paging/query_paging.iml" filepath="$PROJECT_DIR$/query_paging/query_paging.iml" />
       <module fileurl="file://$PROJECT_DIR$/query_param_types/query_param_types.iml" filepath="$PROJECT_DIR$/query_param_types/query_param_types.iml" />
+      <module fileurl="file://$PROJECT_DIR$/query_result_example/query_result_example.iml" filepath="$PROJECT_DIR$/query_result_example/query_result_example.iml" />
       <module fileurl="file://$PROJECT_DIR$/sharing_embeddable_key_mappings_with_values/sharing_embeddable_key_mappings_with_values.iml" filepath="$PROJECT_DIR$/sharing_embeddable_key_mappings_with_values/sharing_embeddable_key_mappings_with_values.iml" />
     </modules>
   </component>
