@@ -58,6 +58,7 @@
         <module name="query_dynamic_query" />
         <module name="query_executing_queries_examples" />
         <module name="query_hints_examples" />
+        <module name="query_jpql_many_examples" />
         <module name="query_message_board" />
         <module name="query_named_query" />
         <module name="query_paging" />
@@ -123,6 +124,7 @@
       <module name="query_executing_queries_examples" target="1.5" />
       <module name="query_hints" target="1.5" />
       <module name="query_hints_examples" target="1.5" />
+      <module name="query_jpql_many_examples" target="1.5" />
       <module name="query_message_board" target="1.5" />
       <module name="query_named_query" target="1.5" />
       <module name="query_paging" target="1.5" />
