@@ -66,6 +66,7 @@
         <module>query_hints</module>
         <module>query_hints_examples</module>
         <module>query_jpql_many_examples</module>
+        <module>criteria_api_basic_queries</module>
     </modules>
 
 

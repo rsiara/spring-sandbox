@@ -13,6 +13,7 @@
         <module name="collection_of_embedded" />
         <module name="collection_order_persistence" />
         <module name="collection_override_table_columns" />
+        <module name="criteria_api_basic_queries" />
         <module name="em_operations_find_remove_persist" />
         <module name="em_operations_persist_clear_flush_merge_detach" />
         <module name="em_persistent_context_unsychronized" />
@@ -76,6 +77,7 @@
       <module name="collection_of_embedded" target="1.5" />
       <module name="collection_order_persistence" target="1.5" />
       <module name="collection_override_table_columns" target="1.5" />
+      <module name="criteria_api_basic_queries" target="1.5" />
       <module name="em_operations_find_remove_persist" target="1.5" />
       <module name="em_operations_persist_clear_flush_merge_detach" target="1.5" />
       <module name="em_persistent_context_unsychronized" target="1.5" />
