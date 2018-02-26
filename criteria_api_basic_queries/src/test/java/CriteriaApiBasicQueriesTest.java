@@ -459,6 +459,195 @@ public class CriteriaApiBasicQueriesTest {
         }
     }
 
+    /*
+    SELECT p.name,
+        CASE WHEN TYPE(p) = DesignProject THEN 'Development'
+            WHEN TYPE(p) = QualityProject THEN 'QA'
+            WHEN TYPE(p) = Project THEN 'Parent'
+            ELSE 'Non-Development'
+        END
+    FROM Project p
+    WHERE p.employees IS NOT EMPTY
+    */
+    @Test
+    @Transactional
+    @Rollback(false)
+    public void case_expression() {
+        System.out.println(" *** Case expression *** ");
+
+        CriteriaBuilder criteriaBuilder = entityManager.getCriteriaBuilder();
+
+        //Parameter of criateQuery is result type
+        CriteriaQuery<Object[]> criteriaQuery = criteriaBuilder.createQuery(Object[].class);
+        Root<Project> projectRoot = criteriaQuery.from(Project.class);
+
+        criteriaQuery.multiselect(projectRoot.get("name"), criteriaBuilder.selectCase()
+                .when(criteriaBuilder.equal(projectRoot.type(), DesignProject.class), "The very BIG ")
+                .when(criteriaBuilder.equal(projectRoot.type(), QualityProject.class), "Quality Project")
+                .when(criteriaBuilder.equal(projectRoot.type(), Project.class), "Parent project class entity")
+                .otherwise("Non Project class type"))
+                .where(criteriaBuilder.isNotEmpty(projectRoot.<List<String>>get("employees")));
+
+        //Execute query
+        List<Object[]> resultList = entityManager.createQuery(criteriaQuery)
+                .getResultList();
+
+        //Print result
+        for (Object[] singleRow : resultList) {
+            for (Object singleColumn : singleRow) {
+                System.out.print(" " + singleColumn + " ");
+            }
+            System.out.println();
+        }
+    }
+
+
+    /*
+    SELECT p.name,
+        CASE TYPE(p)
+            WHEN DesignProject THEN 'Development'
+            WHEN QualityProject THEN 'QA'
+            ELSE 'Non-Development'
+        END
+    FROM Project p
+    WHERE p.employees IS NOT EMPTY
+    */
+
+    @Test
+    @Transactional
+    @Rollback(false)
+    public void case_expression_two() {
+        System.out.println(" *** Case expression - second example *** ");
+
+        CriteriaBuilder criteriaBuilder = entityManager.getCriteriaBuilder();
+
+        //Parameter of criateQuery is result type
+        CriteriaQuery<Object[]> criteriaQuery = criteriaBuilder.createQuery(Object[].class);
+        Root<Project> projectRoot = criteriaQuery.from(Project.class);
+
+        criteriaQuery.multiselect(projectRoot.get("name"), criteriaBuilder.selectCase(projectRoot.type())
+                .when(DesignProject.class, "The very BIG ")
+                .when(QualityProject.class, "Quality Project")
+                .when(Project.class, "Parent project class entity")
+                .otherwise("Non Project class type"))
+                .where(criteriaBuilder.isNotEmpty(projectRoot.<List<String>>get("employees")));
+
+        //Execute query
+        List<Object[]> resultList = entityManager.createQuery(criteriaQuery)
+                .getResultList();
+
+        //Print result
+        for (Object[] singleRow : resultList) {
+            for (Object singleColumn : singleRow) {
+                System.out.print(" " + singleColumn + " ");
+            }
+            System.out.println();
+        }
+    }
+
+
+    /*
+        SELECT COALESCE(d.name, d.id)
+        FROM Department
+    */
+
+    /*
+        COALESCE dziala tak ze jezeli pierwsze wyrazenie jest nullem to zwracan jest wartosc drugieg
+     */
+    @Test
+    @Transactional
+    @Rollback(false)
+    public void coalesce_expression() {
+        System.out.println(" *** Coalesce expression - second example *** ");
+
+        CriteriaBuilder criteriaBuilder = entityManager.getCriteriaBuilder();
+
+        //Parameter of criateQuery is result type
+        CriteriaQuery<Object> criteriaQuery = criteriaBuilder.createQuery(Object.class);
+        Root<Department> departmentRoot = criteriaQuery.from(Department.class);
+
+        criteriaQuery.select(criteriaBuilder.coalesce()
+                .value(departmentRoot.get("name"))
+                .value(departmentRoot.get("id")));
+
+        //Execute query
+        List<Object> resultList = entityManager.createQuery(criteriaQuery)
+                .getResultList();
+
+        //Print result
+        for (Object singleResult : resultList) {
+            System.out.print(" " + singleResult + " ");
+        }
+    }
+
+    /*
+    SELECT e FROM Employee e JOIN TREAT(e.projects AS QualityProject) qp
+    WHERE qp.qualityRating > 5
+    */
+    @Test
+    @Transactional
+    @Rollback(false)
+    public void treat_expression_for_downcasting_join() {
+        System.out.println(" *** Treat expression - join downcasting *** ");
+
+        CriteriaBuilder criteriaBuilder = entityManager.getCriteriaBuilder();
+
+        //Parameter of criateQuery is result type
+        CriteriaQuery<Employee> criteriaQuery = criteriaBuilder.createQuery(Employee.class);
+        Root<Employee> employeeRoot = criteriaQuery.from(Employee.class);
+
+
+        Join<Employee, Project> employeeProjectJoin = employeeRoot.join("projects");
+        Join<Employee, QualityProject> employeeQualityProjectJoin = criteriaBuilder.treat(employeeProjectJoin, QualityProject.class);
+
+
+        criteriaQuery.select(employeeRoot)
+                .where(criteriaBuilder.gt(employeeQualityProjectJoin.<Number>get("qa_rating"), 5));
+
+        //Execute query
+        List<Employee> resultList = entityManager.createQuery(criteriaQuery)
+                .getResultList();
+
+        //Print result
+        for (Object singleResult : resultList) {
+            System.out.print(" " + singleResult + " ");
+        }
+    }
+
+    /*
+     * Pozwala na rzutowaniu w 'miejscu', tzn:
+     * Ze mozna w locie rzutowac pobieranie danego atrybutu
+     * */
+
+    @Test
+    @Transactional
+    @Rollback(false)
+    public void treat_expression_for_downcasting_path() {
+        System.out.println(" *** Treat expression - path downcasting *** ");
+
+        CriteriaBuilder criteriaBuilder = entityManager.getCriteriaBuilder();
+
+        //Parameter of criateQuery is result type
+        CriteriaQuery<Project> criteriaQuery = criteriaBuilder.createQuery(Project.class);
+        Root<Project> projectRoot = criteriaQuery.from(Project.class);
+
+        criteriaQuery.select(projectRoot)
+                .where(criteriaBuilder.or(
+                        criteriaBuilder.gt(criteriaBuilder.treat(projectRoot, QualityProject.class).<Number>get("qa_rating"), 5),
+                        criteriaBuilder.gt(criteriaBuilder.treat(projectRoot, DesignProject.class).<Number>get("id"), 5)
+                ));
+
+
+        //Execute query
+        List<Project> resultList = entityManager.createQuery(criteriaQuery)
+                .getResultList();
+
+        //Print result
+        for (Object singleResult : resultList) {
+            System.out.print(" " + singleResult + " ");
+        }
+    }
+
     @Test
     @Transactional
     @Rollback(false)
@@ -524,6 +713,111 @@ public class CriteriaApiBasicQueriesTest {
 
         //Print result
         for (Object[] singleRow : resultArray) {
+            for (Object singleColumn : singleRow) {
+                System.out.print(" " + singleColumn + " ");
+            }
+            System.out.println();
+        }
+    }
+
+    /*
+     SELECT e FROM Employee e JOIN e.projects p ON p.name = 'Zooby'
+    */
+    /*
+     * Support for the ON condition of outer join queries was added in JPA 2.1.
+     * */
+    @Test
+    @Transactional
+    @Rollback(false)
+    public void join_outer() {
+        System.out.println(" *** Join outer *** ");
+        CriteriaBuilder criteriaBuilder = entityManager.getCriteriaBuilder();
+
+        //Jako parametr podajemy jakiego typu bedzie wynik
+        CriteriaQuery<Employee> criteriaQuery = criteriaBuilder.createQuery(Employee.class);
+        Root<Employee> employeeRoot = criteriaQuery.from(Employee.class);
+
+        Join<Employee, Project> employeeProjectJoin = employeeRoot.join("projects", JoinType.LEFT);
+        Predicate onCondition = criteriaBuilder.equal(employeeProjectJoin.get("name"), "Small Project");
+        employeeProjectJoin.on(onCondition);
+
+        criteriaQuery.select(employeeRoot);
+
+        //Execute query
+        List<Employee> resultArray = entityManager.createQuery(criteriaQuery).getResultList();
+
+        //Print result
+        for (Employee singleRow : resultArray) {
+            System.out.print(" " + singleRow + " ");
+        }
+    }
+
+    /*
+    SELECT d.name, e.name
+    FROM Employee e JOIN e.dept d
+    ORDER BY d.name DESC, e.name
+    */
+
+    @Test
+    @Transactional
+    @Rollback(false)
+    public void order_by_expression() {
+        System.out.println(" *** Join outer *** ");
+        CriteriaBuilder criteriaBuilder = entityManager.getCriteriaBuilder();
+
+        //Jako parametr podajemy jakiego typu bedzie wynik
+        CriteriaQuery<Tuple> criteriaQuery = criteriaBuilder.createQuery(Tuple.class);
+        Root<Employee> employeeRoot = criteriaQuery.from(Employee.class);
+
+        Join<Employee, Department> employeeDepartmentJoin = employeeRoot.join("dept", JoinType.LEFT);
+
+
+        criteriaQuery.multiselect(employeeDepartmentJoin.get("name").alias("dept_name"), employeeRoot.get("name").alias("emp_name"));
+        criteriaQuery.orderBy(criteriaBuilder.desc(employeeDepartmentJoin.get("name")),
+                criteriaBuilder.asc(employeeRoot.get("name")));
+
+        //Execute query
+        List<Tuple> resultList = entityManager.createQuery(criteriaQuery).getResultList();
+
+        //Print query
+        for (Tuple tuple : resultList) {
+            String employeeName = (String) tuple.get("emp_name");
+            String departmentName = (String) tuple.get("dept_name");
+
+            System.out.println("Employee name: " + employeeName + " Department name: " + departmentName);
+        }
+    }
+
+    /*
+    SELECT e, COUNT(p)
+    FROM Employee e JOIN e.projects p
+    GROUP BY e
+    HAVING COUNT(p) >= 2
+    */
+
+    @Test
+    @Transactional
+    @Rollback(false)
+    public void group_by_and_having_clause() {
+        System.out.println(" *** Group by and having clause *** ");
+        CriteriaBuilder criteriaBuilder = entityManager.getCriteriaBuilder();
+
+        //Jako parametr podajemy jakiego typu bedzie wynik
+        CriteriaQuery<Object[]> criteriaQuery = criteriaBuilder.createQuery(Object[].class);
+        Root<Employee> employeeRoot = criteriaQuery.from(Employee.class);
+
+        Join<Employee, Project> employeeProjectJoin = employeeRoot.join("projects");
+
+
+        criteriaQuery.multiselect(employeeRoot, criteriaBuilder.count(employeeProjectJoin))
+                .groupBy(employeeRoot)
+                .having(criteriaBuilder.ge(criteriaBuilder.count(employeeProjectJoin), 1));
+
+        //Execute query
+        List<Object[]> resultList = entityManager.createQuery(criteriaQuery).getResultList();
+
+        //Print query
+        for (Object[] singleRow : resultList) {
             for (Object singleColumn : singleRow) {
                 System.out.print(" " + singleColumn + " ");
             }

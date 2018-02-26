@@ -6,6 +6,8 @@ import java.util.Collection;
 import javax.persistence.*;
 
 @Entity
+@Inheritance
+@DiscriminatorValue("P")
 public class Project {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
