@@ -22,7 +22,7 @@ public class Employee {
     @OneToMany(mappedBy = "employee")
     private Collection<Phone> phones = new ArrayList<Phone>();
 
-    @ManyToOne
+    @ManyToOne(cascade = CascadeType.ALL)
     private Department dept;
 
     @ManyToOne

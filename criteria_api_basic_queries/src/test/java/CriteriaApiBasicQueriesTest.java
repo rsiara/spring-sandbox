@@ -16,6 +16,7 @@ import java.util.*;
 
 /*
 
+CRITERIA API
 
  * */
 
@@ -50,41 +51,71 @@ public class CriteriaApiBasicQueriesTest {
     @Rollback(false)
     public void criteria_api_basic_queries_main_test() {
 
+        predicates_using_conjuction_disjuntion();
+
         subquery_example_one();
 
         subquery_example_two();
 
         subquery_example_three();
 
+        subquery_example_four();
+
+        in_expression_one();
+
+        in_expression_shortcut_version();
+
+        in_expression_and_subuery();
+
+        case_expression();
+
+        case_expression_two();
+
+        treat_expression_for_downcasting_join();
+
+        treat_expression_for_downcasting_path();
+
+        subquery_sandbox();
+
         join_simple();
+
+        join_outer();
+
+        order_by_expression();
+
+        update_bulk_query();
+
+        delete_query();
+
+        group_by_and_having_clause();
 
         join_cascade();
 
         join_fetch();
 
-        select();
+        using_aliases();
 
         select_single_column();
 
-        select_multiple_column_by_multiselect_and_tuple_result();
-
-        select_multiple_column_by_multiselect_and_object_construction_in_result();
+        select_multiple_column_by_tuple_query_and_tuple_result();
 
         select_multiple_column_by_multiselect_and_array_of_object_result();
 
-        select_multiple_column_by_tuple_query_and_tuple_result();
+        select_multiple_column_by_multiselect_and_object_construction_in_result();
 
         select_multiple_column_by_select_and_object_construction_using_construct_method_result();
+
+        select_multiple_column_by_multiselect_and_tuple_result();
 
         path_expression();
 
         query_roots();
 
+        select();
+
         conjuction();
 
         conjuction_using_add();
-
-        predicates_using_conjuction_disjuntion();
 
         complex_query_find_employee();
     }
@@ -762,7 +793,7 @@ public class CriteriaApiBasicQueriesTest {
     @Transactional
     @Rollback(false)
     public void order_by_expression() {
-        System.out.println(" *** Join outer *** ");
+        System.out.println(" *** Order by expression *** ");
         CriteriaBuilder criteriaBuilder = entityManager.getCriteriaBuilder();
 
         //Jako parametr podajemy jakiego typu bedzie wynik
@@ -789,12 +820,75 @@ public class CriteriaApiBasicQueriesTest {
     }
 
     /*
+    UPDATE Employee e
+    SET e.salary = e.salary + 5000
+    WHERE EXISTS (SELECT p
+    FROM e.projects p
+    WHERE p.name = 'Release2')
+    */
+    @Test
+    @Transactional
+    @Rollback(false)
+    public void update_bulk_query() {
+        System.out.println(" *** Update bulk query *** ");
+        CriteriaBuilder criteriaBuilder = entityManager.getCriteriaBuilder();
+
+        //Jako parametr podajemy jakiego typu bedzie wynik
+        CriteriaUpdate<Employee> criteriaUpdate = criteriaBuilder.createCriteriaUpdate(Employee.class);
+        Root<Employee> employeeRoot = criteriaUpdate.from(Employee.class);
+
+        Subquery<Project> subquery = criteriaUpdate.subquery(Project.class);
+        Root<Employee> employeeSubquery = subquery.correlate(employeeRoot);
+        Join<Employee, Project> employeeProjectJoin = employeeSubquery.join("projects");
+
+        subquery.select(employeeProjectJoin)
+                .where(criteriaBuilder.equal(employeeProjectJoin.get("name"), "Small Project"));
+
+        Expression<Integer> updateSalaryValue = criteriaBuilder.sum(employeeRoot.<Integer>get("salary"), 7777);
+
+        criteriaUpdate.set(employeeRoot.<Integer>get("salary"), updateSalaryValue)
+                .where(criteriaBuilder.exists(subquery));
+
+
+        //Execute query
+        Query query = entityManager.createQuery(criteriaUpdate);
+        int updateResult = query.executeUpdate();
+
+        //Print query
+        System.out.println("Update result: " + updateResult);
+    }
+
+    /*
+     DELETE FROM Phone e
+     WHERE e.department IS NULL
+    */
+    @Test
+    @Transactional
+    @Rollback(false)
+    public void delete_query() {
+        System.out.println(" *** Delete query *** ");
+        CriteriaBuilder criteriaBuilder = entityManager.getCriteriaBuilder();
+
+        CriteriaDelete<Phone> phoneCriteriaDelete = criteriaBuilder.createCriteriaDelete(Phone.class);
+        Root<Phone> phoneRoot = phoneCriteriaDelete.from(Phone.class);
+        Path<Employee> employeePath = phoneRoot.get("employee");
+        phoneCriteriaDelete.where(
+                criteriaBuilder.isNotNull(employeePath.get("dept")));
+
+        //Execute query
+        Query queryPhone = entityManager.createQuery(phoneCriteriaDelete);
+        int phoneDeleteResult = queryPhone.executeUpdate();
+
+        //Print query
+        System.out.println("Phone delete result: " + phoneDeleteResult);
+    }
+
+    /*
     SELECT e, COUNT(p)
     FROM Employee e JOIN e.projects p
     GROUP BY e
     HAVING COUNT(p) >= 2
     */
-
     @Test
     @Transactional
     @Rollback(false)
