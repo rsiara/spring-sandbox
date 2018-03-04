@@ -16,15 +16,21 @@
         <module name="collection_of_embedded" />
         <module name="collection_order_persistence" />
         <module name="collection_override_table_columns" />
+        <module name="converting_attribute_state" />
         <module name="criteria_api_basic_queries" />
         <module name="criteria_api_metamodel_api" />
         <module name="em_operations_find_remove_persist" />
         <module name="em_operations_persist_clear_flush_merge_detach" />
         <module name="em_persistent_context_unsychronized" />
         <module name="embedded_object" />
+        <module name="embedded_object_advanced_mappings" />
+        <module name="embedded_object_overriding_embedded_relationships" />
         <module name="embedded_object_sharing_and_override_column_name" />
         <module name="id_auto_generation" />
+        <module name="id_class_id" />
         <module name="id_db_idendity_generation" />
+        <module name="id_derived_single_key" />
+        <module name="id_embedded_class_id" />
         <module name="id_sequence_generation" />
         <module name="id_table_generation" />
         <module name="inheritance_joined_with_one_to_many_to_itself_bidirectional" />
@@ -81,15 +87,21 @@
       <module name="collection_of_embedded" target="1.5" />
       <module name="collection_order_persistence" target="1.5" />
       <module name="collection_override_table_columns" target="1.5" />
+      <module name="converting_attribute_state" target="1.5" />
       <module name="criteria_api_basic_queries" target="1.5" />
       <module name="criteria_api_metamodel_api" target="1.5" />
       <module name="em_operations_find_remove_persist" target="1.5" />
       <module name="em_operations_persist_clear_flush_merge_detach" target="1.5" />
       <module name="em_persistent_context_unsychronized" target="1.5" />
       <module name="embedded_object" target="1.5" />
+      <module name="embedded_object_advanced_mappings" target="1.5" />
+      <module name="embedded_object_overriding_embedded_relationships" target="1.5" />
       <module name="embedded_object_sharing_and_override_column_name" target="1.5" />
       <module name="id_auto_generation" target="1.5" />
+      <module name="id_class_id" target="1.5" />
       <module name="id_db_idendity_generation" target="1.5" />
+      <module name="id_derived_single_key" target="1.5" />
+      <module name="id_embedded_class_id" target="1.5" />
       <module name="id_sequence_generation" target="1.5" />
       <module name="id_table_generation" target="1.5" />
       <module name="inheritance_joined_with_one_to_many_to_itself_bidirectional" target="1.5" />

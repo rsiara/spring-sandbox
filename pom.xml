@@ -68,6 +68,12 @@
         <module>query_jpql_many_examples</module>
         <module>criteria_api_basic_queries</module>
         <module>criteria_api_metamodel_api</module>
+        <module>converting_attribute_state</module>
+        <module>embedded_object_advanced_mappings</module>
+        <module>embedded_object_overriding_embedded_relationships</module>
+        <module>id_class_id</module>
+        <module>id_embedded_class_id</module>
+        <module>id_derived_single_key</module>
     </modules>
 
 

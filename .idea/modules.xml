@@ -10,15 +10,21 @@
       <module fileurl="file://$PROJECT_DIR$/collection_of_embedded/collection_of_embedded.iml" filepath="$PROJECT_DIR$/collection_of_embedded/collection_of_embedded.iml" />
       <module fileurl="file://$PROJECT_DIR$/collection_order_persistence/collection_order_persistence.iml" filepath="$PROJECT_DIR$/collection_order_persistence/collection_order_persistence.iml" />
       <module fileurl="file://$PROJECT_DIR$/collection_override_table_columns/collection_override_table_columns.iml" filepath="$PROJECT_DIR$/collection_override_table_columns/collection_override_table_columns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/converting_attribute_state/converting_attribute_state.iml" filepath="$PROJECT_DIR$/converting_attribute_state/converting_attribute_state.iml" />
       <module fileurl="file://$PROJECT_DIR$/criteria_api_basic_queries/criteria_api_basic_queries.iml" filepath="$PROJECT_DIR$/criteria_api_basic_queries/criteria_api_basic_queries.iml" />
       <module fileurl="file://$PROJECT_DIR$/criteria_api_metamodel_api/criteria_api_metamodel_api.iml" filepath="$PROJECT_DIR$/criteria_api_metamodel_api/criteria_api_metamodel_api.iml" />
       <module fileurl="file://$PROJECT_DIR$/em_operations_find_remove_persist/em_operations_find_remove_persist.iml" filepath="$PROJECT_DIR$/em_operations_find_remove_persist/em_operations_find_remove_persist.iml" />
       <module fileurl="file://$PROJECT_DIR$/em_operations_persist_clear_flush_merge_detach/em_operations_persist_clear_flush_merge_detach.iml" filepath="$PROJECT_DIR$/em_operations_persist_clear_flush_merge_detach/em_operations_persist_clear_flush_merge_detach.iml" />
       <module fileurl="file://$PROJECT_DIR$/em_persistent_context_unsychronized/em_persistent_context_unsychronized.iml" filepath="$PROJECT_DIR$/em_persistent_context_unsychronized/em_persistent_context_unsychronized.iml" />
       <module fileurl="file://$PROJECT_DIR$/embedded_object/embedded_object.iml" filepath="$PROJECT_DIR$/embedded_object/embedded_object.iml" />
+      <module fileurl="file://$PROJECT_DIR$/embedded_object_advanced_mappings/embedded_object_advanced_mappings.iml" filepath="$PROJECT_DIR$/embedded_object_advanced_mappings/embedded_object_advanced_mappings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/embedded_object_overriding_embedded_relationships/embedded_object_overriding_embedded_relationships.iml" filepath="$PROJECT_DIR$/embedded_object_overriding_embedded_relationships/embedded_object_overriding_embedded_relationships.iml" />
       <module fileurl="file://$PROJECT_DIR$/embedded_object_sharing_and_override_column_name/embedded_object_sharing_and_override_column_name.iml" filepath="$PROJECT_DIR$/embedded_object_sharing_and_override_column_name/embedded_object_sharing_and_override_column_name.iml" />
       <module fileurl="file://$PROJECT_DIR$/id_auto_generation/id_auto_generation.iml" filepath="$PROJECT_DIR$/id_auto_generation/id_auto_generation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/id_class_id/id_class_id.iml" filepath="$PROJECT_DIR$/id_class_id/id_class_id.iml" />
       <module fileurl="file://$PROJECT_DIR$/id_db_idendity_generation/id_db_idendity_generation.iml" filepath="$PROJECT_DIR$/id_db_idendity_generation/id_db_idendity_generation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/id_derived_single_key/id_derived_single_key.iml" filepath="$PROJECT_DIR$/id_derived_single_key/id_derived_single_key.iml" />
+      <module fileurl="file://$PROJECT_DIR$/id_embedded_class_id/id_embedded_class_id.iml" filepath="$PROJECT_DIR$/id_embedded_class_id/id_embedded_class_id.iml" />
       <module fileurl="file://$PROJECT_DIR$/id_sequence_generation/id_sequence_generation.iml" filepath="$PROJECT_DIR$/id_sequence_generation/id_sequence_generation.iml" />
       <module fileurl="file://$PROJECT_DIR$/id_table_generation/id_table_generation.iml" filepath="$PROJECT_DIR$/id_table_generation/id_table_generation.iml" />
       <module fileurl="file://$PROJECT_DIR$/inheritance_joined_with_one_to_many_to_itself_bidirectional/inheritance_joined_with_one_to_many_to_itself_bidirectional.iml" filepath="$PROJECT_DIR$/inheritance_joined_with_one_to_many_to_itself_bidirectional/inheritance_joined_with_one_to_many_to_itself_bidirectional.iml" />
