@@ -17,16 +17,16 @@ import java.util.Date;
 
 /*
 
- ***   ID - DERIVED SINGLE KEY   ***
+ ***   DERIVED SHARED MAPS ID  ***
  *
- *
+ *  Allow to keep FK from relation as Primary KEY and duplicate it to separate id attribute
  *
  */
 
 @WebAppConfiguration
 @ContextConfiguration(classes = {RootConfig.class}, loader = AnnotationConfigWebContextLoader.class)
 @RunWith(SpringJUnit4ClassRunner.class)
-public class IdDerivedSingleKeyTest {
+public class IdDerivedSharedMapsIdTest {
 
     Date today = new Date();
     Date tomorrow = new Date(today.getTime() + (1000 * 60 * 60 * 24));
@@ -49,8 +49,8 @@ public class IdDerivedSingleKeyTest {
     @Test
     @Transactional
     @Rollback(false)
-    public void derived_single_key() {
-        System.out.println(" *** Derived single key *** ");
+    public void derived_shared_maps_id() {
+        System.out.println(" *** Derived shared maps id *** ");
 
         Integer id = 24;
         String name = "John";
@@ -64,12 +64,20 @@ public class IdDerivedSingleKeyTest {
         employee.setName(name);
         employee.setSalary(salary);
 
-
         EmployeeHistory employeeHistory = new EmployeeHistory(employee);
-
 
         entityManager.persist(employee);
         entityManager.persist(employeeHistory);
 
+        entityManager.flush();
+
+        EmployeeHistory retrievedEmployeeHistory = findEmployeeHistoryById(employee.getId());
+
+        System.out.println(retrievedEmployeeHistory.getId());
+    }
+
+
+    private EmployeeHistory findEmployeeHistoryById(int id) {
+        return entityManager.find(EmployeeHistory.class, id);
     }
 }

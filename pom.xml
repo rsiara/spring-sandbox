@@ -74,6 +74,9 @@
         <module>id_class_id</module>
         <module>id_embedded_class_id</module>
         <module>id_derived_single_key</module>
+        <module>id_derived_shared_maps_id</module>
+        <module>id_multiple_mapped_attributes</module>
+        <module>id_derived_embedded_id</module>
     </modules>
 
 

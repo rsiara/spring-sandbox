@@ -1,6 +1,6 @@
 import configuration.RootConfig;
-import model.Employee;
-import model.EmployeeHistory;
+import model.Department;
+import model.Project;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -17,7 +17,7 @@ import java.util.Date;
 
 /*
 
- ***   ID - DERIVED SINGLE KEY   ***
+ ***   ID - MULTIPLE MAPPED ATTRIBUTES  ***
  *
  *
  *
@@ -26,7 +26,7 @@ import java.util.Date;
 @WebAppConfiguration
 @ContextConfiguration(classes = {RootConfig.class}, loader = AnnotationConfigWebContextLoader.class)
 @RunWith(SpringJUnit4ClassRunner.class)
-public class IdDerivedSingleKeyTest {
+public class IdMultipleMappedAttributesTest {
 
     Date today = new Date();
     Date tomorrow = new Date(today.getTime() + (1000 * 60 * 60 * 24));
@@ -49,27 +49,27 @@ public class IdDerivedSingleKeyTest {
     @Test
     @Transactional
     @Rollback(false)
-    public void derived_single_key() {
-        System.out.println(" *** Derived single key *** ");
+    public void derived_shared_maps_id() {
+        System.out.println(" *** Derived shared maps id *** ");
 
-        Integer id = 24;
-        String name = "John";
-        Integer salary = 2800;
-        String country = "Poland";
+        //Department
 
-        //Employee
+        Department department = new Department();
+        department.setName("HR Department");
+        department.setCountry("Poland");
+        department.setNumber(512);
 
-        Employee employee = new Employee();
-        employee.setId(id);
-        employee.setName(name);
-        employee.setSalary(salary);
+        //Project
 
+        Project project = new Project(department, "New Project");
+        project.setStartDate(today);
+        project.setEndDate(todayplustwo);
 
-        EmployeeHistory employeeHistory = new EmployeeHistory(employee);
+        department.addProject(project);
 
-
-        entityManager.persist(employee);
-        entityManager.persist(employeeHistory);
+        entityManager.persist(department);
+        entityManager.persist(project);
+        entityManager.flush();
 
     }
 }

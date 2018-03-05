@@ -29,8 +29,11 @@
         <module name="id_auto_generation" />
         <module name="id_class_id" />
         <module name="id_db_idendity_generation" />
+        <module name="id_derived_embedded_id" />
+        <module name="id_derived_shared_maps_id" />
         <module name="id_derived_single_key" />
         <module name="id_embedded_class_id" />
+        <module name="id_multiple_mapped_attributes" />
         <module name="id_sequence_generation" />
         <module name="id_table_generation" />
         <module name="inheritance_joined_with_one_to_many_to_itself_bidirectional" />
@@ -100,8 +103,11 @@
       <module name="id_auto_generation" target="1.5" />
       <module name="id_class_id" target="1.5" />
       <module name="id_db_idendity_generation" target="1.5" />
+      <module name="id_derived_embedded_id" target="1.5" />
+      <module name="id_derived_shared_maps_id" target="1.5" />
       <module name="id_derived_single_key" target="1.5" />
       <module name="id_embedded_class_id" target="1.5" />
+      <module name="id_multiple_mapped_attributes" target="1.5" />
       <module name="id_sequence_generation" target="1.5" />
       <module name="id_table_generation" target="1.5" />
       <module name="inheritance_joined_with_one_to_many_to_itself_bidirectional" target="1.5" />

@@ -1,6 +1,8 @@
 import configuration.RootConfig;
-import model.Employee;
-import model.EmployeeHistory;
+import model.Department;
+import model.DeptId;
+import model.Project;
+import model.ProjectId;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -17,7 +19,7 @@ import java.util.Date;
 
 /*
 
- ***   ID - DERIVED SINGLE KEY   ***
+ ***   ID - DERIVED EMBEDDED ID  ***
  *
  *
  *
@@ -26,7 +28,7 @@ import java.util.Date;
 @WebAppConfiguration
 @ContextConfiguration(classes = {RootConfig.class}, loader = AnnotationConfigWebContextLoader.class)
 @RunWith(SpringJUnit4ClassRunner.class)
-public class IdDerivedSingleKeyTest {
+public class IdDerivedEmbeddedIdTest {
 
     Date today = new Date();
     Date tomorrow = new Date(today.getTime() + (1000 * 60 * 60 * 24));
@@ -49,27 +51,23 @@ public class IdDerivedSingleKeyTest {
     @Test
     @Transactional
     @Rollback(false)
-    public void derived_single_key() {
-        System.out.println(" *** Derived single key *** ");
+    public void derived_shared_maps_id() {
+        System.out.println(" *** Derived embedded id *** ");
 
-        Integer id = 24;
-        String name = "John";
-        Integer salary = 2800;
-        String country = "Poland";
+        //Department
+        Department department = new Department();
+        department.setId(new DeptId(512, "Poland"));
+        department.setName("HR Department");
 
-        //Employee
+        //Project
+        Project project = new Project(department);
+        project.setId(new ProjectId(department.getId(), "Big Project"));
+        project.setStartDate(today);
+        project.setEndDate(todayplustwo);
 
-        Employee employee = new Employee();
-        employee.setId(id);
-        employee.setName(name);
-        employee.setSalary(salary);
+        entityManager.persist(department);
+        entityManager.persist(project);
 
-
-        EmployeeHistory employeeHistory = new EmployeeHistory(employee);
-
-
-        entityManager.persist(employee);
-        entityManager.persist(employeeHistory);
-
+        entityManager.flush();
     }
 }

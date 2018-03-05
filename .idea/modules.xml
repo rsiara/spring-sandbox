@@ -23,8 +23,11 @@
       <module fileurl="file://$PROJECT_DIR$/id_auto_generation/id_auto_generation.iml" filepath="$PROJECT_DIR$/id_auto_generation/id_auto_generation.iml" />
       <module fileurl="file://$PROJECT_DIR$/id_class_id/id_class_id.iml" filepath="$PROJECT_DIR$/id_class_id/id_class_id.iml" />
       <module fileurl="file://$PROJECT_DIR$/id_db_idendity_generation/id_db_idendity_generation.iml" filepath="$PROJECT_DIR$/id_db_idendity_generation/id_db_idendity_generation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/id_derived_embedded_id/id_derived_embedded_id.iml" filepath="$PROJECT_DIR$/id_derived_embedded_id/id_derived_embedded_id.iml" />
+      <module fileurl="file://$PROJECT_DIR$/id_derived_shared_maps_id/id_derived_shared_maps_id.iml" filepath="$PROJECT_DIR$/id_derived_shared_maps_id/id_derived_shared_maps_id.iml" />
       <module fileurl="file://$PROJECT_DIR$/id_derived_single_key/id_derived_single_key.iml" filepath="$PROJECT_DIR$/id_derived_single_key/id_derived_single_key.iml" />
       <module fileurl="file://$PROJECT_DIR$/id_embedded_class_id/id_embedded_class_id.iml" filepath="$PROJECT_DIR$/id_embedded_class_id/id_embedded_class_id.iml" />
+      <module fileurl="file://$PROJECT_DIR$/id_multiple_mapped_attributes/id_multiple_mapped_attributes.iml" filepath="$PROJECT_DIR$/id_multiple_mapped_attributes/id_multiple_mapped_attributes.iml" />
       <module fileurl="file://$PROJECT_DIR$/id_sequence_generation/id_sequence_generation.iml" filepath="$PROJECT_DIR$/id_sequence_generation/id_sequence_generation.iml" />
       <module fileurl="file://$PROJECT_DIR$/id_table_generation/id_table_generation.iml" filepath="$PROJECT_DIR$/id_table_generation/id_table_generation.iml" />
       <module fileurl="file://$PROJECT_DIR$/inheritance_joined_with_one_to_many_to_itself_bidirectional/inheritance_joined_with_one_to_many_to_itself_bidirectional.iml" filepath="$PROJECT_DIR$/inheritance_joined_with_one_to_many_to_itself_bidirectional/inheritance_joined_with_one_to_many_to_itself_bidirectional.iml" />
