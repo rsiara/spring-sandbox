@@ -35,6 +35,7 @@
       <module fileurl="file://$PROJECT_DIR$/many_to_many_bidirectional/many_to_many_bidirectional.iml" filepath="$PROJECT_DIR$/many_to_many_bidirectional/many_to_many_bidirectional.iml" />
       <module fileurl="file://$PROJECT_DIR$/many_to_many_bidirectional_jointable/many_to_many_bidirectional_jointable.iml" filepath="$PROJECT_DIR$/many_to_many_bidirectional_jointable/many_to_many_bidirectional_jointable.iml" />
       <module fileurl="file://$PROJECT_DIR$/many_to_one_unidirectional/many_to_one_unidirectional.iml" filepath="$PROJECT_DIR$/many_to_one_unidirectional/many_to_one_unidirectional.iml" />
+      <module fileurl="file://$PROJECT_DIR$/many_to_one_unidirectional_jointable/many_to_one_unidirectional_jointable.iml" filepath="$PROJECT_DIR$/many_to_one_unidirectional_jointable/many_to_one_unidirectional_jointable.iml" />
       <module fileurl="file://$PROJECT_DIR$/map_key_basic_value_basic/map_key_basic_value_basic.iml" filepath="$PROJECT_DIR$/map_key_basic_value_basic/map_key_basic_value_basic.iml" />
       <module fileurl="file://$PROJECT_DIR$/map_key_basic_value_entity/map_key_basic_value_entity.iml" filepath="$PROJECT_DIR$/map_key_basic_value_entity/map_key_basic_value_entity.iml" />
       <module fileurl="file://$PROJECT_DIR$/map_key_embeddable_attr_override_value_entity/map_key_embeddable_attr_override_value_entity.iml" filepath="$PROJECT_DIR$/map_key_embeddable_attr_override_value_entity/map_key_embeddable_attr_override_value_entity.iml" />
@@ -46,6 +47,7 @@
       <module fileurl="file://$PROJECT_DIR$/mapping_date/mapping_date.iml" filepath="$PROJECT_DIR$/mapping_date/mapping_date.iml" />
       <module fileurl="file://$PROJECT_DIR$/mapping_enum/mapping_enum.iml" filepath="$PROJECT_DIR$/mapping_enum/mapping_enum.iml" />
       <module fileurl="file://$PROJECT_DIR$/mapping_lob/mapping_lob.iml" filepath="$PROJECT_DIR$/mapping_lob/mapping_lob.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mapping_read_only/mapping_read_only.iml" filepath="$PROJECT_DIR$/mapping_read_only/mapping_read_only.iml" />
       <module fileurl="file://$PROJECT_DIR$/mapping_transient/mapping_transient.iml" filepath="$PROJECT_DIR$/mapping_transient/mapping_transient.iml" />
       <module fileurl="file://$PROJECT_DIR$/one_to_many_bidirectional_joincolumn/one_to_many_bidirectional_joincolumn.iml" filepath="$PROJECT_DIR$/one_to_many_bidirectional_joincolumn/one_to_many_bidirectional_joincolumn.iml" />
       <module fileurl="file://$PROJECT_DIR$/one_to_many_bidirectional_joincolumn_target_entity/one_to_many_bidirectional_joincolumn_target_entity.iml" filepath="$PROJECT_DIR$/one_to_many_bidirectional_joincolumn_target_entity/one_to_many_bidirectional_joincolumn_target_entity.iml" />

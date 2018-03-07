@@ -77,6 +77,8 @@
         <module>id_derived_shared_maps_id</module>
         <module>id_multiple_mapped_attributes</module>
         <module>id_derived_embedded_id</module>
+        <module>mapping_read_only</module>
+        <module>many_to_one_unidirectional_jointable</module>
     </modules>
 
 
