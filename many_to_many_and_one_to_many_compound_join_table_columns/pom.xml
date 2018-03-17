@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>one_to_many_unidirectional_jointable</artifactId>
+    <artifactId>many_to_many_and_one_to_many_compound_join_table_columns</artifactId>
 
     <dependencies>
         <dependency>

@@ -38,6 +38,7 @@
         <module name="id_table_generation" />
         <module name="inheritance_joined_with_one_to_many_to_itself_bidirectional" />
         <module name="inheritance_singletable_with_one_to_many_to_itself_bidirectional" />
+        <module name="many_to_many_and_one_to_many_compound_join_table_columns" />
         <module name="many_to_many_bidirectional" />
         <module name="many_to_many_bidirectional_jointable" />
         <module name="many_to_one_unidirectional" />
@@ -65,9 +66,11 @@
         <module name="one_to_many_to_itself_unidirectional" />
         <module name="one_to_many_unidirectional" />
         <module name="one_to_many_unidirectional_jointable" />
+        <module name="one_to_many_unidirectional_no_jointable" />
         <module name="one_to_one_bidirectional" />
         <module name="one_to_one_bidirectional_pk_mapping" />
         <module name="one_to_one_unidirectional" />
+        <module name="orphan_removal" />
         <module name="parent_module" />
         <module name="query_bulk_query" />
         <module name="query_dynamic_named_query" />
@@ -114,6 +117,7 @@
       <module name="id_table_generation" target="1.5" />
       <module name="inheritance_joined_with_one_to_many_to_itself_bidirectional" target="1.5" />
       <module name="inheritance_singletable_with_one_to_many_to_itself_bidirectional" target="1.5" />
+      <module name="many_to_many_and_one_to_many_compound_join_table_columns" target="1.5" />
       <module name="many_to_many_bidirectional" target="1.5" />
       <module name="many_to_many_bidirectional_jointable" target="1.5" />
       <module name="many_to_one_unidirectional" target="1.5" />
@@ -143,9 +147,11 @@
       <module name="one_to_many_to_itself_unidirectional" target="1.5" />
       <module name="one_to_many_unidirectional" target="1.5" />
       <module name="one_to_many_unidirectional_jointable" target="1.5" />
+      <module name="one_to_many_unidirectional_no_jointable" target="1.5" />
       <module name="one_to_one_bidirectional" target="1.5" />
       <module name="one_to_one_bidirectional_pk_mapping" target="1.5" />
       <module name="one_to_one_unidirectional" target="1.5" />
+      <module name="orphan_removal" target="1.5" />
       <module name="parent_module" target="1.5" />
       <module name="query_bulk_query" target="1.5" />
       <module name="query_dynamic_named_query" target="1.5" />

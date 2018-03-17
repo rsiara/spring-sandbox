@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>one_to_many_unidirectional_jointable</artifactId>
+    <artifactId>one_to_many_unidirectional_no_jointable</artifactId>
 
     <dependencies>
         <dependency>
@@ -18,4 +18,5 @@
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
+
 </project>

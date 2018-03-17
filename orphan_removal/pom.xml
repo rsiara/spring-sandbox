@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>one_to_many_unidirectional_jointable</artifactId>
+    <artifactId>orphan_removal</artifactId>
 
     <dependencies>
         <dependency>

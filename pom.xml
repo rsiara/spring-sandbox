@@ -79,6 +79,9 @@
         <module>id_derived_embedded_id</module>
         <module>mapping_read_only</module>
         <module>many_to_one_unidirectional_jointable</module>
+        <module>one_to_many_unidirectional_no_jointable</module>
+        <module>many_to_many_and_one_to_many_compound_join_table_columns</module>
+        <module>orphan_removal</module>
     </modules>
 
 
