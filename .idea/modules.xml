@@ -49,7 +49,11 @@
       <module fileurl="file://$PROJECT_DIR$/mapping_enum/mapping_enum.iml" filepath="$PROJECT_DIR$/mapping_enum/mapping_enum.iml" />
       <module fileurl="file://$PROJECT_DIR$/mapping_lob/mapping_lob.iml" filepath="$PROJECT_DIR$/mapping_lob/mapping_lob.iml" />
       <module fileurl="file://$PROJECT_DIR$/mapping_read_only/mapping_read_only.iml" filepath="$PROJECT_DIR$/mapping_read_only/mapping_read_only.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mapping_relationship_state/mapping_relationship_state.iml" filepath="$PROJECT_DIR$/mapping_relationship_state/mapping_relationship_state.iml" />
       <module fileurl="file://$PROJECT_DIR$/mapping_transient/mapping_transient.iml" filepath="$PROJECT_DIR$/mapping_transient/mapping_transient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multiple_tables_mapping_of_embedded_type/multiple_tables_mapping_of_embedded_type.iml" filepath="$PROJECT_DIR$/multiple_tables_mapping_of_embedded_type/multiple_tables_mapping_of_embedded_type.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multiple_tables_mapping_of_entity/multiple_tables_mapping_of_entity.iml" filepath="$PROJECT_DIR$/multiple_tables_mapping_of_entity/multiple_tables_mapping_of_entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multiple_tables_mapping_of_entity_with_multiple_secondary_tables/multiple_tables_mapping_of_entity_with_multiple_secondary_tables.iml" filepath="$PROJECT_DIR$/multiple_tables_mapping_of_entity_with_multiple_secondary_tables/multiple_tables_mapping_of_entity_with_multiple_secondary_tables.iml" />
       <module fileurl="file://$PROJECT_DIR$/one_to_many_bidirectional_joincolumn/one_to_many_bidirectional_joincolumn.iml" filepath="$PROJECT_DIR$/one_to_many_bidirectional_joincolumn/one_to_many_bidirectional_joincolumn.iml" />
       <module fileurl="file://$PROJECT_DIR$/one_to_many_bidirectional_joincolumn_target_entity/one_to_many_bidirectional_joincolumn_target_entity.iml" filepath="$PROJECT_DIR$/one_to_many_bidirectional_joincolumn_target_entity/one_to_many_bidirectional_joincolumn_target_entity.iml" />
       <module fileurl="file://$PROJECT_DIR$/one_to_many_bidirectional_jointable/one_to_many_bidirectional_jointable.iml" filepath="$PROJECT_DIR$/one_to_many_bidirectional_jointable/one_to_many_bidirectional_jointable.iml" />

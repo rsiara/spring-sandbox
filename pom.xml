@@ -82,6 +82,10 @@
         <module>one_to_many_unidirectional_no_jointable</module>
         <module>many_to_many_and_one_to_many_compound_join_table_columns</module>
         <module>orphan_removal</module>
+        <module>mapping_relationship_state</module>
+        <module>multiple_tables_mapping_of_entity</module>
+        <module>multiple_tables_mapping_of_embedded_type</module>
+        <module>multiple_tables_mapping_of_entity_with_multiple_secondary_tables</module>
     </modules>
 
 
@@ -288,6 +292,13 @@
             <groupId>javax.ejb</groupId>
             <artifactId>javax.ejb-api</artifactId>
             <version>3.2</version>
+        </dependency>
+
+        <!-- COMMONS LANG -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.7</version>
         </dependency>
 
     </dependencies>

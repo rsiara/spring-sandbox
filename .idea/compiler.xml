@@ -57,7 +57,11 @@
         <module name="mapping_enum" />
         <module name="mapping_lob" />
         <module name="mapping_read_only" />
+        <module name="mapping_relationship_state" />
         <module name="mapping_transient" />
+        <module name="multiple_tables_mapping_of_embedded_type" />
+        <module name="multiple_tables_mapping_of_entity" />
+        <module name="multiple_tables_mapping_of_entity_with_multiple_secondary_tables" />
         <module name="one_to_many_bidirectional_joincolumn" />
         <module name="one_to_many_bidirectional_joincolumn_target_entity" />
         <module name="one_to_many_bidirectional_jointable" />
@@ -137,8 +141,12 @@
       <module name="mapping_enum" target="1.5" />
       <module name="mapping_lob" target="1.5" />
       <module name="mapping_read_only" target="1.5" />
+      <module name="mapping_relationship_state" target="1.5" />
       <module name="mapping_transient" target="1.5" />
       <module name="maps" target="1.5" />
+      <module name="multiple_tables_mapping_of_embedded_type" target="1.5" />
+      <module name="multiple_tables_mapping_of_entity" target="1.5" />
+      <module name="multiple_tables_mapping_of_entity_with_multiple_secondary_tables" target="1.5" />
       <module name="one_to_many_bidirectional_joincolumn" target="1.5" />
       <module name="one_to_many_bidirectional_joincolumn_target_entity" target="1.5" />
       <module name="one_to_many_bidirectional_jointable" target="1.5" />
