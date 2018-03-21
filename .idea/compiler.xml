@@ -36,8 +36,12 @@
         <module name="id_multiple_mapped_attributes" />
         <module name="id_sequence_generation" />
         <module name="id_table_generation" />
+        <module name="inheritance_joined_table" />
         <module name="inheritance_joined_with_one_to_many_to_itself_bidirectional" />
+        <module name="inheritance_mixed" />
+        <module name="inheritance_single_table" />
         <module name="inheritance_singletable_with_one_to_many_to_itself_bidirectional" />
+        <module name="inheritance_table_per_concrete_class" />
         <module name="many_to_many_and_one_to_many_compound_join_table_columns" />
         <module name="many_to_many_bidirectional" />
         <module name="many_to_many_bidirectional_jointable" />
@@ -76,6 +80,9 @@
         <module name="one_to_one_unidirectional" />
         <module name="orphan_removal" />
         <module name="parent_module" />
+        <module name="query_advanced_native_queries" />
+        <module name="query_advanced_sql_insert_delete" />
+        <module name="query_advanced_sql_result_set_mapping" />
         <module name="query_bulk_query" />
         <module name="query_dynamic_named_query" />
         <module name="query_dynamic_query" />
@@ -119,8 +126,12 @@
       <module name="id_multiple_mapped_attributes" target="1.5" />
       <module name="id_sequence_generation" target="1.5" />
       <module name="id_table_generation" target="1.5" />
+      <module name="inheritance_joined_table" target="1.5" />
       <module name="inheritance_joined_with_one_to_many_to_itself_bidirectional" target="1.5" />
+      <module name="inheritance_mixed" target="1.5" />
+      <module name="inheritance_single_table" target="1.5" />
       <module name="inheritance_singletable_with_one_to_many_to_itself_bidirectional" target="1.5" />
+      <module name="inheritance_table_per_concrete_class" target="1.5" />
       <module name="many_to_many_and_one_to_many_compound_join_table_columns" target="1.5" />
       <module name="many_to_many_bidirectional" target="1.5" />
       <module name="many_to_many_bidirectional_jointable" target="1.5" />
@@ -161,6 +172,9 @@
       <module name="one_to_one_unidirectional" target="1.5" />
       <module name="orphan_removal" target="1.5" />
       <module name="parent_module" target="1.5" />
+      <module name="query_advanced_native_queries" target="1.5" />
+      <module name="query_advanced_sql_insert_delete" target="1.5" />
+      <module name="query_advanced_sql_result_set_mapping" target="1.5" />
       <module name="query_bulk_query" target="1.5" />
       <module name="query_dynamic_named_query" target="1.5" />
       <module name="query_dynamic_query" target="1.5" />

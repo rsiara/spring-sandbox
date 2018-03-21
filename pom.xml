@@ -86,6 +86,13 @@
         <module>multiple_tables_mapping_of_entity</module>
         <module>multiple_tables_mapping_of_embedded_type</module>
         <module>multiple_tables_mapping_of_entity_with_multiple_secondary_tables</module>
+        <module>inheritance_single_table</module>
+        <module>inheritance_joined_table</module>
+        <module>inheritance_table_per_concrete_class</module>
+        <module>inheritance_mixed</module>
+        <module>query_advanced_native_queries</module>
+        <module>query_advanced_sql_insert_delete</module>
+        <module>query_advanced_sql_result_set_mapping</module>
     </modules>
 
 

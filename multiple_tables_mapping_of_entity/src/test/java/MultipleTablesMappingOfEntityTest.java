@@ -55,4 +55,19 @@ public class MultipleTablesMappingOfEntityTest {
         return entityManager.createQuery("SELECT e FROM Evaluation e", Evaluation.class)
                 .getResultList();
     }*/
+
+    @Test
+    @Transactional
+    @Rollback(false)
+    public void dump_test() {
+        System.out.println(" *** Dump test ***");
+
+        String stringToReplace = " wor12d prefix otherWord   afterTwoSpaceWord";
+
+        stringToReplace = stringToReplace.replaceAll("(?<=\\s|^)(?=\\S)", "ux-");
+        System.out.println(stringToReplace);
+
+        stringToReplace = stringToReplace.replaceAll("ux-", "");
+        System.out.println(stringToReplace);
+    }
 }
