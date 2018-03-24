@@ -1,8 +1,5 @@
 package model;
 
-import java.util.Collection;
-import java.util.Set;
-
 import javax.persistence.AttributeOverride;
 import javax.persistence.CollectionTable;
 import javax.persistence.Column;
@@ -12,7 +9,8 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
+import java.util.Collection;
+import java.util.Set;
 
 @Entity
 public class Employee {

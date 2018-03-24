@@ -1,7 +1,6 @@
 package com.springstart.Controller;
 
 import com.springstart.Model.sessionbean.SessionBean;
-import org.apache.zookeeper.server.SessionTracker;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.BeansException;
@@ -14,7 +13,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
 
 @Controller
 public class HomeController implements ApplicationContextAware{

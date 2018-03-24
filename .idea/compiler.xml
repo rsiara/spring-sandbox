@@ -80,6 +80,9 @@
         <module name="one_to_one_unidirectional" />
         <module name="orphan_removal" />
         <module name="parent_module" />
+        <module name="query_advanced_constructor_result_mapping" />
+        <module name="query_advanced_id_class_result_mapping" />
+        <module name="query_advanced_inheritance_result_mapping" />
         <module name="query_advanced_native_queries" />
         <module name="query_advanced_sql_insert_delete" />
         <module name="query_advanced_sql_result_set_mapping" />
@@ -172,6 +175,9 @@
       <module name="one_to_one_unidirectional" target="1.5" />
       <module name="orphan_removal" target="1.5" />
       <module name="parent_module" target="1.5" />
+      <module name="query_advanced_constructor_result_mapping" target="1.5" />
+      <module name="query_advanced_id_class_result_mapping" target="1.5" />
+      <module name="query_advanced_inheritance_result_mapping" target="1.5" />
       <module name="query_advanced_native_queries" target="1.5" />
       <module name="query_advanced_sql_insert_delete" target="1.5" />
       <module name="query_advanced_sql_result_set_mapping" target="1.5" />

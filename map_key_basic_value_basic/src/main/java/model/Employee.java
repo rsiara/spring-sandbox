@@ -1,7 +1,5 @@
 package model;
 
-import java.util.Map;
-
 import javax.persistence.CollectionTable;
 import javax.persistence.Column;
 import javax.persistence.ElementCollection;
@@ -10,6 +8,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.MapKeyColumn;
+import java.util.Map;
 
 @Entity
 public class Employee {
@@ -64,7 +63,7 @@ public class Employee {
         aBuffer.append(" with dept: ");
         aBuffer.append(" phoneNumbers: ");
         for (Map.Entry e : phoneNumbers.entrySet()) {
-            aBuffer.append(e.getKey() + "[" + e.getValue() + "] ");
+            aBuffer.append(e.getKey()).append("[").append(e.getValue()).append("] ");
         }
         return aBuffer.toString();
     }

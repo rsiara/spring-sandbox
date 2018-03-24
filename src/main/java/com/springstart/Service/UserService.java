@@ -3,11 +3,8 @@ package com.springstart.Service;
 import com.springstart.Model.Entity.User;
 import com.springstart.Model.UserDao;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
-
-import java.net.URI;
 
 @Service
 public class UserService {

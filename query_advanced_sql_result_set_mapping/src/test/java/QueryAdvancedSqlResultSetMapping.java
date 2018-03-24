@@ -18,7 +18,13 @@ import javax.persistence.Query;
 import java.util.List;
 
 /*
+Ten kod nie dziala ze wzgledu na problem z "deep path"
 
+Mapowanie rezultatow:
+@FieldResult(name="manager.country", column="MGR_MGR_COUNTRY"),
+@FieldResult(name="manager.id", column="MGR_MGR_ID")
+
+Nie zadziala ze wzgledu na gleboka sciezke. Prawdopodbnie zadziala przy innym wendorze JPA. Byc moze OpenJPA.
  */
 
 @WebAppConfiguration

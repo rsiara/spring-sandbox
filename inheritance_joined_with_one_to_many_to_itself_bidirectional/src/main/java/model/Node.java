@@ -1,7 +1,5 @@
 package model;
 
-import org.junit.jupiter.api.Test;
-
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.Collection;

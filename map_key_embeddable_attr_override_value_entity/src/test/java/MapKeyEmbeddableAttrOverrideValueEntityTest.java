@@ -1,7 +1,6 @@
 import configuration.RootConfig;
 import model.Department;
 import model.Employee;
-import model.EmployeeName;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.test.annotation.Rollback;

@@ -70,6 +70,9 @@
       <module fileurl="file://$PROJECT_DIR$/one_to_one_unidirectional/one_to_one_unidirectional.iml" filepath="$PROJECT_DIR$/one_to_one_unidirectional/one_to_one_unidirectional.iml" />
       <module fileurl="file://$PROJECT_DIR$/orphan_removal/orphan_removal.iml" filepath="$PROJECT_DIR$/orphan_removal/orphan_removal.iml" />
       <module fileurl="file://$PROJECT_DIR$/parent_module/parent_module.iml" filepath="$PROJECT_DIR$/parent_module/parent_module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/query_advanced_constructor_result_mapping/query_advanced_constructor_result_mapping.iml" filepath="$PROJECT_DIR$/query_advanced_constructor_result_mapping/query_advanced_constructor_result_mapping.iml" />
+      <module fileurl="file://$PROJECT_DIR$/query_advanced_id_class_result_mapping/query_advanced_id_class_result_mapping.iml" filepath="$PROJECT_DIR$/query_advanced_id_class_result_mapping/query_advanced_id_class_result_mapping.iml" />
+      <module fileurl="file://$PROJECT_DIR$/query_advanced_inheritance_result_mapping/query_advanced_inheritance_result_mapping.iml" filepath="$PROJECT_DIR$/query_advanced_inheritance_result_mapping/query_advanced_inheritance_result_mapping.iml" />
       <module fileurl="file://$PROJECT_DIR$/query_advanced_native_queries/query_advanced_native_queries.iml" filepath="$PROJECT_DIR$/query_advanced_native_queries/query_advanced_native_queries.iml" />
       <module fileurl="file://$PROJECT_DIR$/query_advanced_sql_insert_delete/query_advanced_sql_insert_delete.iml" filepath="$PROJECT_DIR$/query_advanced_sql_insert_delete/query_advanced_sql_insert_delete.iml" />
       <module fileurl="file://$PROJECT_DIR$/query_advanced_sql_result_set_mapping/query_advanced_sql_result_set_mapping.iml" filepath="$PROJECT_DIR$/query_advanced_sql_result_set_mapping/query_advanced_sql_result_set_mapping.iml" />

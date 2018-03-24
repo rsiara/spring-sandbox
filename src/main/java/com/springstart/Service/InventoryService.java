@@ -3,7 +3,6 @@ package com.springstart.Service;
 import com.springstart.Model.CustomInventoryRepositoryImpl;
 import com.springstart.Model.Entity.Inventory;
 import com.springstart.Model.InventoryRepository;
-import org.apache.solr.client.solrj.response.SpellCheckResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.solr.core.query.result.FacetFieldEntry;
@@ -11,9 +10,6 @@ import org.springframework.data.solr.core.query.result.FacetPage;
 import org.springframework.data.solr.core.query.result.HighlightPage;
 import org.springframework.data.solr.core.query.result.SpellcheckedPage;
 import org.springframework.stereotype.Service;
-
-import java.util.Collection;
-import java.util.List;
 
 @Service
 public class InventoryService {

@@ -1319,29 +1319,30 @@ public class CriteriaApiBasicQueriesTest {
 
         List<Predicate> criteria = new ArrayList<Predicate>();
 
-        if (name != null) {
+        {
             ParameterExpression<String> parameterExpression = criteriaBuilder.parameter(String.class, "name");
             criteria.add(criteriaBuilder.equal(employeeRoot.get("name"), parameterExpression));
         }
-        if (deptName != null) {
+        {
             ParameterExpression<String> parameterExpression = criteriaBuilder.parameter(String.class, "dept");
             criteria.add(criteriaBuilder.equal(employeeRoot.get("dept").get("name"), parameterExpression));
         }
-        if (projectName != null) {
+        {
             ParameterExpression<String> parameterExpression = criteriaBuilder.parameter(String.class, "project");
             criteria.add(criteriaBuilder.equal(projectJoin.get("name"), parameterExpression));
         }
-        if (city != null) {
-            ParameterExpression<String> parameterExpression = criteriaBuilder.parameter(String.class, "city");
-            criteria.add(criteriaBuilder.equal(employeeRoot.get("address").get("city"), parameterExpression));
-        }
+        ParameterExpression<String> parameterExpression = criteriaBuilder.parameter(String.class, "city");
+        criteria.add(criteriaBuilder.equal(employeeRoot.get("address").get("city"), parameterExpression));
 
-        if (criteria.size() == 0) {
-            throw new RuntimeException("no criteria");
-        } else if (criteria.size() == 1) {
-            criteriaQuery.where(criteria.get(0));
-        } else {
-            criteriaQuery.where(criteriaBuilder.and(criteria.toArray(new Predicate[criteria.size()])));
+        switch (criteria.size()) {
+            case 0:
+                throw new RuntimeException("no criteria");
+            case 1:
+                criteriaQuery.where(criteria.get(0));
+                break;
+            default:
+                criteriaQuery.where(criteriaBuilder.and(criteria.toArray(new Predicate[criteria.size()])));
+                break;
         }
 
         TypedQuery<Employee> typedQuery = entityManager.createQuery(criteriaQuery);

@@ -1,18 +1,8 @@
 package model;
 
+import javax.persistence.*;
 import java.util.Map;
 import java.util.Set;
-
-import javax.persistence.CollectionTable;
-import javax.persistence.Column;
-import javax.persistence.ElementCollection;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.ManyToOne;
-import javax.persistence.MapKeyClass;
-import javax.persistence.MapKeyColumn;
 
 @Entity
 public class Employee {
@@ -83,7 +73,7 @@ public class Employee {
         }
         aBuffer.append(" phoneNumbers: ");
         for (Map.Entry e : (Set<Map.Entry>) phoneNumbers.entrySet()) {
-            aBuffer.append(e.getKey() + "[" + e.getValue() + "] ");
+            aBuffer.append(e.getKey()).append("[").append(e.getValue()).append("] ");
         }
         return aBuffer.toString();
     }

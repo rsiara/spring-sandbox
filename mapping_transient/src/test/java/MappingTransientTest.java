@@ -1,6 +1,5 @@
 import configuration.RootConfig;
 import model.Employee;
-import org.apache.commons.io.FileUtils;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.test.annotation.Rollback;
@@ -12,9 +11,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
 
 /*
  * Domyslny poziom dostepu to AccessType

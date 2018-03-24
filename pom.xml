@@ -93,6 +93,9 @@
         <module>query_advanced_native_queries</module>
         <module>query_advanced_sql_insert_delete</module>
         <module>query_advanced_sql_result_set_mapping</module>
+        <module>query_advanced_id_class_result_mapping</module>
+        <module>query_advanced_inheritance_result_mapping</module>
+        <module>query_advanced_constructor_result_mapping</module>
     </modules>
 
 
