@@ -96,6 +96,8 @@
         <module>query_advanced_id_class_result_mapping</module>
         <module>query_advanced_inheritance_result_mapping</module>
         <module>query_advanced_constructor_result_mapping</module>
+        <module>query_advanced_stored_procedure</module>
+        <module>entity_graph_named_entity_graph_basic</module>
     </modules>
 
 

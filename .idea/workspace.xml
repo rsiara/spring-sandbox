@@ -10,69 +10,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d9a5c24-0ab2-4622-9484-8b0abafbe55a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/query_advanced_constructor_result_mapping/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/query_advanced_constructor_result_mapping/query_advanced_constructor_result_mapping.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/query_advanced_constructor_result_mapping/src/main/java/model/Address.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/query_advanced_constructor_result_mapping/src/main/java/model/Department.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/query_advanced_constructor_result_mapping/src/main/java/model/Employee.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/query_advanced_constructor_result_mapping/src/main/java/model/EmployeeDetails.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/query_advanced_constructor_result_mapping/src/test/java/QueryAdvancedConstructorResultMapping.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/query_advanced_id_class_result_mapping/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/query_advanced_id_class_result_mapping/query_advanced_id_class_result_mapping.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/query_advanced_id_class_result_mapping/src/main/java/model/Employee.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/query_advanced_id_class_result_mapping/src/main/java/model/EmployeeId.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/query_advanced_id_class_result_mapping/src/test/java/QueryAdvancedIdClassResultMapping.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/query_advanced_inheritance_result_mapping/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/query_advanced_inheritance_result_mapping/query_advanced_inheritance_result_mapping.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/query_advanced_inheritance_result_mapping/src/main/java/model/CachedEntity.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/query_advanced_inheritance_result_mapping/src/main/java/model/CompanyEmployee.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/query_advanced_inheritance_result_mapping/src/main/java/model/ContractEmployee.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/query_advanced_inheritance_result_mapping/src/main/java/model/Employee.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/query_advanced_inheritance_result_mapping/src/main/java/model/FullTimeEmployee.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/query_advanced_inheritance_result_mapping/src/main/java/model/PartTimeEmployee.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/query_advanced_inheritance_result_mapping/src/test/java/QueryAdvancedInheritanceResultMapping.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/entity_graph_named_entity_graph_basic/entity_graph_named_entity_graph_basic.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/entity_graph_named_entity_graph_basic/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/entity_graph_named_entity_graph_basic/src/main/java/model/Address.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/entity_graph_named_entity_graph_basic/src/test/java/EntityGraphNamedEntityGraphBasic.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/query_advanced_stored_procedure/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/query_advanced_stored_procedure/query_advanced_stored_procedure.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/query_advanced_stored_procedure/src/main/java/model/Address.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/query_advanced_stored_procedure/src/main/java/model/Department.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/query_advanced_stored_procedure/src/main/java/model/DesignProject.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/query_advanced_stored_procedure/src/main/java/model/Employee.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/query_advanced_stored_procedure/src/main/java/model/EmployeeDetails.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/query_advanced_stored_procedure/src/main/java/model/Phone.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/query_advanced_stored_procedure/src/main/java/model/Project.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/query_advanced_stored_procedure/src/main/java/model/QualityProject.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/query_advanced_stored_procedure/src/test/java/QueryAdvancedStoredProcedure.java" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/collection_override_table_columns/src/main/java/model/Employee.java" afterPath="$PROJECT_DIR$/collection_override_table_columns/src/main/java/model/Employee.java" />
-      <change beforePath="$PROJECT_DIR$/criteria_api_basic_queries/src/test/java/CriteriaApiBasicQueriesTest.java" afterPath="$PROJECT_DIR$/criteria_api_basic_queries/src/test/java/CriteriaApiBasicQueriesTest.java" />
-      <change beforePath="$PROJECT_DIR$/criteria_api_metamodel_api/src/test/java/CriteriaApMetamodelApiTest.java" afterPath="$PROJECT_DIR$/criteria_api_metamodel_api/src/test/java/CriteriaApMetamodelApiTest.java" />
-      <change beforePath="$PROJECT_DIR$/em_persistent_context_unsychronized/src/test/java/EmOperationTest.java" afterPath="$PROJECT_DIR$/em_persistent_context_unsychronized/src/test/java/EmOperationTest.java" />
-      <change beforePath="$PROJECT_DIR$/embedded_object_advanced_mappings/src/test/java/EmbeddedObjectAdvancedMappingsTest.java" afterPath="$PROJECT_DIR$/embedded_object_advanced_mappings/src/test/java/EmbeddedObjectAdvancedMappingsTest.java" />
-      <change beforePath="$PROJECT_DIR$/inheritance_joined_with_one_to_many_to_itself_bidirectional/src/main/java/model/Node.java" afterPath="$PROJECT_DIR$/inheritance_joined_with_one_to_many_to_itself_bidirectional/src/main/java/model/Node.java" />
-      <change beforePath="$PROJECT_DIR$/inheritance_singletable_with_one_to_many_to_itself_bidirectional/src/test/java/InheritanceSingleTableWithOneToManyToItselfBidirectionalTest.java" afterPath="$PROJECT_DIR$/inheritance_singletable_with_one_to_many_to_itself_bidirectional/src/test/java/InheritanceSingleTableWithOneToManyToItselfBidirectionalTest.java" />
-      <change beforePath="$PROJECT_DIR$/map_key_basic_value_basic/src/main/java/model/Employee.java" afterPath="$PROJECT_DIR$/map_key_basic_value_basic/src/main/java/model/Employee.java" />
-      <change beforePath="$PROJECT_DIR$/map_key_basic_value_entity/src/main/java/model/Employee.java" afterPath="$PROJECT_DIR$/map_key_basic_value_entity/src/main/java/model/Employee.java" />
-      <change beforePath="$PROJECT_DIR$/map_key_basic_value_entity/src/test/java/MapKeyBasicValueEntityTest.java" afterPath="$PROJECT_DIR$/map_key_basic_value_entity/src/test/java/MapKeyBasicValueEntityTest.java" />
-      <change beforePath="$PROJECT_DIR$/map_key_embeddable_attr_override_value_entity/src/main/java/model/Employee.java" afterPath="$PROJECT_DIR$/map_key_embeddable_attr_override_value_entity/src/main/java/model/Employee.java" />
-      <change beforePath="$PROJECT_DIR$/map_key_embeddable_attr_override_value_entity/src/test/java/MapKeyEmbeddableAttrOverrideValueEntityTest.java" afterPath="$PROJECT_DIR$/map_key_embeddable_attr_override_value_entity/src/test/java/MapKeyEmbeddableAttrOverrideValueEntityTest.java" />
-      <change beforePath="$PROJECT_DIR$/map_key_embeddable_non_insertable_value_entity/src/main/java/model/Department.java" afterPath="$PROJECT_DIR$/map_key_embeddable_non_insertable_value_entity/src/main/java/model/Department.java" />
-      <change beforePath="$PROJECT_DIR$/map_key_embeddable_non_insertable_value_entity/src/main/java/model/Employee.java" afterPath="$PROJECT_DIR$/map_key_embeddable_non_insertable_value_entity/src/main/java/model/Employee.java" />
-      <change beforePath="$PROJECT_DIR$/map_key_embeddable_non_insertable_value_entity/src/test/java/MapKeyEmbeddableNonInsertableValueEntityTest.java" afterPath="$PROJECT_DIR$/map_key_embeddable_non_insertable_value_entity/src/test/java/MapKeyEmbeddableNonInsertableValueEntityTest.java" />
-      <change beforePath="$PROJECT_DIR$/map_key_enum_value_basic/src/main/java/model/Employee.java" afterPath="$PROJECT_DIR$/map_key_enum_value_basic/src/main/java/model/Employee.java" />
-      <change beforePath="$PROJECT_DIR$/map_untyped/src/main/java/model/Employee.java" afterPath="$PROJECT_DIR$/map_untyped/src/main/java/model/Employee.java" />
-      <change beforePath="$PROJECT_DIR$/mapping_lob/src/test/java/MappingLobTest.java" afterPath="$PROJECT_DIR$/mapping_lob/src/test/java/MappingLobTest.java" />
-      <change beforePath="$PROJECT_DIR$/mapping_transient/src/test/java/MappingTransientTest.java" afterPath="$PROJECT_DIR$/mapping_transient/src/test/java/MappingTransientTest.java" />
-      <change beforePath="$PROJECT_DIR$/one_to_many_to_itself_bidirectional/src/main/java/model/Node.java" afterPath="$PROJECT_DIR$/one_to_many_to_itself_bidirectional/src/main/java/model/Node.java" />
       <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/query_advanced_sql_result_set_mapping/src/test/java/QueryAdvancedSqlResultSetMapping.java" afterPath="$PROJECT_DIR$/query_advanced_sql_result_set_mapping/src/test/java/QueryAdvancedSqlResultSetMapping.java" />
-      <change beforePath="$PROJECT_DIR$/query_bulk_query/src/test/java/QueryBulkQueryTest.java" afterPath="$PROJECT_DIR$/query_bulk_query/src/test/java/QueryBulkQueryTest.java" />
-      <change beforePath="$PROJECT_DIR$/query_executing_queries_examples/src/test/java/QueryExecutingQueriesExamplesTest.java" afterPath="$PROJECT_DIR$/query_executing_queries_examples/src/test/java/QueryExecutingQueriesExamplesTest.java" />
-      <change beforePath="$PROJECT_DIR$/query_param_types/src/test/java/QueryParamTypesTest.java" afterPath="$PROJECT_DIR$/query_param_types/src/test/java/QueryParamTypesTest.java" />
-      <change beforePath="$PROJECT_DIR$/query_result_example/src/test/java/QueryResultExampleTest.java" afterPath="$PROJECT_DIR$/query_result_example/src/test/java/QueryResultExampleTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springstart/Configuration/PersistenceJPAConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Configuration/PersistenceJPAConfig.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springstart/Configuration/RootConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Configuration/RootConfig.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springstart/Configuration/SearchContext.java" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Configuration/SearchContext.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springstart/Configuration/WebApplicationInitializer.java" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Configuration/WebApplicationInitializer.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springstart/Controller/HomeController.java" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Controller/HomeController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springstart/Controller/InventoryController.java" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Controller/InventoryController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springstart/Controller/StudentController.java" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Controller/StudentController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springstart/Controller/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Controller/UserController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springstart/Interceptor/GeneralInterceptor.java" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Interceptor/GeneralInterceptor.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springstart/Model/CustomInventoryRepositoryImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Model/CustomInventoryRepositoryImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springstart/Model/UserDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Model/UserDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springstart/Service/InventoryService.java" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Service/InventoryService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springstart/Service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/com/springstart/Service/UserService.java" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springstart/Configuration/PersistenceJPAConfig.class" afterPath="$PROJECT_DIR$/target/classes/com/springstart/Configuration/PersistenceJPAConfig.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springstart/Configuration/RootConfig.class" afterPath="$PROJECT_DIR$/target/classes/com/springstart/Configuration/RootConfig.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springstart/Configuration/SearchContext.class" afterPath="$PROJECT_DIR$/target/classes/com/springstart/Configuration/SearchContext.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springstart/Configuration/WebApplicationInitializer.class" afterPath="$PROJECT_DIR$/target/classes/com/springstart/Configuration/WebApplicationInitializer.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springstart/Controller/DatabaseController/FinanceUserController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springstart/Controller/HomeController.class" afterPath="$PROJECT_DIR$/target/classes/com/springstart/Controller/HomeController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springstart/Controller/InventoryController.class" afterPath="$PROJECT_DIR$/target/classes/com/springstart/Controller/InventoryController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springstart/Controller/StudentController.class" afterPath="$PROJECT_DIR$/target/classes/com/springstart/Controller/StudentController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springstart/Controller/UserController.class" afterPath="$PROJECT_DIR$/target/classes/com/springstart/Controller/UserController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springstart/Interceptor/GeneralInterceptor.class" afterPath="$PROJECT_DIR$/target/classes/com/springstart/Interceptor/GeneralInterceptor.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springstart/Model/CustomInventoryRepositoryImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/springstart/Model/CustomInventoryRepositoryImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springstart/Model/DatabaseDao/FinanceUserDao.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springstart/Model/Entity/DatabaseEntity/FinanceUser.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springstart/Model/UserDao.class" afterPath="$PROJECT_DIR$/target/classes/com/springstart/Model/UserDao.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springstart/Service/DatabaseService/FinanceUserService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springstart/Service/InventoryService.class" afterPath="$PROJECT_DIR$/target/classes/com/springstart/Service/InventoryService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springstart/Service/UserService.class" afterPath="$PROJECT_DIR$/target/classes/com/springstart/Service/UserService.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -170,6 +143,8 @@
     <ignored path="$PROJECT_DIR$/query_advanced_id_class_result_mapping/target/" />
     <ignored path="$PROJECT_DIR$/query_advanced_inheritance_result_mapping/target/" />
     <ignored path="$PROJECT_DIR$/query_advanced_constructor_result_mapping/target/" />
+    <ignored path="$PROJECT_DIR$/query_advanced_stored_procedure/target/" />
+    <ignored path="$PROJECT_DIR$/entity_graph_named_entity_graph_basic/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -194,17 +169,6 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="H2 JPA Sandbox" type="feb32156:DbDataSourceImpl" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="H2 JPA Sandbox" type="feb32156:DbDataSourceImpl" />
-        <item name="JPA_SANDBOX: database" type="c8e2528e:H2ImplModel$Database" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="H2 JPA Sandbox" type="feb32156:DbDataSourceImpl" />
-        <item name="JPA_SANDBOX: database" type="c8e2528e:H2ImplModel$Database" />
-        <item name="PUBLIC: schema" type="4f7ca4f5:H2ImplModel$Schema" />
-      </path>
     </expand>
     <select />
   </component>
@@ -213,105 +177,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="QueryAdvancedInheritanceResultMapping.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/query_advanced_inheritance_result_mapping/src/test/java/QueryAdvancedInheritanceResultMapping.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="51" column="29" lean-forward="false" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
-              <folding>
-                <element signature="e#776#796#0" expanded="false" />
-                <marker date="1521884781662" expanded="true" signature="2608:2771" ph="SELECT id, n... employee_stage" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/query_advanced_inheritance_result_mapping/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="19" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/query_advanced_constructor_result_mapping/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Address.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/query_advanced_constructor_result_mapping/src/main/java/model/Address.java">
+        <entry file="file://$PROJECT_DIR$/entity_graph_named_entity_graph_basic/src/main/java/model/Address.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="10" column="54" lean-forward="false" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+            <state relative-caret-position="136">
+              <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EmployeeDetails.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/query_advanced_constructor_result_mapping/src/main/java/model/EmployeeDetails.java">
+      <file leaf-file-name="EntityGraphNamedEntityGraphBasic.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/entity_graph_named_entity_graph_basic/src/test/java/EntityGraphNamedEntityGraphBasic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QueryAdvancedConstructorResultMapping.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/query_advanced_constructor_result_mapping/src/test/java/QueryAdvancedConstructorResultMapping.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="116" column="40" lean-forward="true" selection-start-line="116" selection-start-column="40" selection-end-line="116" selection-end-column="40" />
-              <folding>
-                <marker date="1521888698044" expanded="true" signature="4129:4272" ph="SELECT e.nam... emp" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/query_advanced_constructor_result_mapping/src/main/java/model/Employee.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="28" column="40" lean-forward="false" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Department.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/query_advanced_constructor_result_mapping/src/main/java/model/Department.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EMPLOYEE_STAGE" pinned="false" current-in-tab="false">
-        <entry file="das://table:/acc9ba6f/41b96513-abc0-4724-9d41-aba0a1a0875b/JPA_SANDBOX.PUBLIC.EMPLOYEE_STAGE">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/query_advanced_inheritance_result_mapping/src/main/java/model/Employee.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="37" />
+            <state relative-caret-position="391">
+              <caret line="38" column="3" lean-forward="true" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -332,9 +212,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>criteria</find>
-      <find>conjuctio</find>
-      <find>select_multiple_column_by_multiselect_and_array_of_object_result</find>
       <find>state</find>
       <find>in</find>
       <find>in_expression_s</find>
@@ -362,6 +239,9 @@
       <find>TYPE</find>
       <find>setAddress</find>
       <find>executive</find>
+      <find>NamedSto</find>
+      <find>find</find>
+      <find>findAllEmplo</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -390,13 +270,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mapping_relationship_state/src/test/java/MappingRelationshipStateTest.java" />
-        <option value="$PROJECT_DIR$/multiple_tables_mapping_of_entity/pom.xml" />
-        <option value="$PROJECT_DIR$/multiple_tables_mapping_of_entity/src/main/java/model/Employee.java" />
-        <option value="$PROJECT_DIR$/multiple_tables_mapping_of_embedded_type/pom.xml" />
-        <option value="$PROJECT_DIR$/multiple_tables_mapping_of_embedded_type/src/main/java/model/Employee.java" />
-        <option value="$PROJECT_DIR$/multiple_tables_mapping_of_embedded_type/src/test/java/MultipleTablesMappingOfEmbeddedTypeTest.java" />
-        <option value="$PROJECT_DIR$/multiple_tables_mapping_of_entity_with_multiple_secondary_tables/pom.xml" />
         <option value="$PROJECT_DIR$/multiple_tables_mapping_of_entity_with_multiple_secondary_tables/src/test/java/MultipleTablesMappingOfEntityWithMultipleSecondaryTables.java" />
         <option value="$PROJECT_DIR$/multiple_tables_mapping_of_entity_with_multiple_secondary_tables/src/main/java/model/Employee.java" />
         <option value="$PROJECT_DIR$/many_to_one_unidirectional_jointable/src/main/java/model/Department.java" />
@@ -441,6 +314,13 @@
         <option value="$PROJECT_DIR$/query_advanced_constructor_result_mapping/src/test/java/QueryAdvancedConstructorResultMapping.java" />
         <option value="$PROJECT_DIR$/query_advanced_constructor_result_mapping/src/main/java/model/Address.java" />
         <option value="$PROJECT_DIR$/query_advanced_constructor_result_mapping/src/main/java/model/Employee.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/Learning" />
+        <option value="$PROJECT_DIR$/query_advanced_stored_procedure/pom.xml" />
+        <option value="$PROJECT_DIR$/query_advanced_stored_procedure/src/main/java/model/Address.java" />
+        <option value="$PROJECT_DIR$/query_advanced_stored_procedure/src/test/java/QueryAdvancedStoredProcedure.java" />
+        <option value="$PROJECT_DIR$/entity_graph_named_entity_graph_basic/pom.xml" />
+        <option value="$PROJECT_DIR$/entity_graph_named_entity_graph_basic/src/main/java/model/Address.java" />
+        <option value="$PROJECT_DIR$/entity_graph_named_entity_graph_basic/src/test/java/EntityGraphNamedEntityGraphBasic.java" />
       </list>
     </option>
   </component>
@@ -480,11 +360,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="682" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="58" />
     <option name="width" value="1859" />
-    <option name="height" value="1216" />
+    <option name="height" value="1207" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -920,7 +799,7 @@
       <hideEmptyPackages ProjectPane="false" />
       <abbreviatePackageNames />
       <autoscrollToSource />
-      <autoscrollFromSource PackagesPane="true" AndroidView="true" Scope="true" ProjectPane="true" />
+      <autoscrollFromSource Scope="true" AndroidView="true" PackagesPane="true" ProjectPane="true" />
       <sortByType />
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
@@ -937,7 +816,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -1109,6 +987,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1117,28 +996,30 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15429688" />
     <property name="project.structure.side.proportion" value="0.4775604" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/criteria_api_metamodel_api" />
-    <property name="SearchEverywhereHistoryKey" value="pom.xml&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/pom.xml&#10;Address&#9;PSI&#9;JAVA://model.Address&#10;Emplo&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/criteria_api_basic_queries/src/main/java/model/Employee.java&#10;Em&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/criteria_api_basic_queries/src/main/java/model/Employee.java&#10;Design&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/criteria_api_basic_queries/src/main/java/model/DesignProject.java&#10;Project&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/criteria_api_basic_queries/src/main/java/model/Project.java&#10;Employee&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/query_jpql_many_examples/src/main/java/model/EmployeeDetails.java&#10;jetbrains&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/.idea/libraries/JetbrainsLicense_jar.xml&#10;Jpa&#9;PSI&#9;JAVA://configuration.PersistenceJPAConfig&#10;JpaCon&#9;PSI&#9;JAVA://configuration.PersistenceJPAConfig&#10;Fin&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/FinanceUser.java&#10;JPA&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Configuration/PersistenceJPAConfig.java&#10;pe&#9;PSI&#9;JAVA://com.springstart.Configuration.PersistenceJPAConfig&#10;pers&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/META-INF/persistence.xml&#10;Finance_&#9;FILE&#9;das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.finances_user&#10;Fina&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/FinanceUser.java&#10;Bank&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/Bank.java&#10;Account&#9;PSI&#9;JAVA://com.springstart.Model.Entity.DatabaseEntity.Account&#10;logbac&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/resources/logback.xml&#10;Acco&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/Account.java&#10;BankDao&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/DatabaseDao/BankDao.java&#10;.x&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/resources/logback.xml&#10;Finance&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Service/DatabaseService/FinanceUserService.java&#10;DA&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/DatabaseDao/FinanceUserDao.java&#10;Fi&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Service/DatabaseService/FinanceUserService.java&#10;Finan&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/FinanceUser.java&#10;Projec&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/Project.java&#10;FinanceUser&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/FinanceUser.java&#10;lo&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/resources/logback.xml&#10;General&#9;PSI&#9;JAVA://com.springstart.Interceptor.GeneralInterceptor&#10;Gene&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Interceptor/GeneralInterceptor.java&#10;Home&#9;PSI&#9;JAVA://com.springstart.Controller.HomeController&#10;Fil&#9;FILE&#9;file:///home/robert/IdeaProjects/Sandbox/src/main/java/com/springstart/Filters/CustomFilter.java" />
+    <property name="SearchEverywhereHistoryKey" value="Address&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/query_advanced_constructor_result_mapping/src/main/java/model/Address.java&#10;pom.xml&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/pom.xml&#10;Emplo&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/criteria_api_basic_queries/src/main/java/model/Employee.java&#10;Em&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/criteria_api_basic_queries/src/main/java/model/Employee.java&#10;Design&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/criteria_api_basic_queries/src/main/java/model/DesignProject.java&#10;Project&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/criteria_api_basic_queries/src/main/java/model/Project.java&#10;Employee&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/query_jpql_many_examples/src/main/java/model/EmployeeDetails.java&#10;jetbrains&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/.idea/libraries/JetbrainsLicense_jar.xml&#10;Jpa&#9;PSI&#9;JAVA://configuration.PersistenceJPAConfig&#10;JpaCon&#9;PSI&#9;JAVA://configuration.PersistenceJPAConfig&#10;Fin&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/FinanceUser.java&#10;JPA&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Configuration/PersistenceJPAConfig.java&#10;pe&#9;PSI&#9;JAVA://com.springstart.Configuration.PersistenceJPAConfig&#10;pers&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/META-INF/persistence.xml&#10;Finance_&#9;FILE&#9;das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.finances_user&#10;Fina&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/FinanceUser.java&#10;Bank&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/Bank.java&#10;Account&#9;PSI&#9;JAVA://com.springstart.Model.Entity.DatabaseEntity.Account&#10;logbac&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/resources/logback.xml&#10;Acco&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/Account.java&#10;BankDao&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/DatabaseDao/BankDao.java&#10;.x&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/resources/logback.xml&#10;Finance&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Service/DatabaseService/FinanceUserService.java&#10;DA&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/DatabaseDao/FinanceUserDao.java&#10;Fi&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Service/DatabaseService/FinanceUserService.java&#10;Finan&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/FinanceUser.java&#10;Projec&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/Project.java&#10;FinanceUser&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/FinanceUser.java&#10;lo&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/resources/logback.xml&#10;General&#9;PSI&#9;JAVA://com.springstart.Interceptor.GeneralInterceptor&#10;Gene&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Interceptor/GeneralInterceptor.java&#10;Home&#9;PSI&#9;JAVA://com.springstart.Controller.HomeController&#10;Fil&#9;FILE&#9;file:///home/robert/IdeaProjects/Sandbox/src/main/java/com/springstart/Filters/CustomFilter.java" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="H2&#10;MySQL" />
     <property name="extract.method.default.visibility" value="public" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="JAVA" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="SONARLINT_ANALYSIS_RESULTS_SCOPE" value="All project files" />
+    <property name="SONARLINT_ANALYSIS_RESULTS_SPLIT_PROPORTION" value="0.45945945" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.springstart.Service.DatabaseService" />
+      <recent name="com.springstart.Model.DatabaseDao" />
+      <recent name="com.springstart.Model.Entity.DatabaseEntity" />
+      <recent name="com.springstart.Model.Entity" />
+      <recent name="com.springstart.Model" />
+    </key>
     <key name="ImportMappingsDialog.RecentPackages">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.springstart.JPA.chapterfive" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\query_bulk_query\src\test\java" />
-      <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\mapping_lob" />
-      <recent name="$PROJECT_DIR$/many_to_many_bidirectional_using_jointable/src" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/springstart/jpa/chapterfour/many_to_many_bidirectional" />
-      <recent name="$PROJECT_DIR$/src/test/java/com/springstart/jpa/chapterfour/many_to_many_bidirectional" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -1149,23 +1030,23 @@
       <recent name="com.springstart.jpa.chapterfive" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\entity_graph_named_entity_graph_basic\src\main\java\model" />
+      <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\query_advanced_stored_procedure\src\main\java\model" />
       <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\query_advanced_constructor_result_mapping\src\main\java\model" />
       <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\query_advanced_inheritance_result_mapping\src\main\java\model" />
       <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\query_advanced_id_class_result_mapping\src\main\java\model" />
-      <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\query_advanced_sql_result_set_mapping\src\main\java\model" />
-      <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\query_advanced_sql_insert_delete\src\main\java\model" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
       <recent name="model" />
       <recent name="com.springstart.jpa.chapterfour.many_to_many_bidirectional" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.springstart.Service.DatabaseService" />
-      <recent name="com.springstart.Model.DatabaseDao" />
-      <recent name="com.springstart.Model.Entity.DatabaseEntity" />
-      <recent name="com.springstart.Model.Entity" />
-      <recent name="com.springstart.Model" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\query_bulk_query\src\test\java" />
+      <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\mapping_lob" />
+      <recent name="$PROJECT_DIR$/many_to_many_bidirectional_using_jointable/src" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/springstart/jpa/chapterfour/many_to_many_bidirectional" />
+      <recent name="$PROJECT_DIR$/src/test/java/com/springstart/jpa/chapterfour/many_to_many_bidirectional" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1180,7 +1061,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.QueryAdvancedConstructorResultMapping.query_advanced_constructor_result_mapping">
+  <component name="RunManager" selected="JUnit.EntityGraphNamedEntityGraphBasic.query_advanced_constructor_result_mapping">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -1203,14 +1084,14 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="QueryAdvancedConstructorResultMapping.query_advanced_constructor_result_mapping" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EntityGraphNamedEntityGraphBasic.query_advanced_constructor_result_mapping" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <extension name="krasa.grepconsole.plugin.runConfiguration.GrepRunConfigurationExtension" selectedProfileId="0" />
-      <module name="query_advanced_constructor_result_mapping" />
+      <module name="entity_graph_named_entity_graph_basic" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="QueryAdvancedConstructorResultMapping" />
+      <option name="MAIN_CLASS_NAME" value="EntityGraphNamedEntityGraphBasic" />
       <option name="METHOD_NAME" value="query_advanced_constructor_result_mapping" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -1224,15 +1105,36 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="QueryAdvancedIdClassResultMapping.sql_result_set_mapping_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IdSequenceGenerationTest.id_sequence_generation_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <extension name="krasa.grepconsole.plugin.runConfiguration.GrepRunConfigurationExtension" selectedProfileId="0" />
-      <module name="query_advanced_id_class_result_mapping" />
+      <module name="id_sequence_generation" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="QueryAdvancedIdClassResultMapping" />
-      <option name="METHOD_NAME" value="sql_result_set_mapping_test" />
+      <option name="MAIN_CLASS_NAME" value="IdSequenceGenerationTest" />
+      <option name="METHOD_NAME" value="id_sequence_generation_test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="QueryAdvancedConstructorResultMapping.query_advanced_constructor_result_mapping" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="krasa.grepconsole.plugin.runConfiguration.GrepRunConfigurationExtension" selectedProfileId="0" />
+      <module name="query_advanced_constructor_result_mapping" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="QueryAdvancedConstructorResultMapping" />
+      <option name="METHOD_NAME" value="query_advanced_constructor_result_mapping" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1275,27 +1177,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="QueryAdvancedInheritanceResultMapping" />
       <option name="METHOD_NAME" value="query_advanced_inheritance_result_mapping" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="QueryAdvancedInheritanceResultMapping.setEntityManager" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <extension name="krasa.grepconsole.plugin.runConfiguration.GrepRunConfigurationExtension" selectedProfileId="0" />
-      <module name="query_advanced_inheritance_result_mapping" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="QueryAdvancedInheritanceResultMapping" />
-      <option name="METHOD_NAME" value="setEntityManager" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1516,19 +1397,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.QueryAdvancedIdClassResultMapping.sql_result_set_mapping_test" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.QueryAdvancedInheritanceResultMapping.setEntityManager" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.QueryAdvancedInheritanceResultMapping.query_advanced_inheritance_result_mapping" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.QueryAdvancedInheritanceResultMapping.findAllEmployees" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.QueryAdvancedConstructorResultMapping.query_advanced_constructor_result_mapping" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.QueryAdvancedInheritanceResultMapping.query_advanced_inheritance_result_mapping" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.QueryAdvancedInheritanceResultMapping.findAllEmployees" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.QueryAdvancedConstructorResultMapping.query_advanced_constructor_result_mapping" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.IdSequenceGenerationTest.id_sequence_generation_test" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.EntityGraphNamedEntityGraphBasic.query_advanced_constructor_result_mapping" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.QueryAdvancedConstructorResultMapping.query_advanced_constructor_result_mapping" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.QueryAdvancedInheritanceResultMapping.query_advanced_inheritance_result_mapping" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.QueryAdvancedInheritanceResultMapping.findAllEmployees" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.QueryAdvancedInheritanceResultMapping.setEntityManager" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.QueryAdvancedIdClassResultMapping.sql_result_set_mapping_test" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.EntityGraphNamedEntityGraphBasic.query_advanced_constructor_result_mapping" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.IdSequenceGenerationTest.id_sequence_generation_test" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.QueryAdvancedConstructorResultMapping.query_advanced_constructor_result_mapping" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.QueryAdvancedInheritanceResultMapping.query_advanced_inheritance_result_mapping" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.QueryAdvancedInheritanceResultMapping.findAllEmployees" />
       </list>
     </recent_temporary>
   </component>
@@ -1717,7 +1598,9 @@
       <workItem from="1521772868749" duration="2598000" />
       <workItem from="1521848187244" duration="549000" />
       <workItem from="1521849170840" duration="1247000" />
-      <workItem from="1521879718652" duration="7766000" />
+      <workItem from="1521879718652" duration="9460000" />
+      <workItem from="1521932265074" duration="17000" />
+      <workItem from="1521935104013" duration="7161000" />
     </task>
     <task id="LOCAL-00001" summary="Persistence.xml przeniesiony do JavaConfig (PersistenceJPAConfig)&#10;Dodanie pierwszego mapowania unidirectional Many-to-one">
       <created>1510526522683</created>
@@ -1936,24 +1819,31 @@
       <option name="project" value="LOCAL" />
       <updated>1521667750921</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Dodanie:&#10; - query advanced constructor result mapping&#10; - query advanced id class result mapping&#10; - query advanced inheritance result mapping">
+      <created>1521889027292</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1521889027292</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="QueryAdvancedConstructorResultMapping_query_advanced_constructor_result_mapping - 2018.03.24 at 11h 41m 30s.xml">
-      <configuration name="QueryAdvancedConstructorResultMapping.query_advanced_constructor_result_mapping" configurationId="JUnit" />
+    <history-entry file="EntityGraphNamedEntityGraphBasic_query_advanced_constructor_result_mapping - 2018.03.25 at 03h 32m 05s.xml">
+      <configuration name="EntityGraphNamedEntityGraphBasic.query_advanced_constructor_result_mapping" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueryAdvancedConstructorResultMapping_query_advanced_constructor_result_mapping - 2018.03.24 at 11h 51m 46s.xml">
-      <configuration name="QueryAdvancedConstructorResultMapping.query_advanced_constructor_result_mapping" configurationId="JUnit" />
+    <history-entry file="EntityGraphNamedEntityGraphBasic_query_advanced_constructor_result_mapping - 2018.03.25 at 03h 33m 20s.xml">
+      <configuration name="EntityGraphNamedEntityGraphBasic.query_advanced_constructor_result_mapping" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueryAdvancedConstructorResultMapping_query_advanced_constructor_result_mapping - 2018.03.24 at 11h 52m 21s.xml">
-      <configuration name="QueryAdvancedConstructorResultMapping.query_advanced_constructor_result_mapping" configurationId="JUnit" />
+    <history-entry file="EntityGraphNamedEntityGraphBasic_query_advanced_constructor_result_mapping - 2018.03.25 at 03h 34m 22s.xml">
+      <configuration name="EntityGraphNamedEntityGraphBasic.query_advanced_constructor_result_mapping" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueryAdvancedConstructorResultMapping_query_advanced_constructor_result_mapping - 2018.03.24 at 11h 53m 51s.xml">
-      <configuration name="QueryAdvancedConstructorResultMapping.query_advanced_constructor_result_mapping" configurationId="JUnit" />
+    <history-entry file="EntityGraphNamedEntityGraphBasic_query_advanced_constructor_result_mapping - 2018.03.25 at 03h 35m 33s.xml">
+      <configuration name="EntityGraphNamedEntityGraphBasic.query_advanced_constructor_result_mapping" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueryAdvancedConstructorResultMapping_query_advanced_constructor_result_mapping - 2018.03.24 at 11h 54m 52s.xml">
-      <configuration name="QueryAdvancedConstructorResultMapping.query_advanced_constructor_result_mapping" configurationId="JUnit" />
+    <history-entry file="IdSequenceGenerationTest_id_sequence_generation_test - 2018.03.25 at 01h 14m 55s.xml">
+      <configuration name="IdSequenceGenerationTest.id_sequence_generation_test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="QueryAdvancedInheritanceResultMapping_query_advanced_inheritance_result_mapping - 2018.03.24 at 10h 38m 43s.xml">
       <configuration name="QueryAdvancedInheritanceResultMapping.query_advanced_inheritance_result_mapping" configurationId="JUnit" />
@@ -1972,7 +1862,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="743723000" />
+    <option name="totallyTimeSpent" value="752595000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1984,26 +1874,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="69" y="-8" width="1859" height="1216" extended-state="6" />
+    <frame x="58" y="0" width="1859" height="1207" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299817" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.287398" sideWeight="0.67868674" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33953488" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3713355" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32910246" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.136191" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Metrics" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299817" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.136191" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25570032" sideWeight="0.6972158" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34995466" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="DSM" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="158" y="100" width="1659" height="1007" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32819584" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2919311" sideWeight="0.32131323" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2943327" sideWeight="0.32131323" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283721" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1931097" sideWeight="0.8439182" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="WINDOWED" visible="true" show_stripe_button="true" weight="0.356301" sideWeight="0.9143173" order="3" side_tool="false" content_ui="tabs" x="80" y="204" width="1836" height="791" />
@@ -2012,6 +1905,7 @@
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30781758" sideWeight="0.36355394" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25718936" sideWeight="0.63644606" order="0" side_tool="false" content_ui="combo" x="457" y="247" width="502" height="745" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23880596" sideWeight="0.645469" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299817" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3263826" sideWeight="0.4956943" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2024,8 +1918,10 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="SQL Generator" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32910246" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="JPA Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283721" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32910246" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" x="169" y="92" width="1659" height="1016" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32910246" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929105" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
@@ -2120,7 +2016,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Refactor JPA - Wyrzucenie calego katalogu DatabaseService z glownego projektu" />
     <MESSAGE value="Dodanie:&#10;- Mapowanie dat&#10;- Untyped map &#10;- Kolekcja obiektow, z nadpisywanie kolumn tabeli kolekcji" />
     <MESSAGE value="Dodanie:&#10;- Access field&#10;- Access property&#10;- Access mixed&#10;- Collection order persistence&#10;- Mapping custom table schema&#10;&#10;W trakcie:&#10;- Mapping lob" />
     <MESSAGE value="Dodanie:&#10;- ID auto generation&#10;- ID table generation - do opisania&#10;- Mapping enum&#10;- Mapping transient&#10;- Mapping lob - dokonczenie" />
@@ -2145,7 +2040,8 @@
     <MESSAGE value="Dodanie:&#10;- orphan removal" />
     <MESSAGE value="Dodanie:&#10;- mapping relationship state&#10;- multiple tables - entity&#10;- multiple tables - embedded type&#10;- multiple tables - entity with multiple tables" />
     <MESSAGE value="Dodanie:&#10; - inheritance joined table&#10; - inheritance mixed&#10; - inheritance single table&#10; - inheritance table per concrete class&#10; - query advanced native queries&#10; - query advanced sql insert delete&#10; - query advanced sql result set mapping" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodanie:&#10; - inheritance joined table&#10; - inheritance mixed&#10; - inheritance single table&#10; - inheritance table per concrete class&#10; - query advanced native queries&#10; - query advanced sql insert delete&#10; - query advanced sql result set mapping" />
+    <MESSAGE value="Dodanie:&#10; - query advanced constructor result mapping&#10; - query advanced id class result mapping&#10; - query advanced inheritance result mapping" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodanie:&#10; - query advanced constructor result mapping&#10; - query advanced id class result mapping&#10; - query advanced inheritance result mapping" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2273,355 +2169,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/inheritance_mixed/src/main/java/model/FullTimeEmployee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inheritance_mixed/src/main/java/model/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inheritance_mixed/src/main/java/model/ContractEmployee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/acc9ba6f/41b96513-abc0-4724-9d41-aba0a1a0875b/JPA_SANDBOX.PUBLIC.CONTRACT_EMP">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/acc9ba6f/41b96513-abc0-4724-9d41-aba0a1a0875b/JPA_SANDBOX.PUBLIC.COMPANY_EMP">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inheritance_mixed/src/test/java/InheritanceMixedTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/query_advanced_native_queries/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="19" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/query_advanced_sql_insert_delete/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/query_advanced_sql_insert_delete/src/main/java/model/MessageLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/query_advanced_sql_insert_delete/src/test/java/QueryAdvancedSqlInsertDeleteTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/query_advanced_native_queries/src/main/java/model/Address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/4.3.12.RELEASE/spring-orm-4.3.12.RELEASE-sources.jar!/org/springframework/orm/jpa/SharedEntityManagerCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="297" column="0" lean-forward="false" selection-start-line="297" selection-start-column="0" selection-end-line="297" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/query_advanced_native_queries/src/main/java/model/Department.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/query_advanced_sql_result_set_mapping/src/main/java/model/Department.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/query_advanced_native_queries/src/main/java/model/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="28" column="4" lean-forward="false" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/query_advanced_native_queries/src/test/java/NativeQueriesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="715">
-          <caret line="102" column="36" lean-forward="false" selection-start-line="101" selection-start-column="36" selection-end-line="102" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/query_advanced_sql_result_set_mapping/src/main/java/model/Address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="55" lean-forward="false" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/query_advanced_sql_result_set_mapping/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="19" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/requests/FilterRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.3.12.RELEASE/spring-test-4.3.12.RELEASE-sources.jar!/org/springframework/test/context/junit4/statements/RunAfterTestClassCallbacks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/id_multiple_mapped_attributes/src/main/java/model/DeptId.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.2.11.Final/hibernate-core-5.2.11.Final-sources.jar!/org/hibernate/internal/util/collections/ArrayHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="131" column="0" lean-forward="false" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/query_advanced_id_class_result_mapping/src/main/java/model/EmployeeId.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.2.11.Final/hibernate-core-5.2.11.Final-sources.jar!/org/hibernate/cfg/annotations/ResultsetMappingSecondPass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="246" column="0" lean-forward="false" selection-start-line="246" selection-start-column="0" selection-end-line="246" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/query_advanced_sql_result_set_mapping/src/main/java/model/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="26" column="61" lean-forward="false" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/query_advanced_id_class_result_mapping/src/main/java/model/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" column="32" lean-forward="false" selection-start-line="20" selection-start-column="32" selection-end-line="21" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/query_advanced_id_class_result_mapping/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="2" lean-forward="false" selection-start-line="13" selection-start-column="2" selection-end-line="19" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/model.CachedEntity">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>model.CachedEntity</OriginalElement>
-          <nodes>
-            <node x="118.52083333333337" y="44.0">javax.persistence.Entity</node>
-            <node x="1092.416174319154" y="4.665091154625259">model.CachedEntity</node>
-            <node x="903.7708333333334" y="263.5">javax.persistence.MappedSuperclass</node>
-            <node x="0.0" y="564.0">model.PartTimeEmployee</node>
-            <node x="835.3958333333334" y="409.5">model.CompanyEmployee</node>
-            <node x="569.9583333333334" y="387.0">model.ContractEmployee</node>
-            <node x="1272.5208333333335" y="11.0">javax.persistence.SqlResultSetMapping</node>
-            <node x="249.23958333333337" y="553.0">model.FullTimeEmployee</node>
-            <node x="63.5" y="409.5">javax.persistence.DiscriminatorValue</node>
-            <node x="730.7708333333334" y="219.0">model.Employee</node>
-            <node x="799.5208333333334" y="0.0">javax.persistence.Table</node>
-            <node x="279.52083333333337" y="11.0">javax.persistence.DiscriminatorColumn</node>
-            <node x="572.5208333333334" y="44.0">javax.persistence.Inheritance</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="model.PartTimeEmployee" target="javax.persistence.DiscriminatorValue">
-              <point x="0.0" y="-37.0" />
-              <point x="76.5" y="533.0" />
-              <point x="100.5" y="533.0" />
-              <point x="-37.0" y="25.5" />
-            </edge>
-            <edge source="model.FullTimeEmployee" target="javax.persistence.Entity">
-              <point x="0.0" y="-48.0" />
-              <point x="325.73958333333337" y="503.0" />
-              <point x="247.75" y="503.0" />
-              <point x="247.75" y="199.0" />
-              <point x="171.39583333333337" y="199.0" />
-              <point x="-17.625" y="25.5" />
-            </edge>
-            <edge source="model.Employee" target="javax.persistence.DiscriminatorColumn">
-              <point x="-38.25" y="-59.0" />
-              <point x="769.0208333333334" y="169.0" />
-              <point x="416.02083333333337" y="169.0" />
-              <point x="0.0" y="58.5" />
-            </edge>
-            <edge source="model.FullTimeEmployee" target="model.CompanyEmployee">
-              <point x="51.0" y="-48.0" />
-              <point x="376.73958333333337" y="533.0" />
-              <point x="949.3958333333334" y="533.0" />
-              <point x="38.0" y="25.5" />
-            </edge>
-            <edge source="model.Employee" target="javax.persistence.SqlResultSetMapping">
-              <point x="63.75" y="-59.0" />
-              <point x="871.0208333333334" y="199.0" />
-              <point x="1382.0208333333335" y="199.0" />
-              <point x="0.0" y="58.5" />
-            </edge>
-            <edge source="model.CompanyEmployee" target="javax.persistence.MappedSuperclass">
-              <point x="38.0" y="-25.5" />
-              <point x="949.3958333333334" y="362.0" />
-              <point x="977.2708333333334" y="362.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="model.PartTimeEmployee" target="javax.persistence.Entity">
-              <point x="-51.0" y="-37.0" />
-              <point x="25.5" y="533.0" />
-              <point x="27.25" y="533.0" />
-              <point x="27.25" y="199.0" />
-              <point x="136.14583333333337" y="199.0" />
-              <point x="-52.875" y="25.5" />
-            </edge>
-            <edge source="model.Employee" target="model.CachedEntity">
-              <point x="38.25" y="-59.0" />
-              <point x="845.5208333333334" y="189.0" />
-              <point x="1175.0208333333335" y="189.0" />
-              <point x="0.0" y="48.5" />
-            </edge>
-            <edge source="model.Employee" target="javax.persistence.Entity">
-              <point x="-63.75" y="-59.0" />
-              <point x="743.5208333333334" y="179.0" />
-              <point x="241.89583333333337" y="179.0" />
-              <point x="52.875" y="25.5" />
-            </edge>
-            <edge source="model.ContractEmployee" target="model.Employee">
-              <point x="38.25" y="-48.0" />
-              <point x="684.7083333333334" y="362.0" />
-              <point x="769.0208333333334" y="362.0" />
-              <point x="-38.25" y="59.0" />
-            </edge>
-            <edge source="model.FullTimeEmployee" target="javax.persistence.DiscriminatorValue">
-              <point x="-51.0" y="-48.0" />
-              <point x="274.73958333333337" y="513.0" />
-              <point x="174.5" y="513.0" />
-              <point x="37.0" y="25.5" />
-            </edge>
-            <edge source="model.PartTimeEmployee" target="model.CompanyEmployee">
-              <point x="51.0" y="-37.0" />
-              <point x="127.5" y="523.0" />
-              <point x="873.3958333333334" y="523.0" />
-              <point x="-38.0" y="25.5" />
-            </edge>
-            <edge source="model.ContractEmployee" target="javax.persistence.Entity">
-              <point x="-38.25" y="-48.0" />
-              <point x="608.2083333333334" y="362.0" />
-              <point x="277.625" y="362.0" />
-              <point x="277.625" y="189.0" />
-              <point x="206.64583333333337" y="189.0" />
-              <point x="17.625" y="25.5" />
-            </edge>
-            <edge source="model.Employee" target="javax.persistence.Inheritance">
-              <point x="-12.75" y="-59.0" />
-              <point x="794.5208333333334" y="159.0" />
-              <point x="676.0208333333334" y="159.0" />
-              <point x="0.0" y="25.5" />
-            </edge>
-            <edge source="model.CompanyEmployee" target="model.Employee">
-              <point x="-38.0" y="-25.5" />
-              <point x="873.3958333333334" y="362.0" />
-              <point x="845.5208333333334" y="362.0" />
-              <point x="38.25" y="59.0" />
-            </edge>
-            <edge source="model.Employee" target="javax.persistence.Table">
-              <point x="12.75" y="-59.0" />
-              <point x="820.0208333333334" y="179.0" />
-              <point x="938.5208333333334" y="179.0" />
-              <point x="0.0" y="69.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.9794973544973545" x="235.0" y="33.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Inner Classes</Category>
-            <Category>Constructors</Category>
-            <Category>Properties</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inheritance_joined_table/src/test/java/InheritanceJoinedTableTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="29" column="23" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="30" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/query_advanced_id_class_result_mapping/src/test/java/QueryAdvancedIdClassResultMapping.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-          <folding>
-            <marker date="1521774276487" expanded="true" signature="2044:2370" ph="SELECT e.cou... emp" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/criteria_api_basic_queries/src/test/java/CriteriaApiBasicQueriesTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -2656,7 +2203,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="130" column="13" lean-forward="false" selection-start-line="130" selection-start-column="13" selection-end-line="130" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2664,7 +2210,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2672,7 +2217,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2680,7 +2224,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2688,7 +2231,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2696,7 +2238,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2710,8 +2251,7 @@
     <entry file="file://$PROJECT_DIR$/query_advanced_inheritance_result_mapping/src/main/java/model/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="37" />
-          <folding />
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -2719,7 +2259,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2738,15 +2277,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="19" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/query_advanced_constructor_result_mapping/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2754,6 +2284,204 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query_advanced_constructor_result_mapping/src/main/java/model/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="28" column="40" lean-forward="false" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query_advanced_constructor_result_mapping/src/main/java/model/Department.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/Learning">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapping_date/src/main/java/model/DateWithTemporalSandbox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding>
+            <element signature="e#1191#1192#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapping_date/src/main/java/model/DateWithoutTemporalSandbox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding>
+            <element signature="e#1305#1306#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query_jpql_many_examples/src/main/java/model/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding>
+            <element signature="e#1354#1355#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multiple_tables_mapping_of_entity_with_multiple_secondary_tables/src/main/java/model/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+          <folding>
+            <element signature="e#2613#2614#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inheritance_joined_table/src/test/java/InheritanceJoinedTableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inheritance_single_table/src/test/java/InheritanceSingleTableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/converting_attribute_state/src/main/java/model/Department.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/converting_attribute_state/src/test/java/ConverterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query_advanced_sql_insert_delete/src/test/java/QueryAdvancedSqlInsertDeleteTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <marker date="1521493168374" expanded="true" signature="911:983" ph="INSERT INTO message_log... " />
+            <marker date="1521493168374" expanded="true" signature="1025:1048" ph="DELETE FROM message_log... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/access_field/src/test/java/AccessFieldTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/id_derived_single_key/src/main/java/model/EmployeeHistory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orphan_removal/src/main/java/model/Evaluation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="e#345#346#0" expanded="false" />
+            <element signature="e#411#412#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/id_sequence_generation/id_sequence_generation.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/id_sequence_generation/src/test/java/IdSequenceGenerationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query_advanced_constructor_result_mapping/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="19" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query_advanced_stored_procedure/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query_advanced_stored_procedure/src/main/java/model/DesignProject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query_advanced_stored_procedure/src/main/java/model/Department.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query_advanced_constructor_result_mapping/src/test/java/QueryAdvancedConstructorResultMapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="136" column="0" lean-forward="false" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
+          <folding>
+            <element signature="method#prepareData#0;class#QueryAdvancedConstructorResultMapping#0" expanded="false" />
+            <marker date="1521888698044" expanded="true" signature="4129:4272" ph="SELECT e.nam... emp" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query_advanced_stored_procedure/src/main/java/model/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -2766,29 +2494,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/query_advanced_constructor_result_mapping/src/main/java/model/Employee.java">
+    <entry file="file://$PROJECT_DIR$/query_advanced_stored_procedure/src/main/java/model/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="28" column="40" lean-forward="false" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+        <state relative-caret-position="356">
+          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/query_advanced_constructor_result_mapping/src/main/java/model/Department.java">
+    <entry file="file://$PROJECT_DIR$/query_advanced_stored_procedure/src/main/java/model/EmployeeDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query_advanced_stored_procedure/src/main/java/model/Phone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query_advanced_stored_procedure/src/main/java/model/Project.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/query_advanced_constructor_result_mapping/src/test/java/QueryAdvancedConstructorResultMapping.java">
+    <entry file="file://$PROJECT_DIR$/query_advanced_stored_procedure/src/main/java/model/QualityProject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="116" column="40" lean-forward="true" selection-start-line="116" selection-start-column="40" selection-end-line="116" selection-end-column="40" />
-          <folding>
-            <marker date="1521888698044" expanded="true" signature="4129:4272" ph="SELECT e.nam... emp" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/query_advanced_stored_procedure/src/test/java/QueryAdvancedStoredProcedure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="46" column="30" lean-forward="false" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entity_graph_named_entity_graph_basic/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="66" lean-forward="false" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Service/InventoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="39" column="35" lean-forward="false" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springstart/Model/InventoryRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entity_graph_named_entity_graph_basic/src/main/java/model/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entity_graph_named_entity_graph_basic/src/test/java/EntityGraphNamedEntityGraphBasic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="38" column="3" lean-forward="true" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2857,12 +2647,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>query_advanced_sql_result_set_mapping</last-edited>
+          <last-edited>JPA|query_advanced_stored_procedure</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.4775604" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

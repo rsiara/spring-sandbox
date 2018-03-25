@@ -20,6 +20,7 @@
       <module fileurl="file://$PROJECT_DIR$/embedded_object_advanced_mappings/embedded_object_advanced_mappings.iml" filepath="$PROJECT_DIR$/embedded_object_advanced_mappings/embedded_object_advanced_mappings.iml" />
       <module fileurl="file://$PROJECT_DIR$/embedded_object_overriding_embedded_relationships/embedded_object_overriding_embedded_relationships.iml" filepath="$PROJECT_DIR$/embedded_object_overriding_embedded_relationships/embedded_object_overriding_embedded_relationships.iml" />
       <module fileurl="file://$PROJECT_DIR$/embedded_object_sharing_and_override_column_name/embedded_object_sharing_and_override_column_name.iml" filepath="$PROJECT_DIR$/embedded_object_sharing_and_override_column_name/embedded_object_sharing_and_override_column_name.iml" />
+      <module fileurl="file://$PROJECT_DIR$/entity_graph_named_entity_graph_basic/entity_graph_named_entity_graph_basic.iml" filepath="$PROJECT_DIR$/entity_graph_named_entity_graph_basic/entity_graph_named_entity_graph_basic.iml" />
       <module fileurl="file://$PROJECT_DIR$/id_auto_generation/id_auto_generation.iml" filepath="$PROJECT_DIR$/id_auto_generation/id_auto_generation.iml" />
       <module fileurl="file://$PROJECT_DIR$/id_class_id/id_class_id.iml" filepath="$PROJECT_DIR$/id_class_id/id_class_id.iml" />
       <module fileurl="file://$PROJECT_DIR$/id_db_idendity_generation/id_db_idendity_generation.iml" filepath="$PROJECT_DIR$/id_db_idendity_generation/id_db_idendity_generation.iml" />
@@ -76,6 +77,7 @@
       <module fileurl="file://$PROJECT_DIR$/query_advanced_native_queries/query_advanced_native_queries.iml" filepath="$PROJECT_DIR$/query_advanced_native_queries/query_advanced_native_queries.iml" />
       <module fileurl="file://$PROJECT_DIR$/query_advanced_sql_insert_delete/query_advanced_sql_insert_delete.iml" filepath="$PROJECT_DIR$/query_advanced_sql_insert_delete/query_advanced_sql_insert_delete.iml" />
       <module fileurl="file://$PROJECT_DIR$/query_advanced_sql_result_set_mapping/query_advanced_sql_result_set_mapping.iml" filepath="$PROJECT_DIR$/query_advanced_sql_result_set_mapping/query_advanced_sql_result_set_mapping.iml" />
+      <module fileurl="file://$PROJECT_DIR$/query_advanced_stored_procedure/query_advanced_stored_procedure.iml" filepath="$PROJECT_DIR$/query_advanced_stored_procedure/query_advanced_stored_procedure.iml" />
       <module fileurl="file://$PROJECT_DIR$/query_bulk_query/query_bulk_query.iml" filepath="$PROJECT_DIR$/query_bulk_query/query_bulk_query.iml" />
       <module fileurl="file://$PROJECT_DIR$/query_dynamic_named_query/query_dynamic_named_query.iml" filepath="$PROJECT_DIR$/query_dynamic_named_query/query_dynamic_named_query.iml" />
       <module fileurl="file://$PROJECT_DIR$/query_dynamic_query/query_dynamic_query.iml" filepath="$PROJECT_DIR$/query_dynamic_query/query_dynamic_query.iml" />

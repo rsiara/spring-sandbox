@@ -26,6 +26,7 @@
         <module name="embedded_object_advanced_mappings" />
         <module name="embedded_object_overriding_embedded_relationships" />
         <module name="embedded_object_sharing_and_override_column_name" />
+        <module name="entity_graph_named_entity_graph_basic" />
         <module name="id_auto_generation" />
         <module name="id_class_id" />
         <module name="id_db_idendity_generation" />
@@ -86,6 +87,7 @@
         <module name="query_advanced_native_queries" />
         <module name="query_advanced_sql_insert_delete" />
         <module name="query_advanced_sql_result_set_mapping" />
+        <module name="query_advanced_stored_procedure" />
         <module name="query_bulk_query" />
         <module name="query_dynamic_named_query" />
         <module name="query_dynamic_query" />
@@ -119,6 +121,7 @@
       <module name="embedded_object_advanced_mappings" target="1.5" />
       <module name="embedded_object_overriding_embedded_relationships" target="1.5" />
       <module name="embedded_object_sharing_and_override_column_name" target="1.5" />
+      <module name="entity_graph_named_entity_graph_basic" target="1.5" />
       <module name="id_auto_generation" target="1.5" />
       <module name="id_class_id" target="1.5" />
       <module name="id_db_idendity_generation" target="1.5" />
@@ -181,6 +184,7 @@
       <module name="query_advanced_native_queries" target="1.5" />
       <module name="query_advanced_sql_insert_delete" target="1.5" />
       <module name="query_advanced_sql_result_set_mapping" target="1.5" />
+      <module name="query_advanced_stored_procedure" target="1.5" />
       <module name="query_bulk_query" target="1.5" />
       <module name="query_dynamic_named_query" target="1.5" />
       <module name="query_dynamic_query" target="1.5" />
