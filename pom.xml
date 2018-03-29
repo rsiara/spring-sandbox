@@ -98,6 +98,10 @@
         <module>query_advanced_constructor_result_mapping</module>
         <module>query_advanced_stored_procedure</module>
         <module>entity_graph_named_entity_graph_basic</module>
+        <module>entity_graph_named_entity_graph_subgraph</module>
+        <module>entity_graph_named_entity_graph_multiple_defs</module>
+        <module>entity_graph_named_entity_graph_inheritance</module>
+        <module>entity_graph_named_entity_graph_root_inheritance</module>
     </modules>
 
 

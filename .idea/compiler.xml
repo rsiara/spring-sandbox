@@ -27,6 +27,10 @@
         <module name="embedded_object_overriding_embedded_relationships" />
         <module name="embedded_object_sharing_and_override_column_name" />
         <module name="entity_graph_named_entity_graph_basic" />
+        <module name="entity_graph_named_entity_graph_inheritance" />
+        <module name="entity_graph_named_entity_graph_multiple_defs" />
+        <module name="entity_graph_named_entity_graph_root_inheritance" />
+        <module name="entity_graph_named_entity_graph_subgraph" />
         <module name="id_auto_generation" />
         <module name="id_class_id" />
         <module name="id_db_idendity_generation" />
@@ -122,6 +126,10 @@
       <module name="embedded_object_overriding_embedded_relationships" target="1.5" />
       <module name="embedded_object_sharing_and_override_column_name" target="1.5" />
       <module name="entity_graph_named_entity_graph_basic" target="1.5" />
+      <module name="entity_graph_named_entity_graph_inheritance" target="1.5" />
+      <module name="entity_graph_named_entity_graph_multiple_defs" target="1.5" />
+      <module name="entity_graph_named_entity_graph_root_inheritance" target="1.5" />
+      <module name="entity_graph_named_entity_graph_subgraph" target="1.5" />
       <module name="id_auto_generation" target="1.5" />
       <module name="id_class_id" target="1.5" />
       <module name="id_db_idendity_generation" target="1.5" />
