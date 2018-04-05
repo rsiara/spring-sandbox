@@ -102,6 +102,7 @@
       <module fileurl="file://$PROJECT_DIR$/query_paging/query_paging.iml" filepath="$PROJECT_DIR$/query_paging/query_paging.iml" />
       <module fileurl="file://$PROJECT_DIR$/query_param_types/query_param_types.iml" filepath="$PROJECT_DIR$/query_param_types/query_param_types.iml" />
       <module fileurl="file://$PROJECT_DIR$/query_result_example/query_result_example.iml" filepath="$PROJECT_DIR$/query_result_example/query_result_example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/query_result_example/query_result_example.iml" filepath="$PROJECT_DIR$/query_result_example/query_result_example.iml" />
       <module fileurl="file://$PROJECT_DIR$/sharing_embeddable_key_mappings_with_values/sharing_embeddable_key_mappings_with_values.iml" filepath="$PROJECT_DIR$/sharing_embeddable_key_mappings_with_values/sharing_embeddable_key_mappings_with_values.iml" />
     </modules>
   </component>
