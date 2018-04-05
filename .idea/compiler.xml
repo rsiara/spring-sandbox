@@ -19,6 +19,12 @@
         <module name="converting_attribute_state" />
         <module name="criteria_api_basic_queries" />
         <module name="criteria_api_metamodel_api" />
+        <module name="dynamic_entity_graph_basic" />
+        <module name="dynamic_entity_graph_inheritance" />
+        <module name="dynamic_entity_graph_map_key" />
+        <module name="dynamic_entity_graph_multiple_defs" />
+        <module name="dynamic_entity_graph_root_inheritance" />
+        <module name="dynamic_entity_graph_subgraphs" />
         <module name="em_operations_find_remove_persist" />
         <module name="em_operations_persist_clear_flush_merge_detach" />
         <module name="em_persistent_context_unsychronized" />
@@ -26,8 +32,11 @@
         <module name="embedded_object_advanced_mappings" />
         <module name="embedded_object_overriding_embedded_relationships" />
         <module name="embedded_object_sharing_and_override_column_name" />
+        <module name="entity_graph_accessing" />
+        <module name="entity_graph_creating_from_existing" />
         <module name="entity_graph_named_entity_graph_basic" />
         <module name="entity_graph_named_entity_graph_inheritance" />
+        <module name="entity_graph_named_entity_graph_map_key" />
         <module name="entity_graph_named_entity_graph_multiple_defs" />
         <module name="entity_graph_named_entity_graph_root_inheritance" />
         <module name="entity_graph_named_entity_graph_subgraph" />
@@ -118,6 +127,12 @@
       <module name="converting_attribute_state" target="1.5" />
       <module name="criteria_api_basic_queries" target="1.5" />
       <module name="criteria_api_metamodel_api" target="1.5" />
+      <module name="dynamic_entity_graph_basic" target="1.5" />
+      <module name="dynamic_entity_graph_inheritance" target="1.5" />
+      <module name="dynamic_entity_graph_map_key" target="1.5" />
+      <module name="dynamic_entity_graph_multiple_defs" target="1.5" />
+      <module name="dynamic_entity_graph_root_inheritance" target="1.5" />
+      <module name="dynamic_entity_graph_subgraphs" target="1.5" />
       <module name="em_operations_find_remove_persist" target="1.5" />
       <module name="em_operations_persist_clear_flush_merge_detach" target="1.5" />
       <module name="em_persistent_context_unsychronized" target="1.5" />
@@ -125,8 +140,11 @@
       <module name="embedded_object_advanced_mappings" target="1.5" />
       <module name="embedded_object_overriding_embedded_relationships" target="1.5" />
       <module name="embedded_object_sharing_and_override_column_name" target="1.5" />
+      <module name="entity_graph_accessing" target="1.5" />
+      <module name="entity_graph_creating_from_existing" target="1.5" />
       <module name="entity_graph_named_entity_graph_basic" target="1.5" />
       <module name="entity_graph_named_entity_graph_inheritance" target="1.5" />
+      <module name="entity_graph_named_entity_graph_map_key" target="1.5" />
       <module name="entity_graph_named_entity_graph_multiple_defs" target="1.5" />
       <module name="entity_graph_named_entity_graph_root_inheritance" target="1.5" />
       <module name="entity_graph_named_entity_graph_subgraph" target="1.5" />

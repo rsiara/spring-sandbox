@@ -102,6 +102,15 @@
         <module>entity_graph_named_entity_graph_multiple_defs</module>
         <module>entity_graph_named_entity_graph_inheritance</module>
         <module>entity_graph_named_entity_graph_root_inheritance</module>
+        <module>entity_graph_named_entity_graph_map_key</module>
+        <module>dynamic_entity_graph_basic</module>
+        <module>dynamic_entity_graph_subgraphs</module>
+        <module>dynamic_entity_graph_multiple_defs</module>
+        <module>dynamic_entity_graph_inheritance</module>
+        <module>dynamic_entity_graph_root_inheritance</module>
+        <module>dynamic_entity_graph_map_key</module>
+        <module>entity_graph_accessing</module>
+        <module>entity_graph_creating_from_existing</module>
     </modules>
 
 

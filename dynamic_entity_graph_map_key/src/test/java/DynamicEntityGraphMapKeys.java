@@ -3,6 +3,7 @@ import model.Address;
 import model.Department;
 import model.DesignProject;
 import model.Employee;
+import model.EmployeeName;
 import model.Phone;
 import model.QualityProject;
 import org.junit.Before;
@@ -15,42 +16,25 @@ import org.springframework.test.context.web.AnnotationConfigWebContextLoader;
 import org.springframework.test.context.web.WebAppConfiguration;
 import org.springframework.transaction.annotation.Transactional;
 
+import javax.persistence.EntityGraph;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+import javax.persistence.TypedQuery;
 import java.util.Date;
 import java.util.List;
 
 /*
-!!! IMPORTANT !!!
+
 If a fetch graph is used, only the attributes specified by the entity graph will be treated as FetchType.EAGER.
-
-
-
 All other attributes will be lazy. If a load graph is used,
 attributes that are not specified by the entity graph will keep their default fetch type.
-
-If you're talking about basic types, then, by default,
-Hibernate will always fetch them. The only way to enable basic type lazy loading is to use bytecode enhancement,
-as explained in this article.
-
-If you're talking about basic types, then, by default, Hibernate will always fetch them.
-The only way to enable basic type lazy loading is to use bytecode enhancement, as explained in this article.
-If you're talking about EAGER associations, then Hibernate cannot override them to LAZY, even if the JPA standard says it should.
-
-Both 1. and 2. are not mandatory requirements from a JPA perspective because LAZY is just a hint for the JPA provider.
-
-All in all, JPA entity graphs are a suboptimal way of fetching data. Avoiding EAGER associations, using subentities and DTO projections are much better than entity graphs.
-
-Most of the time, you don't even need to fetch entities because entities make sense only if you plan to modify. Otherwise, a DTO projection will always be way more efficient.
-
-https://stackoverflow.com/questions/42211312/how-to-limit-columns-used-in-a-hibernate-entity-graph
 
  */
 
 @WebAppConfiguration
 @ContextConfiguration(classes = {RootConfig.class}, loader = AnnotationConfigWebContextLoader.class)
 @RunWith(SpringJUnit4ClassRunner.class)
-public class EntityGraphNamedEntityGraphSubgraph {
+public class DynamicEntityGraphMapKeys {
 
     Date today = new Date();
     Date tomorrow = new Date(today.getTime() + (1000 * 60 * 60 * 24));
@@ -63,12 +47,15 @@ public class EntityGraphNamedEntityGraphSubgraph {
 
     @Before
     public void prepareData() {
-        // My address
 
         // Employees
         Employee mark = new Employee();
         mark.setStartDate(today);
-        mark.setName("Mark");
+
+        EmployeeName markName = new EmployeeName();
+        markName.setFirstName("Mark");
+        markName.setLastName("Mark last name");
+        mark.setName(markName);
         mark.setSalary(12400);
 
         Address markAddress = new Address();
@@ -94,7 +81,10 @@ public class EntityGraphNamedEntityGraphSubgraph {
 
         Employee john = new Employee();
         john.setStartDate(tomorrow);
-        john.setName("John");
+        EmployeeName johnName = new EmployeeName();
+        johnName.setFirstName("John");
+        johnName.setLastName("John last name");
+        john.setName(johnName);
         john.setSalary(6400);
 
         Address johnAddress = new Address();
@@ -120,7 +110,10 @@ public class EntityGraphNamedEntityGraphSubgraph {
 
         Employee bob = new Employee();
         bob.setStartDate(tomorrow);
-        bob.setName("Bob");
+        EmployeeName bobName = new EmployeeName();
+        bobName.setFirstName("Bob");
+        bobName.setLastName("Bob last name");
+        bob.setName(bobName);
         bob.setSalary(2800);
 
         Address bobAddress = new Address();
@@ -146,7 +139,10 @@ public class EntityGraphNamedEntityGraphSubgraph {
 
         Employee mike = new Employee();
         mike.setStartDate(tomorrow);
-        mike.setName("Mike");
+        EmployeeName mikeName = new EmployeeName();
+        mikeName.setFirstName("Mike");
+        mikeName.setLastName("Mike last name");
+        mike.setName(mikeName);
         mike.setSalary(3200);
 
         Address mikeAddress = new Address();
@@ -192,7 +188,6 @@ public class EntityGraphNamedEntityGraphSubgraph {
 
 
         //Project
-
         DesignProject designProjectOfWebsite = new DesignProject();
         designProjectOfWebsite.setName("Design project of website");
         designProjectOfWebsite.addEmployee(bob);
@@ -238,18 +233,31 @@ public class EntityGraphNamedEntityGraphSubgraph {
     @Transactional
     @Rollback(false)
     public void query_advanced_constructor_result_mapping() {
-        System.out.println(" *** Entity graphs - named entity graph multiple defs***");
+        System.out.println(" *** Entity graphs - dynamic graphs, root inheritance***");
 
-        for (Employee employee : findAllEmployees()) {
-            System.out.println(employee);
+        for (Department department : findAllDepartments()) {
+            System.out.println("##" + department.getName());
+            for (Department e :
+                    findAllDepartments()) {
+                System.out.println(" " + e.getName());
+            }
         }
 
     }
 
-    public List<Employee> findAllEmployees() {
-        return entityManager.createQuery("SELECT e FROM Employee e", Employee.class)
-                .getResultList();
+    public List<Department> findAllDepartments() {
+        TypedQuery<Department> query = entityManager.createQuery(
+                "SELECT d FROM Department d",
+                Department.class);
+        query.setHint("javax.persistence.fetchgraph", constructEntityGraph());
+        return query.getResultList();
     }
 
-
+    public EntityGraph<Department> constructEntityGraph() {
+        EntityGraph<Department> graph = entityManager.createEntityGraph(Department.class);
+        graph.addAttributeNodes("name");
+        graph.addSubgraph("employees").addAttributeNodes("salary");
+        graph.addKeySubgraph("employees").addAttributeNodes("firstName", "lastName");
+        return graph;
+    }
 }

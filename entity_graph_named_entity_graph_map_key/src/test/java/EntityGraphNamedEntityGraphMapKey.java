@@ -3,6 +3,7 @@ import model.Address;
 import model.Department;
 import model.DesignProject;
 import model.Employee;
+import model.EmployeeName;
 import model.Phone;
 import model.QualityProject;
 import org.junit.Before;
@@ -17,15 +18,12 @@ import org.springframework.transaction.annotation.Transactional;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+import javax.persistence.TypedQuery;
 import java.util.Date;
 import java.util.List;
 
 /*
-!!! IMPORTANT !!!
 If a fetch graph is used, only the attributes specified by the entity graph will be treated as FetchType.EAGER.
-
-
-
 All other attributes will be lazy. If a load graph is used,
 attributes that are not specified by the entity graph will keep their default fetch type.
 
@@ -50,7 +48,7 @@ https://stackoverflow.com/questions/42211312/how-to-limit-columns-used-in-a-hibe
 @WebAppConfiguration
 @ContextConfiguration(classes = {RootConfig.class}, loader = AnnotationConfigWebContextLoader.class)
 @RunWith(SpringJUnit4ClassRunner.class)
-public class EntityGraphNamedEntityGraphSubgraph {
+public class EntityGraphNamedEntityGraphMapKey {
 
     Date today = new Date();
     Date tomorrow = new Date(today.getTime() + (1000 * 60 * 60 * 24));
@@ -68,7 +66,11 @@ public class EntityGraphNamedEntityGraphSubgraph {
         // Employees
         Employee mark = new Employee();
         mark.setStartDate(today);
-        mark.setName("Mark");
+
+        EmployeeName markName = new EmployeeName();
+        markName.setFirstName("Mark");
+        markName.setLastName("Mark last name");
+        mark.setName(markName);
         mark.setSalary(12400);
 
         Address markAddress = new Address();
@@ -94,7 +96,10 @@ public class EntityGraphNamedEntityGraphSubgraph {
 
         Employee john = new Employee();
         john.setStartDate(tomorrow);
-        john.setName("John");
+        EmployeeName johnName = new EmployeeName();
+        johnName.setFirstName("John");
+        johnName.setLastName("John last name");
+        john.setName(johnName);
         john.setSalary(6400);
 
         Address johnAddress = new Address();
@@ -120,7 +125,10 @@ public class EntityGraphNamedEntityGraphSubgraph {
 
         Employee bob = new Employee();
         bob.setStartDate(tomorrow);
-        bob.setName("Bob");
+        EmployeeName bobName = new EmployeeName();
+        bobName.setFirstName("Bob");
+        bobName.setLastName("Bob last name");
+        bob.setName(bobName);
         bob.setSalary(2800);
 
         Address bobAddress = new Address();
@@ -146,7 +154,10 @@ public class EntityGraphNamedEntityGraphSubgraph {
 
         Employee mike = new Employee();
         mike.setStartDate(tomorrow);
-        mike.setName("Mike");
+        EmployeeName mikeName = new EmployeeName();
+        mikeName.setFirstName("Mike");
+        mikeName.setLastName("Mike last name");
+        mike.setName(mikeName);
         mike.setSalary(3200);
 
         Address mikeAddress = new Address();
@@ -192,7 +203,6 @@ public class EntityGraphNamedEntityGraphSubgraph {
 
 
         //Project
-
         DesignProject designProjectOfWebsite = new DesignProject();
         designProjectOfWebsite.setName("Design project of website");
         designProjectOfWebsite.addEmployee(bob);
@@ -232,23 +242,39 @@ public class EntityGraphNamedEntityGraphSubgraph {
 
         entityManager.persist(designProjectOfWebsite);
         entityManager.persist(qualityProjectOfWebsite);
+
+
     }
+
 
     @Test
     @Transactional
     @Rollback(false)
     public void query_advanced_constructor_result_mapping() {
-        System.out.println(" *** Entity graphs - named entity graph multiple defs***");
+        System.out.println(" *** Entity graphs - map key***");
+/*
+        for (Department department : findAllDepartment()) {
+            System.out.println("##" + department.getName());
+            for (Employee employee :
+                    department.getEmployees().values()) {
+                System.out.println(" " + employee.getName());
+            }
 
-        for (Employee employee : findAllEmployees()) {
-            System.out.println(employee);
-        }
+        }*/
 
     }
+/* javax.persistence.loadgraph (EntityGraph)
+    The javax.persistence.loadgraph hint allows you to provide an entity graph as a load graph to the query to define eager fetching specifically for this query.*/
 
-    public List<Employee> findAllEmployees() {
-        return entityManager.createQuery("SELECT e FROM Employee e", Employee.class)
-                .getResultList();
+/*6. javax.persistence.fetchgraph (EntityGraph)
+    You can use this hint to provide an entity graph as a fetchgraph to a query.*/
+
+    public List<Department> findAllDepartment() {
+        TypedQuery<Department> query = entityManager.createQuery(
+                "SELECT d FROM Department d",
+                Department.class);
+        query.setHint("javax.persistence.fetchgraph", entityManager.getEntityGraph("Department.graph1"));
+        return query.getResultList();
     }
 
 

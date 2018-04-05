@@ -61,8 +61,6 @@ public class EntityGraphNamedEntityGraphInheritance {
 
     @Before
     public void prepareData() {
-        // My address
-
         // Employees
         Employee mark = new Employee();
         mark.setStartDate(today);

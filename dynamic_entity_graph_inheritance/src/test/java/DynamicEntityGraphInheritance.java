@@ -4,6 +4,7 @@ import model.Department;
 import model.DesignProject;
 import model.Employee;
 import model.Phone;
+import model.Project;
 import model.QualityProject;
 import org.junit.Before;
 import org.junit.Test;
@@ -15,42 +16,26 @@ import org.springframework.test.context.web.AnnotationConfigWebContextLoader;
 import org.springframework.test.context.web.WebAppConfiguration;
 import org.springframework.transaction.annotation.Transactional;
 
+import javax.persistence.EntityGraph;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+import javax.persistence.Subgraph;
+import javax.persistence.TypedQuery;
 import java.util.Date;
 import java.util.List;
 
 /*
-!!! IMPORTANT !!!
 If a fetch graph is used, only the attributes specified by the entity graph will be treated as FetchType.EAGER.
-
-
-
 All other attributes will be lazy. If a load graph is used,
 attributes that are not specified by the entity graph will keep their default fetch type.
 
-If you're talking about basic types, then, by default,
-Hibernate will always fetch them. The only way to enable basic type lazy loading is to use bytecode enhancement,
-as explained in this article.
-
-If you're talking about basic types, then, by default, Hibernate will always fetch them.
-The only way to enable basic type lazy loading is to use bytecode enhancement, as explained in this article.
-If you're talking about EAGER associations, then Hibernate cannot override them to LAZY, even if the JPA standard says it should.
-
-Both 1. and 2. are not mandatory requirements from a JPA perspective because LAZY is just a hint for the JPA provider.
-
-All in all, JPA entity graphs are a suboptimal way of fetching data. Avoiding EAGER associations, using subentities and DTO projections are much better than entity graphs.
-
-Most of the time, you don't even need to fetch entities because entities make sense only if you plan to modify. Otherwise, a DTO projection will always be way more efficient.
-
-https://stackoverflow.com/questions/42211312/how-to-limit-columns-used-in-a-hibernate-entity-graph
 
  */
 
 @WebAppConfiguration
 @ContextConfiguration(classes = {RootConfig.class}, loader = AnnotationConfigWebContextLoader.class)
 @RunWith(SpringJUnit4ClassRunner.class)
-public class EntityGraphNamedEntityGraphSubgraph {
+public class DynamicEntityGraphInheritance {
 
     Date today = new Date();
     Date tomorrow = new Date(today.getTime() + (1000 * 60 * 60 * 24));
@@ -63,8 +48,6 @@ public class EntityGraphNamedEntityGraphSubgraph {
 
     @Before
     public void prepareData() {
-        // My address
-
         // Employees
         Employee mark = new Employee();
         mark.setStartDate(today);
@@ -192,7 +175,6 @@ public class EntityGraphNamedEntityGraphSubgraph {
 
 
         //Project
-
         DesignProject designProjectOfWebsite = new DesignProject();
         designProjectOfWebsite.setName("Design project of website");
         designProjectOfWebsite.addEmployee(bob);
@@ -232,7 +214,10 @@ public class EntityGraphNamedEntityGraphSubgraph {
 
         entityManager.persist(designProjectOfWebsite);
         entityManager.persist(qualityProjectOfWebsite);
+
+
     }
+
 
     @Test
     @Transactional
@@ -241,14 +226,32 @@ public class EntityGraphNamedEntityGraphSubgraph {
         System.out.println(" *** Entity graphs - named entity graph multiple defs***");
 
         for (Employee employee : findAllEmployees()) {
-            System.out.println(employee);
+            System.out.println("##" + employee.getName());
+            for (Project p :
+                    employee.getProjects()) {
+                System.out.println(" " + p.getName());
+            }
+
         }
 
     }
 
     public List<Employee> findAllEmployees() {
-        return entityManager.createQuery("SELECT e FROM Employee e", Employee.class)
-                .getResultList();
+        TypedQuery<Employee> query = entityManager.createQuery(
+                "SELECT e FROM Employee e",
+                Employee.class);
+        query.setHint("javax.persistence.fetchgraph", constructEntityGraph());
+        return query.getResultList();
+    }
+
+    public EntityGraph<Employee> constructEntityGraph() {
+        EntityGraph<Employee> graph = entityManager.createEntityGraph(Employee.class);
+        graph.addAttributeNodes("name", "salary", "address");
+        Subgraph<Project> project = graph.addSubgraph("projects", Project.class);
+        project.addAttributeNodes("name");
+        Subgraph<QualityProject> qaProject = graph.addSubgraph("projects", QualityProject.class);
+        qaProject.addAttributeNodes("qaRating");
+        return graph;
     }
 
 
