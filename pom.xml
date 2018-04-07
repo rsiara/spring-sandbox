@@ -111,6 +111,12 @@
         <module>dynamic_entity_graph_map_key</module>
         <module>entity_graph_accessing</module>
         <module>entity_graph_creating_from_existing</module>
+        <module>lifecycle_callbacks</module>
+        <module>lifecycle_callbacks_inheritance</module>
+        <module>constraints</module>
+        <module>validator_injection</module>
+        <module>constraint_groups</module>
+        <module>constraint_annotation</module>
     </modules>
 
 
@@ -324,6 +330,32 @@
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
             <version>3.7</version>
+        </dependency>
+
+        <!-- VALIDATION -->
+
+        <dependency>
+            <groupId>javax.validation</groupId>
+            <artifactId>validation-api</artifactId>
+            <version>2.0.1.Final</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-validator -->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-validator</artifactId>
+            <version>5.2.1.Final</version>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.el</groupId>
+            <artifactId>javax.el-api</artifactId>
+            <version>2.2.4</version>
+        </dependency>
+        <dependency>
+            <groupId>org.glassfish.web</groupId>
+            <artifactId>javax.el</artifactId>
+            <version>2.2.4</version>
         </dependency>
 
     </dependencies>

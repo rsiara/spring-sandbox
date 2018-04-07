@@ -72,6 +72,9 @@ public class PersistenceJPAConfig {
     Properties properties = new Properties();
     properties.setProperty("hibernate.hbm2ddl.auto", "create");
       properties.setProperty("hibernate.dialect", "org.hibernate.dialect.H2Dialect");
+/*
+    properties.setProperty("javax.persistence.validation.group.pre-remove", "model.FullTime");
+*/
     return properties;
   }
 

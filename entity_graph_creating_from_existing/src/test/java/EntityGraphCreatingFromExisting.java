@@ -50,6 +50,7 @@ public class EntityGraphCreatingFromExisting {
     public void query_advanced_constructor_result_mapping() {
         System.out.println(" *** Entity graphs - creating from existing ***");
 
+        printAllEntityGraphs();
         addEntityGraph();
         printAllEntityGraphs();
 
@@ -58,8 +59,8 @@ public class EntityGraphCreatingFromExisting {
     public void addEntityGraph() {
         EntityGraph<?> graph = entityManager.createEntityGraph("Employee.graph2");
         graph.addAttributeNodes("projects");
-        entityManager.getEntityManagerFactory().addNamedEntityGraph("Employee.newGraph2", graph);
-        System.out.println("Added EntityGraph Employee.newGraph2 to Employee <br/>");
+        entityManager.getEntityManagerFactory().addNamedEntityGraph("Employee.newGraph", graph);
+        System.out.println("Added EntityGraph Employee.newGraph2to Employee <br/>");
     }
 
     public void printAllEntityGraphs() {

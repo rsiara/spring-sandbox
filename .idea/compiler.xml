@@ -16,6 +16,9 @@
         <module name="collection_of_embedded" />
         <module name="collection_order_persistence" />
         <module name="collection_override_table_columns" />
+        <module name="constraint_annotation" />
+        <module name="constraint_groups" />
+        <module name="constraints" />
         <module name="converting_attribute_state" />
         <module name="criteria_api_basic_queries" />
         <module name="criteria_api_metamodel_api" />
@@ -56,6 +59,8 @@
         <module name="inheritance_single_table" />
         <module name="inheritance_singletable_with_one_to_many_to_itself_bidirectional" />
         <module name="inheritance_table_per_concrete_class" />
+        <module name="lifecycle_callbacks" />
+        <module name="lifecycle_callbacks_inheritance" />
         <module name="many_to_many_and_one_to_many_compound_join_table_columns" />
         <module name="many_to_many_bidirectional" />
         <module name="many_to_many_bidirectional_jointable" />
@@ -113,6 +118,7 @@
         <module name="query_param_types" />
         <module name="query_result_example" />
         <module name="sharing_embeddable_key_mappings_with_values" />
+        <module name="validator_injection" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -124,6 +130,9 @@
       <module name="collection_of_embedded" target="1.5" />
       <module name="collection_order_persistence" target="1.5" />
       <module name="collection_override_table_columns" target="1.5" />
+      <module name="constraint_annotation" target="1.5" />
+      <module name="constraint_groups" target="1.5" />
+      <module name="constraints" target="1.5" />
       <module name="converting_attribute_state" target="1.5" />
       <module name="criteria_api_basic_queries" target="1.5" />
       <module name="criteria_api_metamodel_api" target="1.5" />
@@ -164,6 +173,8 @@
       <module name="inheritance_single_table" target="1.5" />
       <module name="inheritance_singletable_with_one_to_many_to_itself_bidirectional" target="1.5" />
       <module name="inheritance_table_per_concrete_class" target="1.5" />
+      <module name="lifecycle_callbacks" target="1.5" />
+      <module name="lifecycle_callbacks_inheritance" target="1.5" />
       <module name="many_to_many_and_one_to_many_compound_join_table_columns" target="1.5" />
       <module name="many_to_many_bidirectional" target="1.5" />
       <module name="many_to_many_bidirectional_jointable" target="1.5" />
@@ -225,6 +236,7 @@
       <module name="query_result_example" target="1.5" />
       <module name="Sandbox" target="1.5" />
       <module name="sharing_embeddable_key_mappings_with_values" target="1.5" />
+      <module name="validator_injection" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
