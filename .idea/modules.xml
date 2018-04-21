@@ -16,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/constraint_validation_in_lifecycle/constraint_validation_in_lifecycle.iml" filepath="$PROJECT_DIR$/constraint_validation_in_lifecycle/constraint_validation_in_lifecycle.iml" />
       <module fileurl="file://$PROJECT_DIR$/constraints/constraints.iml" filepath="$PROJECT_DIR$/constraints/constraints.iml" />
       <module fileurl="file://$PROJECT_DIR$/content_element_sandbox/content_element_sandbox.iml" filepath="$PROJECT_DIR$/content_element_sandbox/content_element_sandbox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/content_element_sandbox_second/content_element_sandbox_second.iml" filepath="$PROJECT_DIR$/content_element_sandbox_second/content_element_sandbox_second.iml" />
       <module fileurl="file://$PROJECT_DIR$/converting_attribute_state/converting_attribute_state.iml" filepath="$PROJECT_DIR$/converting_attribute_state/converting_attribute_state.iml" />
       <module fileurl="file://$PROJECT_DIR$/criteria_api_basic_queries/criteria_api_basic_queries.iml" filepath="$PROJECT_DIR$/criteria_api_basic_queries/criteria_api_basic_queries.iml" />
       <module fileurl="file://$PROJECT_DIR$/criteria_api_metamodel_api/criteria_api_metamodel_api.iml" filepath="$PROJECT_DIR$/criteria_api_metamodel_api/criteria_api_metamodel_api.iml" />

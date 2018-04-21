@@ -52,23 +52,11 @@ public class ContentElementTest {
         articleContentElementType.setName("Artykul");
 
         // Add 3 basic attribute definition
-        BasicAttributeDefinition authorAttributeDefinition = new BasicAttributeDefinition();
-        authorAttributeDefinition.setName("Author");
-        authorAttributeDefinition.setPriority(1);
-        authorAttributeDefinition.setAttributeType(AttributeType.STRING);
-        authorAttributeDefinition.setMultivalue(true);
+        BasicAttributeDefinition authorAttributeDefinition = createBasicAttributeDefinition("Author", 1, AttributeType.STRING, true);
 
-        BasicAttributeDefinition sponsoredAttributeDefinition = new BasicAttributeDefinition();
-        sponsoredAttributeDefinition.setName("Sponsorowany");
-        sponsoredAttributeDefinition.setPriority(2);
-        sponsoredAttributeDefinition.setAttributeType(AttributeType.BOOLEAN);
-        sponsoredAttributeDefinition.setMultivalue(false);
+        BasicAttributeDefinition sponsoredAttributeDefinition = createBasicAttributeDefinition("Sponsorowany", 2, AttributeType.BOOLEAN, false);
 
-        BasicAttributeDefinition numberOfSthAttributeDefinition = new BasicAttributeDefinition();
-        numberOfSthAttributeDefinition.setName("Liczba czegos");
-        numberOfSthAttributeDefinition.setPriority(3);
-        numberOfSthAttributeDefinition.setAttributeType(AttributeType.INTEGER);
-        numberOfSthAttributeDefinition.setMultivalue(false);
+        BasicAttributeDefinition numberOfSthAttributeDefinition = createBasicAttributeDefinition("Liczba czegos", 3, AttributeType.INTEGER, false);
 
 
         articleContentElementType.addAttributeDefinition(authorAttributeDefinition);
@@ -83,17 +71,9 @@ public class ContentElementTest {
 
 
         //Assembling tag complex attribute definition using 2 basic sub attributes
-        BasicAttributeDefinition tagColorSubAttributeDefinition = new BasicAttributeDefinition();
-        tagColorSubAttributeDefinition.setName("Kolor");
-        tagColorSubAttributeDefinition.setPriority(1);
-        tagColorSubAttributeDefinition.setAttributeType(AttributeType.STRING);
-        tagColorSubAttributeDefinition.setMultivalue(false);
+        BasicAttributeDefinition tagColorSubAttributeDefinition = createBasicAttributeDefinition("Kolor", 1, AttributeType.STRING, false);
 
-        BasicAttributeDefinition tagLabelTextSubAttributeDefinition = new BasicAttributeDefinition();
-        tagLabelTextSubAttributeDefinition.setName("Tekst tagu");
-        tagLabelTextSubAttributeDefinition.setPriority(2);
-        tagLabelTextSubAttributeDefinition.setAttributeType(AttributeType.STRING);
-        tagLabelTextSubAttributeDefinition.setMultivalue(false);
+        BasicAttributeDefinition tagLabelTextSubAttributeDefinition = createBasicAttributeDefinition("Tekst tagu", 2, AttributeType.STRING, false);
 
         tagComplexAttributeDefinition.addAttributeDefinition(tagColorSubAttributeDefinition);
         tagComplexAttributeDefinition.addAttributeDefinition(tagLabelTextSubAttributeDefinition);
@@ -125,13 +105,13 @@ public class ContentElementTest {
             if (attribute instanceof BasicAttribute) {
                 switch (attributeName) {
                     case "Author":
-                        ((BasicAttribute) attribute).set("Pan dziennikarz");
+                        ((BasicAttribute) attribute).addValue("Pan dziennikarz");
                         break;
                     case "Sponsorowany":
-                        ((BasicAttribute) attribute).set(true);
+                        ((BasicAttribute) attribute).addValue(true);
                         break;
                     case "Liczba czegos":
-                        ((BasicAttribute) attribute).set(23);
+                        ((BasicAttribute) attribute).addValue(23);
                         break;
                 }
 
@@ -147,10 +127,10 @@ public class ContentElementTest {
 
                     switch (subAttributeName) {
                         case "Kolor":
-                            ((BasicAttribute) subAttribute).set("CZERWONY");
+                            ((BasicAttribute) subAttribute).addValue("CZERWONY");
                             break;
                         case "Tekst tagu":
-                            ((BasicAttribute) subAttribute).set("Artykul");
+                            ((BasicAttribute) subAttribute).addValue("Artykul");
                             break;
                     }
                     //Add subattribute to complex attribute
@@ -163,6 +143,15 @@ public class ContentElementTest {
 
         //Save "content element"
         entityManager.persist(contentElement);
+    }
+
+    public BasicAttributeDefinition createBasicAttributeDefinition(String author, int i, AttributeType string, boolean b) {
+        BasicAttributeDefinition authorAttributeDefinition = new BasicAttributeDefinition();
+        authorAttributeDefinition.setName(author);
+        authorAttributeDefinition.setPriority(i);
+        authorAttributeDefinition.setAttributeType(string);
+        authorAttributeDefinition.setMultivalue(b);
+        return authorAttributeDefinition;
     }
 
 }

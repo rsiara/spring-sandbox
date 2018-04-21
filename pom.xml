@@ -122,6 +122,7 @@
         <module>read_locking</module>
         <module>locking</module>
         <module>content_element_sandbox</module>
+        <module>content_element_sandbox_second</module>
     </modules>
 
 

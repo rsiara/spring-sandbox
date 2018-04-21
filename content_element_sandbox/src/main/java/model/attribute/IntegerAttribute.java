@@ -5,7 +5,7 @@ import javax.persistence.AccessType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 
-@Entity(name = "BOOLEAN_ATTRIBUTE")
+@Entity(name = "INTEGER_ATTRIBUTE")
 @Access(AccessType.FIELD)
 public class IntegerAttribute extends BasicAttribute {
 
@@ -21,7 +21,7 @@ public class IntegerAttribute extends BasicAttribute {
     public void set(Object value) {
         if (value != null) {
             if (value instanceof Integer) {
-                value = value;
+                this.value = (Integer) value;
                 return;
             }
             throw new IllegalArgumentException("Integer type of value exptected");

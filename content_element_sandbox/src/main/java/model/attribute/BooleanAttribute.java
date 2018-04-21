@@ -4,6 +4,7 @@ import javax.persistence.Access;
 import javax.persistence.AccessType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import java.util.List;
 
 @Entity(name = "BOOLEAN_ATTRIBUTE")
 @Access(AccessType.FIELD)

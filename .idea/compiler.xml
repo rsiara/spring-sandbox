@@ -22,6 +22,7 @@
         <module name="constraint_validation_in_lifecycle" />
         <module name="constraints" />
         <module name="content_element_sandbox" />
+        <module name="content_element_sandbox_second" />
         <module name="converting_attribute_state" />
         <module name="criteria_api_basic_queries" />
         <module name="criteria_api_metamodel_api" />
@@ -127,7 +128,6 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="access" target="1.5" />
       <module name="access_field" target="1.5" />
       <module name="access_mixed" target="1.5" />
       <module name="access_property" target="1.5" />
@@ -139,9 +139,9 @@
       <module name="constraint_groups" target="1.5" />
       <module name="constraint_validating_entity" target="1.5" />
       <module name="constraint_validation_in_lifecycle" target="1.5" />
-      <module name="constraint_validation_lifecycle" target="1.5" />
       <module name="constraints" target="1.5" />
       <module name="content_element_sandbox" target="7" />
+      <module name="content_element_sandbox_second" target="7" />
       <module name="converting_attribute_state" target="1.5" />
       <module name="criteria_api_basic_queries" target="1.5" />
       <module name="criteria_api_metamodel_api" target="1.5" />
@@ -167,7 +167,6 @@
       <module name="entity_graph_named_entity_graph_root_inheritance" target="1.5" />
       <module name="entity_graph_named_entity_graph_subgraph" target="1.5" />
       <module name="entity_refresh" target="1.5" />
-      <module name="entity_revert" target="1.5" />
       <module name="id_auto_generation" target="1.5" />
       <module name="id_class_id" target="1.5" />
       <module name="id_db_idendity_generation" target="1.5" />
@@ -197,9 +196,6 @@
       <module name="map_key_embeddable_attr_override_value_entity" target="1.5" />
       <module name="map_key_embeddable_insertable_value_entity" target="1.5" />
       <module name="map_key_embeddable_non_insertable_value_entity" target="1.5" />
-      <module name="map_key_embeddable_value_entity" target="1.5" />
-      <module name="map_key_embeddable_value_entity_v2" target="1.5" />
-      <module name="map_key_entity_value_basic" target="1.5" />
       <module name="map_key_enum_value_basic" target="1.5" />
       <module name="map_untyped" target="1.5" />
       <module name="mapping_custom_table_schema" target="1.5" />
@@ -209,17 +205,14 @@
       <module name="mapping_read_only" target="1.5" />
       <module name="mapping_relationship_state" target="1.5" />
       <module name="mapping_transient" target="1.5" />
-      <module name="maps" target="1.5" />
       <module name="multiple_tables_mapping_of_embedded_type" target="1.5" />
       <module name="multiple_tables_mapping_of_entity" target="1.5" />
       <module name="multiple_tables_mapping_of_entity_with_multiple_secondary_tables" target="1.5" />
       <module name="one_to_many_bidirectional_joincolumn" target="1.5" />
       <module name="one_to_many_bidirectional_joincolumn_target_entity" target="1.5" />
       <module name="one_to_many_bidirectional_jointable" target="1.5" />
-      <module name="one_to_many_to_itself" target="1.5" />
       <module name="one_to_many_to_itself_bidirectional" target="1.8" />
       <module name="one_to_many_to_itself_unidirectional" target="1.5" />
-      <module name="one_to_many_unidirectional" target="1.5" />
       <module name="one_to_many_unidirectional_jointable" target="1.5" />
       <module name="one_to_many_unidirectional_no_jointable" target="1.5" />
       <module name="one_to_one_bidirectional" target="1.5" />
@@ -238,7 +231,6 @@
       <module name="query_dynamic_named_query" target="1.5" />
       <module name="query_dynamic_query" target="1.5" />
       <module name="query_executing_queries_examples" target="1.5" />
-      <module name="query_hints" target="1.5" />
       <module name="query_hints_examples" target="1.5" />
       <module name="query_jpql_many_examples" target="1.5" />
       <module name="query_message_board" target="1.5" />
@@ -246,10 +238,8 @@
       <module name="query_paging" target="1.5" />
       <module name="query_param_types" target="1.8" />
       <module name="query_result_example" target="1.5" />
-      <module name="read_locking" target="1.5" />
       <module name="Sandbox" target="1.5" />
       <module name="sharing_embeddable_key_mappings_with_values" target="1.5" />
-      <module name="validating_entity" target="1.5" />
       <module name="validator_injection" target="1.5" />
     </bytecodeTargetLevel>
   </component>

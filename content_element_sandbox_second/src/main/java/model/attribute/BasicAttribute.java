@@ -6,9 +6,11 @@ import javax.persistence.InheritanceType;
 
 @Entity(name = "BASIC_ATTRIBUTE")
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
-public abstract class BasicAttribute extends Attribute {
+public abstract class BasicAttribute<T, E> extends Attribute {
 
-    public abstract Object get();
+    public abstract T getValue();
 
-    public abstract void set(Object values);
+    public abstract void setValues(T values);
+
+    public abstract void addValue(E value);
 }
