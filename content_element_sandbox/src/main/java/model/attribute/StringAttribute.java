@@ -32,7 +32,6 @@ public class StringAttribute extends BasicAttribute {
     public String toString() {
         return "StringAttribute{" +
                 "value=" + value +
-                ", name='" + name + '\'' +
                 '}';
     }
 }

@@ -1,12 +1,15 @@
 package model.attribute;
 
-import javax.persistence.Column;
+import model.attribute.definition.AttributeDefinition;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Inheritance;
 import javax.persistence.InheritanceType;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 
 @Entity(name = "ATTRIBUTE")
 @Inheritance(strategy = InheritanceType.JOINED)
@@ -16,8 +19,9 @@ public abstract class Attribute {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     int id;
 
-    @Column
-    String name;
+    @ManyToOne
+    @JoinColumn(name = "ATTRIBUTE_DEF_ID")
+    AttributeDefinition attributeDefinition;
 
     public int getId() {
         return id;
@@ -27,11 +31,13 @@ public abstract class Attribute {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public AttributeDefinition getAttributeDefinition() {
+        return attributeDefinition;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setAttributeDefinition(AttributeDefinition attributeDefinition) {
+        this.attributeDefinition = attributeDefinition;
     }
+
+
 }

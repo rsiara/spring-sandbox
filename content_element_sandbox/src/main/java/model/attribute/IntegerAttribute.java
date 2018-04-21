@@ -7,24 +7,24 @@ import javax.persistence.Entity;
 
 @Entity(name = "BOOLEAN_ATTRIBUTE")
 @Access(AccessType.FIELD)
-public class BooleanAttribute extends BasicAttribute {
+public class IntegerAttribute extends BasicAttribute {
 
     @Column
-    boolean value;
+    int value;
 
     @Override
     public Object get() {
-        return new Boolean(value);
+        return new Integer(value);
     }
 
     @Override
     public void set(Object value) {
         if (value != null) {
-            if (value instanceof Boolean) {
+            if (value instanceof Integer) {
                 value = value;
                 return;
             }
-            throw new IllegalArgumentException("Boolean type of value exptected");
+            throw new IllegalArgumentException("Integer type of value exptected");
         }
     }
 

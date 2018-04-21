@@ -1,7 +1,8 @@
 package model.type;
 
 public enum AttributeType {
-    Boolean,
-    String,
-    Complex
+    BOOLEAN,
+    STRING,
+    INTEGER,
+    COMPLEX
 }

@@ -13,147 +13,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d9a5c24-0ab2-4622-9484-8b0abafbe55a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/constraint_validating_entity/constraint_validating_entity.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constraint_validating_entity/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constraint_validating_entity/src/main/java/model/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constraint_validating_entity/src/main/java/model/EmployeeInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constraint_validating_entity/src/main/java/model/PersonInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constraint_validating_entity/src/test/java/ConstraintValidatingEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constraint_validation_in_lifecycle/constraint_validation_in_lifecycle.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constraint_validation_in_lifecycle/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constraint_validation_in_lifecycle/src/main/java/model/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constraint_validation_in_lifecycle/src/main/java/model/Remove.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constraint_validation_in_lifecycle/src/test/java/ConstraintValidationLifecycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content_element_sandbox/content_element_sandbox.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content_element_sandbox/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content_element_sandbox/src/main/java/helper/AttributeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/ContentElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/Attribute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/BasicAttribute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/BooleanAttribute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/ComplexAttribute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/StringAttribute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/type/AttributeType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/type/ContentElementType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content_element_sandbox/src/test/java/ContentElementTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entity_refresh/entity_refresh.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entity_refresh/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entity_refresh/src/main/java/model/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entity_refresh/src/test/java/EntityRefresh.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/locking/Readme" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/locking/locking.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/locking/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_2_0_M1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_2_0_M1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/IntegerAttribute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/definition/AttributeDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/definition/BasicAttributeDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/definition/ComplexAttributeDefinition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sandbox.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/access_field/access_field.iml" beforeDir="false" afterPath="$PROJECT_DIR$/access_field/access_field.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/access_mixed/access_mixed.iml" beforeDir="false" afterPath="$PROJECT_DIR$/access_mixed/access_mixed.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/access_property/access_property.iml" beforeDir="false" afterPath="$PROJECT_DIR$/access_property/access_property.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collection_of_embedded/collection_of_embedded.iml" beforeDir="false" afterPath="$PROJECT_DIR$/collection_of_embedded/collection_of_embedded.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collection_order_persistence/collection_order_persistence.iml" beforeDir="false" afterPath="$PROJECT_DIR$/collection_order_persistence/collection_order_persistence.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collection_override_table_columns/collection_override_table_columns.iml" beforeDir="false" afterPath="$PROJECT_DIR$/collection_override_table_columns/collection_override_table_columns.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constraint_annotation/constraint_annotation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/constraint_annotation/constraint_annotation.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constraint_groups/constraint_groups.iml" beforeDir="false" afterPath="$PROJECT_DIR$/constraint_groups/constraint_groups.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constraint_groups/src/test/java/ConstraintGroups.java" beforeDir="false" afterPath="$PROJECT_DIR$/constraint_groups/src/test/java/ConstraintGroups.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constraints/constraints.iml" beforeDir="false" afterPath="$PROJECT_DIR$/constraints/constraints.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/converting_attribute_state/converting_attribute_state.iml" beforeDir="false" afterPath="$PROJECT_DIR$/converting_attribute_state/converting_attribute_state.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/criteria_api_basic_queries/criteria_api_basic_queries.iml" beforeDir="false" afterPath="$PROJECT_DIR$/criteria_api_basic_queries/criteria_api_basic_queries.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/criteria_api_metamodel_api/criteria_api_metamodel_api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/criteria_api_metamodel_api/criteria_api_metamodel_api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_entity_graph_basic/dynamic_entity_graph_basic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_entity_graph_basic/dynamic_entity_graph_basic.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_entity_graph_inheritance/dynamic_entity_graph_inheritance.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_entity_graph_inheritance/dynamic_entity_graph_inheritance.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_entity_graph_map_key/dynamic_entity_graph_map_key.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_entity_graph_map_key/dynamic_entity_graph_map_key.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_entity_graph_multiple_defs/dynamic_entity_graph_multiple_defs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_entity_graph_multiple_defs/dynamic_entity_graph_multiple_defs.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_entity_graph_root_inheritance/dynamic_entity_graph_root_inheritance.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_entity_graph_root_inheritance/dynamic_entity_graph_root_inheritance.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_entity_graph_subgraphs/dynamic_entity_graph_subgraphs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_entity_graph_subgraphs/dynamic_entity_graph_subgraphs.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/em_operations_find_remove_persist/em_operations_find_remove_persist.iml" beforeDir="false" afterPath="$PROJECT_DIR$/em_operations_find_remove_persist/em_operations_find_remove_persist.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/em_operations_persist_clear_flush_merge_detach/em_operations_persist_clear_flush_merge_detach.iml" beforeDir="false" afterPath="$PROJECT_DIR$/em_operations_persist_clear_flush_merge_detach/em_operations_persist_clear_flush_merge_detach.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/em_persistent_context_unsychronized/em_persistent_context_unsychronized.iml" beforeDir="false" afterPath="$PROJECT_DIR$/em_persistent_context_unsychronized/em_persistent_context_unsychronized.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/embedded_object/embedded_object.iml" beforeDir="false" afterPath="$PROJECT_DIR$/embedded_object/embedded_object.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/embedded_object_advanced_mappings/embedded_object_advanced_mappings.iml" beforeDir="false" afterPath="$PROJECT_DIR$/embedded_object_advanced_mappings/embedded_object_advanced_mappings.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/embedded_object_overriding_embedded_relationships/embedded_object_overriding_embedded_relationships.iml" beforeDir="false" afterPath="$PROJECT_DIR$/embedded_object_overriding_embedded_relationships/embedded_object_overriding_embedded_relationships.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/embedded_object_sharing_and_override_column_name/embedded_object_sharing_and_override_column_name.iml" beforeDir="false" afterPath="$PROJECT_DIR$/embedded_object_sharing_and_override_column_name/embedded_object_sharing_and_override_column_name.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entity_graph_accessing/entity_graph_accessing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/entity_graph_accessing/entity_graph_accessing.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entity_graph_creating_from_existing/entity_graph_creating_from_existing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/entity_graph_creating_from_existing/entity_graph_creating_from_existing.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entity_graph_named_entity_graph_basic/entity_graph_named_entity_graph_basic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/entity_graph_named_entity_graph_basic/entity_graph_named_entity_graph_basic.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entity_graph_named_entity_graph_inheritance/entity_graph_named_entity_graph_inheritance.iml" beforeDir="false" afterPath="$PROJECT_DIR$/entity_graph_named_entity_graph_inheritance/entity_graph_named_entity_graph_inheritance.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entity_graph_named_entity_graph_map_key/entity_graph_named_entity_graph_map_key.iml" beforeDir="false" afterPath="$PROJECT_DIR$/entity_graph_named_entity_graph_map_key/entity_graph_named_entity_graph_map_key.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entity_graph_named_entity_graph_multiple_defs/entity_graph_named_entity_graph_multiple_defs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/entity_graph_named_entity_graph_multiple_defs/entity_graph_named_entity_graph_multiple_defs.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entity_graph_named_entity_graph_root_inheritance/entity_graph_named_entity_graph_root_inheritance.iml" beforeDir="false" afterPath="$PROJECT_DIR$/entity_graph_named_entity_graph_root_inheritance/entity_graph_named_entity_graph_root_inheritance.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entity_graph_named_entity_graph_subgraph/entity_graph_named_entity_graph_subgraph.iml" beforeDir="false" afterPath="$PROJECT_DIR$/entity_graph_named_entity_graph_subgraph/entity_graph_named_entity_graph_subgraph.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/id_auto_generation/id_auto_generation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/id_auto_generation/id_auto_generation.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/id_class_id/id_class_id.iml" beforeDir="false" afterPath="$PROJECT_DIR$/id_class_id/id_class_id.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/id_db_idendity_generation/id_db_idendity_generation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/id_db_idendity_generation/id_db_idendity_generation.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/id_derived_embedded_id/id_derived_embedded_id.iml" beforeDir="false" afterPath="$PROJECT_DIR$/id_derived_embedded_id/id_derived_embedded_id.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/id_derived_shared_maps_id/id_derived_shared_maps_id.iml" beforeDir="false" afterPath="$PROJECT_DIR$/id_derived_shared_maps_id/id_derived_shared_maps_id.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/id_derived_single_key/id_derived_single_key.iml" beforeDir="false" afterPath="$PROJECT_DIR$/id_derived_single_key/id_derived_single_key.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/id_embedded_class_id/id_embedded_class_id.iml" beforeDir="false" afterPath="$PROJECT_DIR$/id_embedded_class_id/id_embedded_class_id.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/id_multiple_mapped_attributes/id_multiple_mapped_attributes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/id_multiple_mapped_attributes/id_multiple_mapped_attributes.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inheritance_joined_table/inheritance_joined_table.iml" beforeDir="false" afterPath="$PROJECT_DIR$/inheritance_joined_table/inheritance_joined_table.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inheritance_joined_with_one_to_many_to_itself_bidirectional/inheritance_joined_with_one_to_many_to_itself_bidirectional.iml" beforeDir="false" afterPath="$PROJECT_DIR$/inheritance_joined_with_one_to_many_to_itself_bidirectional/inheritance_joined_with_one_to_many_to_itself_bidirectional.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inheritance_mixed/inheritance_mixed.iml" beforeDir="false" afterPath="$PROJECT_DIR$/inheritance_mixed/inheritance_mixed.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inheritance_single_table/inheritance_single_table.iml" beforeDir="false" afterPath="$PROJECT_DIR$/inheritance_single_table/inheritance_single_table.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inheritance_singletable_with_one_to_many_to_itself_bidirectional/inheritance_singletable_with_one_to_many_to_itself_bidirectional.iml" beforeDir="false" afterPath="$PROJECT_DIR$/inheritance_singletable_with_one_to_many_to_itself_bidirectional/inheritance_singletable_with_one_to_many_to_itself_bidirectional.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inheritance_table_per_concrete_class/inheritance_table_per_concrete_class.iml" beforeDir="false" afterPath="$PROJECT_DIR$/inheritance_table_per_concrete_class/inheritance_table_per_concrete_class.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lifecycle_callbacks_inheritance/lifecycle_callbacks_inheritance.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lifecycle_callbacks_inheritance/lifecycle_callbacks_inheritance.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/many_to_many_and_one_to_many_compound_join_table_columns/many_to_many_and_one_to_many_compound_join_table_columns.iml" beforeDir="false" afterPath="$PROJECT_DIR$/many_to_many_and_one_to_many_compound_join_table_columns/many_to_many_and_one_to_many_compound_join_table_columns.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/many_to_many_bidirectional/many_to_many_bidirectional.iml" beforeDir="false" afterPath="$PROJECT_DIR$/many_to_many_bidirectional/many_to_many_bidirectional.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/many_to_many_bidirectional_jointable/many_to_many_bidirectional_jointable.iml" beforeDir="false" afterPath="$PROJECT_DIR$/many_to_many_bidirectional_jointable/many_to_many_bidirectional_jointable.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/many_to_one_unidirectional/many_to_one_unidirectional.iml" beforeDir="false" afterPath="$PROJECT_DIR$/many_to_one_unidirectional/many_to_one_unidirectional.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/many_to_one_unidirectional_jointable/many_to_one_unidirectional_jointable.iml" beforeDir="false" afterPath="$PROJECT_DIR$/many_to_one_unidirectional_jointable/many_to_one_unidirectional_jointable.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map_key_basic_value_entity/map_key_basic_value_entity.iml" beforeDir="false" afterPath="$PROJECT_DIR$/map_key_basic_value_entity/map_key_basic_value_entity.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map_key_embeddable_attr_override_value_entity/map_key_embeddable_attr_override_value_entity.iml" beforeDir="false" afterPath="$PROJECT_DIR$/map_key_embeddable_attr_override_value_entity/map_key_embeddable_attr_override_value_entity.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map_key_embeddable_insertable_value_entity/map_key_embeddable_insertable_value_entity.iml" beforeDir="false" afterPath="$PROJECT_DIR$/map_key_embeddable_insertable_value_entity/map_key_embeddable_insertable_value_entity.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map_key_embeddable_non_insertable_value_entity/map_key_embeddable_non_insertable_value_entity.iml" beforeDir="false" afterPath="$PROJECT_DIR$/map_key_embeddable_non_insertable_value_entity/map_key_embeddable_non_insertable_value_entity.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map_key_enum_value_basic/map_key_enum_value_basic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/map_key_enum_value_basic/map_key_enum_value_basic.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map_untyped/map_untyped.iml" beforeDir="false" afterPath="$PROJECT_DIR$/map_untyped/map_untyped.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapping_custom_table_schema/mapping_custom_table_schema.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mapping_custom_table_schema/mapping_custom_table_schema.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapping_date/mapping_date.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mapping_date/mapping_date.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapping_enum/mapping_enum.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mapping_enum/mapping_enum.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapping_lob/mapping_lob.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mapping_lob/mapping_lob.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapping_read_only/mapping_read_only.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mapping_read_only/mapping_read_only.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapping_relationship_state/mapping_relationship_state.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mapping_relationship_state/mapping_relationship_state.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapping_transient/mapping_transient.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mapping_transient/mapping_transient.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multiple_tables_mapping_of_embedded_type/multiple_tables_mapping_of_embedded_type.iml" beforeDir="false" afterPath="$PROJECT_DIR$/multiple_tables_mapping_of_embedded_type/multiple_tables_mapping_of_embedded_type.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multiple_tables_mapping_of_entity/multiple_tables_mapping_of_entity.iml" beforeDir="false" afterPath="$PROJECT_DIR$/multiple_tables_mapping_of_entity/multiple_tables_mapping_of_entity.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multiple_tables_mapping_of_entity_with_multiple_secondary_tables/multiple_tables_mapping_of_entity_with_multiple_secondary_tables.iml" beforeDir="false" afterPath="$PROJECT_DIR$/multiple_tables_mapping_of_entity_with_multiple_secondary_tables/multiple_tables_mapping_of_entity_with_multiple_secondary_tables.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/one_to_many_bidirectional_joincolumn/one_to_many_bidirectional_joincolumn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/one_to_many_bidirectional_joincolumn/one_to_many_bidirectional_joincolumn.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/one_to_many_bidirectional_joincolumn_target_entity/one_to_many_bidirectional_joincolumn_target_entity.iml" beforeDir="false" afterPath="$PROJECT_DIR$/one_to_many_bidirectional_joincolumn_target_entity/one_to_many_bidirectional_joincolumn_target_entity.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/one_to_many_bidirectional_jointable/one_to_many_bidirectional_jointable.iml" beforeDir="false" afterPath="$PROJECT_DIR$/one_to_many_bidirectional_jointable/one_to_many_bidirectional_jointable.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/one_to_many_to_itself_bidirectional/one_to_many_to_itself_bidirectional.iml" beforeDir="false" afterPath="$PROJECT_DIR$/one_to_many_to_itself_bidirectional/one_to_many_to_itself_bidirectional.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/one_to_many_to_itself_unidirectional/one_to_many_to_itself_unidirectional.iml" beforeDir="false" afterPath="$PROJECT_DIR$/one_to_many_to_itself_unidirectional/one_to_many_to_itself_unidirectional.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/one_to_many_unidirectional_jointable/one_to_many_unidirectional_jointable.iml" beforeDir="false" afterPath="$PROJECT_DIR$/one_to_many_unidirectional_jointable/one_to_many_unidirectional_jointable.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/one_to_many_unidirectional_jointable/src/main/java/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/one_to_many_unidirectional_jointable/src/main/java/model/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/one_to_many_unidirectional_no_jointable/one_to_many_unidirectional_no_jointable.iml" beforeDir="false" afterPath="$PROJECT_DIR$/one_to_many_unidirectional_no_jointable/one_to_many_unidirectional_no_jointable.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/one_to_one_bidirectional/one_to_one_bidirectional.iml" beforeDir="false" afterPath="$PROJECT_DIR$/one_to_one_bidirectional/one_to_one_bidirectional.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/one_to_one_bidirectional_pk_mapping/one_to_one_bidirectional_pk_mapping.iml" beforeDir="false" afterPath="$PROJECT_DIR$/one_to_one_bidirectional_pk_mapping/one_to_one_bidirectional_pk_mapping.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/one_to_one_unidirectional/one_to_one_unidirectional.iml" beforeDir="false" afterPath="$PROJECT_DIR$/one_to_one_unidirectional/one_to_one_unidirectional.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orphan_removal/orphan_removal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/orphan_removal/orphan_removal.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parent_module/parent_module.iml" beforeDir="false" afterPath="$PROJECT_DIR$/parent_module/parent_module.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parent_module/src/main/java/configuration/PersistenceJPAConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/parent_module/src/main/java/configuration/PersistenceJPAConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_advanced_constructor_result_mapping/query_advanced_constructor_result_mapping.iml" beforeDir="false" afterPath="$PROJECT_DIR$/query_advanced_constructor_result_mapping/query_advanced_constructor_result_mapping.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_advanced_id_class_result_mapping/query_advanced_id_class_result_mapping.iml" beforeDir="false" afterPath="$PROJECT_DIR$/query_advanced_id_class_result_mapping/query_advanced_id_class_result_mapping.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_advanced_inheritance_result_mapping/query_advanced_inheritance_result_mapping.iml" beforeDir="false" afterPath="$PROJECT_DIR$/query_advanced_inheritance_result_mapping/query_advanced_inheritance_result_mapping.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_advanced_native_queries/query_advanced_native_queries.iml" beforeDir="false" afterPath="$PROJECT_DIR$/query_advanced_native_queries/query_advanced_native_queries.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_advanced_sql_insert_delete/query_advanced_sql_insert_delete.iml" beforeDir="false" afterPath="$PROJECT_DIR$/query_advanced_sql_insert_delete/query_advanced_sql_insert_delete.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_advanced_sql_result_set_mapping/query_advanced_sql_result_set_mapping.iml" beforeDir="false" afterPath="$PROJECT_DIR$/query_advanced_sql_result_set_mapping/query_advanced_sql_result_set_mapping.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_advanced_stored_procedure/query_advanced_stored_procedure.iml" beforeDir="false" afterPath="$PROJECT_DIR$/query_advanced_stored_procedure/query_advanced_stored_procedure.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_bulk_query/query_bulk_query.iml" beforeDir="false" afterPath="$PROJECT_DIR$/query_bulk_query/query_bulk_query.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_dynamic_named_query/query_dynamic_named_query.iml" beforeDir="false" afterPath="$PROJECT_DIR$/query_dynamic_named_query/query_dynamic_named_query.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_dynamic_query/query_dynamic_query.iml" beforeDir="false" afterPath="$PROJECT_DIR$/query_dynamic_query/query_dynamic_query.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_executing_queries_examples/query_executing_queries_examples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/query_executing_queries_examples/query_executing_queries_examples.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_hints_examples/query_hints_examples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/query_hints_examples/query_hints_examples.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_jpql_many_examples/query_jpql_many_examples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/query_jpql_many_examples/query_jpql_many_examples.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_message_board/query_message_board.iml" beforeDir="false" afterPath="$PROJECT_DIR$/query_message_board/query_message_board.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_named_query/query_named_query.iml" beforeDir="false" afterPath="$PROJECT_DIR$/query_named_query/query_named_query.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_paging/query_paging.iml" beforeDir="false" afterPath="$PROJECT_DIR$/query_paging/query_paging.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_param_types/query_param_types.iml" beforeDir="false" afterPath="$PROJECT_DIR$/query_param_types/query_param_types.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sharing_embeddable_key_mappings_with_values/sharing_embeddable_key_mappings_with_values.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sharing_embeddable_key_mappings_with_values/sharing_embeddable_key_mappings_with_values.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/validator_injection/validator_injection.iml" beforeDir="false" afterPath="$PROJECT_DIR$/validator_injection/validator_injection.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content_element_sandbox/src/main/java/helper/AttributeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/content_element_sandbox/src/main/java/helper/AttributeFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/ContentElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/ContentElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/Attribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/Attribute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/BooleanAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/BooleanAttribute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/ComplexAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/ComplexAttribute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/StringAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/StringAttribute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/type/AttributeType.java" beforeDir="false" afterPath="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/type/AttributeType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/type/ContentElementType.java" beforeDir="false" afterPath="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/type/ContentElementType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content_element_sandbox/src/test/java/ContentElementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/content_element_sandbox/src/test/java/ContentElementTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -332,82 +205,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ATTRIBUTE" pinned="false" current-in-tab="false">
-        <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContentElementTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ContentElementTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/test/java/ContentElementTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="691">
-              <caret line="60" column="45" lean-forward="true" selection-start-line="60" selection-start-column="45" selection-end-line="60" selection-end-column="45" />
-              <folding>
-                <element signature="method#basic_and_complex_attribute_test#0;class#ContentElementTest#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BASIC_ATTRIBUTE" pinned="false" current-in-tab="false">
-        <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/BASIC_ATTRIBUTE">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BOOLEAN_ATTRIBUTE" pinned="false" current-in-tab="false">
-        <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/BOOLEAN_ATTRIBUTE">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="COMPLEX_ATTRIBUTE" pinned="false" current-in-tab="false">
-        <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/COMPLEX_ATTRIBUTE">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="STRING_ATTRIBUTE" pinned="false" current-in-tab="false">
-        <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/STRING_ATTRIBUTE">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContentElementType.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/model/type/ContentElementType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#235#236#0" expanded="true" />
-                <element signature="e#280#281#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BooleanAttribute.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/BooleanAttribute.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+            <state relative-caret-position="219">
+              <caret line="100" selection-start-line="100" selection-end-line="100" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -415,11 +217,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ComplexAttribute.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ComplexAttribute.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/ComplexAttribute.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+            <state relative-caret-position="285">
+              <caret line="33" column="30" lean-forward="true" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -427,11 +229,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringAttribute.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/StringAttribute.java">
+      <file leaf-file-name="ContentElement.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/model/ContentElement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+            <state relative-caret-position="317">
+              <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Attribute.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/Attribute.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -448,14 +262,13 @@
         <option value="JUnit4 Test Class" />
         <option value="FxmlFile" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>LongNameValidator</find>
-      <find>Hibernate</find>
       <find>&lt;depende</find>
       <find>validating_entity_constraint</find>
       <find>validating_entity</find>
@@ -479,11 +292,13 @@
       <find>crite</find>
       <find>AssociationOve</find>
       <find>@Att</find>
-      <find>select e</find>
+      <find />
       <find>IN(</find>
       <find>@OrderColumn</find>
       <find>Enumerated</find>
       <find>value</find>
+      <find>ATTRIBUTE_DEFI</find>
+      <find>Attribute</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -507,15 +322,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/constraint_annotation/src/test/java/ConstraintAnnotation.java" />
-        <option value="$PROJECT_DIR$/validating_entity_constraint/pom.xml" />
-        <option value="$PROJECT_DIR$/constraint_validating_entity/pom.xml" />
-        <option value="$PROJECT_DIR$/constraint_validating_entity/src/main/java/model/Employee.java" />
-        <option value="$PROJECT_DIR$/constraint_validating_entity/src/main/java/model/EmployeeInfo.java" />
-        <option value="$PROJECT_DIR$/constraint_validating_entity/src/main/java/model/PersonInfo.java" />
-        <option value="$PROJECT_DIR$/constraint_validation_lifecycle/pom.xml" />
-        <option value="$PROJECT_DIR$/constraint_validation_lifecycle/src/main/java/model/Employee.java" />
-        <option value="$PROJECT_DIR$/constraint_validating_entity/src/test/java/ConstraintValidatingEntity.java" />
         <option value="$PROJECT_DIR$/constraint_validation_lifecycle/src/test/java/ConstraintValidationLifecycle.java" />
         <option value="$PROJECT_DIR$/constraint_groups/src/test/java/ConstraintGroups.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -547,17 +353,26 @@
         <option value="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/AttributeValue.java" />
         <option value="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/BasicAttribute.java" />
         <option value="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/NumberAttribute.java" />
-        <option value="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/ContentElement.java" />
-        <option value="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/type/AttributeType.java" />
-        <option value="$PROJECT_DIR$/content_element_sandbox/src/main/java/helper/AttributeFactory.java" />
         <option value="$PROJECT_DIR$/one_to_many_unidirectional_jointable/src/main/java/model/Employee.java" />
         <option value="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/BasicAttribute.java" />
-        <option value="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/Attribute.java" />
+        <option value="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/type/AttributeConfiguration.java" />
         <option value="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/BooleanAttribute.java" />
-        <option value="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/ComplexAttribute.java" />
+        <option value="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/IntegerAttribute.java" />
+        <option value="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/type/AttributeType.java" />
+        <option value="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/type/AttributeDefinition.java" />
+        <option value="$PROJECT_DIR$/content_element_sandbox/src/main/java/helper/AttributeHelper.java" />
         <option value="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/StringAttribute.java" />
+        <option value="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/type/ComplexAttributeDefinition.java" />
+        <option value="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/type/BasicAttributeDefinition.java" />
         <option value="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/type/ContentElementType.java" />
+        <option value="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/definition/BasicAttributeDefinition.java" />
+        <option value="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/definition/AttributeDefinition.java" />
+        <option value="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/definition/ComplexAttributeDefinition.java" />
+        <option value="$PROJECT_DIR$/content_element_sandbox/src/main/java/helper/AttributeFactory.java" />
+        <option value="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/ComplexAttribute.java" />
         <option value="$PROJECT_DIR$/content_element_sandbox/src/test/java/ContentElementTest.java" />
+        <option value="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/ContentElement.java" />
+        <option value="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/Attribute.java" />
       </list>
     </option>
   </component>
@@ -602,9 +417,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="68" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="790" />
+    <option name="y" value="394" />
     <option name="width" value="1860" />
     <option name="height" value="1216" />
   </component>
@@ -697,15 +512,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="helper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="content_element_sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -717,6 +523,17 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
               <item name="attribute" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="content_element_sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="attribute" type="462c0819:PsiDirectoryNode" />
+              <item name="definition" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
@@ -746,6 +563,56 @@
             <path>
               <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="converting_attribute_state" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="converting_attribute_state" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="converting_attribute_state" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="converting_attribute_state" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="converting_attribute_state" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="converting_attribute_state" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="converting_attribute_state" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
               <item name="inheritance_joined_table" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -796,25 +663,25 @@
             <path>
               <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="map_key_basic_value_entity" type="462c0819:PsiDirectoryNode" />
+              <item name="many_to_one_unidirectional" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="map_key_basic_value_entity" type="462c0819:PsiDirectoryNode" />
+              <item name="many_to_one_unidirectional" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="map_key_basic_value_entity" type="462c0819:PsiDirectoryNode" />
+              <item name="many_to_one_unidirectional" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="map_key_basic_value_entity" type="462c0819:PsiDirectoryNode" />
+              <item name="many_to_one_unidirectional" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -822,11 +689,18 @@
             <path>
               <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="map_key_basic_value_entity" type="462c0819:PsiDirectoryNode" />
+              <item name="many_to_one_unidirectional" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="many_to_one_unidirectional" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
@@ -1068,7 +942,7 @@
     <property name="SONARLINT_ANALYSIS_RESULTS_SCOPE" value="All project files" />
     <property name="SONARLINT_ANALYSIS_RESULTS_SPLIT_PROPORTION" value="0.45945945" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="Content&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/content_element_sandbox/src/main/java/model/ContentElement.java&#10;metamodel&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/criteria_api_metamodel_api/src/test/java/CriteriaApMetamodelApiTest.java&#10;PessimisticLoc&#9;PSI&#9;JAVA://org.hibernate.PessimisticLockException&#10;PersistenceJPA&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/parent_module/src/main/java/configuration/PersistenceJPAConfig.java&#10;JPAC&#9;PSI&#9;JAVA://configuration.PersistenceJPAConfig&#10;EntityGra&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/entity_graph_creating_from_existing/src/test/java/EntityGraphCreatingFromExisting.java&#10;Address&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/query_advanced_constructor_result_mapping/src/main/java/model/Address.java&#10;pom.xml&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/pom.xml&#10;Emplo&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/criteria_api_basic_queries/src/main/java/model/Employee.java&#10;Em&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/criteria_api_basic_queries/src/main/java/model/Employee.java&#10;Design&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/criteria_api_basic_queries/src/main/java/model/DesignProject.java&#10;Project&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/criteria_api_basic_queries/src/main/java/model/Project.java&#10;Employee&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/query_jpql_many_examples/src/main/java/model/EmployeeDetails.java&#10;jetbrains&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/.idea/libraries/JetbrainsLicense_jar.xml&#10;Jpa&#9;PSI&#9;JAVA://configuration.PersistenceJPAConfig&#10;JpaCon&#9;PSI&#9;JAVA://configuration.PersistenceJPAConfig&#10;Fin&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/FinanceUser.java&#10;JPA&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Configuration/PersistenceJPAConfig.java&#10;pe&#9;PSI&#9;JAVA://com.springstart.Configuration.PersistenceJPAConfig&#10;pers&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/META-INF/persistence.xml&#10;Finance_&#9;FILE&#9;das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.finances_user&#10;Fina&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/FinanceUser.java&#10;Bank&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/Bank.java&#10;Account&#9;PSI&#9;JAVA://com.springstart.Model.Entity.DatabaseEntity.Account&#10;logbac&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/resources/logback.xml&#10;Acco&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/Account.java&#10;BankDao&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/DatabaseDao/BankDao.java&#10;.x&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/resources/logback.xml&#10;Finance&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Service/DatabaseService/FinanceUserService.java&#10;DA&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/DatabaseDao/FinanceUserDao.java&#10;Fi&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Service/DatabaseService/FinanceUserService.java&#10;Finan&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/FinanceUser.java&#10;Projec&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/Project.java&#10;FinanceUser&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/FinanceUser.java&#10;lo&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/resources/logback.xml&#10;General&#9;PSI&#9;JAVA://com.springstart.Interceptor.GeneralInterceptor&#10;Gene&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Interceptor/GeneralInterceptor.java&#10;Home&#9;PSI&#9;JAVA://com.springstart.Controller.HomeController&#10;Fil&#9;FILE&#9;file:///home/robert/IdeaProjects/Sandbox/src/main/java/com/springstart/Filters/CustomFilter.java" />
+    <property name="SearchEverywhereHistoryKey" value="AttributeCon&#9;PSI&#9;JAVA://model.type.AttributeConfiguration&#10;Content&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/content_element_sandbox/src/main/java/model/ContentElement.java&#10;metamodel&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/criteria_api_metamodel_api/src/test/java/CriteriaApMetamodelApiTest.java&#10;PessimisticLoc&#9;PSI&#9;JAVA://org.hibernate.PessimisticLockException&#10;PersistenceJPA&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/parent_module/src/main/java/configuration/PersistenceJPAConfig.java&#10;JPAC&#9;PSI&#9;JAVA://configuration.PersistenceJPAConfig&#10;EntityGra&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/entity_graph_creating_from_existing/src/test/java/EntityGraphCreatingFromExisting.java&#10;Address&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/query_advanced_constructor_result_mapping/src/main/java/model/Address.java&#10;pom.xml&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/pom.xml&#10;Emplo&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/criteria_api_basic_queries/src/main/java/model/Employee.java&#10;Em&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/criteria_api_basic_queries/src/main/java/model/Employee.java&#10;Design&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/criteria_api_basic_queries/src/main/java/model/DesignProject.java&#10;Project&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/criteria_api_basic_queries/src/main/java/model/Project.java&#10;Employee&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/query_jpql_many_examples/src/main/java/model/EmployeeDetails.java&#10;jetbrains&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/.idea/libraries/JetbrainsLicense_jar.xml&#10;Jpa&#9;PSI&#9;JAVA://configuration.PersistenceJPAConfig&#10;JpaCon&#9;PSI&#9;JAVA://configuration.PersistenceJPAConfig&#10;Fin&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/FinanceUser.java&#10;JPA&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Configuration/PersistenceJPAConfig.java&#10;pe&#9;PSI&#9;JAVA://com.springstart.Configuration.PersistenceJPAConfig&#10;pers&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/META-INF/persistence.xml&#10;Finance_&#9;FILE&#9;das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.finances_user&#10;Fina&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/FinanceUser.java&#10;Bank&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/Bank.java&#10;Account&#9;PSI&#9;JAVA://com.springstart.Model.Entity.DatabaseEntity.Account&#10;logbac&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/resources/logback.xml&#10;Acco&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/Account.java&#10;BankDao&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/DatabaseDao/BankDao.java&#10;.x&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/resources/logback.xml&#10;Finance&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Service/DatabaseService/FinanceUserService.java&#10;DA&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/DatabaseDao/FinanceUserDao.java&#10;Fi&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Service/DatabaseService/FinanceUserService.java&#10;Finan&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/FinanceUser.java&#10;Projec&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/Project.java&#10;FinanceUser&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/FinanceUser.java&#10;lo&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/resources/logback.xml&#10;General&#9;PSI&#9;JAVA://com.springstart.Interceptor.GeneralInterceptor&#10;Gene&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Interceptor/GeneralInterceptor.java&#10;Home&#9;PSI&#9;JAVA://com.springstart.Controller.HomeController&#10;Fil&#9;FILE&#9;file:///home/robert/IdeaProjects/Sandbox/src/main/java/com/springstart/Filters/CustomFilter.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="H2&#10;MySQL" />
@@ -1076,7 +950,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="extract.method.default.visibility" value="public" />
     <property name="full.screen.before.presentation.mode" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15429688" />
     <property name="project.structure.side.proportion" value="0.4775604" />
@@ -1113,6 +987,7 @@
       <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\constraint_validation_lifecycle\src\main\java\model" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="helper" />
       <recent name="model.attribute" />
       <recent name="" />
       <recent name="model" />
@@ -1138,7 +1013,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ContentElementTest.content_element_client">
+  <component name="RunManager" selected="JUnit.ContentElementTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -1185,6 +1060,25 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="ContentElementTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="content_element_sandbox" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="krasa.grepconsole.plugin.runConfiguration.GrepRunConfigurationExtension" selectedProfileId="0" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ContentElementTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="ContentElementTest.content_element_client" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="content_element_sandbox" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -1214,25 +1108,6 @@
       <option name="MAIN_CLASS_NAME" value="MapKeyBasicValueBasicTest" />
       <option name="METHOD_NAME" value="map_key_basic_value_basic_test" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="QueryJpqlManyExamplesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="query_jpql_many_examples" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <extension name="krasa.grepconsole.plugin.runConfiguration.GrepRunConfigurationExtension" selectedProfileId="0" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="QueryJpqlManyExamplesTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -1443,19 +1318,19 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.Tomcat" />
-      <item itemvalue="JUnit.QueryJpqlManyExamplesTest" />
       <item itemvalue="JUnit.All in query_jpql_many_examples" />
       <item itemvalue="JUnit.All in query_jpql_many_examples (1)" />
       <item itemvalue="JUnit.MapKeyBasicValueBasicTest.map_key_basic_value_basic_test" />
       <item itemvalue="JUnit.ContentElementTest.content_element_client" />
+      <item itemvalue="JUnit.ContentElementTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ContentElementTest" />
         <item itemvalue="JUnit.ContentElementTest.content_element_client" />
         <item itemvalue="JUnit.MapKeyBasicValueBasicTest.map_key_basic_value_basic_test" />
         <item itemvalue="JUnit.All in query_jpql_many_examples (1)" />
         <item itemvalue="JUnit.All in query_jpql_many_examples" />
-        <item itemvalue="JUnit.QueryJpqlManyExamplesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1668,7 +1543,7 @@
       <workItem from="1523800192730" duration="4685000" />
       <workItem from="1523909752568" duration="1061000" />
       <workItem from="1524164134898" duration="11277000" />
-      <workItem from="1524289404402" duration="10359000" />
+      <workItem from="1524289404402" duration="33888000" />
     </task>
     <task id="LOCAL-00001" summary="Persistence.xml przeniesiony do JavaConfig (PersistenceJPAConfig)&#10;Dodanie pierwszego mapowania unidirectional Many-to-one">
       <created>1510526522683</created>
@@ -1922,43 +1797,50 @@
       <option name="project" value="LOCAL" />
       <updated>1523144363481</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Dodanie:&#10; - constraints">
+      <created>1524304331746</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1524304331746</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ContentElementTest_content_element_client - 2018.04.21 at 10h 23m 47s.xml">
-      <configuration name="ContentElementTest.content_element_client" configurationId="JUnit" />
+    <history-entry file="ContentElementTest - 2018.04.21 at 18h 28m 27s.xml">
+      <configuration name="ContentElementTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ContentElementTest_content_element_client - 2018.04.21 at 10h 25m 51s.xml">
-      <configuration name="ContentElementTest.content_element_client" configurationId="JUnit" />
+    <history-entry file="ContentElementTest - 2018.04.21 at 18h 28m 44s.xml">
+      <configuration name="ContentElementTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ContentElementTest_content_element_client - 2018.04.21 at 10h 26m 12s.xml">
-      <configuration name="ContentElementTest.content_element_client" configurationId="JUnit" />
+    <history-entry file="ContentElementTest - 2018.04.21 at 18h 29m 29s.xml">
+      <configuration name="ContentElementTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ContentElementTest_content_element_client - 2018.04.21 at 10h 26m 55s.xml">
-      <configuration name="ContentElementTest.content_element_client" configurationId="JUnit" />
+    <history-entry file="ContentElementTest - 2018.04.21 at 18h 34m 43s.xml">
+      <configuration name="ContentElementTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ContentElementTest_content_element_client - 2018.04.21 at 10h 27m 26s.xml">
-      <configuration name="ContentElementTest.content_element_client" configurationId="JUnit" />
+    <history-entry file="ContentElementTest - 2018.04.21 at 18h 35m 53s.xml">
+      <configuration name="ContentElementTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ContentElementTest_content_element_client - 2018.04.21 at 11h 25m 19s.xml">
-      <configuration name="ContentElementTest.content_element_client" configurationId="JUnit" />
+    <history-entry file="ContentElementTest - 2018.04.21 at 18h 53m 12s.xml">
+      <configuration name="ContentElementTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ContentElementTest_content_element_client - 2018.04.21 at 11h 25m 44s.xml">
-      <configuration name="ContentElementTest.content_element_client" configurationId="JUnit" />
+    <history-entry file="ContentElementTest - 2018.04.21 at 18h 53m 42s.xml">
+      <configuration name="ContentElementTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ContentElementTest_content_element_client - 2018.04.21 at 11h 28m 07s.xml">
-      <configuration name="ContentElementTest.content_element_client" configurationId="JUnit" />
+    <history-entry file="ContentElementTest - 2018.04.21 at 18h 54m 07s.xml">
+      <configuration name="ContentElementTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ContentElementTest_content_element_client - 2018.04.21 at 11h 39m 43s.xml">
-      <configuration name="ContentElementTest.content_element_client" configurationId="JUnit" />
+    <history-entry file="ContentElementTest - 2018.04.21 at 18h 54m 25s.xml">
+      <configuration name="ContentElementTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ContentElementTest_content_element_client - 2018.04.21 at 11h 40m 08s.xml">
-      <configuration name="ContentElementTest.content_element_client" configurationId="JUnit" />
+    <history-entry file="ContentElementTest - 2018.04.21 at 18h 55m 13s.xml">
+      <configuration name="ContentElementTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="861954000" />
+    <option name="totallyTimeSpent" value="885483000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1970,7 +1852,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1200" extended-state="6" />
+    <frame x="68" y="-8" width="1860" height="1216" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="9" weight="0.3299817" />
@@ -1980,26 +1862,25 @@
       <window_info anchor="bottom" id="Database Changes" order="0" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="7" />
-      <window_info anchor="right" id="Database" order="10" visible="true" weight="0.2421875" />
+      <window_info anchor="right" id="Database" order="10" weight="0.2421875" />
       <window_info id="Structure" order="1" sideWeight="0.5239756" side_tool="true" weight="0.2375" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.2498618" />
       <window_info id="UI Designer" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5928509" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.35967302" />
       <window_info anchor="right" id="Notes" order="11" weight="0.15885417" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3278117" />
-      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.32131323" weight="0.28976572" />
+      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.32131323" weight="0.28945073" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="bottom" id="Java Enterprise" order="15" weight="0.3283721" />
       <window_info anchor="bottom" id="Regex Tester" order="10" weight="0.32910246" />
       <window_info anchor="right" id="Capture Analysis" order="8" />
-      <window_info anchor="bottom" x="212" y="424" width="1224" height="619" id="Run" internal_type="SLIDING" order="2" sideWeight="0.5843733" weight="0.28247604" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="16" sideWeight="0.8439182" visible="true" weight="0.1918047" />
+      <window_info active="true" anchor="bottom" x="212" y="424" width="1224" height="619" id="Run" internal_type="SLIDING" order="2" sideWeight="0.5843733" visible="true" weight="0.49682108" />
+      <window_info anchor="bottom" id="Version Control" order="16" sideWeight="0.8439182" weight="0.1918047" />
       <window_info anchor="bottom" id="Spring" order="17" weight="0.3283721" />
       <window_info anchor="bottom" x="77" y="447" width="1843" height="305" id="Terminal" order="18" sideWeight="0.4156267" weight="0.36512262" />
       <window_info id="Persistence" order="8" sideWeight="0.36355394" side_tool="true" weight="0.30781758" />
-      <window_info anchor="bottom" id="Database Console" order="27" weight="0.28945073" />
-      <window_info content_ui="combo" x="457" y="247" width="502" height="745" id="Project" order="0" sideWeight="0.47602442" visible="true" weight="0.22760417" />
+      <window_info content_ui="combo" x="457" y="247" width="502" height="745" id="Project" order="0" sideWeight="0.47602442" visible="true" weight="0.23698482" />
       <window_info anchor="right" id="Bean Validation" order="12" />
       <window_info id="Web" order="5" sideWeight="0.645469" side_tool="true" weight="0.23880596" />
       <window_info anchor="bottom" id="SonarLint" order="11" weight="0.32910246" />
@@ -2009,6 +1890,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.52427185" side_tool="true" weight="0.2375" />
       <window_info anchor="bottom" id="Dependency Viewer" order="1" weight="0.32929105" />
       <window_info anchor="bottom" id="Tail" order="20" />
+      <window_info anchor="bottom" id="Database Console" order="27" weight="0.28945073" />
       <window_info anchor="bottom" id="Hibernate Console" order="23" weight="0.3293023" />
       <window_info anchor="bottom" id="Metrics" order="12" weight="0.3299817" />
       <window_info anchor="bottom" id="Thumbnails" order="26" weight="0.32929105" />
@@ -2222,6 +2104,24 @@
           <properties />
           <option name="timeStamp" value="155" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/content_element_sandbox/src/test/java/ContentElementTest.java</url>
+          <line>100</line>
+          <properties />
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/content_element_sandbox/src/main/java/helper/AttributeFactory.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/content_element_sandbox/src/main/java/model/ContentElement.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/com/springstart/jpa/chapterfour/many_to_many_bidirectional/ManyToManyBidirectionalTest.java</url>
           <line>34</line>
@@ -2266,7 +2166,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="156" />
+      <option name="time" value="165" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -2283,340 +2183,7 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/CONTENTELEMENT">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/many_to_many_bidirectional/src/main/java/model/Project.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/CONTENTELEMENT">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inheritance_joined_table/src/main/java/model/PartTimeEmployee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inheritance_joined_table/src/main/java/model/FullTimeEmployee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inheritance_joined_table/src/main/java/model/CompanyEmployee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inheritance_joined_table/src/main/java/model/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="7" selection-start-line="7" selection-end-line="8" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inheritance_joined_table/src/test/java/InheritanceJoinedTableTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/COMPLEXATTRIBUTE">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/JOIN_TABLE">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/model/ComplexAttribute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/model/AttributeValue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/model/BasicAttribute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-          <folding>
-            <element signature="e#260#261#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/BASICATTRIBUTE">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/helper/AttributeFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/map_key_basic_value_entity/src/main/java/model/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/one_to_many_unidirectional_jointable/src/main/java/model/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" selection-start-line="14" selection-end-line="17" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/model/type/AttributeType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/one_to_many_unidirectional_jointable/src/main/java/model/Phone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/model/ContentElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://DATABASE/41b96513-abc0-4724-9d41-aba0a1a0875b.SCHEMA:JPA_SANDBOX.PUBLIC">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>41b96513-abc0-4724-9d41-aba0a1a0875b.SCHEMA:JPA_SANDBOX.PUBLIC</OriginalElement>
-          <nodes>
-            <node x="" y="">41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.BASICATTRIBUTE</node>
-            <node x="" y="">41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.STRINGATTRIBUTE</node>
-            <node x="" y="">41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.COMPLEX_ATTR_TO_BASICS_ATTR</node>
-            <node x="" y="">41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.COMPLEXATTRIBUTE</node>
-            <node x="" y="">41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.ATTRIBUTE</node>
-            <node x="" y="">41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.BOOLEANATTRIBUTE</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="313.5" y="135.5" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Columns</Category>
-          </Categories>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/COMPLEXATTRIBUTE">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/COMPLEX_ATTR_TO_BASICS_ATTR">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/STRINGATTRIBUTE">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/BOOLEANATTRIBUTE">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/BASICATTRIBUTE">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/BasicAttribute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/Attribute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/BooleanAttribute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/ComplexAttribute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/StringAttribute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/BASIC_ATTRIBUTE">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/BOOLEAN_ATTRIBUTE">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -2630,24 +2197,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/COMPLEX_ATTR_TO_BASICS_ATTR">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$PROJECT_DIR$/mapping_enum/src/main/java/model/EmployeeType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/COMPLEX_ATTR_TO_BASICS_ATTR">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/COMPLEX_ATTR_TO_BASICS_ATTR">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$PROJECT_DIR$/mapping_enum/src/main/java/model/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -2658,7 +2218,270 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/COMPLEX_ATTR_TO_BASICS_ATTR">
+    <entry file="file://$PROJECT_DIR$/many_to_one_unidirectional/src/main/java/model/Department.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/many_to_one_unidirectional/src/main/java/model/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/IntegerAttribute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/helper/AttributeHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/model/type/AttributeDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/model/type/AttributeType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/BooleanAttribute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE_DEFINITION">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/BasicAttribute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE_DEFINITION">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE_DEFINITION">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE_DEFINITION">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE_DEFINITION">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE_DEFINITION">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE_DEFINITION">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE_DEFINITION">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE_DEFINITION">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE_DEFINITION">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/definition/AttributeDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="49" column="45" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+            <element signature="e#887#888#0" expanded="true" />
+            <element signature="e#914#915#0" expanded="true" />
+            <element signature="e#954#955#0" expanded="true" />
+            <element signature="e#986#987#0" expanded="true" />
+            <element signature="e#1018#1019#0" expanded="true" />
+            <element signature="e#1049#1050#0" expanded="true" />
+            <element signature="e#1094#1095#0" expanded="true" />
+            <element signature="e#1134#1135#0" expanded="true" />
+            <element signature="e#948#949#0" expanded="true" />
+            <element signature="e#1013#1014#0" expanded="true" />
+            <element signature="e#1063#1064#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/definition/BasicAttributeDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/definition/ComplexAttributeDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="19" column="70" selection-start-line="19" selection-start-column="70" selection-end-line="19" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE_DEFINITION">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE_DEFINITION">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE_DEFINITION">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE_DEFINITION">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/converting_attribute_state/src/test/java/ConverterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-247">
+          <caret line="73" column="13" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE_DEFINITION">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/BASIC_ATTRIBUTE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/helper/AttributeFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE_DEFINITION">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE_DEFINITION">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE_DEFINITION">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -2667,22 +2490,395 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/model/type/ContentElementType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        <state relative-caret-position="318">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/StringAttribute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE_DEFINITION">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/41b96513-abc0-4724-9d41-aba0a1a0875b.SCHEMA:JPA_SANDBOX.PUBLIC">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>41b96513-abc0-4724-9d41-aba0a1a0875b.SCHEMA:JPA_SANDBOX.PUBLIC</OriginalElement>
+          <nodes>
+            <node x="393.75595238095235" y="303.0">41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.BASIC_ATTRIBUTE</node>
+            <node x="239.0" y="168.0">41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.BASIC_ATTRIBUTE_DEFINITION</node>
+            <node x="586.4345238095239" y="168.0">41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.ATTRIBUTE</node>
+            <node x="557.2559523809523" y="415.5">41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.COMPLEX_ATTR_TO_BASICS_ATTR</node>
+            <node x="92.43452380952374" y="292.0">41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.COMPLEX_ATTR_DEF_TO_BASICS_ATTR_DEF</node>
+            <node x="848.4345238095239" y="168.5">41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.CONTENT_ELEMENT_TYPE_TO_ATTR_DEFINITIONS</node>
+            <node x="454.75595238095235" y="0.0">41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.ATTRIBUTE_DEFINITION</node>
+            <node x="1117.6845238095239" y="292.0">41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.CONTENT_ELEMENT_TO_ATTRIBUTES</node>
+            <node x="208.25595238095235" y="415.0">41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.BOOLEAN_ATTRIBUTE</node>
+            <node x="0.0" y="179.5">41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.COMPLEX_ATTRIBUTE_DEFINITION</node>
+            <node x="645.2559523809523" y="303.0">41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.COMPLEX_ATTRIBUTE</node>
+            <node x="1172.4345238095239" y="168.0">41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.CONTENT_ELEMENT</node>
+            <node x="379.25595238095235" y="415.0">41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.STRING_ATTRIBUTE</node>
+            <node x="1105.1488095238096" y="22.0">41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.CONTENT_ELEMENT_TYPE</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.CONTENT_ELEMENT" target="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.CONTENT_ELEMENT_TYPE">
+              <point x="0.0" y="-37.0" />
+              <point x="1293.9345238095239" y="148.0" />
+              <point x="1236.3988095238096" y="148.0" />
+              <point x="43.75" y="37.0" />
+            </edge>
+            <edge source="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.BOOLEAN_ATTRIBUTE" target="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.BASIC_ATTRIBUTE">
+              <point x="0.0" y="-37.0" />
+              <point x="283.75595238095235" y="390.0" />
+              <point x="415.25595238095235" y="390.0" />
+              <point x="-43.0" y="25.5" />
+            </edge>
+            <edge source="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.CONTENT_ELEMENT_TYPE_TO_ATTR_DEFINITIONS" target="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.CONTENT_ELEMENT_TYPE">
+              <point x="76.00000000000006" y="-36.5" />
+              <point x="1076.4345238095239" y="148.0" />
+              <point x="1148.8988095238096" y="148.0" />
+              <point x="-43.75" y="37.0" />
+            </edge>
+            <edge source="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.COMPLEX_ATTRIBUTE_DEFINITION" target="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.ATTRIBUTE_DEFINITION">
+              <point x="0.0" y="-25.5" />
+              <point x="109.5" y="138.0" />
+              <point x="481.25595238095235" y="138.0" />
+              <point x="-79.5" y="59.0" />
+            </edge>
+            <edge source="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.COMPLEX_ATTR_DEF_TO_BASICS_ATTR_DEF" target="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.BASIC_ATTRIBUTE_DEFINITION">
+              <point x="67.0" y="-36.5" />
+              <point x="293.43452380952374" y="267.0" />
+              <point x="337.5" y="267.0" />
+              <point x="0.0" y="37.0" />
+            </edge>
+            <edge source="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.CONTENT_ELEMENT_TO_ATTRIBUTES" target="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.ATTRIBUTE">
+              <point x="-58.75" y="-36.5" />
+              <point x="1176.4345238095239" y="267.0" />
+              <point x="788.1011904761906" y="267.0" />
+              <point x="80.66666666666674" y="37.0" />
+            </edge>
+            <edge source="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.BASIC_ATTRIBUTE_DEFINITION" target="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.ATTRIBUTE_DEFINITION">
+              <point x="0.0" y="-37.0" />
+              <point x="337.5" y="148.0" />
+              <point x="534.2559523809523" y="148.0" />
+              <point x="-26.5" y="59.0" />
+            </edge>
+            <edge source="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.STRING_ATTRIBUTE" target="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.BASIC_ATTRIBUTE">
+              <point x="0.0" y="-37.0" />
+              <point x="0.0" y="25.5" />
+            </edge>
+            <edge source="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.COMPLEX_ATTR_TO_BASICS_ATTR" target="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.COMPLEX_ATTRIBUTE">
+              <point x="54.5" y="-36.5" />
+              <point x="0.0" y="25.5" />
+            </edge>
+            <edge source="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.COMPLEX_ATTRIBUTE" target="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.ATTRIBUTE">
+              <point x="0.0" y="-25.5" />
+              <point x="720.7559523809523" y="267.0" />
+              <point x="707.4345238095239" y="267.0" />
+              <point x="0.0" y="37.0" />
+            </edge>
+            <edge source="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.ATTRIBUTE" target="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.ATTRIBUTE_DEFINITION">
+              <point x="0.0" y="-37.0" />
+              <point x="707.4345238095239" y="148.0" />
+              <point x="587.2559523809523" y="148.0" />
+              <point x="26.5" y="59.0" />
+            </edge>
+            <edge source="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.COMPLEX_ATTR_DEF_TO_BASICS_ATTR_DEF" target="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.COMPLEX_ATTRIBUTE_DEFINITION">
+              <point x="-67.0" y="-36.5" />
+              <point x="159.43452380952374" y="267.0" />
+              <point x="109.5" y="267.0" />
+              <point x="0.0" y="25.5" />
+            </edge>
+            <edge source="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.BASIC_ATTRIBUTE" target="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.ATTRIBUTE">
+              <point x="0.0" y="-25.5" />
+              <point x="458.25595238095235" y="267.0" />
+              <point x="626.7678571428571" y="267.0" />
+              <point x="-80.66666666666663" y="37.0" />
+            </edge>
+            <edge source="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.CONTENT_ELEMENT_TYPE_TO_ATTR_DEFINITIONS" target="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.ATTRIBUTE_DEFINITION">
+              <point x="-75.99999999999994" y="-36.5" />
+              <point x="924.4345238095239" y="138.0" />
+              <point x="640.2559523809523" y="138.0" />
+              <point x="79.5" y="59.0" />
+            </edge>
+            <edge source="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.COMPLEX_ATTR_TO_BASICS_ATTR" target="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.BASIC_ATTRIBUTE">
+              <point x="-54.5" y="-36.5" />
+              <point x="611.7559523809523" y="390.0" />
+              <point x="501.25595238095235" y="390.0" />
+              <point x="43.0" y="25.5" />
+            </edge>
+            <edge source="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.CONTENT_ELEMENT_TO_ATTRIBUTES" target="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.CONTENT_ELEMENT">
+              <point x="58.75" y="-36.5" />
+              <point x="0.0" y="37.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.2089136490250698" x="510.57323929635265" y="165.61802757734057" />
+          <SelectedNodes>
+            <node>41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.CONTENT_ELEMENT_TYPE</node>
+          </SelectedNodes>
+          <Categories>
+            <Category />
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/model">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>model</OriginalElement>
+          <nodes>
+            <node x="295.0" y="908.0">model.Customer</node>
+            <node x="278.0" y="982.0">model.Remove</node>
+            <node x="401.0" y="538.0">model.ValidationException</node>
+            <node x="155.0" y="834.0">model.PhoneType</node>
+            <node x="90.0" y="311.0">model.Project</node>
+            <node x="166.0" y="237.0">model.PartTimeEmployee</node>
+            <node x="80.5" y="158.0">model.CompanyEmployee</node>
+            <node x="483.0" y="760.0">model.SecurityInfo</node>
+            <node x="0.0" y="982.0">model.FullTime</node>
+            <node x="536.0" y="612.0">model.EmployeeAudit</node>
+            <node x="148.0" y="908.0">model.type</node>
+            <node x="308.0" y="834.0">model.PrintQueue</node>
+            <node x="202.0" y="538.0">model.LongNameValidator</node>
+            <node x="0.0" y="834.0">model.EmployeeId</node>
+            <node x="0.0" y="760.0">model.Conversation</node>
+            <node x="0.0" y="538.0">model.UpperCaseConverter</node>
+            <node x="340.0" y="686.0">model.URLConverter</node>
+            <node x="143.0" y="390.0">model.DesignProject</node>
+            <node x="0.0" y="612.0">model.EmployeeDetails</node>
+            <node x="639.0" y="760.0">model.Department</node>
+            <node x="359.0" y="612.0">model.EmployeeName</node>
+            <node x="695.0" y="311.0">model.BooleanToIntegerConverter</node>
+            <node x="0.0" y="237.0">model.FullTimeEmployee</node>
+            <node x="139.0" y="982.0">model.Message</node>
+            <node x="459.0" y="464.0">model.EvenNumberValidator</node>
+            <node x="668.0" y="464.0">model.ProjectAssignmentId</node>
+            <node x="238.0" y="464.0">model.EmployeeDebugListener</node>
+            <node x="795.0" y="760.0">model.ContactInfo</node>
+            <node x="171.0" y="686.0">model.attribute</node>
+            <node x="0.0" y="464.0">model.DateWithTemporalSandbox</node>
+            <node x="589.5" y="79.0">model.QualityProject_</node>
+            <node x="550.0" y="982.0">model.Address</node>
+            <node x="726.0" y="908.0">model.ProjectId</node>
+            <node x="0.0" y="1056.0">model.Phone</node>
+            <node x="838.0" y="686.0">model.ParkingSpace</node>
+            <node x="252.5" y="158.0">model.ContractEmployee</node>
+            <node x="440.0" y="908.0">model.Company</node>
+            <node x="309.0" y="390.0">model.TestAB</node>
+            <node x="191.0" y="79.0">model.Employee</node>
+            <node x="761.0" y="834.0">model.NodeType</node>
+            <node x="535.0" y="0.0">model.Project_</node>
+            <node x="0.0" y="908.0">model.Evaluation</node>
+            <node x="439.0" y="311.0">model.DateWithoutTemporalSandbox</node>
+            <node x="180.0" y="612.0">model.ContentElement</node>
+            <node x="817.0" y="982.0">model.DeptId</node>
+            <node x="710.0" y="612.0">model.NameValidator</node>
+            <node x="250.75" y="0.0">model.CachedEntity</node>
+            <node x="324.0" y="760.0">model.MessageLog</node>
+            <node x="866.0" y="908.0">model.Address_</node>
+            <node x="0.0" y="390.0">model.QualityProject</node>
+            <node x="506.0" y="686.0">model.VacationEntry</node>
+            <node x="791.0" y="538.0">model.EmployeeHistory</node>
+            <node x="127.0" y="1056.0">model.Even</node>
+            <node x="414.0" y="982.0">model.PrintJob</node>
+            <node x="672.0" y="686.0">model.EmployeeInfo</node>
+            <node x="598.0" y="538.0">model.ProjectAssignment</node>
+            <node x="313.0" y="311.0">model.Node</node>
+            <node x="443.5" y="79.0">model.DesignProject_</node>
+            <node x="461.0" y="834.0">model.PersonInfo</node>
+            <node x="585.0" y="908.0">model.PartTime</node>
+            <node x="163.0" y="760.0">model.Department_</node>
+            <node x="611.0" y="834.0">model.Employee_</node>
+            <node x="685.0" y="982.0">model.Phone_</node>
+            <node x="0.0" y="686.0">model.EmployeeType</node>
+            <node x="113.75" y="0.0">model.NamedEntity</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="model.QualityProject" target="model.Project">
+              <point x="0.0" y="-14.5" />
+              <point x="61.5" y="365.0" />
+              <point x="111.25" y="365.0" />
+              <point x="-21.25" y="14.5" />
+            </edge>
+            <edge source="model.Employee" target="model.CachedEntity">
+              <point x="25.0" y="-14.5" />
+              <point x="266.0" y="54.0" />
+              <point x="309.75" y="54.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="model.DesignProject_" target="model.Project_">
+              <point x="0.0" y="-14.5" />
+              <point x="506.5" y="54.0" />
+              <point x="557.5" y="54.0" />
+              <point x="-22.5" y="14.5" />
+            </edge>
+            <edge source="model.DesignProject" target="model.Project">
+              <point x="0.0" y="-14.5" />
+              <point x="203.5" y="365.0" />
+              <point x="153.75" y="365.0" />
+              <point x="21.25" y="14.5" />
+            </edge>
+            <edge source="model.QualityProject_" target="model.Project_">
+              <point x="0.0" y="-14.5" />
+              <point x="653.5" y="54.0" />
+              <point x="602.5" y="54.0" />
+              <point x="22.5" y="14.5" />
+            </edge>
+            <edge source="model.TestAB" target="model.Node">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="model.ContractEmployee" target="model.Employee">
+              <point x="0.0" y="-14.5" />
+              <point x="325.5" y="133.0" />
+              <point x="266.0" y="133.0" />
+              <point x="25.0" y="14.5" />
+            </edge>
+            <edge source="model.Employee" target="model.NamedEntity">
+              <point x="-25.0" y="-14.5" />
+              <point x="216.0" y="54.0" />
+              <point x="172.25" y="54.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="model.PartTimeEmployee" target="model.CompanyEmployee">
+              <point x="0.0" y="-14.5" />
+              <point x="240.0" y="212.0" />
+              <point x="194.5" y="212.0" />
+              <point x="38.0" y="14.5" />
+            </edge>
+            <edge source="model.CompanyEmployee" target="model.Employee">
+              <point x="0.0" y="-14.5" />
+              <point x="156.5" y="133.0" />
+              <point x="216.0" y="133.0" />
+              <point x="-25.0" y="14.5" />
+            </edge>
+            <edge source="model.FullTimeEmployee" target="model.CompanyEmployee">
+              <point x="0.0" y="-14.5" />
+              <point x="73.0" y="212.0" />
+              <point x="118.5" y="212.0" />
+              <point x="-38.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.2959276018099548" x="-5.804469273743024" y="555.195530726257" />
+          <SelectedNodes>
+            <node>model.Customer</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/C:/Users/rober/IdeaProjects/spring-sandbox/content_element_sandbox/src/main/java/model/type">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/content_element_sandbox/src/main/java/model/type</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="240.0" y="240.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/model.attribute.definition.AttributeDefinition">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>model.attribute.definition.AttributeDefinition</OriginalElement>
+          <nodes>
+            <node x="" y="">model.type.AttributeType</node>
+            <node x="" y="">model.attribute.Attribute</node>
+            <node x="" y="">model.attribute.definition.AttributeDefinition</node>
+            <node x="" y="">model.attribute.ComplexAttribute</node>
+            <node x="" y="">model.attribute.IntegerAttribute</node>
+            <node x="" y="">model.attribute.StringAttribute</node>
+            <node x="" y="">model.attribute.definition.BasicAttributeDefinition</node>
+            <node x="" y="">model.attribute.BasicAttribute</node>
+            <node x="" y="">model.type.ContentElementType</node>
+            <node x="" y="">java.lang.Enum</node>
+            <node x="" y="">model.attribute.definition.ComplexAttributeDefinition</node>
+            <node x="" y="">model.attribute.BooleanAttribute</node>
+            <node x="" y="">model.ContentElement</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="489.8722627737226" y="341.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/test/java/ContentElementTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="691">
-          <caret line="60" column="45" lean-forward="true" selection-start-line="60" selection-start-column="45" selection-end-line="60" selection-end-column="45" />
+        <state relative-caret-position="219">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
           <folding>
-            <element signature="method#basic_and_complex_attribute_test#0;class#ContentElementTest#0" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/model/ContentElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/Attribute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/ComplexAttribute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="33" column="30" lean-forward="true" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

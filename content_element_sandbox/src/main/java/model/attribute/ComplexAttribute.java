@@ -18,23 +18,22 @@ public class ComplexAttribute extends Attribute {
     @JoinTable(name = "COMPLEX_ATTR_TO_BASICS_ATTR",
             joinColumns = @JoinColumn(name = "COMPLEX_ATTR_ID"),
             inverseJoinColumns = @JoinColumn(name = "BASIC_ATTR_ID"))
-    List<BasicAttribute> basicAttributes = new ArrayList<>();
+    List<BasicAttribute> subAttributes = new ArrayList<>();
 
-    public void addAttribute(BasicAttribute basicAttribute) {
+    public void addSubAttribute(BasicAttribute basicAttribute) {
         if (basicAttribute != null) {
-            basicAttributes.add(basicAttribute);
+            subAttributes.add(basicAttribute);
         }
     }
 
     public List<BasicAttribute> getBasicAttributes() {
-        return basicAttributes;
+        return subAttributes;
     }
 
     @Override
     public String toString() {
         return "ComplexAttribute{" +
-                "basicAttributes=" + basicAttributes +
-                ", name='" + name + '\'' +
+                "basicAttributes=" + subAttributes +
                 '}';
     }
 }
