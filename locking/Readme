@@ -1,0 +1,23 @@
++ + + OPTIMISTIC LOCKING + + +
+
+Optimistic locking is applied on transaction commit.
+ Any database object that has to be updated or deleted is checked.
+  An exception is thrown if it is found out that an update is being performed on an old version of a database object,
+   for which another update has already been committed by another transaction.
+
+
++ + + PESIMISTIC LOCKING + + +
+
+ -  A PESSIMISTIC_READ lock request fails if another user
+    (which is represented by another EntityManager instance) currently holds a PESSIMISTIC_WRITE lock on that database object.\\
+
+ -  A PESSIMISTIC_WRITE lock request fails if another user currently holds either
+     a PESSIMISTIC_WRITE lock or a PESSIMISTIC_READ lock on that database object.
+
+
+
+ The OPTIMISTIC_FORCE_INCREMENT mode affects only clean (non dirty) entity objects.
+  Explicit lock at that mode marks the clean entity object as modified (dirty) and increases its version number by 1.
+
+The PESSIMISTIC_FORCE_INCREMENT mode is equivalent to the PESSIMISTIC_WRITE mode with the addition that it
+ marks a clean entity object as dirty and increases its version number by one (i.e. it combines PESSIMISTIC_WRITE with OPTIMISTIC_FORCE_INCREMENT).

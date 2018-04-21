@@ -8,9 +8,12 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/constraint_validation_lifecycle/pom.xml" />
+        <option value="$PROJECT_DIR$/entity_revert/pom.xml" />
         <option value="$PROJECT_DIR$/map_key_entity_value_basic/pom.xml" />
         <option value="$PROJECT_DIR$/maps/pom.xml" />
         <option value="$PROJECT_DIR$/query_hints/pom.xml" />
+        <option value="$PROJECT_DIR$/read_locking/pom.xml" />
       </set>
     </option>
   </component>

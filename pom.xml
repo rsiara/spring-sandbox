@@ -62,8 +62,6 @@
         <module>query_paging</module>
         <module>query_message_board</module>
         <module>query_bulk_query</module>
-        <module>query_hints</module>
-        <module>query_hints</module>
         <module>query_hints_examples</module>
         <module>query_jpql_many_examples</module>
         <module>criteria_api_basic_queries</module>
@@ -117,6 +115,13 @@
         <module>validator_injection</module>
         <module>constraint_groups</module>
         <module>constraint_annotation</module>
+        <module>constraint_validating_entity</module>
+        <module>constraint_validation_in_lifecycle</module>
+        <module>entity_refresh</module>
+        <module>entity_revert</module>
+        <module>read_locking</module>
+        <module>locking</module>
+        <module>content_element_sandbox</module>
     </modules>
 
 

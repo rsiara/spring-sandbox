@@ -14,8 +14,8 @@ public class Employee {
 
   @OneToMany(cascade = CascadeType.ALL)
   @JoinTable(name="EMP_PHONE",
-    joinColumns=@JoinColumn(name="EMP_ID"),
-    inverseJoinColumns=@JoinColumn(name="PHONE_ID"))
+          joinColumns = @JoinColumn(name = "EMP_ID"),
+          inverseJoinColumns = @JoinColumn(name = "PHONE_ID"))
   private Collection<Phone> phones;
 
   public Employee() {

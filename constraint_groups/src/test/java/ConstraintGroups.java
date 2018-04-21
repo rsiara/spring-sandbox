@@ -1,5 +1,6 @@
 import configuration.RootConfig;
 import model.Employee;
+import model.FullTime;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -74,12 +75,6 @@ public class ConstraintGroups {
 
     }
 
-    /*
-    !IMPORTANT! To run this test you have to uncomment:
-            properties.setProperty("javax.persistence.validation.group.pre-remove", "model.FullTime");
-    in JpaConfig
-    */
-
 
     @Test
     @Transactional
@@ -97,7 +92,7 @@ public class ConstraintGroups {
         Validator validator = factory.getValidator();
 
         // Perform manual validation on the new employee
-        Set<ConstraintViolation<Employee>> violations = validator.validate(employee);
+        Set<ConstraintViolation<Employee>> violations = validator.validate(employee, FullTime.class);
         for (ConstraintViolation<Employee> constraintViolation : violations) {
             System.out.printf(constraintViolation.getMessage());
         }

@@ -8,53 +8,45 @@
       <artifact name="Sandbox:war exploded" />
     </artifacts-to-build>
   </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/map_key_basic_value_entity/src/main/java/model/Department.java" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d9a5c24-0ab2-4622-9484-8b0abafbe55a" name="Default" comment="Dodanie:&#10; - entity graphs">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_el_javax_el_api_2_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_web_javax_el_2_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constraint_annotation/constraint_annotation.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constraint_annotation/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constraint_annotation/src/main/java/model/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constraint_annotation/src/main/java/model/Even.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constraint_annotation/src/main/java/model/EvenNumberValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constraint_annotation/src/test/java/ConstraintAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constraint_groups/constraint_groups.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constraint_groups/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constraint_groups/src/main/java/model/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constraint_groups/src/main/java/model/FullTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constraint_groups/src/main/java/model/PartTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constraint_groups/src/test/java/ConstraintGroups.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constraints/constraints.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constraints/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constraints/src/main/java/model/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constraints/src/test/java/Constraints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lifecycle_callbacks/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lifecycle_callbacks/src/main/java/model/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lifecycle_callbacks/src/main/java/model/EmployeeDebugListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lifecycle_callbacks/src/main/java/model/NameValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lifecycle_callbacks/src/main/java/model/NamedEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lifecycle_callbacks/src/main/java/model/ValidationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lifecycle_callbacks/src/test/java/LifecycleCallbacks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lifecycle_callbacks_inheritance/lifecycle_callbacks_inheritance.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lifecycle_callbacks_inheritance/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lifecycle_callbacks_inheritance/src/main/java/model/CompanyEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lifecycle_callbacks_inheritance/src/main/java/model/ContractEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lifecycle_callbacks_inheritance/src/main/java/model/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lifecycle_callbacks_inheritance/src/main/java/model/EmployeeAudit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lifecycle_callbacks_inheritance/src/main/java/model/EmployeeDebugListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lifecycle_callbacks_inheritance/src/main/java/model/EmployeeType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lifecycle_callbacks_inheritance/src/main/java/model/FullTimeEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lifecycle_callbacks_inheritance/src/main/java/model/LongNameValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lifecycle_callbacks_inheritance/src/main/java/model/NameValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lifecycle_callbacks_inheritance/src/main/java/model/NamedEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lifecycle_callbacks_inheritance/src/main/java/model/PartTimeEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lifecycle_callbacks_inheritance/src/test/java/LifecycleCallbacksInheritance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/validator_injection/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/validator_injection/src/main/java/model/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/validator_injection/src/test/java/ValidationInjection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/validator_injection/validator_injection.iml" afterDir="false" />
+    <list default="true" id="5d9a5c24-0ab2-4622-9484-8b0abafbe55a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/constraint_validating_entity/constraint_validating_entity.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/constraint_validating_entity/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/constraint_validating_entity/src/main/java/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/constraint_validating_entity/src/main/java/model/EmployeeInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/constraint_validating_entity/src/main/java/model/PersonInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/constraint_validating_entity/src/test/java/ConstraintValidatingEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/constraint_validation_in_lifecycle/constraint_validation_in_lifecycle.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/constraint_validation_in_lifecycle/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/constraint_validation_in_lifecycle/src/main/java/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/constraint_validation_in_lifecycle/src/main/java/model/Remove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/constraint_validation_in_lifecycle/src/test/java/ConstraintValidationLifecycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content_element_sandbox/content_element_sandbox.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content_element_sandbox/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content_element_sandbox/src/main/java/helper/AttributeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/ContentElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/Attribute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/BasicAttribute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/BooleanAttribute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/ComplexAttribute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/StringAttribute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/type/AttributeType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/type/ContentElementType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content_element_sandbox/src/test/java/ContentElementTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entity_refresh/entity_refresh.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entity_refresh/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entity_refresh/src/main/java/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/entity_refresh/src/test/java/EntityRefresh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locking/Readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locking/locking.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locking/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_2_0_M1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_2_0_M1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sandbox.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox.iml" afterDir="false" />
@@ -64,6 +56,10 @@
       <change beforePath="$PROJECT_DIR$/collection_of_embedded/collection_of_embedded.iml" beforeDir="false" afterPath="$PROJECT_DIR$/collection_of_embedded/collection_of_embedded.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/collection_order_persistence/collection_order_persistence.iml" beforeDir="false" afterPath="$PROJECT_DIR$/collection_order_persistence/collection_order_persistence.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/collection_override_table_columns/collection_override_table_columns.iml" beforeDir="false" afterPath="$PROJECT_DIR$/collection_override_table_columns/collection_override_table_columns.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constraint_annotation/constraint_annotation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/constraint_annotation/constraint_annotation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constraint_groups/constraint_groups.iml" beforeDir="false" afterPath="$PROJECT_DIR$/constraint_groups/constraint_groups.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constraint_groups/src/test/java/ConstraintGroups.java" beforeDir="false" afterPath="$PROJECT_DIR$/constraint_groups/src/test/java/ConstraintGroups.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constraints/constraints.iml" beforeDir="false" afterPath="$PROJECT_DIR$/constraints/constraints.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/converting_attribute_state/converting_attribute_state.iml" beforeDir="false" afterPath="$PROJECT_DIR$/converting_attribute_state/converting_attribute_state.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/criteria_api_basic_queries/criteria_api_basic_queries.iml" beforeDir="false" afterPath="$PROJECT_DIR$/criteria_api_basic_queries/criteria_api_basic_queries.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/criteria_api_metamodel_api/criteria_api_metamodel_api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/criteria_api_metamodel_api/criteria_api_metamodel_api.iml" afterDir="false" />
@@ -82,7 +78,6 @@
       <change beforePath="$PROJECT_DIR$/embedded_object_sharing_and_override_column_name/embedded_object_sharing_and_override_column_name.iml" beforeDir="false" afterPath="$PROJECT_DIR$/embedded_object_sharing_and_override_column_name/embedded_object_sharing_and_override_column_name.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/entity_graph_accessing/entity_graph_accessing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/entity_graph_accessing/entity_graph_accessing.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/entity_graph_creating_from_existing/entity_graph_creating_from_existing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/entity_graph_creating_from_existing/entity_graph_creating_from_existing.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entity_graph_creating_from_existing/src/test/java/EntityGraphCreatingFromExisting.java" beforeDir="false" afterPath="$PROJECT_DIR$/entity_graph_creating_from_existing/src/test/java/EntityGraphCreatingFromExisting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/entity_graph_named_entity_graph_basic/entity_graph_named_entity_graph_basic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/entity_graph_named_entity_graph_basic/entity_graph_named_entity_graph_basic.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/entity_graph_named_entity_graph_inheritance/entity_graph_named_entity_graph_inheritance.iml" beforeDir="false" afterPath="$PROJECT_DIR$/entity_graph_named_entity_graph_inheritance/entity_graph_named_entity_graph_inheritance.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/entity_graph_named_entity_graph_map_key/entity_graph_named_entity_graph_map_key.iml" beforeDir="false" afterPath="$PROJECT_DIR$/entity_graph_named_entity_graph_map_key/entity_graph_named_entity_graph_map_key.iml" afterDir="false" />
@@ -103,6 +98,7 @@
       <change beforePath="$PROJECT_DIR$/inheritance_single_table/inheritance_single_table.iml" beforeDir="false" afterPath="$PROJECT_DIR$/inheritance_single_table/inheritance_single_table.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inheritance_singletable_with_one_to_many_to_itself_bidirectional/inheritance_singletable_with_one_to_many_to_itself_bidirectional.iml" beforeDir="false" afterPath="$PROJECT_DIR$/inheritance_singletable_with_one_to_many_to_itself_bidirectional/inheritance_singletable_with_one_to_many_to_itself_bidirectional.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inheritance_table_per_concrete_class/inheritance_table_per_concrete_class.iml" beforeDir="false" afterPath="$PROJECT_DIR$/inheritance_table_per_concrete_class/inheritance_table_per_concrete_class.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lifecycle_callbacks_inheritance/lifecycle_callbacks_inheritance.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lifecycle_callbacks_inheritance/lifecycle_callbacks_inheritance.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/many_to_many_and_one_to_many_compound_join_table_columns/many_to_many_and_one_to_many_compound_join_table_columns.iml" beforeDir="false" afterPath="$PROJECT_DIR$/many_to_many_and_one_to_many_compound_join_table_columns/many_to_many_and_one_to_many_compound_join_table_columns.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/many_to_many_bidirectional/many_to_many_bidirectional.iml" beforeDir="false" afterPath="$PROJECT_DIR$/many_to_many_bidirectional/many_to_many_bidirectional.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/many_to_many_bidirectional_jointable/many_to_many_bidirectional_jointable.iml" beforeDir="false" afterPath="$PROJECT_DIR$/many_to_many_bidirectional_jointable/many_to_many_bidirectional_jointable.iml" afterDir="false" />
@@ -130,6 +126,7 @@
       <change beforePath="$PROJECT_DIR$/one_to_many_to_itself_bidirectional/one_to_many_to_itself_bidirectional.iml" beforeDir="false" afterPath="$PROJECT_DIR$/one_to_many_to_itself_bidirectional/one_to_many_to_itself_bidirectional.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/one_to_many_to_itself_unidirectional/one_to_many_to_itself_unidirectional.iml" beforeDir="false" afterPath="$PROJECT_DIR$/one_to_many_to_itself_unidirectional/one_to_many_to_itself_unidirectional.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/one_to_many_unidirectional_jointable/one_to_many_unidirectional_jointable.iml" beforeDir="false" afterPath="$PROJECT_DIR$/one_to_many_unidirectional_jointable/one_to_many_unidirectional_jointable.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/one_to_many_unidirectional_jointable/src/main/java/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/one_to_many_unidirectional_jointable/src/main/java/model/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/one_to_many_unidirectional_no_jointable/one_to_many_unidirectional_no_jointable.iml" beforeDir="false" afterPath="$PROJECT_DIR$/one_to_many_unidirectional_no_jointable/one_to_many_unidirectional_no_jointable.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/one_to_one_bidirectional/one_to_one_bidirectional.iml" beforeDir="false" afterPath="$PROJECT_DIR$/one_to_one_bidirectional/one_to_one_bidirectional.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/one_to_one_bidirectional_pk_mapping/one_to_one_bidirectional_pk_mapping.iml" beforeDir="false" afterPath="$PROJECT_DIR$/one_to_one_bidirectional_pk_mapping/one_to_one_bidirectional_pk_mapping.iml" afterDir="false" />
@@ -156,6 +153,7 @@
       <change beforePath="$PROJECT_DIR$/query_paging/query_paging.iml" beforeDir="false" afterPath="$PROJECT_DIR$/query_paging/query_paging.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/query_param_types/query_param_types.iml" beforeDir="false" afterPath="$PROJECT_DIR$/query_param_types/query_param_types.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sharing_embeddable_key_mappings_with_values/sharing_embeddable_key_mappings_with_values.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sharing_embeddable_key_mappings_with_values/sharing_embeddable_key_mappings_with_values.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validator_injection/validator_injection.iml" beforeDir="false" afterPath="$PROJECT_DIR$/validator_injection/validator_injection.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -274,6 +272,15 @@
     <ignored path="$PROJECT_DIR$/validator_injection/target/" />
     <ignored path="$PROJECT_DIR$/constraint_groups/target/" />
     <ignored path="$PROJECT_DIR$/constraint_annotation/target/" />
+    <ignored path="$PROJECT_DIR$/validating_entity_constraint/target/" />
+    <ignored path="$PROJECT_DIR$/constraint_validating_entity/target/" />
+    <ignored path="$PROJECT_DIR$/constraint_validation_lifecycle/target/" />
+    <ignored path="$PROJECT_DIR$/constraint_validation_in_lifecycle/target/" />
+    <ignored path="$PROJECT_DIR$/entity_refresh/target/" />
+    <ignored path="$PROJECT_DIR$/entity_revert/target/" />
+    <ignored path="$PROJECT_DIR$/read_locking/target/" />
+    <ignored path="$PROJECT_DIR$/locking/target/" />
+    <ignored path="$PROJECT_DIR$/content_element_sandbox/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -309,6 +316,12 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="H2 JPA Sandbox" type="feb32156:DbDataSourceImpl" />
         <item name="JPA_SANDBOX: database" type="c8e2528e:H2ImplModel$Database" />
+        <item name="CUSTOM_SCHEMA: schema" type="4f7ca4f5:H2ImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="H2 JPA Sandbox" type="feb32156:DbDataSourceImpl" />
+        <item name="JPA_SANDBOX: database" type="c8e2528e:H2ImplModel$Database" />
         <item name="PUBLIC: schema" type="4f7ca4f5:H2ImplModel$Schema" />
       </path>
     </expand>
@@ -319,93 +332,106 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PersistenceJPAConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/parent_module/src/main/java/configuration/PersistenceJPAConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="75" column="94" lean-forward="true" selection-start-line="75" selection-end-line="76" />
+      <file leaf-file-name="ATTRIBUTE" pinned="false" current-in-tab="false">
+        <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConstraintGroups.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/constraint_groups/src/test/java/ConstraintGroups.java">
+      <file leaf-file-name="ContentElementTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/test/java/ContentElementTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+            <state relative-caret-position="691">
+              <caret line="60" column="45" lean-forward="true" selection-start-line="60" selection-start-column="45" selection-end-line="60" selection-end-column="45" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3374#3375#0" expanded="true" />
-                <element signature="e#3435#3436#0" expanded="true" />
+                <element signature="method#basic_and_complex_attribute_test#0;class#ContentElementTest#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/constraint_groups/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+      <file leaf-file-name="BASIC_ATTRIBUTE" pinned="false" current-in-tab="false">
+        <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/BASIC_ATTRIBUTE">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/constraint_annotation/pom.xml">
+      <file leaf-file-name="BOOLEAN_ATTRIBUTE" pinned="false" current-in-tab="false">
+        <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/BOOLEAN_ATTRIBUTE">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="COMPLEX_ATTRIBUTE" pinned="false" current-in-tab="false">
+        <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/COMPLEX_ATTRIBUTE">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="STRING_ATTRIBUTE" pinned="false" current-in-tab="false">
+        <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/STRING_ATTRIBUTE">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContentElementType.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/model/type/ContentElementType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#235#236#0" expanded="true" />
+                <element signature="e#280#281#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BooleanAttribute.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/BooleanAttribute.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ComplexAttribute.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/ComplexAttribute.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConstraintAnnotation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/constraint_annotation/src/test/java/ConstraintAnnotation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="80" column="37" lean-forward="true" selection-start-line="80" selection-start-column="37" selection-end-line="80" selection-end-column="37" />
+              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2757#2758#0" expanded="true" />
-                <element signature="e#2818#2819#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Constraints.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/constraints/src/test/java/Constraints.java">
+      <file leaf-file-name="StringAttribute.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/StringAttribute.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="73" selection-start-line="73" selection-end-line="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/constraint_annotation/src/main/java/model/Employee.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Even.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/constraint_annotation/src/main/java/model/Even.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EvenNumberValidator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/constraint_annotation/src/main/java/model/EvenNumberValidator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="119">
+              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -428,36 +454,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>findAll</find>
-      <find>tomorrow</find>
-      <find>Enum</find>
-      <find>Ph</find>
-      <find>PhoneType</find>
-      <find>today</find>
-      <find>GeneratedVa</find>
-      <find>@IdCl</find>
-      <find>spring</find>
-      <find>start</find>
-      <find>TYPE</find>
-      <find>setAddress</find>
-      <find>executive</find>
-      <find>NamedSto</find>
-      <find>find</find>
-      <find>findAllEmplo</find>
-      <find>new Address</find>
-      <find>Executive</find>
-      <find>Orihe</find>
-      <find>Address</find>
-      <find>project</find>
-      <find>Mark.setName</find>
-      <find>name</find>
-      <find>EmployeeName</find>
-      <find>setName(J</find>
-      <find>update</find>
-      <find>EmployeeAudit</find>
       <find>LongNameValidator</find>
       <find>Hibernate</find>
       <find>&lt;depende</find>
+      <find>validating_entity_constraint</find>
+      <find>validating_entity</find>
+      <find>NOTUSED</find>
+      <find>notused</find>
+      <find>ValidatorFactory</find>
+      <find>constraint_validation_lifecycle</find>
+      <find>pre</find>
+      <find>entity</find>
+      <find>refre</find>
+      <find>where</find>
+      <find>join</find>
+      <find>@Ele</find>
+      <find>ElementCollection</find>
+      <find>AssociationOverrides</find>
+      <find>@Asso</find>
+      <find>@AttributeOverride</find>
+      <find>entityManager.re</find>
+      <find>Listener</find>
+      <find>fetch</find>
+      <find>crite</find>
+      <find>AssociationOve</find>
+      <find>@Att</find>
+      <find>select e</find>
+      <find>IN(</find>
+      <find>@OrderColumn</find>
+      <find>Enumerated</find>
+      <find>value</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -481,57 +507,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dynamic_entity_graph_inheritance/src/main/java/model/DesignProject.java" />
-        <option value="$PROJECT_DIR$/entity_graph_named_entity_graph_inheritance/src/test/java/EntityGraphNamedEntityGraphInheritance.java" />
-        <option value="$PROJECT_DIR$/dynamic_entity_graph_inheritance/src/test/java/DynamicEntityGraphInheritance.java" />
-        <option value="$PROJECT_DIR$/dynamic_entity_graph_inheritance/src/main/java/model/Address.java" />
-        <option value="$PROJECT_DIR$/dynamic_entity_graph_inheritance/src/main/java/model/Department.java" />
-        <option value="$PROJECT_DIR$/dynamic_entity_graph_inheritance/src/main/java/model/Employee.java" />
-        <option value="$PROJECT_DIR$/dynamic_entity_graph_inheritance/src/main/java/model/Phone.java" />
-        <option value="$PROJECT_DIR$/dynamic_entity_graph_inheritance/src/main/java/model/Project.java" />
-        <option value="$PROJECT_DIR$/dynamic_entity_graph_root_inheritance/pom.xml" />
-        <option value="$PROJECT_DIR$/dynamic_entity_graph_root_inheritance/src/main/java/model/Address.java" />
-        <option value="$PROJECT_DIR$/dynamic_entity_graph_root_inheritance/src/main/java/model/Department.java" />
-        <option value="$PROJECT_DIR$/dynamic_entity_graph_root_inheritance/src/main/java/model/Employee.java" />
-        <option value="$PROJECT_DIR$/dynamic_entity_graph_root_inheritance/src/main/java/model/Phone.java" />
-        <option value="$PROJECT_DIR$/dynamic_entity_graph_root_inheritance/src/main/java/model/Project.java" />
-        <option value="$PROJECT_DIR$/dynamic_entity_graph_root_inheritance/src/test/java/DynamicEntityGraphRootInheritance.java" />
-        <option value="$PROJECT_DIR$/dynamic_entity_graph_map_key/pom.xml" />
-        <option value="$PROJECT_DIR$/dynamic_entity_graph_map_key/src/main/java/model/Address.java" />
-        <option value="$PROJECT_DIR$/dynamic_entity_graph_map_key/src/main/java/model/Department.java" />
-        <option value="$PROJECT_DIR$/dynamic_entity_graph_map_key/src/main/java/model/Employee.java" />
-        <option value="$PROJECT_DIR$/dynamic_entity_graph_map_key/src/main/java/model/Phone.java" />
-        <option value="$PROJECT_DIR$/dynamic_entity_graph_map_key/src/main/java/model/Project.java" />
-        <option value="$PROJECT_DIR$/dynamic_entity_graph_map_key/src/test/java/DynamicEntityGraphMapKeys.java" />
-        <option value="$PROJECT_DIR$/entity_graph_accessing/pom.xml" />
-        <option value="$PROJECT_DIR$/entity_graph_accessing/src/main/java/model/Address.java" />
-        <option value="$PROJECT_DIR$/entity_graph_accessing/src/test/java/EntityGraphAccessing.java" />
-        <option value="$PROJECT_DIR$/entity_graph_creating_from_existing/pom.xml" />
-        <option value="$PROJECT_DIR$/entity_graph_creating_from_existing/src/main/java/model/Address.java" />
-        <option value="$PROJECT_DIR$/entity_graph_creating_from_existing/src/main/java/model/Phone.java" />
-        <option value="$PROJECT_DIR$/lifecycle_callbacks/pom.xml" />
-        <option value="$PROJECT_DIR$/entity_graph_creating_from_existing/src/test/java/EntityGraphCreatingFromExisting.java" />
-        <option value="$PROJECT_DIR$/lifecycle_callbacks/src/main/java/model/Employee.java" />
-        <option value="$PROJECT_DIR$/lifecycle_callbacks/src/test/java/LifecycleCallbacks.java" />
-        <option value="$PROJECT_DIR$/lifecycle_callbacks_inheritance/pom.xml" />
-        <option value="$PROJECT_DIR$/lifecycle_callbacks_inheritance/src/main/java/model/CompanyEmployee.java" />
-        <option value="$PROJECT_DIR$/lifecycle_callbacks_inheritance/src/main/java/model/ContractEmployee.java" />
-        <option value="$PROJECT_DIR$/lifecycle_callbacks_inheritance/src/test/java/LifecycleCallbacksInheritance.java" />
-        <option value="$PROJECT_DIR$/constraints/src/test/java/Constraints.java" />
-        <option value="$PROJECT_DIR$/constraints/src/main/java/model/Employee.java" />
-        <option value="$PROJECT_DIR$/validator_injection/pom.xml" />
-        <option value="$PROJECT_DIR$/constraints/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/validator_injection/src/main/java/model/Employee.java" />
-        <option value="$PROJECT_DIR$/validator_injection/src/test/java/ValidationInjection.java" />
-        <option value="$PROJECT_DIR$/constraint_groups/src/main/java/configuration/PersistenceJPAConfig.java" />
-        <option value="$PROJECT_DIR$/constraint_groups/src/main/java/model/Employee.java" />
-        <option value="$PROJECT_DIR$/constraint_annotation/pom.xml" />
-        <option value="$PROJECT_DIR$/constraint_annotation/src/main/java/model/Employee.java" />
-        <option value="$PROJECT_DIR$/constraint_groups/pom.xml" />
-        <option value="$PROJECT_DIR$/parent_module/src/main/java/configuration/PersistenceJPAConfig.java" />
         <option value="$PROJECT_DIR$/constraint_annotation/src/test/java/ConstraintAnnotation.java" />
+        <option value="$PROJECT_DIR$/validating_entity_constraint/pom.xml" />
+        <option value="$PROJECT_DIR$/constraint_validating_entity/pom.xml" />
+        <option value="$PROJECT_DIR$/constraint_validating_entity/src/main/java/model/Employee.java" />
+        <option value="$PROJECT_DIR$/constraint_validating_entity/src/main/java/model/EmployeeInfo.java" />
+        <option value="$PROJECT_DIR$/constraint_validating_entity/src/main/java/model/PersonInfo.java" />
+        <option value="$PROJECT_DIR$/constraint_validation_lifecycle/pom.xml" />
+        <option value="$PROJECT_DIR$/constraint_validation_lifecycle/src/main/java/model/Employee.java" />
+        <option value="$PROJECT_DIR$/constraint_validating_entity/src/test/java/ConstraintValidatingEntity.java" />
+        <option value="$PROJECT_DIR$/constraint_validation_lifecycle/src/test/java/ConstraintValidationLifecycle.java" />
         <option value="$PROJECT_DIR$/constraint_groups/src/test/java/ConstraintGroups.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/constraint_validation_in_lifecycle/pom.xml" />
+        <option value="$PROJECT_DIR$/constraint_validation_in_lifecycle/src/main/java/model/Remove.java" />
+        <option value="$PROJECT_DIR$/constraint_validation_in_lifecycle/src/test/java/ConstraintValidationLifecycle.java" />
+        <option value="$PROJECT_DIR$/constraint_validation_in_lifecycle/src/main/java/model/Employee.java" />
+        <option value="$PROJECT_DIR$/entity_refresh/pom.xml" />
+        <option value="$PROJECT_DIR$/entity_refresh/src/main/java/model/Employee.java" />
+        <option value="$PROJECT_DIR$/entity_revert/pom.xml" />
+        <option value="$PROJECT_DIR$/entity_revert/src/main/java/model/Employee.java" />
+        <option value="$PROJECT_DIR$/entity_refresh/src/test/java/EntityRefresh.java" />
+        <option value="$PROJECT_DIR$/entity_revert/src/test/java/EntityRevert.java" />
+        <option value="$PROJECT_DIR$/read_locking/pom.xml" />
+        <option value="$PROJECT_DIR$/read_locking/src/main/java/model/Department.java" />
+        <option value="$PROJECT_DIR$/read_locking/src/main/java/model/Employee.java" />
+        <option value="$PROJECT_DIR$/read_locking/src/test/java/ReadLocking.java" />
+        <option value="$PROJECT_DIR$/locking/pom.xml" />
+        <option value="$PROJECT_DIR$/locking/Readme" />
+        <option value="$PROJECT_DIR$/query_jpql_many_examples/src/test/java/QueryJpqlManyExamplesTest.java" />
+        <option value="$PROJECT_DIR$/parent_module/src/main/java/configuration/PersistenceJPAConfig.java" />
+        <option value="$PROJECT_DIR$/criteria_api_basic_queries/src/test/java/CriteriaApiBasicQueriesTest.java" />
+        <option value="$PROJECT_DIR$/lifecycle_callbacks_inheritance/src/main/java/model/Employee.java" />
+        <option value="$PROJECT_DIR$/content_element_sandbox/pom.xml" />
+        <option value="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/CompleAttribute.java" />
+        <option value="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/AttributeType.java" />
+        <option value="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/ComplexAttribute.java" />
+        <option value="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/Attribute.java" />
+        <option value="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/AttributeValue.java" />
+        <option value="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/BasicAttribute.java" />
+        <option value="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/NumberAttribute.java" />
+        <option value="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/ContentElement.java" />
+        <option value="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/type/AttributeType.java" />
+        <option value="$PROJECT_DIR$/content_element_sandbox/src/main/java/helper/AttributeFactory.java" />
+        <option value="$PROJECT_DIR$/one_to_many_unidirectional_jointable/src/main/java/model/Employee.java" />
+        <option value="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/BasicAttribute.java" />
+        <option value="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/Attribute.java" />
+        <option value="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/BooleanAttribute.java" />
+        <option value="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/ComplexAttribute.java" />
+        <option value="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/StringAttribute.java" />
+        <option value="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/type/ContentElementType.java" />
+        <option value="$PROJECT_DIR$/content_element_sandbox/src/test/java/ContentElementTest.java" />
       </list>
     </option>
   </component>
@@ -577,530 +603,19 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="4" />
-    <option name="y" value="252" />
-    <option name="width" value="1859" />
+    <option name="x" value="68" />
+    <option name="y" value="-8" />
+    <option name="width" value="1860" />
     <option name="height" value="1216" />
-  </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>AOP</id>
-          </State>
-          <State>
-            <id>Abstraction issuesJava</id>
-          </State>
-          <State>
-            <id>ActionScript specificJavaScript</id>
-          </State>
-          <State>
-            <id>Android</id>
-          </State>
-          <State>
-            <id>Android &gt; Lint &gt; Accessibility</id>
-          </State>
-          <State>
-            <id>Android &gt; Lint &gt; Correctness</id>
-          </State>
-          <State>
-            <id>Android &gt; Lint &gt; Correctness &gt; Messages</id>
-          </State>
-          <State>
-            <id>Android &gt; Lint &gt; Internationalization &gt; Bidirectional Text</id>
-          </State>
-          <State>
-            <id>Android &gt; Lint &gt; Lint</id>
-          </State>
-          <State>
-            <id>Android &gt; Lint &gt; Performance</id>
-          </State>
-          <State>
-            <id>Android &gt; Lint &gt; Security</id>
-          </State>
-          <State>
-            <id>Android &gt; Lint &gt; Usability</id>
-          </State>
-          <State>
-            <id>Android &gt; Lint &gt; Usability &gt; Icons</id>
-          </State>
-          <State>
-            <id>Android &gt; Lint &gt; Usability &gt; Typography</id>
-          </State>
-          <State>
-            <id>Android Lint for Kotlin</id>
-          </State>
-          <State>
-            <id>AngularJS</id>
-          </State>
-          <State>
-            <id>Ant inspections</id>
-          </State>
-          <State>
-            <id>ArquillianJava</id>
-          </State>
-          <State>
-            <id>Assignment issuesGroovy</id>
-          </State>
-          <State>
-            <id>Assignment issuesJava</id>
-          </State>
-          <State>
-            <id>Batch Applications Issues</id>
-          </State>
-          <State>
-            <id>Bitwise operation issuesJava</id>
-          </State>
-          <State>
-            <id>Bitwise operation issuesJavaScript</id>
-          </State>
-          <State>
-            <id>CDI(Contexts and Dependency Injection) issues</id>
-          </State>
-          <State>
-            <id>CSS</id>
-          </State>
-          <State>
-            <id>Class metricsJava</id>
-          </State>
-          <State>
-            <id>Class structureJava</id>
-          </State>
-          <State>
-            <id>Cloning issuesJava</id>
-          </State>
-          <State>
-            <id>Code maturity issuesJava</id>
-          </State>
-          <State>
-            <id>Code quality toolsCSS</id>
-          </State>
-          <State>
-            <id>Code quality toolsJavaScript</id>
-          </State>
-          <State>
-            <id>Code style issuesCSS</id>
-          </State>
-          <State>
-            <id>Code style issuesJava</id>
-          </State>
-          <State>
-            <id>Code style issuesJavaScript</id>
-          </State>
-          <State>
-            <id>CodeSpring CoreSpring</id>
-          </State>
-          <State>
-            <id>Control flow issuesGroovy</id>
-          </State>
-          <State>
-            <id>Control flow issuesJava</id>
-          </State>
-          <State>
-            <id>Control flow issuesJavaScript</id>
-          </State>
-          <State>
-            <id>DOM issuesJavaScript</id>
-          </State>
-          <State>
-            <id>Data flow issuesJava</id>
-          </State>
-          <State>
-            <id>Declaration redundancyJava</id>
-          </State>
-          <State>
-            <id>Encapsulation issuesJava</id>
-          </State>
-          <State>
-            <id>Error handlingGroovy</id>
-          </State>
-          <State>
-            <id>Error handlingJava</id>
-          </State>
-          <State>
-            <id>Error handlingJavaScript</id>
-          </State>
-          <State>
-            <id>FlexUnit inspections</id>
-          </State>
-          <State>
-            <id>Flow type checkerJavaScript</id>
-          </State>
-          <State>
-            <id>FreeMarker inspections</id>
-          </State>
-          <State>
-            <id>General</id>
-          </State>
-          <State>
-            <id>GeneralJavaScript</id>
-          </State>
-          <State>
-            <id>Google Web Toolkit issues</id>
-          </State>
-          <State>
-            <id>GrailsGroovy</id>
-          </State>
-          <State>
-            <id>Groovy</id>
-          </State>
-          <State>
-            <id>Guice Inspections</id>
-          </State>
-          <State>
-            <id>HTML</id>
-          </State>
-          <State>
-            <id>Hibernate Issues</id>
-          </State>
-          <State>
-            <id>ImportsJava</id>
-          </State>
-          <State>
-            <id>Inheritance issuesJava</id>
-          </State>
-          <State>
-            <id>Internationalization issues</id>
-          </State>
-          <State>
-            <id>Invalid elementsCSS</id>
-          </State>
-          <State>
-            <id>J2ME issuesJava</id>
-          </State>
-          <State>
-            <id>JBoss Seam issues</id>
-          </State>
-          <State>
-            <id>JPA issues</id>
-          </State>
-          <State>
-            <id>JSP Inspections</id>
-          </State>
-          <State>
-            <id>JUnit issuesJava</id>
-          </State>
-          <State>
-            <id>Java</id>
-          </State>
-          <State>
-            <id>Java 5Java language level migration aidsJava</id>
-          </State>
-          <State>
-            <id>Java 7Java language level migration aidsJava</id>
-          </State>
-          <State>
-            <id>Java 8Java language level migration aidsJava</id>
-          </State>
-          <State>
-            <id>Java EE issues</id>
-          </State>
-          <State>
-            <id>Java interop issuesKotlin</id>
-          </State>
-          <State>
-            <id>Java language level migration aidsJava</id>
-          </State>
-          <State>
-            <id>JavaBeans issuesJava</id>
-          </State>
-          <State>
-            <id>JavaFX</id>
-          </State>
-          <State>
-            <id>JavaScript</id>
-          </State>
-          <State>
-            <id>JavaScript function metricsJavaScript</id>
-          </State>
-          <State>
-            <id>JavaScript validity issuesJavaScript</id>
-          </State>
-          <State>
-            <id>Javadoc issuesJava</id>
-          </State>
-          <State>
-            <id>Kotlin</id>
-          </State>
-          <State>
-            <id>Kotlin Android</id>
-          </State>
-          <State>
-            <id>Language Injection</id>
-          </State>
-          <State>
-            <id>Logging issuesJava</id>
-          </State>
-          <State>
-            <id>Memory issuesJava</id>
-          </State>
-          <State>
-            <id>Method metricsGroovy</id>
-          </State>
-          <State>
-            <id>Method metricsJava</id>
-          </State>
-          <State>
-            <id>Naming conventionsGroovy</id>
-          </State>
-          <State>
-            <id>Naming conventionsJava</id>
-          </State>
-          <State>
-            <id>Naming conventionsKotlin</id>
-          </State>
-          <State>
-            <id>Numeric issuesJava</id>
-          </State>
-          <State>
-            <id>OSGi</id>
-          </State>
-          <State>
-            <id>OtherGroovy</id>
-          </State>
-          <State>
-            <id>Packaging issuesJava</id>
-          </State>
-          <State>
-            <id>Pattern Validation</id>
-          </State>
-          <State>
-            <id>Performance issuesJava</id>
-          </State>
-          <State>
-            <id>Plugin DevKit</id>
-          </State>
-          <State>
-            <id>Portability issuesJava</id>
-          </State>
-          <State>
-            <id>Potentially confusing code constructsGroovy</id>
-          </State>
-          <State>
-            <id>Potentially confusing code constructsJavaScript</id>
-          </State>
-          <State>
-            <id>Probable bugsGroovy</id>
-          </State>
-          <State>
-            <id>Probable bugsJava</id>
-          </State>
-          <State>
-            <id>Probable bugsJavaScript</id>
-          </State>
-          <State>
-            <id>Probable bugsKotlin</id>
-          </State>
-          <State>
-            <id>Properties Files</id>
-          </State>
-          <State>
-            <id>Properties FilesJava</id>
-          </State>
-          <State>
-            <id>RESTful Web Service</id>
-          </State>
-          <State>
-            <id>Redundant constructsKotlin</id>
-          </State>
-          <State>
-            <id>Reflective access issuesJava</id>
-          </State>
-          <State>
-            <id>RegExp</id>
-          </State>
-          <State>
-            <id>SQL</id>
-          </State>
-          <State>
-            <id>Security issuesJava</id>
-          </State>
-          <State>
-            <id>Serialization issuesJava</id>
-          </State>
-          <State>
-            <id>Spelling</id>
-          </State>
-          <State>
-            <id>Spring</id>
-          </State>
-          <State>
-            <id>Spring AOPSpring</id>
-          </State>
-          <State>
-            <id>Spring CoreSpring</id>
-          </State>
-          <State>
-            <id>Spring DataSpring</id>
-          </State>
-          <State>
-            <id>Spring SecuritySpring</id>
-          </State>
-          <State>
-            <id>Spring Web FlowSpring</id>
-          </State>
-          <State>
-            <id>Struts</id>
-          </State>
-          <State>
-            <id>Struts 1Struts</id>
-          </State>
-          <State>
-            <id>Style issuesKotlin</id>
-          </State>
-          <State>
-            <id>StyleGroovy</id>
-          </State>
-          <State>
-            <id>TestNGJava</id>
-          </State>
-          <State>
-            <id>Threading issuesGroovy</id>
-          </State>
-          <State>
-            <id>Threading issuesJava</id>
-          </State>
-          <State>
-            <id>TypeScript</id>
-          </State>
-          <State>
-            <id>UI Form Problems</id>
-          </State>
-          <State>
-            <id>Validity issuesGroovy</id>
-          </State>
-          <State>
-            <id>Velocity inspections</id>
-          </State>
-          <State>
-            <id>Verbose or redundant code constructsJava</id>
-          </State>
-          <State>
-            <id>Visibility issuesJava</id>
-          </State>
-          <State>
-            <id>Web Services</id>
-          </State>
-          <State>
-            <id>WebSocket issues</id>
-          </State>
-          <State>
-            <id>XML</id>
-          </State>
-          <State>
-            <id>XMLSpring CoreSpring</id>
-          </State>
-          <State>
-            <id>XPath</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>SystemGC</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <hideEmptyPackages ProjectPane="false" />
-      <autoscrollFromSource PackagesPane="true" AndroidView="true" Scope="true" ProjectPane="true" />
+      <autoscrollFromSource AndroidView="true" Scope="true" PackagesPane="true" ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="parent_module" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="parent_module" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="parent_module" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="parent_module" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="parent_module" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="configuration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-orm:4.3.12.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-orm:4.3.12.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-orm-4.3.12.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-orm:4.3.12.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-orm-4.3.12.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="orm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-orm:4.3.12.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-orm-4.3.12.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="orm" type="462c0819:PsiDirectoryNode" />
-              <item name="jpa" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="spring-sandbox" type="58d84e3e:PackageViewProjectNode" />
-              <item name="id_class_id" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -1137,6 +652,281 @@
               <item name="spring-sandbox" type="1abcf292:AndroidViewProjectNode" />
               <item name="Sandbox" type="1039202d:NonAndroidModuleNode" />
               <item name="tests" type="b5c1fe26:NonAndroidSourceTypeNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="content_element_sandbox" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="content_element_sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="content_element_sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="content_element_sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="content_element_sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="helper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="content_element_sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="content_element_sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="attribute" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="content_element_sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="type" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="content_element_sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="content_element_sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="inheritance_joined_table" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="inheritance_joined_table" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="inheritance_joined_table" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="inheritance_joined_table" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="inheritance_joined_table" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="inheritance_joined_table" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="inheritance_joined_table" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="map_key_basic_value_entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="map_key_basic_value_entity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="map_key_basic_value_entity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="map_key_basic_value_entity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="map_key_basic_value_entity" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="map_key_enum_value_basic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="map_key_enum_value_basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="one_to_many_unidirectional_jointable" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="one_to_many_unidirectional_jointable" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="one_to_many_unidirectional_jointable" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="one_to_many_unidirectional_jointable" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="one_to_many_unidirectional_jointable" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="query_result_example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-test:4.3.12.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-test:4.3.12.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-test-4.3.12.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-test:4.3.12.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-test-4.3.12.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-test:4.3.12.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-test-4.3.12.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-test:4.3.12.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-test-4.3.12.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="context" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-test:4.3.12.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-test-4.3.12.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="context" type="462c0819:PsiDirectoryNode" />
+              <item name="cache" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1261,13 +1051,24 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spring-sandbox" type="58d84e3e:PackageViewProjectNode" />
+              <item name="id_class_id" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SONARLINT_ANALYSIS_RESULTS_SCOPE" value="All project files" />
     <property name="SONARLINT_ANALYSIS_RESULTS_SPLIT_PROPORTION" value="0.45945945" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="JPAC&#9;PSI&#9;JAVA://configuration.PersistenceJPAConfig&#10;EntityGra&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/entity_graph_creating_from_existing/src/test/java/EntityGraphCreatingFromExisting.java&#10;Address&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/query_advanced_constructor_result_mapping/src/main/java/model/Address.java&#10;pom.xml&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/pom.xml&#10;Emplo&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/criteria_api_basic_queries/src/main/java/model/Employee.java&#10;Em&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/criteria_api_basic_queries/src/main/java/model/Employee.java&#10;Design&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/criteria_api_basic_queries/src/main/java/model/DesignProject.java&#10;Project&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/criteria_api_basic_queries/src/main/java/model/Project.java&#10;Employee&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/query_jpql_many_examples/src/main/java/model/EmployeeDetails.java&#10;jetbrains&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/.idea/libraries/JetbrainsLicense_jar.xml&#10;Jpa&#9;PSI&#9;JAVA://configuration.PersistenceJPAConfig&#10;JpaCon&#9;PSI&#9;JAVA://configuration.PersistenceJPAConfig&#10;Fin&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/FinanceUser.java&#10;JPA&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Configuration/PersistenceJPAConfig.java&#10;pe&#9;PSI&#9;JAVA://com.springstart.Configuration.PersistenceJPAConfig&#10;pers&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/META-INF/persistence.xml&#10;Finance_&#9;FILE&#9;das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.finances_user&#10;Fina&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/FinanceUser.java&#10;Bank&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/Bank.java&#10;Account&#9;PSI&#9;JAVA://com.springstart.Model.Entity.DatabaseEntity.Account&#10;logbac&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/resources/logback.xml&#10;Acco&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/Account.java&#10;BankDao&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/DatabaseDao/BankDao.java&#10;.x&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/resources/logback.xml&#10;Finance&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Service/DatabaseService/FinanceUserService.java&#10;DA&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/DatabaseDao/FinanceUserDao.java&#10;Fi&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Service/DatabaseService/FinanceUserService.java&#10;Finan&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/FinanceUser.java&#10;Projec&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/Project.java&#10;FinanceUser&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/FinanceUser.java&#10;lo&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/resources/logback.xml&#10;General&#9;PSI&#9;JAVA://com.springstart.Interceptor.GeneralInterceptor&#10;Gene&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Interceptor/GeneralInterceptor.java&#10;Home&#9;PSI&#9;JAVA://com.springstart.Controller.HomeController&#10;Fil&#9;FILE&#9;file:///home/robert/IdeaProjects/Sandbox/src/main/java/com/springstart/Filters/CustomFilter.java" />
+    <property name="SearchEverywhereHistoryKey" value="Content&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/content_element_sandbox/src/main/java/model/ContentElement.java&#10;metamodel&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/criteria_api_metamodel_api/src/test/java/CriteriaApMetamodelApiTest.java&#10;PessimisticLoc&#9;PSI&#9;JAVA://org.hibernate.PessimisticLockException&#10;PersistenceJPA&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/parent_module/src/main/java/configuration/PersistenceJPAConfig.java&#10;JPAC&#9;PSI&#9;JAVA://configuration.PersistenceJPAConfig&#10;EntityGra&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/entity_graph_creating_from_existing/src/test/java/EntityGraphCreatingFromExisting.java&#10;Address&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/query_advanced_constructor_result_mapping/src/main/java/model/Address.java&#10;pom.xml&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/pom.xml&#10;Emplo&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/criteria_api_basic_queries/src/main/java/model/Employee.java&#10;Em&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/criteria_api_basic_queries/src/main/java/model/Employee.java&#10;Design&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/criteria_api_basic_queries/src/main/java/model/DesignProject.java&#10;Project&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/criteria_api_basic_queries/src/main/java/model/Project.java&#10;Employee&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/query_jpql_many_examples/src/main/java/model/EmployeeDetails.java&#10;jetbrains&#9;FILE&#9;file://C:/Users/rober/IdeaProjects/spring-sandbox/.idea/libraries/JetbrainsLicense_jar.xml&#10;Jpa&#9;PSI&#9;JAVA://configuration.PersistenceJPAConfig&#10;JpaCon&#9;PSI&#9;JAVA://configuration.PersistenceJPAConfig&#10;Fin&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/FinanceUser.java&#10;JPA&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Configuration/PersistenceJPAConfig.java&#10;pe&#9;PSI&#9;JAVA://com.springstart.Configuration.PersistenceJPAConfig&#10;pers&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/META-INF/persistence.xml&#10;Finance_&#9;FILE&#9;das://table:/b18cbd39/816a51b7-b93f-4be1-9a9c-0acd3ef387bc/ifinances.finances_user&#10;Fina&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/FinanceUser.java&#10;Bank&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/Bank.java&#10;Account&#9;PSI&#9;JAVA://com.springstart.Model.Entity.DatabaseEntity.Account&#10;logbac&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/resources/logback.xml&#10;Acco&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/Account.java&#10;BankDao&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/DatabaseDao/BankDao.java&#10;.x&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/resources/logback.xml&#10;Finance&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Service/DatabaseService/FinanceUserService.java&#10;DA&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/DatabaseDao/FinanceUserDao.java&#10;Fi&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Service/DatabaseService/FinanceUserService.java&#10;Finan&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/FinanceUser.java&#10;Projec&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/Project.java&#10;FinanceUser&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Model/Entity/DatabaseEntity/FinanceUser.java&#10;lo&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/resources/logback.xml&#10;General&#9;PSI&#9;JAVA://com.springstart.Interceptor.GeneralInterceptor&#10;Gene&#9;FILE&#9;file:///home/robert/IdeaProjects/spring-sandbox/src/main/java/com/springstart/Interceptor/GeneralInterceptor.java&#10;Home&#9;PSI&#9;JAVA://com.springstart.Controller.HomeController&#10;Fil&#9;FILE&#9;file:///home/robert/IdeaProjects/Sandbox/src/main/java/com/springstart/Filters/CustomFilter.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="H2&#10;MySQL" />
@@ -1275,12 +1076,12 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="extract.method.default.visibility" value="public" />
     <property name="full.screen.before.presentation.mode" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/criteria_api_metamodel_api" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15429688" />
     <property name="project.structure.side.proportion" value="0.4775604" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -1305,13 +1106,14 @@
       <recent name="com.springstart.jpa.chapterfive" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\constraint_annotation\src\main\java\model" />
-      <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\constraint_groups\src\main\resources" />
-      <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\constraint_groups\src\main\java" />
-      <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\constraint_groups\src\main\java\model" />
-      <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\validator_injection\src\main\java\model" />
+      <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\read_locking\src\main\java\model" />
+      <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\entity_revert\src\main\java\model" />
+      <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\entity_refresh\src\main\java\model" />
+      <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\constraint_validation_in_lifecycle\src\main\java\model" />
+      <recent name="C:\Users\rober\IdeaProjects\spring-sandbox\constraint_validation_lifecycle\src\main\java\model" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="model.attribute" />
       <recent name="" />
       <recent name="model" />
       <recent name="com.springstart.jpa.chapterfour.many_to_many_bidirectional" />
@@ -1336,7 +1138,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ConstraintAnnotation.lifecycle_callbacks_inheritance">
+  <component name="RunManager" selected="JUnit.ContentElementTest.content_element_client">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -1345,15 +1147,53 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <extension name="krasa.grepconsole.plugin.runConfiguration.GrepRunConfigurationExtension" selectedProfileId="0" />
     </configuration>
-    <configuration name="ConstraintAnnotation.lifecycle_callbacks_inheritance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="constraint_annotation" />
+    <configuration name="All in query_jpql_many_examples (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="query_jpql_many_examples" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <extension name="krasa.grepconsole.plugin.runConfiguration.GrepRunConfigurationExtension" selectedProfileId="0" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ConstraintAnnotation" />
-      <option name="METHOD_NAME" value="lifecycle_callbacks_inheritance" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="All in query_jpql_many_examples" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="query_jpql_many_examples" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="krasa.grepconsole.plugin.runConfiguration.GrepRunConfigurationExtension" selectedProfileId="0" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ContentElementTest.content_element_client" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="content_element_sandbox" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="krasa.grepconsole.plugin.runConfiguration.GrepRunConfigurationExtension" selectedProfileId="0" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ContentElementTest" />
+      <option name="METHOD_NAME" value="content_element_client" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1364,73 +1204,35 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ConstraintGroups" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="constraint_groups" />
+    <configuration name="MapKeyBasicValueBasicTest.map_key_basic_value_basic_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="map_key_basic_value_basic" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <extension name="krasa.grepconsole.plugin.runConfiguration.GrepRunConfigurationExtension" selectedProfileId="0" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ConstraintGroups" />
+      <option name="MAIN_CLASS_NAME" value="MapKeyBasicValueBasicTest" />
+      <option name="METHOD_NAME" value="map_key_basic_value_basic_test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="QueryJpqlManyExamplesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="query_jpql_many_examples" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="krasa.grepconsole.plugin.runConfiguration.GrepRunConfigurationExtension" selectedProfileId="0" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="QueryJpqlManyExamplesTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="ConstraintGroups.lifecycle_callbacks_inheritance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="constraint_groups" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <extension name="krasa.grepconsole.plugin.runConfiguration.GrepRunConfigurationExtension" selectedProfileId="0" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ConstraintGroups" />
-      <option name="METHOD_NAME" value="lifecycle_callbacks_inheritance" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="Constraints.lifecycle_callbacks_inheritance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="constraints" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <extension name="krasa.grepconsole.plugin.runConfiguration.GrepRunConfigurationExtension" selectedProfileId="0" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Constraints" />
-      <option name="METHOD_NAME" value="lifecycle_callbacks_inheritance" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="LifecycleCallbacksInheritance.lifecycle_callbacks_inheritance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lifecycle_callbacks_inheritance" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <extension name="krasa.grepconsole.plugin.runConfiguration.GrepRunConfigurationExtension" selectedProfileId="0" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LifecycleCallbacksInheritance" />
-      <option name="METHOD_NAME" value="lifecycle_callbacks_inheritance" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -1641,19 +1443,19 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.Tomcat" />
-      <item itemvalue="JUnit.LifecycleCallbacksInheritance.lifecycle_callbacks_inheritance" />
-      <item itemvalue="JUnit.Constraints.lifecycle_callbacks_inheritance" />
-      <item itemvalue="JUnit.ConstraintGroups.lifecycle_callbacks_inheritance" />
-      <item itemvalue="JUnit.ConstraintAnnotation.lifecycle_callbacks_inheritance" />
-      <item itemvalue="JUnit.ConstraintGroups" />
+      <item itemvalue="JUnit.QueryJpqlManyExamplesTest" />
+      <item itemvalue="JUnit.All in query_jpql_many_examples" />
+      <item itemvalue="JUnit.All in query_jpql_many_examples (1)" />
+      <item itemvalue="JUnit.MapKeyBasicValueBasicTest.map_key_basic_value_basic_test" />
+      <item itemvalue="JUnit.ContentElementTest.content_element_client" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ConstraintAnnotation.lifecycle_callbacks_inheritance" />
-        <item itemvalue="JUnit.ConstraintGroups" />
-        <item itemvalue="JUnit.ConstraintGroups.lifecycle_callbacks_inheritance" />
-        <item itemvalue="JUnit.Constraints.lifecycle_callbacks_inheritance" />
-        <item itemvalue="JUnit.LifecycleCallbacksInheritance.lifecycle_callbacks_inheritance" />
+        <item itemvalue="JUnit.ContentElementTest.content_element_client" />
+        <item itemvalue="JUnit.MapKeyBasicValueBasicTest.map_key_basic_value_basic_test" />
+        <item itemvalue="JUnit.All in query_jpql_many_examples (1)" />
+        <item itemvalue="JUnit.All in query_jpql_many_examples" />
+        <item itemvalue="JUnit.QueryJpqlManyExamplesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1852,7 +1654,21 @@
       <workItem from="1523033946795" duration="542000" />
       <workItem from="1523049081107" duration="3636000" />
       <workItem from="1523053181318" duration="1504000" />
-      <workItem from="1523121533607" duration="16540000" />
+      <workItem from="1523121533607" duration="16783000" />
+      <workItem from="1523300557755" duration="5624000" />
+      <workItem from="1523306366945" duration="4604000" />
+      <workItem from="1523389389666" duration="7237000" />
+      <workItem from="1523478851279" duration="3761000" />
+      <workItem from="1523553780253" duration="1225000" />
+      <workItem from="1523641755399" duration="258000" />
+      <workItem from="1523642069021" duration="793000" />
+      <workItem from="1523643034484" duration="268000" />
+      <workItem from="1523643335829" duration="3543000" />
+      <workItem from="1523716957851" duration="6290000" />
+      <workItem from="1523800192730" duration="4685000" />
+      <workItem from="1523909752568" duration="1061000" />
+      <workItem from="1524164134898" duration="11277000" />
+      <workItem from="1524289404402" duration="10359000" />
     </task>
     <task id="LOCAL-00001" summary="Persistence.xml przeniesiony do JavaConfig (PersistenceJPAConfig)&#10;Dodanie pierwszego mapowania unidirectional Many-to-one">
       <created>1510526522683</created>
@@ -2099,43 +1915,50 @@
       <option name="project" value="LOCAL" />
       <updated>1522966036573</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Dodanie:&#10; - constraints">
+      <created>1523144363481</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1523144363481</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ConstraintGroups_lifecycle_callbacks_inheritance - 2018.04.08 at 00h 52m 14s.xml">
-      <configuration name="ConstraintGroups.lifecycle_callbacks_inheritance" configurationId="JUnit" />
+    <history-entry file="ContentElementTest_content_element_client - 2018.04.21 at 10h 23m 47s.xml">
+      <configuration name="ContentElementTest.content_element_client" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConstraintAnnotation_lifecycle_callbacks_inheritance - 2018.04.08 at 00h 52m 49s.xml">
-      <configuration name="ConstraintAnnotation.lifecycle_callbacks_inheritance" configurationId="JUnit" />
+    <history-entry file="ContentElementTest_content_element_client - 2018.04.21 at 10h 25m 51s.xml">
+      <configuration name="ContentElementTest.content_element_client" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConstraintAnnotation_lifecycle_callbacks_inheritance - 2018.04.08 at 00h 56m 24s.xml">
-      <configuration name="ConstraintAnnotation.lifecycle_callbacks_inheritance" configurationId="JUnit" />
+    <history-entry file="ContentElementTest_content_element_client - 2018.04.21 at 10h 26m 12s.xml">
+      <configuration name="ContentElementTest.content_element_client" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConstraintAnnotation_lifecycle_callbacks_inheritance - 2018.04.08 at 00h 56m 53s.xml">
-      <configuration name="ConstraintAnnotation.lifecycle_callbacks_inheritance" configurationId="JUnit" />
+    <history-entry file="ContentElementTest_content_element_client - 2018.04.21 at 10h 26m 55s.xml">
+      <configuration name="ContentElementTest.content_element_client" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Constraints_lifecycle_callbacks_inheritance - 2018.04.08 at 01h 00m 50s.xml">
-      <configuration name="Constraints.lifecycle_callbacks_inheritance" configurationId="JUnit" />
+    <history-entry file="ContentElementTest_content_element_client - 2018.04.21 at 10h 27m 26s.xml">
+      <configuration name="ContentElementTest.content_element_client" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConstraintGroups - 2018.04.08 at 01h 03m 26s.xml">
-      <configuration name="ConstraintGroups" configurationId="JUnit" />
+    <history-entry file="ContentElementTest_content_element_client - 2018.04.21 at 11h 25m 19s.xml">
+      <configuration name="ContentElementTest.content_element_client" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConstraintAnnotation_lifecycle_callbacks_inheritance - 2018.04.08 at 01h 04m 27s.xml">
-      <configuration name="ConstraintAnnotation.lifecycle_callbacks_inheritance" configurationId="JUnit" />
+    <history-entry file="ContentElementTest_content_element_client - 2018.04.21 at 11h 25m 44s.xml">
+      <configuration name="ContentElementTest.content_element_client" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConstraintAnnotation_lifecycle_callbacks_inheritance - 2018.04.08 at 01h 07m 38s.xml">
-      <configuration name="ConstraintAnnotation.lifecycle_callbacks_inheritance" configurationId="JUnit" />
+    <history-entry file="ContentElementTest_content_element_client - 2018.04.21 at 11h 28m 07s.xml">
+      <configuration name="ContentElementTest.content_element_client" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConstraintAnnotation_lifecycle_callbacks_inheritance - 2018.04.08 at 01h 07m 54s.xml">
-      <configuration name="ConstraintAnnotation.lifecycle_callbacks_inheritance" configurationId="JUnit" />
+    <history-entry file="ContentElementTest_content_element_client - 2018.04.21 at 11h 39m 43s.xml">
+      <configuration name="ContentElementTest.content_element_client" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConstraintAnnotation_lifecycle_callbacks_inheritance - 2018.04.08 at 01h 08m 11s.xml">
-      <configuration name="ConstraintAnnotation.lifecycle_callbacks_inheritance" configurationId="JUnit" />
+    <history-entry file="ContentElementTest_content_element_client - 2018.04.21 at 11h 40m 08s.xml">
+      <configuration name="ContentElementTest.content_element_client" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="800726000" />
+    <option name="totallyTimeSpent" value="861954000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2153,33 +1976,34 @@
       <window_info anchor="bottom" id="FindBugs-IDEA" order="9" weight="0.3299817" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.67868674" side_tool="true" weight="0.287398" />
       <window_info anchor="bottom" id="Application Servers" order="19" weight="0.33953488" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3713355" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.37083334" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="7" />
-      <window_info anchor="right" id="Database" order="10" weight="0.1359375" />
+      <window_info anchor="right" id="Database" order="10" visible="true" weight="0.2421875" />
       <window_info id="Structure" order="1" sideWeight="0.5239756" side_tool="true" weight="0.2375" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.2498618" />
       <window_info id="UI Designer" order="3" />
-      <window_info anchor="right" id="Notes" order="11" visible="true" weight="0.125" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.59292835" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5928509" />
+      <window_info anchor="right" id="Notes" order="11" weight="0.15885417" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3278117" />
-      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.32131323" weight="0.2929381" />
+      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.32131323" weight="0.28976572" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="bottom" id="Java Enterprise" order="15" weight="0.3283721" />
       <window_info anchor="bottom" id="Regex Tester" order="10" weight="0.32910246" />
       <window_info anchor="right" id="Capture Analysis" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="16" sideWeight="0.8439182" weight="0.1918047" />
-      <window_info anchor="bottom" x="212" y="424" width="1224" height="619" id="Run" internal_type="SLIDING" order="2" sideWeight="0.5843733" visible="true" weight="0.50305146" />
+      <window_info anchor="bottom" x="212" y="424" width="1224" height="619" id="Run" internal_type="SLIDING" order="2" sideWeight="0.5843733" weight="0.28247604" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="16" sideWeight="0.8439182" visible="true" weight="0.1918047" />
       <window_info anchor="bottom" id="Spring" order="17" weight="0.3283721" />
-      <window_info anchor="bottom" x="77" y="447" width="1843" height="305" id="Terminal" order="18" sideWeight="0.4156267" weight="0.36583334" />
+      <window_info anchor="bottom" x="77" y="447" width="1843" height="305" id="Terminal" order="18" sideWeight="0.4156267" weight="0.36512262" />
       <window_info id="Persistence" order="8" sideWeight="0.36355394" side_tool="true" weight="0.30781758" />
-      <window_info active="true" content_ui="combo" x="457" y="247" width="502" height="745" id="Project" order="0" sideWeight="0.47602442" visible="true" weight="0.2375" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Database Console" order="27" weight="0.28945073" />
+      <window_info content_ui="combo" x="457" y="247" width="502" height="745" id="Project" order="0" sideWeight="0.47602442" visible="true" weight="0.22760417" />
+      <window_info anchor="right" id="Bean Validation" order="12" />
       <window_info id="Web" order="5" sideWeight="0.645469" side_tool="true" weight="0.23880596" />
       <window_info anchor="bottom" id="SonarLint" order="11" weight="0.32910246" />
-      <window_info anchor="bottom" id="Find" order="5" sideWeight="0.4956943" weight="0.3263826" />
+      <window_info anchor="bottom" id="Find" order="5" sideWeight="0.4956943" weight="0.326068" />
       <window_info id="Learn" order="9" weight="0.3298969" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Favorites" order="6" sideWeight="0.52427185" side_tool="true" weight="0.2375" />
@@ -2199,7 +2023,6 @@
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Database Console" order="27" weight="0.2911944" />
       <window_info anchor="right" x="158" y="100" width="1659" height="1007" id="DSM" order="4" type="FLOATING" />
     </layout>
     <layout-to-restore>
@@ -2211,34 +2034,34 @@
       <window_info anchor="right" x="169" y="92" width="1659" height="1016" id="Documentation" order="7" type="FLOATING" />
       <window_info anchor="bottom" id="REST Client" order="25" weight="0.32910246" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" x="212" y="424" width="1224" height="619" id="Run" internal_type="SLIDING" order="2" sideWeight="0.5843733" visible="true" weight="0.35135135" />
+      <window_info anchor="bottom" id="Database Changes" order="0" />
       <window_info id="Persistence" order="8" sideWeight="0.36355394" side_tool="true" weight="0.30781758" />
       <window_info id="Image Layers" order="4" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" x="212" y="424" width="1224" height="619" id="Run" internal_type="SLIDING" order="2" sideWeight="0.5843733" visible="true" weight="0.35135135" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.2498618" />
-      <window_info anchor="right" x="158" y="100" width="1659" height="1007" id="DSM" order="4" type="FLOATING" />
+      <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="6" sideWeight="0.52427185" side_tool="true" weight="0.2375" />
       <window_info anchor="bottom" x="77" y="447" width="1843" height="305" id="Terminal" order="18" sideWeight="0.4156267" weight="0.3661726" />
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="8" />
       <window_info anchor="bottom" id="Inspection Results" order="21" weight="0.32910246" />
-      <window_info anchor="right" id="Dynamic Properties" order="12" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Hibernate Console" order="23" weight="0.3293023" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.67868674" side_tool="true" weight="0.287398" />
       <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.32131323" weight="0.2929381" />
+      <window_info anchor="bottom" id="Regex Tester" order="10" weight="0.32910246" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3278117" />
       <window_info anchor="bottom" id="SonarLint" order="11" weight="0.32910246" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.20833333" />
       <window_info anchor="bottom" id="Find" order="5" sideWeight="0.4956943" weight="0.3263826" />
-      <window_info id="UI Designer" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="15" weight="0.3283721" />
+      <window_info anchor="right" x="158" y="100" width="1659" height="1007" id="DSM" order="4" type="FLOATING" />
       <window_info anchor="bottom" id="Spring" order="17" weight="0.3283721" />
       <window_info anchor="bottom" id="Dependency Viewer" order="1" weight="0.32929105" />
       <window_info anchor="bottom" id="Version Control" order="16" sideWeight="0.8439182" weight="0.1918047" />
-      <window_info anchor="bottom" id="Tail" order="20" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.3713355" />
-      <window_info anchor="bottom" id="Database Changes" order="0" />
+      <window_info anchor="right" id="Notes" order="11" weight="0.07487792" />
       <window_info active="true" content_ui="combo" x="457" y="247" width="502" height="745" id="Project" order="0" sideWeight="0.47602442" visible="true" weight="0.2375" />
       <window_info id="Learn" order="9" weight="0.3298969" />
       <window_info anchor="right" id="Database" order="10" weight="0.136191" />
@@ -2247,11 +2070,11 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="bottom" id="Database Console" order="27" weight="0.2919311" />
       <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info anchor="right" id="Notes" order="11" weight="0.07487792" />
+      <window_info anchor="right" id="Dynamic Properties" order="12" />
       <window_info id="Structure" order="1" sideWeight="0.5239756" side_tool="true" weight="0.2375" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="JPA Console" order="24" weight="0.3283721" />
-      <window_info anchor="bottom" id="Regex Tester" order="10" weight="0.32910246" />
+      <window_info anchor="bottom" id="Tail" order="20" />
       <window_info anchor="bottom" id="SQL Generator" order="22" weight="0.32910246" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.59292835" />
     </layout-to-restore>
@@ -2302,7 +2125,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Dodanie:&#10;- ID sequence generation" />
     <MESSAGE value="Dodanie:&#10;- ID db identity&#10;- OneToMany to itself bidirectional&#10;- OneToMany to itself unidirectional" />
     <MESSAGE value="Dodanie:&#10;- entity manager operations : persist(), clear(), flush(), merge(), detach()" />
     <MESSAGE value="Dodanie:&#10;- query_dynamic_query - przygotowanie danych" />
@@ -2327,7 +2149,8 @@
     <MESSAGE value="Dodanie:&#10; - entity graph named entity graph basic&#10; - query advanced stored procedure" />
     <MESSAGE value="Dodanie:&#10; - entity_graph_named_entity_graph_inheritance&#10; - entity_graph_named_entity_graph_multiple_defs&#10; - entity_graph_named_entity_graph_root_inheritance&#10; - entity_graph_named_entity_grapsh_subgraph&#10; - query_advanced_stored_procedure" />
     <MESSAGE value="Dodanie:&#10; - entity graphs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodanie:&#10; - entity graphs" />
+    <MESSAGE value="Dodanie:&#10; - constraints" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodanie:&#10; - constraints" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2393,6 +2216,12 @@
           <properties />
           <option name="timeStamp" value="131" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/StringAttribute.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/com/springstart/jpa/chapterfour/many_to_many_bidirectional/ManyToManyBidirectionalTest.java</url>
           <line>34</line>
@@ -2437,7 +2266,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="149" />
+      <option name="time" value="156" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -2454,360 +2283,406 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lifecycle_callbacks/src/main/java/model/NamedEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/CONTENTELEMENT">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lifecycle_callbacks/src/main/java/model/NameValidator.java">
+    <entry file="file://$PROJECT_DIR$/many_to_many_bidirectional/src/main/java/model/Project.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="85">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lifecycle_callbacks/src/main/java/model/ValidationException.java">
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/CONTENTELEMENT">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inheritance_joined_table/src/main/java/model/PartTimeEmployee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inheritance_joined_table/src/main/java/model/FullTimeEmployee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inheritance_joined_table/src/main/java/model/CompanyEmployee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inheritance_joined_table/src/main/java/model/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="7" selection-start-line="7" selection-end-line="8" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inheritance_joined_table/src/test/java/InheritanceJoinedTableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/COMPLEXATTRIBUTE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/JOIN_TABLE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/model/ComplexAttribute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/model/AttributeValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/model/BasicAttribute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding>
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/BASICATTRIBUTE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/helper/AttributeFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map_key_basic_value_entity/src/main/java/model/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/one_to_many_unidirectional_jointable/src/main/java/model/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" selection-start-line="14" selection-end-line="17" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/model/type/AttributeType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lifecycle_callbacks/src/main/java/model/EmployeeDebugListener.java">
+    <entry file="file://$PROJECT_DIR$/one_to_many_unidirectional_jointable/src/main/java/model/Phone.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-52">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lifecycle_callbacks/src/test/java/LifecycleCallbacks.java">
+    <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/model/ContentElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="920">
-          <caret line="68" column="19" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2061#2062#0" expanded="true" />
-            <element signature="e#2127#2128#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lifecycle_callbacks_inheritance/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+    <entry file="uml://DATABASE/41b96513-abc0-4724-9d41-aba0a1a0875b.SCHEMA:JPA_SANDBOX.PUBLIC">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>41b96513-abc0-4724-9d41-aba0a1a0875b.SCHEMA:JPA_SANDBOX.PUBLIC</OriginalElement>
+          <nodes>
+            <node x="" y="">41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.BASICATTRIBUTE</node>
+            <node x="" y="">41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.STRINGATTRIBUTE</node>
+            <node x="" y="">41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.COMPLEX_ATTR_TO_BASICS_ATTR</node>
+            <node x="" y="">41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.COMPLEXATTRIBUTE</node>
+            <node x="" y="">41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.ATTRIBUTE</node>
+            <node x="" y="">41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.BOOLEANATTRIBUTE</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="313.5" y="135.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Columns</Category>
+          </Categories>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lifecycle_callbacks_inheritance/src/main/java/model/EmployeeDebugListener.java">
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/COMPLEXATTRIBUTE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/COMPLEX_ATTR_TO_BASICS_ATTR">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/STRINGATTRIBUTE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/BOOLEANATTRIBUTE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/BASICATTRIBUTE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/BasicAttribute.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lifecycle_callbacks_inheritance/src/main/java/model/EmployeeType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lifecycle_callbacks_inheritance/src/main/java/model/NamedEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lifecycle_callbacks_inheritance/src/main/java/model/PartTimeEmployee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lifecycle_callbacks_inheritance/src/main/java/model/NameValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lifecycle_callbacks_inheritance/src/main/java/model/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lifecycle_callbacks_inheritance/src/main/java/model/CompanyEmployee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lifecycle_callbacks_inheritance/src/main/java/model/EmployeeAudit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lifecycle_callbacks_inheritance/src/main/java/model/ContractEmployee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" selection-start-line="13" selection-end-line="13" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lifecycle_callbacks_inheritance/src/test/java/LifecycleCallbacksInheritance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="67" column="46" selection-start-line="67" selection-start-column="46" selection-end-line="67" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lifecycle_callbacks_inheritance/src/main/java/model/FullTimeEmployee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lifecycle_callbacks_inheritance/src/main/java/model/LongNameValidator.java">
+    <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/Attribute.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/constraints/constraints.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/constraints/src/main/java/model/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/EMPLOYEE_STAGE">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/EMPLOYEE">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/constraints/pom.xml">
+    <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/BooleanAttribute.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parent_module/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="332" column="23" selection-start-line="332" selection-start-column="23" selection-end-line="332" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/validator_injection/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/validator_injection/src/main/java/model/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/validator_injection/src/test/java/ValidationInjection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="83" column="54" selection-start-line="83" selection-start-column="54" selection-end-line="83" selection-end-column="54" />
+        <state relative-caret-position="119">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
           <folding>
-            <element signature="e#2125#2126#0" expanded="true" />
-            <element signature="e#2175#2176#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/constraint_groups/src/main/java/model.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/constraint_groups/src/main/java/model/FullTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/constraint_groups/src/main/java/model/PartTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parent_module/src/main/java/configuration/RootConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parent_module/src/main/java/configuration/WebApplicationInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parent_module/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parent_module/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/constraint_groups/src/main/java/configuration/WebApplicationInitializer.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/constraint_groups/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/constraint_groups/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/constraint_groups/src/main/java/model/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/constraint_annotation/pom.xml">
+    <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/ComplexAttribute.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/constraint_groups/src/main/java/configuration/RootConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/constraint_annotation/src/main/java/model/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/constraint_annotation/src/main/java/model/Even.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/constraint_annotation/src/main/java/model/EvenNumberValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/constraints/src/test/java/Constraints.java">
+    <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/StringAttribute.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/constraint_groups/src/main/java/configuration/PersistenceJPAConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="74" column="96" lean-forward="true" selection-start-line="74" selection-start-column="6" selection-end-line="74" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/constraint_groups/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/4.3.12.RELEASE/spring-orm-4.3.12.RELEASE-sources.jar!/org/springframework/orm/jpa/JpaTransactionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="525" selection-start-line="525" selection-end-line="525" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/constraint_annotation/src/test/java/ConstraintAnnotation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="80" column="37" lean-forward="true" selection-start-line="80" selection-start-column="37" selection-end-line="80" selection-end-column="37" />
+        <state relative-caret-position="119">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2757#2758#0" expanded="true" />
-            <element signature="e#2818#2819#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parent_module/src/main/java/configuration/PersistenceJPAConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="75" column="94" lean-forward="true" selection-start-line="75" selection-end-line="76" />
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/constraint_groups/src/test/java/ConstraintGroups.java">
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/BASIC_ATTRIBUTE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/BOOLEAN_ATTRIBUTE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/COMPLEX_ATTRIBUTE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/COMPLEX_ATTR_TO_BASICS_ATTR">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/COMPLEX_ATTR_TO_BASICS_ATTR">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/COMPLEX_ATTR_TO_BASICS_ATTR">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/STRING_ATTRIBUTE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/COMPLEX_ATTR_TO_BASICS_ATTR">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/model/type/ContentElementType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+        <state relative-caret-position="289">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3374#3375#0" expanded="true" />
-            <element signature="e#3435#3436#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/test/java/ContentElementTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="691">
+          <caret line="60" column="45" lean-forward="true" selection-start-line="60" selection-start-column="45" selection-end-line="60" selection-end-column="45" />
+          <folding>
+            <element signature="method#basic_and_complex_attribute_test#0;class#ContentElementTest#0" />
           </folding>
         </state>
       </provider>
@@ -2877,7 +2752,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>entity_graph_creating_from_existing</last-edited>
+          <last-edited>constraint_validating_entity</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
