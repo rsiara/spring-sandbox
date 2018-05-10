@@ -5,7 +5,7 @@ import model.type.AttributeType;
 import javax.persistence.*;
 
 @Entity(name = "ATTRIBUTE_DEFINITION")
-@Inheritance(strategy = InheritanceType.JOINED)
+@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 @Access(AccessType.FIELD)
 public abstract class AttributeDefinition {
 

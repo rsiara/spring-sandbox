@@ -13,4 +13,5 @@ public abstract class BasicAttribute<T, E> extends Attribute {
     public abstract void setValues(T values);
 
     public abstract void addValue(E value);
+
 }

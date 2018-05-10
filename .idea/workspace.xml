@@ -13,31 +13,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d9a5c24-0ab2-4622-9484-8b0abafbe55a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/content_element_sandbox_second/content_element_sandbox_second.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content_element_sandbox_second/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content_element_sandbox_second/src/main/java/helper/AttributeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/ContentElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/attribute/Attribute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/attribute/BasicAttribute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/attribute/BooleanAttribute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/attribute/ComplexAttribute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/attribute/IntegerAttribute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/attribute/StringAttribute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/attribute/definition/AttributeDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/attribute/definition/BasicAttributeDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/attribute/definition/ComplexAttributeDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/type/AttributeType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/type/ContentElementType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content_element_sandbox_second/src/test/java/ContentElementTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constraint_validating_entity/constraint_validating_entity.iml" beforeDir="false" afterPath="$PROJECT_DIR$/constraint_validating_entity/constraint_validating_entity.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/BasicAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/BasicAttribute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/BooleanAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/BooleanAttribute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/IntegerAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/IntegerAttribute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content_element_sandbox/src/test/java/ContentElementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/content_element_sandbox/src/test/java/ContentElementTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/ContentElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/ContentElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/attribute/Attribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/attribute/Attribute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/attribute/BasicAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/attribute/BasicAttribute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/attribute/definition/AttributeDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/attribute/definition/AttributeDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content_element_sandbox_second/src/test/java/ContentElementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/content_element_sandbox_second/src/test/java/ContentElementTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -220,334 +201,8 @@
       <file leaf-file-name="ContentElementTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content_element_sandbox_second/src/test/java/ContentElementTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="48" column="3" selection-start-line="48" selection-start-column="3" selection-end-line="154" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DATABASE/41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.ATTRIBUTE" pinned="false" current-in-tab="true">
-        <entry file="uml://DATABASE/41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.ATTRIBUTE">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>DATABASE</ID>
-              <OriginalElement>41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.ATTRIBUTE</OriginalElement>
-              <nodes>
-                <node x="816.5451388888889" y="303.0">41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.BASIC_ATTRIBUTE</node>
-                <node x="239.0" y="168.0">41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.BASIC_ATTRIBUTE_DEFINITION</node>
-                <node x="1098.5" y="538.0">41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.STRING_VALUES</node>
-                <node x="892.5" y="426.0">41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.INTEGER_ATTRIBUTE</node>
-                <node x="398.5" y="415.0">41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.COMPLEX_ATTR_TO_BASICS_ATTR</node>
-                <node x="89.5" y="292.0">41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.COMPLEX_ATTR_DEF_TO_BASICS_ATTR_DEF</node>
-                <node x="958.5" y="168.5">41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.CONTENT_ELEMENT_TYPE_TO_ATTR_DEFINITIONS</node>
-                <node x="560.1875" y="0.0">41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.ATTRIBUTE_DEFINITION</node>
-                <node x="849.5" y="538.0">41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.INTEGER_VALUES</node>
-                <node x="1232.75" y="292.0">41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.CONTENT_ELEMENT_TO_ATTRIBUTES</node>
-                <node x="636.5" y="426.0">41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.BOOLEAN_ATTRIBUTE</node>
-                <node x="0.0" y="179.5">41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.COMPLEX_ATTRIBUTE_DEFINITION</node>
-                <node x="377.5" y="303.0">41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.COMPLEX_ATTRIBUTE</node>
-                <node x="737.5" y="168.0">41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.ATTRIBUTE</node>
-                <node x="1282.5" y="168.0">41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.CONTENT_ELEMENT</node>
-                <node x="594.5" y="538.0">41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.BOOLEAN_VALUES</node>
-                <node x="1142.0" y="426.0">41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.STRING_ATTRIBUTE</node>
-                <node x="1210.25" y="22.0">41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.CONTENT_ELEMENT_TYPE</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.BOOLEAN_ATTRIBUTE" target="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.BASIC_ATTRIBUTE">
-                  <point x="0.0" y="-25.5" />
-                  <point x="712.0" y="395.0" />
-                  <point x="864.9201388888889" y="395.0" />
-                  <point x="-16.125" y="25.5" />
-                </edge>
-                <edge source="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.CONTENT_ELEMENT" target="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.CONTENT_ELEMENT_TYPE">
-                  <point x="0.0" y="-37.0" />
-                  <point x="1409.0" y="148.0" />
-                  <point x="1341.5" y="148.0" />
-                  <point x="43.75" y="37.0" />
-                </edge>
-                <edge source="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.STRING_VALUES" target="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.STRING_ATTRIBUTE">
-                  <point x="1.1368683772161603E-13" y="-36.5" />
-                  <point x="0.0" y="25.5" />
-                </edge>
-                <edge source="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.COMPLEX_ATTRIBUTE_DEFINITION" target="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.ATTRIBUTE_DEFINITION">
-                  <point x="0.0" y="-25.5" />
-                  <point x="109.5" y="138.0" />
-                  <point x="586.6875" y="138.0" />
-                  <point x="-79.5" y="59.0" />
-                </edge>
-                <edge source="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.BOOLEAN_VALUES" target="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.BOOLEAN_ATTRIBUTE">
-                  <point x="0.0" y="-36.5" />
-                  <point x="0.0" y="25.5" />
-                </edge>
-                <edge source="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.CONTENT_ELEMENT_TYPE_TO_ATTR_DEFINITIONS" target="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.CONTENT_ELEMENT_TYPE">
-                  <point x="76.0" y="-36.5" />
-                  <point x="1186.5" y="148.0" />
-                  <point x="1254.0" y="148.0" />
-                  <point x="-43.75" y="37.0" />
-                </edge>
-                <edge source="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.COMPLEX_ATTR_DEF_TO_BASICS_ATTR_DEF" target="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.BASIC_ATTRIBUTE_DEFINITION">
-                  <point x="67.0" y="-36.5" />
-                  <point x="290.5" y="267.0" />
-                  <point x="337.5" y="267.0" />
-                  <point x="0.0" y="37.0" />
-                </edge>
-                <edge source="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.CONTENT_ELEMENT_TO_ATTRIBUTES" target="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.ATTRIBUTE">
-                  <point x="-58.75" y="-36.5" />
-                  <point x="1291.5" y="267.0" />
-                  <point x="905.0" y="267.0" />
-                  <point x="67.0" y="37.0" />
-                </edge>
-                <edge source="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.BASIC_ATTRIBUTE_DEFINITION" target="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.ATTRIBUTE_DEFINITION">
-                  <point x="0.0" y="-37.0" />
-                  <point x="337.5" y="148.0" />
-                  <point x="639.6875" y="148.0" />
-                  <point x="-26.5" y="59.0" />
-                </edge>
-                <edge source="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.STRING_ATTRIBUTE" target="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.BASIC_ATTRIBUTE">
-                  <point x="0.0" y="-25.5" />
-                  <point x="1210.5" y="385.0" />
-                  <point x="929.4201388888889" y="385.0" />
-                  <point x="48.375" y="25.5" />
-                </edge>
-                <edge source="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.COMPLEX_ATTR_TO_BASICS_ATTR" target="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.COMPLEX_ATTRIBUTE">
-                  <point x="-54.5" y="-36.5" />
-                  <point x="0.0" y="25.5" />
-                </edge>
-                <edge source="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.INTEGER_ATTRIBUTE" target="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.BASIC_ATTRIBUTE">
-                  <point x="0.0" y="-25.5" />
-                  <point x="964.0" y="395.0" />
-                  <point x="897.1701388888889" y="395.0" />
-                  <point x="16.125" y="25.5" />
-                </edge>
-                <edge source="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.COMPLEX_ATTRIBUTE" target="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.ATTRIBUTE">
-                  <point x="0.0" y="-25.5" />
-                  <point x="453.0" y="267.0" />
-                  <point x="771.0" y="267.0" />
-                  <point x="-67.0" y="37.0" />
-                </edge>
-                <edge source="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.ATTRIBUTE" target="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.ATTRIBUTE_DEFINITION">
-                  <point x="0.0" y="-37.0" />
-                  <point x="838.0" y="148.0" />
-                  <point x="692.6875" y="148.0" />
-                  <point x="26.5" y="59.0" />
-                </edge>
-                <edge source="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.COMPLEX_ATTR_DEF_TO_BASICS_ATTR_DEF" target="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.COMPLEX_ATTRIBUTE_DEFINITION">
-                  <point x="-67.0" y="-36.5" />
-                  <point x="156.5" y="267.0" />
-                  <point x="109.5" y="267.0" />
-                  <point x="0.0" y="25.5" />
-                </edge>
-                <edge source="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.INTEGER_VALUES" target="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.INTEGER_ATTRIBUTE">
-                  <point x="0.0" y="-36.5" />
-                  <point x="0.0" y="25.5" />
-                </edge>
-                <edge source="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.BASIC_ATTRIBUTE" target="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.ATTRIBUTE">
-                  <point x="0.0" y="-25.5" />
-                  <point x="881.0451388888889" y="267.0" />
-                  <point x="838.0" y="267.0" />
-                  <point x="0.0" y="37.0" />
-                </edge>
-                <edge source="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.CONTENT_ELEMENT_TYPE_TO_ATTR_DEFINITIONS" target="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.ATTRIBUTE_DEFINITION">
-                  <point x="-76.0" y="-36.5" />
-                  <point x="1034.5" y="138.0" />
-                  <point x="745.6875" y="138.0" />
-                  <point x="79.5" y="59.0" />
-                </edge>
-                <edge source="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.COMPLEX_ATTR_TO_BASICS_ATTR" target="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.BASIC_ATTRIBUTE">
-                  <point x="54.5" y="-36.5" />
-                  <point x="562.0" y="385.0" />
-                  <point x="832.6701388888889" y="385.0" />
-                  <point x="-48.375" y="25.5" />
-                </edge>
-                <edge source="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.CONTENT_ELEMENT_TO_ATTRIBUTES" target="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.CONTENT_ELEMENT">
-                  <point x="58.75" y="-36.5" />
-                  <point x="0.0" y="37.0" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="762.0" y="246.0" />
-              <SelectedNodes />
-              <Categories>
-                <Category>Key columns</Category>
-                <Category>Columns</Category>
-              </Categories>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AttributeType.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/type/AttributeType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="7" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ComplexAttribute.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/attribute/ComplexAttribute.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="12" selection-start-line="12" selection-end-line="20" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContentElement.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/ContentElement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JAVA/model.attribute.definition.AttributeDefinition" pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/model.attribute.definition.AttributeDefinition">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>model.attribute.definition.AttributeDefinition</OriginalElement>
-              <nodes>
-                <node x="305.74285714285713" y="0.0">model.type.AttributeType</node>
-                <node x="311.0" y="256.0">model.attribute.Attribute</node>
-                <node x="266.24285714285713" y="79.0">model.attribute.definition.AttributeDefinition</node>
-                <node x="980.2428571428571" y="512.0">model.attribute.IntegerAttribute</node>
-                <node x="357.24285714285713" y="523.0">model.attribute.ComplexAttribute</node>
-                <node x="806.2428571428571" y="512.0">model.attribute.StringAttribute</node>
-                <node x="787.5869047619047" y="267.0">model.attribute.definition.BasicAttributeDefinition</node>
-                <node x="602.7714285714285" y="379.0">model.attribute.BasicAttribute</node>
-                <node x="0.0" y="256.0">model.type.ContentElementType</node>
-                <node x="744.7714285714285" y="390.0">model.attribute.definition.ComplexAttributeDefinition</node>
-                <node x="620.2428571428571" y="512.0">model.attribute.BooleanAttribute</node>
-                <node x="97.18452380952374" y="379.0">model.ContentElement</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="model.type.ContentElementType" target="model.attribute.definition.AttributeDefinition">
-                  <point x="-72.75000000000011" y="-36.5" />
-                  <point x="72.74999999999989" y="226.0" />
-                  <point x="282.90952380952376" y="226.0" />
-                  <point x="-83.33333333333337" y="58.5" />
-                </edge>
-                <edge source="model.attribute.IntegerAttribute" target="model.attribute.BasicAttribute">
-                  <point x="0.0" y="-36.5" />
-                  <point x="1060.2428571428572" y="472.0" />
-                  <point x="712.5714285714286" y="472.0" />
-                  <point x="48.80000000000007" y="36.5" />
-                </edge>
-                <edge source="model.ContentElement" target="model.type.ContentElementType">
-                  <point x="-34.75" y="-36.5" />
-                  <point x="201.43452380952374" y="359.0" />
-                  <point x="218.25" y="359.0" />
-                  <point x="72.75" y="36.5" />
-                </edge>
-                <edge source="model.ContentElement" target="model.attribute.Attribute">
-                  <point x="34.75" y="-36.5" />
-                  <point x="270.93452380952374" y="349.0" />
-                  <point x="342.5" y="349.0" />
-                  <point x="-94.5" y="36.5" />
-                </edge>
-                <edge source="model.attribute.BooleanAttribute" target="model.attribute.BasicAttribute">
-                  <point x="0.0" y="-36.5" />
-                  <point x="703.2428571428571" y="492.0" />
-                  <point x="663.7714285714285" y="492.0" />
-                  <point x="0.0" y="36.5" />
-                </edge>
-                <edge source="model.attribute.definition.BasicAttributeDefinition" target="model.attribute.definition.AttributeDefinition">
-                  <point x="0.0" y="-25.5" />
-                  <point x="874.5869047619047" y="226.0" />
-                  <point x="416.24285714285713" y="226.0" />
-                  <point x="50.0" y="58.5" />
-                </edge>
-                <edge source="model.attribute.definition.AttributeDefinition" target="model.type.AttributeType">
-                  <point x="50.0" y="-58.5" />
-                  <point x="416.24285714285713" y="54.0" />
-                  <point x="396.49285714285713" y="54.0" />
-                  <point x="30.25" y="14.5" />
-                </edge>
-                <edge source="model.attribute.definition.ComplexAttributeDefinition" target="model.attribute.definition.AttributeDefinition">
-                  <point x="113.0" y="-25.5" />
-                  <point x="1027.2714285714285" y="359.0" />
-                  <point x="972.0869047619047" y="359.0" />
-                  <point x="972.0869047619047" y="216.0" />
-                  <point x="449.5761904761905" y="216.0" />
-                  <point x="83.33333333333337" y="58.5" />
-                </edge>
-                <edge source="model.attribute.ComplexAttribute" target="model.attribute.BasicAttribute">
-                  <point x="0.0" y="-25.5" />
-                  <point x="478.74285714285713" y="482.0" />
-                  <point x="614.9714285714285" y="482.0" />
-                  <point x="-48.80000000000001" y="36.5" />
-                </edge>
-                <edge source="model.attribute.definition.ComplexAttributeDefinition" target="model.attribute.definition.BasicAttributeDefinition">
-                  <point x="0.0" y="-25.5" />
-                  <point x="914.2714285714285" y="359.0" />
-                  <point x="918.0869047619047" y="359.0" />
-                  <point x="43.5" y="25.5" />
-                </edge>
-                <edge source="model.attribute.ComplexAttribute" target="model.attribute.Attribute">
-                  <point x="-81.0" y="-25.5" />
-                  <point x="397.74285714285713" y="492.0" />
-                  <point x="468.5" y="492.0" />
-                  <point x="31.5" y="36.5" />
-                </edge>
-                <edge source="model.attribute.StringAttribute" target="model.attribute.BasicAttribute">
-                  <point x="0.0" y="-36.5" />
-                  <point x="883.2428571428571" y="482.0" />
-                  <point x="688.1714285714285" y="482.0" />
-                  <point x="24.399999999999977" y="36.5" />
-                </edge>
-                <edge source="model.attribute.BasicAttribute" target="model.attribute.Attribute">
-                  <point x="0.0" y="-36.5" />
-                  <point x="663.7714285714285" y="359.0" />
-                  <point x="531.5" y="359.0" />
-                  <point x="94.5" y="36.5" />
-                </edge>
-                <edge source="model.attribute.Attribute" target="model.attribute.definition.AttributeDefinition">
-                  <point x="63.0" y="-36.5" />
-                  <point x="500.0" y="236.0" />
-                  <point x="382.90952380952376" y="236.0" />
-                  <point x="16.66666666666663" y="58.5" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.3000000000000003" x="153.74358974358978" y="164.61538461538458" />
-              <SelectedNodes />
-              <Categories>
-                <Category>Properties</Category>
-              </Categories>
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BasicAttribute.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/attribute/BasicAttribute.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" selection-start-line="6" selection-end-line="15" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BooleanAttribute.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/attribute/BooleanAttribute.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" selection-start-line="12" selection-end-line="43" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="INTEGER_VALUES" pinned="false" current-in-tab="false">
-        <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/INTEGER_VALUES">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+            <state relative-caret-position="340">
+              <caret line="44" column="29" lean-forward="true" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -555,8 +210,84 @@
       <file leaf-file-name="ContentElementType.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/type/ContentElementType.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="21" column="72" lean-forward="true" selection-start-line="21" selection-start-column="72" selection-end-line="21" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AttributeDefinition.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/attribute/definition/AttributeDefinition.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="8" selection-start-line="8" selection-end-line="23" selection-end-column="71" />
+              <caret line="6" selection-start-line="6" selection-end-line="22" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasicAttributeDefinition.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/attribute/definition/BasicAttributeDefinition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="7" selection-start-line="7" selection-end-line="12" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ComplexAttributeDefinition.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/attribute/definition/ComplexAttributeDefinition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="20" selection-end-column="79" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ComplexAttribute.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/attribute/ComplexAttribute.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasicAttribute.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/attribute/BasicAttribute.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringAttribute.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/attribute/StringAttribute.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="12" selection-start-line="12" selection-end-line="43" selection-end-column="1" />
+              <folding>
+                <element signature="e#744#745#0" expanded="true" />
+                <element signature="e#773#774#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Attribute.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/attribute/Attribute.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="23" column="43" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContentElement.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/ContentElement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -577,7 +308,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>notused</find>
       <find>ValidatorFactory</find>
       <find>constraint_validation_lifecycle</find>
       <find>pre</find>
@@ -607,6 +337,7 @@
       <find>Boolean</find>
       <find>Integer</find>
       <find>INTEGER</find>
+      <find>@Map</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -633,8 +364,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/entity_revert/pom.xml" />
-        <option value="$PROJECT_DIR$/entity_revert/src/main/java/model/Employee.java" />
         <option value="$PROJECT_DIR$/entity_refresh/src/test/java/EntityRefresh.java" />
         <option value="$PROJECT_DIR$/entity_revert/src/test/java/EntityRevert.java" />
         <option value="$PROJECT_DIR$/read_locking/pom.xml" />
@@ -678,12 +407,14 @@
         <option value="$PROJECT_DIR$/content_element_sandbox_second/pom.xml" />
         <option value="$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/attribute/IntegerAttribute.java" />
         <option value="$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/attribute/StringAttribute.java" />
-        <option value="$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/attribute/BooleanAttribute.java" />
-        <option value="$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/attribute/definition/AttributeDefinition.java" />
-        <option value="$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/attribute/BasicAttribute.java" />
         <option value="$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/attribute/definition/ComplexAttributeDefinition.java" />
+        <option value="$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/attribute/definition/AttributeDefinition.java" />
+        <option value="$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/attribute/BooleanAttribute.java" />
+        <option value="$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/attribute/Attribute.java" />
+        <option value="$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/attribute/BasicAttribute.java" />
         <option value="$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/attribute/ComplexAttribute.java" />
         <option value="$PROJECT_DIR$/content_element_sandbox_second/src/test/java/ContentElementTest.java" />
+        <option value="$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/ContentElement.java" />
       </list>
     </option>
   </component>
@@ -728,9 +459,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="790" />
-    <option name="y" value="394" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="441" />
+    <option name="y" value="-13" />
     <option name="width" value="1860" />
     <option name="height" value="1216" />
   </component>
@@ -738,10 +469,21 @@
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <hideEmptyPackages ProjectPane="false" />
-      <autoscrollFromSource AndroidView="true" Scope="true" PackagesPane="true" ProjectPane="true" />
+      <autoscrollFromSource Scope="true" AndroidView="true" PackagesPane="true" ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spring-sandbox" type="58d84e3e:PackageViewProjectNode" />
+              <item name="id_class_id" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -823,6 +565,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="helper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="content_element_sandbox_second" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -870,11 +621,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="query_result_example" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-sandbox" type="b2602c69:ProjectViewProjectNode" />
@@ -1048,17 +794,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="spring-sandbox" type="58d84e3e:PackageViewProjectNode" />
-              <item name="id_class_id" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1078,7 +813,7 @@
     <property name="project.structure.proportion" value="0.15429688" />
     <property name="project.structure.side.proportion" value="0.4775604" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -1136,7 +871,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ContentElementTest.content_element_client">
+  <component name="RunManager" selected="JUnit.ContentElementTest.content_element_client (1)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -1174,6 +909,25 @@
       <option name="MAIN_CLASS_NAME" value="ContentElementTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ContentElementTest.content_element_client (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="content_element_sandbox_second" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="krasa.grepconsole.plugin.runConfiguration.GrepRunConfigurationExtension" selectedProfileId="0" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ContentElementTest" />
+      <option name="METHOD_NAME" value="content_element_client" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -1445,14 +1199,15 @@
       <item itemvalue="JUnit.ContentElementTest.content_element_client" />
       <item itemvalue="JUnit.ContentElementTest" />
       <item itemvalue="JUnit.CollectionOfBasicTest.collection_of_basic_test" />
+      <item itemvalue="JUnit.ContentElementTest.content_element_client (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ContentElementTest.content_element_client (1)" />
         <item itemvalue="JUnit.ContentElementTest.content_element_client" />
         <item itemvalue="JUnit.ContentElementTest" />
         <item itemvalue="JUnit.ContentElementTest.content_element_client" />
         <item itemvalue="JUnit.CollectionOfBasicTest.collection_of_basic_test" />
-        <item itemvalue="JUnit.MapKeyBasicValueBasicTest.map_key_basic_value_basic_test" />
       </list>
     </recent_temporary>
   </component>
@@ -1665,7 +1420,9 @@
       <workItem from="1523800192730" duration="4685000" />
       <workItem from="1523909752568" duration="1061000" />
       <workItem from="1524164134898" duration="11277000" />
-      <workItem from="1524289404402" duration="48499000" />
+      <workItem from="1524289404402" duration="49230000" />
+      <workItem from="1524414273275" duration="7446000" />
+      <workItem from="1524425219412" duration="2102000" />
     </task>
     <task id="LOCAL-00001" summary="Persistence.xml przeniesiony do JavaConfig (PersistenceJPAConfig)&#10;Dodanie pierwszego mapowania unidirectional Many-to-one">
       <created>1510526522683</created>
@@ -1933,43 +1690,50 @@
       <option name="project" value="LOCAL" />
       <updated>1524330348611</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Dodanie:&#10; - constraints">
+      <created>1524353968597</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1524353968597</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CollectionOfBasicTest_collection_of_basic_test - 2018.04.21 at 20h 00m 45s.xml">
-      <configuration name="CollectionOfBasicTest.collection_of_basic_test" configurationId="JUnit" />
+    <history-entry file="ContentElementTest_content_element_client_(1) - 2018.04.22 at 19h 35m 09s.xml">
+      <configuration name="ContentElementTest.content_element_client (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectionOfBasicTest_collection_of_basic_test - 2018.04.21 at 20h 49m 34s.xml">
-      <configuration name="CollectionOfBasicTest.collection_of_basic_test" configurationId="JUnit" />
+    <history-entry file="ContentElementTest_content_element_client_(1) - 2018.04.22 at 19h 36m 03s.xml">
+      <configuration name="ContentElementTest.content_element_client (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectionOfBasicTest_collection_of_basic_test - 2018.04.21 at 20h 50m 04s.xml">
-      <configuration name="CollectionOfBasicTest.collection_of_basic_test" configurationId="JUnit" />
+    <history-entry file="ContentElementTest_content_element_client_(1) - 2018.04.22 at 19h 36m 31s.xml">
+      <configuration name="ContentElementTest.content_element_client (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ContentElementTest_content_element_client - 2018.04.21 at 20h 50m 20s.xml">
-      <configuration name="ContentElementTest.content_element_client" configurationId="JUnit" />
+    <history-entry file="ContentElementTest_content_element_client_(1) - 2018.04.22 at 20h 22m 27s.xml">
+      <configuration name="ContentElementTest.content_element_client (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ContentElementTest_content_element_client - 2018.04.21 at 20h 52m 22s.xml">
-      <configuration name="ContentElementTest.content_element_client" configurationId="JUnit" />
+    <history-entry file="ContentElementTest_content_element_client_(1) - 2018.04.22 at 20h 45m 45s.xml">
+      <configuration name="ContentElementTest.content_element_client (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ContentElementTest_content_element_client - 2018.04.21 at 20h 52m 37s.xml">
-      <configuration name="ContentElementTest.content_element_client" configurationId="JUnit" />
+    <history-entry file="ContentElementTest_content_element_client_(1) - 2018.04.22 at 21h 01m 21s.xml">
+      <configuration name="ContentElementTest.content_element_client (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ContentElementTest - 2018.04.21 at 23h 09m 34s.xml">
-      <configuration name="ContentElementTest" configurationId="JUnit" />
+    <history-entry file="ContentElementTest_content_element_client_(1) - 2018.04.22 at 21h 04m 02s.xml">
+      <configuration name="ContentElementTest.content_element_client (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ContentElementTest - 2018.04.22 at 00h 18m 37s.xml">
-      <configuration name="ContentElementTest" configurationId="JUnit" />
+    <history-entry file="ContentElementTest_content_element_client_(1) - 2018.04.22 at 21h 18m 06s.xml">
+      <configuration name="ContentElementTest.content_element_client (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ContentElementTest_content_element_client - 2018.04.22 at 00h 45m 07s.xml">
-      <configuration name="ContentElementTest.content_element_client" configurationId="JUnit" />
+    <history-entry file="ContentElementTest_content_element_client_(1) - 2018.04.22 at 21h 24m 02s.xml">
+      <configuration name="ContentElementTest.content_element_client (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ContentElementTest_content_element_client - 2018.04.22 at 00h 45m 44s.xml">
-      <configuration name="ContentElementTest.content_element_client" configurationId="JUnit" />
+    <history-entry file="ContentElementTest_content_element_client_(1) - 2018.04.22 at 21h 47m 11s.xml">
+      <configuration name="ContentElementTest.content_element_client (1)" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="900094000" />
+    <option name="totallyTimeSpent" value="910373000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1981,9 +1745,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1200" extended-state="6" />
-    <editor active="true" />
+    <frame x="70" y="-8" width="1858" height="1216" extended-state="6" />
     <layout>
+      <window_info anchor="right" id="PlantUML" weight="0.32953313" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="9" weight="0.3299817" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.67868674" side_tool="true" weight="0.287398" />
@@ -1992,35 +1756,34 @@
       <window_info anchor="bottom" id="Database Changes" order="0" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="7" />
-      <window_info anchor="right" id="Database" order="10" weight="0.32916668" />
+      <window_info active="true" anchor="right" id="Database" order="10" visible="true" weight="0.26981542" />
       <window_info id="Structure" order="1" sideWeight="0.5239756" side_tool="true" weight="0.2375" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.2498618" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.35967302" />
       <window_info anchor="right" id="Notes" order="11" weight="0.15885417" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3278117" />
-      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.32131323" weight="0.2885789" />
+      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.32131323" weight="0.2870118" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="bottom" id="Java Enterprise" order="15" weight="0.3283721" />
       <window_info anchor="bottom" id="Regex Tester" order="10" weight="0.32910246" />
       <window_info anchor="right" id="Capture Analysis" order="8" />
-      <window_info anchor="bottom" x="212" y="424" width="1224" height="619" id="Run" internal_type="SLIDING" order="2" sideWeight="0.5843733" weight="0.32693985" />
+      <window_info anchor="bottom" x="212" y="424" width="1224" height="619" id="Run" internal_type="SLIDING" order="2" sideWeight="0.5843733" visible="true" weight="0.3260672" />
       <window_info anchor="bottom" id="Version Control" order="16" sideWeight="0.8439182" weight="0.1918047" />
       <window_info anchor="bottom" id="Spring" order="17" weight="0.3283721" />
       <window_info anchor="bottom" x="77" y="447" width="1843" height="305" id="Terminal" order="18" sideWeight="0.4156267" weight="0.36512262" />
       <window_info id="Persistence" order="8" sideWeight="0.36355394" side_tool="true" weight="0.30781758" />
-      <window_info anchor="bottom" id="Database Console" order="27" visible="true" weight="0.16477768" />
-      <window_info content_ui="combo" x="457" y="247" width="502" height="745" id="Project" order="0" sideWeight="0.47602442" visible="true" weight="0.18541667" />
+      <window_info content_ui="combo" x="457" y="247" width="502" height="745" id="Project" order="0" sideWeight="0.47602442" visible="true" weight="0.19326818" />
       <window_info anchor="right" id="Bean Validation" order="12" />
       <window_info id="Web" order="5" sideWeight="0.645469" side_tool="true" weight="0.23880596" />
       <window_info anchor="bottom" id="SonarLint" order="11" weight="0.32910246" />
-      <window_info anchor="bottom" id="Find" order="5" sideWeight="0.4956943" weight="0.326068" />
       <window_info id="Learn" order="9" weight="0.3298969" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Favorites" order="6" sideWeight="0.52427185" side_tool="true" weight="0.2375" />
       <window_info anchor="bottom" id="Dependency Viewer" order="1" weight="0.32929105" />
       <window_info anchor="bottom" id="Tail" order="20" />
+      <window_info anchor="bottom" id="Database Console" order="27" weight="0.17166212" />
       <window_info anchor="bottom" id="Hibernate Console" order="23" weight="0.3293023" />
       <window_info anchor="bottom" id="Metrics" order="12" weight="0.3299817" />
       <window_info anchor="bottom" id="Thumbnails" order="26" weight="0.32929105" />
@@ -2035,6 +1798,7 @@
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="5" sideWeight="0.4956943" weight="0.326068" />
       <window_info anchor="right" x="158" y="100" width="1659" height="1007" id="DSM" order="4" type="FLOATING" />
     </layout>
     <layout-to-restore>
@@ -2046,7 +1810,6 @@
       <window_info anchor="right" x="169" y="92" width="1659" height="1016" id="Documentation" order="7" type="FLOATING" />
       <window_info anchor="bottom" id="REST Client" order="25" weight="0.32910246" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="0" />
       <window_info id="Persistence" order="8" sideWeight="0.36355394" side_tool="true" weight="0.30781758" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="bottom" x="212" y="424" width="1224" height="619" id="Run" internal_type="SLIDING" order="2" sideWeight="0.5843733" visible="true" weight="0.35135135" />
@@ -2062,18 +1825,18 @@
       <window_info anchor="bottom" id="Hibernate Console" order="23" weight="0.3293023" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.67868674" side_tool="true" weight="0.287398" />
       <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.32131323" weight="0.2929381" />
-      <window_info anchor="bottom" id="Regex Tester" order="10" weight="0.32910246" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3278117" />
       <window_info anchor="bottom" id="SonarLint" order="11" weight="0.32910246" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.20833333" />
-      <window_info anchor="bottom" id="Find" order="5" sideWeight="0.4956943" weight="0.3263826" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="1" weight="0.32929105" />
       <window_info anchor="bottom" id="Java Enterprise" order="15" weight="0.3283721" />
       <window_info anchor="right" x="158" y="100" width="1659" height="1007" id="DSM" order="4" type="FLOATING" />
       <window_info anchor="bottom" id="Spring" order="17" weight="0.3283721" />
-      <window_info anchor="bottom" id="Dependency Viewer" order="1" weight="0.32929105" />
+      <window_info anchor="bottom" id="Database Changes" order="0" />
       <window_info anchor="bottom" id="Version Control" order="16" sideWeight="0.8439182" weight="0.1918047" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3713355" />
       <window_info anchor="right" id="Notes" order="11" weight="0.07487792" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3713355" />
+      <window_info anchor="bottom" id="Find" order="5" sideWeight="0.4956943" weight="0.3263826" />
       <window_info active="true" content_ui="combo" x="457" y="247" width="502" height="745" id="Project" order="0" sideWeight="0.47602442" visible="true" weight="0.2375" />
       <window_info id="Learn" order="9" weight="0.3298969" />
       <window_info anchor="right" id="Database" order="10" weight="0.136191" />
@@ -2084,6 +1847,7 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Dynamic Properties" order="12" />
       <window_info id="Structure" order="1" sideWeight="0.5239756" side_tool="true" weight="0.2375" />
+      <window_info anchor="bottom" id="Regex Tester" order="10" weight="0.32910246" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="JPA Console" order="24" weight="0.3283721" />
       <window_info anchor="bottom" id="Tail" order="20" />
@@ -2313,218 +2077,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/COMPLEX_ATTRIBUTE">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/STRING_ATTRIBUTE">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/STRING_ATTRIBUTE">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/STRING_ATTRIBUTE">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/BOOLEAN_ATTRIBUTE">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/STRING_ATTRIBUTE">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE_DEFINITION">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE_DEFINITION">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE_DEFINITION">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/BASIC_ATTRIBUTE">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE_DEFINITION">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/BASIC_ATTRIBUTE_DEFINITION">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/definition/AttributeDefinition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="49" column="45" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#948#949#0" expanded="true" />
-            <element signature="e#1013#1014#0" expanded="true" />
-            <element signature="e#1063#1064#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/EMPLOYEE_CONTACT">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/EMPLOYEE">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/model/ContentElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/model/type/AttributeType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/model/type/ContentElementType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/BooleanAttribute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/IntegerAttribute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/ComplexAttribute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/BasicAttribute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/main/java/model/attribute/Attribute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content_element_sandbox/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="25" selection-start-line="25" selection-end-line="31" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content_element_sandbox/src/test/java/ContentElementTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-697">
-          <caret line="100" selection-start-line="100" selection-end-line="100" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content_element_sandbox_second/content_element_sandbox_second.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/CONTENT_ELEMENT_TO_ATTRIBUTES">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -2543,57 +2095,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/attribute/IntegerAttribute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="32" selection-start-line="32" selection-end-line="33" />
-          <folding>
-            <element signature="e#690#699#0" expanded="true" />
-            <element signature="e#754#755#0" expanded="true" />
-            <element signature="e#783#784#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/attribute/definition/AttributeDefinition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" selection-start-line="6" selection-end-line="22" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/attribute/definition/BasicAttributeDefinition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/attribute/definition/ComplexAttributeDefinition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="12" selection-start-line="12" selection-end-line="20" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/attribute/Attribute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="13" selection-start-line="13" selection-end-line="23" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/attribute/StringAttribute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="12" selection-start-line="12" selection-end-line="43" selection-end-column="1" />
-          <folding>
-            <element signature="e#744#745#0" expanded="true" />
-            <element signature="e#773#774#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2639,24 +2140,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/type/ContentElementType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" selection-start-line="8" selection-end-line="23" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/type/AttributeType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" selection-start-line="2" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/attribute/ComplexAttribute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="12" selection-start-line="12" selection-end-line="20" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -2667,49 +2154,31 @@
           <OriginalElement>model.attribute.definition.AttributeDefinition</OriginalElement>
           <nodes>
             <node x="305.74285714285713" y="0.0">model.type.AttributeType</node>
-            <node x="311.0" y="256.0">model.attribute.Attribute</node>
-            <node x="266.24285714285713" y="79.0">model.attribute.definition.AttributeDefinition</node>
-            <node x="980.2428571428571" y="512.0">model.attribute.IntegerAttribute</node>
-            <node x="357.24285714285713" y="523.0">model.attribute.ComplexAttribute</node>
-            <node x="806.2428571428571" y="512.0">model.attribute.StringAttribute</node>
-            <node x="787.5869047619047" y="267.0">model.attribute.definition.BasicAttributeDefinition</node>
             <node x="602.7714285714285" y="379.0">model.attribute.BasicAttribute</node>
             <node x="0.0" y="256.0">model.type.ContentElementType</node>
+            <node x="311.0" y="256.0">model.attribute.Attribute</node>
             <node x="744.7714285714285" y="390.0">model.attribute.definition.ComplexAttributeDefinition</node>
+            <node x="266.24285714285713" y="79.0">model.attribute.definition.AttributeDefinition</node>
+            <node x="357.24285714285713" y="523.0">model.attribute.ComplexAttribute</node>
+            <node x="980.2428571428571" y="512.0">model.attribute.IntegerAttribute</node>
+            <node x="806.2428571428571" y="512.0">model.attribute.StringAttribute</node>
             <node x="620.2428571428571" y="512.0">model.attribute.BooleanAttribute</node>
             <node x="97.18452380952374" y="379.0">model.ContentElement</node>
+            <node x="787.5869047619047" y="267.0">model.attribute.definition.BasicAttributeDefinition</node>
           </nodes>
           <notes />
           <edges>
-            <edge source="model.type.ContentElementType" target="model.attribute.definition.AttributeDefinition">
-              <point x="-72.75000000000011" y="-36.5" />
-              <point x="72.74999999999989" y="226.0" />
-              <point x="282.90952380952376" y="226.0" />
-              <point x="-83.33333333333337" y="58.5" />
-            </edge>
-            <edge source="model.attribute.IntegerAttribute" target="model.attribute.BasicAttribute">
-              <point x="0.0" y="-36.5" />
-              <point x="1060.2428571428572" y="472.0" />
-              <point x="712.5714285714286" y="472.0" />
-              <point x="48.80000000000007" y="36.5" />
-            </edge>
-            <edge source="model.ContentElement" target="model.type.ContentElementType">
-              <point x="-34.75" y="-36.5" />
-              <point x="201.43452380952374" y="359.0" />
-              <point x="218.25" y="359.0" />
-              <point x="72.75" y="36.5" />
-            </edge>
-            <edge source="model.ContentElement" target="model.attribute.Attribute">
-              <point x="34.75" y="-36.5" />
-              <point x="270.93452380952374" y="349.0" />
-              <point x="342.5" y="349.0" />
-              <point x="-94.5" y="36.5" />
-            </edge>
             <edge source="model.attribute.BooleanAttribute" target="model.attribute.BasicAttribute">
               <point x="0.0" y="-36.5" />
               <point x="703.2428571428571" y="492.0" />
               <point x="663.7714285714285" y="492.0" />
               <point x="0.0" y="36.5" />
+            </edge>
+            <edge source="model.attribute.StringAttribute" target="model.attribute.BasicAttribute">
+              <point x="0.0" y="-36.5" />
+              <point x="883.2428571428571" y="482.0" />
+              <point x="688.1714285714285" y="482.0" />
+              <point x="24.399999999999977" y="36.5" />
             </edge>
             <edge source="model.attribute.definition.BasicAttributeDefinition" target="model.attribute.definition.AttributeDefinition">
               <point x="0.0" y="-25.5" />
@@ -2717,11 +2186,11 @@
               <point x="416.24285714285713" y="226.0" />
               <point x="50.0" y="58.5" />
             </edge>
-            <edge source="model.attribute.definition.AttributeDefinition" target="model.type.AttributeType">
-              <point x="50.0" y="-58.5" />
-              <point x="416.24285714285713" y="54.0" />
-              <point x="396.49285714285713" y="54.0" />
-              <point x="30.25" y="14.5" />
+            <edge source="model.attribute.IntegerAttribute" target="model.attribute.BasicAttribute">
+              <point x="0.0" y="-36.5" />
+              <point x="1060.2428571428572" y="472.0" />
+              <point x="712.5714285714286" y="472.0" />
+              <point x="48.80000000000007" y="36.5" />
             </edge>
             <edge source="model.attribute.definition.ComplexAttributeDefinition" target="model.attribute.definition.AttributeDefinition">
               <point x="113.0" y="-25.5" />
@@ -2731,17 +2200,11 @@
               <point x="449.5761904761905" y="216.0" />
               <point x="83.33333333333337" y="58.5" />
             </edge>
-            <edge source="model.attribute.ComplexAttribute" target="model.attribute.BasicAttribute">
-              <point x="0.0" y="-25.5" />
-              <point x="478.74285714285713" y="482.0" />
-              <point x="614.9714285714285" y="482.0" />
-              <point x="-48.80000000000001" y="36.5" />
-            </edge>
-            <edge source="model.attribute.definition.ComplexAttributeDefinition" target="model.attribute.definition.BasicAttributeDefinition">
-              <point x="0.0" y="-25.5" />
-              <point x="914.2714285714285" y="359.0" />
-              <point x="918.0869047619047" y="359.0" />
-              <point x="43.5" y="25.5" />
+            <edge source="model.attribute.BasicAttribute" target="model.attribute.Attribute">
+              <point x="0.0" y="-36.5" />
+              <point x="663.7714285714285" y="359.0" />
+              <point x="531.5" y="359.0" />
+              <point x="94.5" y="36.5" />
             </edge>
             <edge source="model.attribute.ComplexAttribute" target="model.attribute.Attribute">
               <point x="-81.0" y="-25.5" />
@@ -2749,63 +2212,16 @@
               <point x="468.5" y="492.0" />
               <point x="31.5" y="36.5" />
             </edge>
-            <edge source="model.attribute.StringAttribute" target="model.attribute.BasicAttribute">
-              <point x="0.0" y="-36.5" />
-              <point x="883.2428571428571" y="482.0" />
-              <point x="688.1714285714285" y="482.0" />
-              <point x="24.399999999999977" y="36.5" />
-            </edge>
-            <edge source="model.attribute.BasicAttribute" target="model.attribute.Attribute">
-              <point x="0.0" y="-36.5" />
-              <point x="663.7714285714285" y="359.0" />
-              <point x="531.5" y="359.0" />
-              <point x="94.5" y="36.5" />
-            </edge>
-            <edge source="model.attribute.Attribute" target="model.attribute.definition.AttributeDefinition">
-              <point x="63.0" y="-36.5" />
-              <point x="500.0" y="236.0" />
-              <point x="382.90952380952376" y="236.0" />
-              <point x="16.66666666666663" y="58.5" />
-            </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.3000000000000003" x="153.74358974358978" y="164.61538461538458" />
-          <SelectedNodes />
+          <settings layout="Hierarchic Group" zoom="0.4134366925064599" x="571.0" y="293.0" />
+          <SelectedNodes>
+            <node>model.attribute.definition.AttributeDefinition</node>
+          </SelectedNodes>
           <Categories>
             <Category>Properties</Category>
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/attribute/BasicAttribute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" selection-start-line="6" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/attribute/BooleanAttribute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="43" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/ContentElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content_element_sandbox_second/src/test/java/ContentElementTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="48" column="3" selection-start-line="48" selection-start-column="3" selection-end-line="154" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -2947,12 +2363,405 @@
               <point x="0.0" y="37.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="762.0" y="246.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="724.0" y="223.0" />
           <SelectedNodes />
           <Categories>
-            <Category>Key columns</Category>
+            <Category />
             <Category>Columns</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE_DEFINITION">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE_DEFINITION">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE_DEFINITION">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/BASIC_ATTRIBUTE_DEFINITION">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/BASIC_ATTRIBUTE_DEFINITION">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE_DEFINITION">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/BASIC_ATTRIBUTE_DEFINITION">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/COMPLEX_ATTRIBUTE_DEFINITION">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/BASIC_ATTRIBUTE_DEFINITION">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/41b96513-abc0-4724-9d41-aba0a1a0875b.SCHEMA:JPA_SANDBOX.PUBLIC">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>41b96513-abc0-4724-9d41-aba0a1a0875b.SCHEMA:JPA_SANDBOX.PUBLIC</OriginalElement>
+          <nodes>
+            <node x="1113.5" y="368.0">41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.STRING_VALUES</node>
+            <node x="723.25" y="0.0">41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.ATTRIBUTE_DEFINITION</node>
+            <node x="864.5" y="368.0">41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.INTEGER_VALUES</node>
+            <node x="626.5" y="368.0">41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.COMPLEX_ATTR_TO_BASICS_ATTR</node>
+            <node x="0.0" y="223.0">41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.CONTENT_ELEMENT</node>
+            <node x="67.75" y="368.0">41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.CONTENT_ELEMENT_TO_ATTRIBUTES</node>
+            <node x="347.25" y="368.0">41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.BOOLEAN_VALUES</node>
+            <node x="311.0" y="223.5">41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.CONTENT_ELEMENT_TYPE_TO_ATTR_DEFINITIONS</node>
+            <node x="874.8676623827714" y="222.32077110107662">41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.COMPLEX_ATTR_DEF_TO_BASICS_ATTR_DEF</node>
+            <node x="188.25" y="44.0">41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.CONTENT_ELEMENT_TYPE</node>
+            <node x="635.0" y="212.0">41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.ATTRIBUTE</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.CONTENT_ELEMENT" target="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.CONTENT_ELEMENT_TYPE">
+              <point x="0.0" y="-37.0" />
+              <point x="126.5" y="192.0" />
+              <point x="232.0" y="192.0" />
+              <point x="-43.75" y="37.0" />
+            </edge>
+            <edge source="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.ATTRIBUTE" target="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.ATTRIBUTE_DEFINITION">
+              <point x="0.0" y="-48.0" />
+              <point x="735.5" y="192.0" />
+              <point x="802.75" y="192.0" />
+              <point x="-26.5" y="81.0" />
+            </edge>
+            <edge source="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.BOOLEAN_VALUES" target="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.ATTRIBUTE">
+              <point x="0.0" y="-36.5" />
+              <point x="464.75" y="338.0" />
+              <point x="685.25" y="338.0" />
+              <point x="-50.25" y="48.0" />
+            </edge>
+            <edge source="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.CONTENT_ELEMENT_TYPE_TO_ATTR_DEFINITIONS" target="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.CONTENT_ELEMENT_TYPE">
+              <point x="-76.0" y="-36.5" />
+              <point x="387.0" y="192.0" />
+              <point x="319.5" y="192.0" />
+              <point x="43.75" y="37.0" />
+            </edge>
+            <edge source="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.COMPLEX_ATTR_TO_BASICS_ATTR" target="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.ATTRIBUTE">
+              <point x="-54.5" y="-36.5" />
+              <point x="681.0" y="348.0" />
+              <point x="718.75" y="348.0" />
+              <point x="-16.75" y="48.0" />
+            </edge>
+            <edge source="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.CONTENT_ELEMENT_TYPE_TO_ATTR_DEFINITIONS" target="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.ATTRIBUTE_DEFINITION">
+              <point x="76.0" y="-36.5" />
+              <point x="539.0" y="182.0" />
+              <point x="749.75" y="182.0" />
+              <point x="-79.5" y="81.0" />
+            </edge>
+            <edge source="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.INTEGER_VALUES" target="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.ATTRIBUTE">
+              <point x="0.0" y="-36.5" />
+              <point x="979.0" y="338.0" />
+              <point x="785.75" y="338.0" />
+              <point x="50.25" y="48.0" />
+            </edge>
+            <edge source="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.COMPLEX_ATTR_DEF_TO_BASICS_ATTR_DEF" target="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.ATTRIBUTE_DEFINITION">
+              <point x="-67.0" y="-36.5" />
+              <point x="923.0" y="192.0" />
+              <point x="855.75" y="192.0" />
+              <point x="26.5" y="81.0" />
+            </edge>
+            <edge source="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.CONTENT_ELEMENT_TO_ATTRIBUTES" target="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.ATTRIBUTE">
+              <point x="58.75" y="-36.5" />
+              <point x="244.0" y="328.0" />
+              <point x="651.75" y="328.0" />
+              <point x="-83.75" y="48.0" />
+            </edge>
+            <edge source="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.STRING_VALUES" target="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.ATTRIBUTE">
+              <point x="0.0" y="-36.5" />
+              <point x="1225.5" y="328.0" />
+              <point x="819.25" y="328.0" />
+              <point x="83.75" y="48.0" />
+            </edge>
+            <edge source="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.CONTENT_ELEMENT_TO_ATTRIBUTES" target="41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.CONTENT_ELEMENT">
+              <point x="-58.75" y="-36.5" />
+              <point x="0.0" y="37.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.8480117820324007" x="263.0" y="179.0" />
+          <SelectedNodes>
+            <node>41b96513-abc0-4724-9d41-aba0a1a0875b.TABLE:JPA_SANDBOX.PUBLIC.COMPLEX_ATTR_DEF_TO_BASICS_ATTR_DEF</node>
+          </SelectedNodes>
+          <Categories>
+            <Category />
+            <Category>Columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE_DEFINITION">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE_DEFINITION">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE_DEFINITION">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE_DEFINITION">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/INTEGER_VALUES">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/STRING_VALUES">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/CONTENT_ELEMENT_TYPE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://41b96513-abc0-4724-9d41-aba0a1a0875b/database/JPA_SANDBOX/schema/PUBLIC/table/ATTRIBUTE">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/attribute/BooleanAttribute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/attribute/IntegerAttribute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="32" selection-start-line="32" selection-end-line="33" />
+          <folding>
+            <element signature="e#754#755#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/attribute/StringAttribute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="12" selection-start-line="12" selection-end-line="43" selection-end-column="1" />
+          <folding>
+            <element signature="e#744#745#0" expanded="true" />
+            <element signature="e#773#774#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/attribute/BasicAttribute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/attribute/ComplexAttribute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/model.attribute.BasicAttribute">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>model.attribute.BasicAttribute</OriginalElement>
+          <nodes>
+            <node x="" y="">javax.persistence.Entity</node>
+            <node x="" y="">model.attribute.BasicAttribute</node>
+            <node x="" y="">javax.persistence.Inheritance</node>
+            <node x="" y="">model.attribute.Attribute</node>
+            <node x="" y="">model.attribute.ComplexAttribute</node>
+            <node x="" y="">model.attribute.IntegerAttribute</node>
+            <node x="" y="">model.attribute.BooleanAttribute</node>
+            <node x="" y="">javax.persistence.Access</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="228.0" y="138.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/attribute/definition/ComplexAttributeDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="20" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/attribute/definition/BasicAttributeDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" selection-start-line="7" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/attribute/Attribute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="23" column="43" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/attribute/definition/AttributeDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" selection-start-line="6" selection-end-line="22" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content_element_sandbox_second/src/test/java/ContentElementTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="44" column="29" lean-forward="true" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/type/ContentElementType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="21" column="72" lean-forward="true" selection-start-line="21" selection-start-column="72" selection-end-line="21" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content_element_sandbox_second/src/main/java/model/ContentElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -3021,7 +2830,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>content_element_sandbox_second</last-edited>
+          <last-edited>dynamic_entity_graph_multiple_defs</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

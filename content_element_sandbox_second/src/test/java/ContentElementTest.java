@@ -47,6 +47,119 @@ public class ContentElementTest {
     }
 
     public void full_scenario_test() {
+        //FAZA I - Tworzenie definicji nowego typu content elelemntu
+
+        // Tworzenie nowego content elementu - w tym wypadku to bedzie typ "Artykul"
+        ContentElementType articleContentElementType = new ContentElementType();
+        articleContentElementType.setName("Artykul");
+
+        // Stowrzenie i dodanie 3 nowych definicjia atrybutow dla typu "Artykul"
+        // Pierwszy atrybut jest oznaczony jako wielowartosciowy
+        BasicAttributeDefinition authorAttributeDefinition = createBasicAttributeDefinition("Author", 1, AttributeType.STRING, true);
+
+        BasicAttributeDefinition sponsoredAttributeDefinition = createBasicAttributeDefinition("Sponsorowany", 2, AttributeType.BOOLEAN, false);
+
+        BasicAttributeDefinition numberOfSthAttributeDefinition = createBasicAttributeDefinition("Liczba czegos", 3, AttributeType.INTEGER, false);
+
+        //Dodanie utworzonych atrybutow prostych do definicji typu "Artykul"
+        articleContentElementType.addAttributeDefinition(authorAttributeDefinition);
+        articleContentElementType.addAttributeDefinition(sponsoredAttributeDefinition);
+        articleContentElementType.addAttributeDefinition(numberOfSthAttributeDefinition);
+
+        //Stworzenie atrybutu zlozonego - na przykladzie atrybutu tag
+        ComplexAttributeDefinition tagComplexAttributeDefinition = new ComplexAttributeDefinition();
+        tagComplexAttributeDefinition.setName("Tag");
+        tagComplexAttributeDefinition.setPriority(4); // priority to order, reprezentuje kolejnosc w kreatorze w UI (nazwa order generowala problem)
+        tagComplexAttributeDefinition.setAttributeType(AttributeType.COMPLEX);
+
+
+        //Skladanie atrybutu zlozonego z atrybutow prostych, w tym wypadku "Kolor" i "Tekst tagu"
+        BasicAttributeDefinition tagColorSubAttributeDefinition = createBasicAttributeDefinition("Kolor", 1, AttributeType.STRING, false);
+
+        BasicAttributeDefinition tagLabelTextSubAttributeDefinition = createBasicAttributeDefinition("Tekst tagu", 2, AttributeType.STRING, false);
+
+        tagComplexAttributeDefinition.addAttributeDefinition(tagColorSubAttributeDefinition);
+        tagComplexAttributeDefinition.addAttributeDefinition(tagLabelTextSubAttributeDefinition);
+
+        articleContentElementType.addAttributeDefinition(tagComplexAttributeDefinition);
+
+        entityManager.persist(articleContentElementType);
+
+
+        //FAZA II - Tworzenie nowego content elementu typu "Artykul" na bazie utworzonego wczesniej typu content elementu (Artykul)
+
+
+        // Utworzneie content elelemtu
+        ContentElement contentElement = new ContentElement();
+        // Wybranie dla niego typu content elementu - "Artykul"
+        contentElement.setContentElementType(articleContentElementType);
+
+        // Zaladowanie definicji pol odpowiednich dla typu ktory zostal wybrany dla niego
+        List<AttributeDefinition> articleAttributeDefinitions = contentElement.getContentElementType().getAttributeDefinitions();
+
+        //Pomocnicza fabryka atrybutow na bazie wartosci enuma typ atrybutu, fabryka powstala tylko do celow tej "prezentacji"
+        AttributeFactory attributeFactory = new AttributeFactory();
+
+        // Symulacja wypelniania atrybutow w UI kreatora empikultury, nie wyszlo moze to idealnie ale nie o to w tym chodzi
+        for (AttributeDefinition attributeDefinition : articleAttributeDefinitions) {
+
+            //Tworzenie nowego atrybutu na bazie jego definicji atrybutu z definicji typu content elementu
+            Attribute attribute = attributeFactory.createAttribute(attributeDefinition.getAttributeType());
+            attribute.setAttributeDefinition(attributeDefinition);
+
+            String attributeName = attribute.getAttributeDefinition().getName();
+
+            // Wypelnianie wartosci atrybutow prostych
+            if (attribute instanceof BasicAttribute) {
+                BasicAttribute basicAttribute = (BasicAttribute) attribute;
+                switch (attributeName) {
+                    case "Author":
+                        basicAttribute.addValue("Pan dziennikarz");
+                        // Sprawdzenie czy atrybut jest wieloawartosciowy i ewenualne umozliwienie dodania dodatkowej wartosci
+                        if (((BasicAttributeDefinition) attribute.getAttributeDefinition()).isMultivalue()) {
+                            basicAttribute.addValue("Pani dziennikarz");
+                        }
+                        break;
+                    case "Sponsorowany":
+                        basicAttribute.addValue(true);
+                        break;
+                    case "Liczba czegos":
+                        basicAttribute.addValue(23);
+                        break;
+                }
+                // Wypelnianie wartosci atrybutow zlozonych
+            } else {
+                ComplexAttributeDefinition complexAttributeDefinition = (ComplexAttributeDefinition) attribute.getAttributeDefinition();
+                for (BasicAttributeDefinition subAttributeDefinition : complexAttributeDefinition.getSubAttributeDefinitions()) {
+
+                    BasicAttribute subAttribute = (BasicAttribute) attributeFactory.createAttribute(subAttributeDefinition.getAttributeType());
+                    subAttribute.setAttributeDefinition(subAttributeDefinition);
+
+                    String subAttributeName = subAttribute.getAttributeDefinition().getName();
+                    System.out.println(subAttributeName);
+
+                    switch (subAttributeName) {
+                        case "Kolor":
+                            subAttribute.addValue("CZERWONY");
+                            break;
+                        case "Tekst tagu":
+                            subAttribute.addValue("Artykul");
+                            break;
+                    }
+                    // Dodanie wartosci atrybutu prostego do atrybutu zlozonego
+                    ((ComplexAttribute) attribute).addSubAttribute(subAttribute);
+                }
+            }
+            //Dodanie wypelnionego atrybutu do content elementu
+            contentElement.addAttribute(attribute);
+        }
+
+        //Zapisanie content elementu
+        entityManager.persist(contentElement);
+    }
+
+
+    public void full_scenario_map_test() {
         // Creating new "content element type" with basic and complex attributes
         ContentElementType articleContentElementType = new ContentElementType();
         articleContentElementType.setName("Artykul");

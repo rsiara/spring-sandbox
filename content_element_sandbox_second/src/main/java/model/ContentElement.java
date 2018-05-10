@@ -1,11 +1,12 @@
 package model;
 
 import model.attribute.Attribute;
+import model.attribute.definition.AttributeDefinition;
 import model.type.ContentElementType;
 
 import javax.persistence.*;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashMap;
+import java.util.Map;
 
 @Entity(name = "CONTENT_ELEMENT")
 @Access(AccessType.FIELD)
@@ -23,22 +24,15 @@ public class ContentElement {
     @JoinTable(name = "CONTENT_ELEMENT_TO_ATTRIBUTES",
             joinColumns = @JoinColumn(name = "CONTENT_ELEMENT_ID"),
             inverseJoinColumns = @JoinColumn(name = "ATTRIBUTE_ID"))
-    List<Attribute> attributeList = new ArrayList<>();
+    @MapKeyJoinColumn(name = "attributeDefinition")
+    Map<AttributeDefinition, Attribute> attributeMap = new HashMap<>();
 
     public void addAttribute(Attribute attribute) {
         if (attribute != null) {
-            attributeList.add(attribute);
+            attributeMap.put(attribute.getAttributeDefinition(), attribute);
             return;
         }
         throw new NullPointerException("Attribute parameter is null");
-    }
-
-    public List<Attribute> getAttributeList() {
-        return attributeList;
-    }
-
-    public void setAttributeList(List<Attribute> attributeList) {
-        this.attributeList = attributeList;
     }
 
     public ContentElementType getContentElementType() {
